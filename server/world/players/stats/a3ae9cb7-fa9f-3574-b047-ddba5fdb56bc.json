@@ -1,17 +1,36 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:carrot": 4,
+      "minecraft:bow": 1,
+      "minecraft:crimson_stem": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:crimson_stem": 1
+    },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 16943,
-      "minecraft:time_since_rest": 4038,
-      "minecraft:fall_one_cm": 1225,
-      "minecraft:walk_one_cm": 4542,
-      "minecraft:total_world_time": 4038,
-      "minecraft:leave_game": 2,
-      "minecraft:fly_one_cm": 20376,
-      "minecraft:damage_taken": 10,
-      "minecraft:play_time": 4038,
-      "minecraft:jump": 81,
-      "minecraft:time_since_death": 4038
+      "minecraft:time_since_rest": 8156,
+      "minecraft:walk_one_cm": 20258,
+      "minecraft:leave_game": 5,
+      "minecraft:walk_under_water_one_cm": 1578,
+      "minecraft:damage_taken": 356,
+      "minecraft:play_time": 18717,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 373,
+      "minecraft:time_since_death": 8136,
+      "minecraft:sprint_one_cm": 71401,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 11450,
+      "minecraft:swim_one_cm": 10414,
+      "minecraft:total_world_time": 18717,
+      "minecraft:fly_one_cm": 102705,
+      "minecraft:crouch_one_cm": 123,
+      "minecraft:walk_on_water_one_cm": 1238,
+      "minecraft:sneak_time": 297,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1
     }
   },
   "DataVersion": 4903

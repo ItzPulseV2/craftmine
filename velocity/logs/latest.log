@@ -1,12 +1,12 @@
-[23:10:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
-[23:10:15] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[23:10:15] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[23:10:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[23:10:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[23:10:18] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
-[23:10:18] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[23:10:18] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[23:10:18] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
+[03:39:34] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
+[03:39:35] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[03:39:35] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[03:39:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[03:39:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[03:39:35] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[03:39:35] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[03:39:35] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[03:39:35] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
 javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1264)
 	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112)
@@ -16,8 +16,8 @@ javax.imageio.IIOException: Can't read input file!
 	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.loadProxying(EaglerXServer.java:355)
 	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.load(EaglerXServer.java:339)
 	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity.<init>(PlatformPluginVelocity.java:256)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$94c1a.GUICE$TRAMPOLINE(<generated>)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$94c1a.apply(<generated>)
+	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$6bbd.GUICE$TRAMPOLINE(<generated>)
+	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$6bbd.apply(<generated>)
 	at com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82)
 	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
 	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
@@ -32,71 +32,1360 @@ javax.imageio.IIOException: Can't read input file!
 	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:439)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:310)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[23:10:18] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
-[23:10:18] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
-[23:10:19] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
-[23:10:19] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.21 by NickUC
-[23:10:19] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
-[23:10:19] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
-[23:10:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
-[23:10:21] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
-[23:10:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
-[23:10:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
-[23:10:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
-[23:10:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[23:10:22] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
-[23:10:23] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
-[23:10:23] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
-[23:10:23] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 3686ms)
-[23:10:23] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[23:10:23] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
-[23:10:23] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[23:10:24] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[23:10:25] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 0.93s)
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
-[23:10:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.86s)
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.21
-[23:10:31] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
-[23:10:33] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
-[23:10:35] [pool-7-thread-1/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 8.19s)
-[23:10:39] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[23:10:41] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
-[23:10:41] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[23:10:41] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[23:10:41] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
-[23:10:41] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
-[23:10:41] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
-[23:10:41] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
-[23:10:41] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
-[23:10:41] [main/INFO] [nantibot]: Injecting channel initializers
-[23:10:41] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[23:10:41] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x189c0fe4, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
-[23:10:41] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[23:10:41] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
-[23:10:41] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (29.1s)!
-[23:10:41] [ViaVersion - Task Executor #0/WARN] [viaversion]: There is a newer plugin version available: 5.12.0, you're on: 5.11.0
-[23:11:46] [Thread-6/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[23:11:46] [Thread-6/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
-[23:11:46] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Disabling EaglercraftXServer 1.1.1...
-[23:11:46] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[23:11:46] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Disconnected from skin cache database successfully!
-[23:11:46] [EaglercraftXServer - Task Executor #0/INFO] [nantibot]: Successful plugin core shutdown (took 0.00s)
-[23:11:46] [EaglercraftXServer - Task Executor #0/INFO] [nantibot]: Disconnecting from remote server...
-[23:11:48] [EaglercraftXServer - Task Executor #0/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
-[23:11:48] [EaglercraftXServer - Task Executor #0/INFO] [luckperms]: Starting shutdown process...
-[23:11:48] [EaglercraftXServer - Task Executor #0/INFO] [luckperms]: Closing storage...
-[23:11:48] [EaglercraftXServer - Task Executor #0/INFO] [luckperms]: Goodbye!
+[03:39:35] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.22 by NickUC
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[03:39:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
+[03:39:36] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[03:39:36] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[03:39:36] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
+[03:39:36] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
+[03:39:36] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1285ms)
+[03:39:37] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[03:39:37] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[03:39:37] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/craftmine/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[03:39:37] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[03:39:38] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 1.42s)
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
+[03:39:40] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.82s)
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.22
+[03:39:42] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
+[03:39:43] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[03:39:45] [pool-7-thread-1/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 5.69s)
+[03:39:46] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:39:47] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
+[03:39:47] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:39:47] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:39:47] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
+[03:39:47] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
+[03:39:47] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
+[03:39:47] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
+[03:39:47] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
+[03:39:47] [main/INFO] [nantibot]: Injecting channel initializers
+[03:39:47] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:39:47] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xf41b764b, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
+[03:39:47] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[03:39:47] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[03:39:47] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (12.99s)!
+[03:39:47] [ViaVersion - Task Executor #1/WARN] [viaversion]: There is a newer plugin version available: 5.12.0, you're on: 5.11.0
+[03:39:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:49362) has connected
+[03:39:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[03:39:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:51954) has connected
+[03:39:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[03:40:02] [nLogin - Task Executor #1/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[03:40:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[03:40:03] [nLogin - Task Executor #1/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[03:40:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[03:40:03] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[03:40:03] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[03:40:23] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:43330) has connected
+[03:40:23] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[03:40:23] [Netty epoll Worker #7/WARN] [viabackwards]: (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[03:40:26] [nLogin - Task Executor #1/INFO] [nlogin]: The user I_am_bob_wow has successfully logged in.
+[03:40:27] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has connected
+[03:40:27] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[03:44:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:52626) has connected
+[03:44:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has connected
+[03:44:29] [nLogin - Task Executor #4/INFO] [nlogin]: The user Qx_v has successfully logged in.
+[03:44:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has connected
+[03:44:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has disconnected
+[03:44:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:43516) has connected
+[03:44:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[03:44:39] [nLogin - Task Executor #4/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[03:44:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has connected
+[03:44:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[03:45:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:52626) has disconnected
+[03:45:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has disconnected
+[03:48:45] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:51954) has disconnected
+[03:48:45] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[03:51:24] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:57308) has connected
+[03:51:24] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has connected
+[03:51:30] [nLogin - Task Executor #6/INFO] [nlogin]: The user Qx_v has successfully logged in.
+[03:51:31] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has connected
+[03:51:31] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has disconnected
+[03:51:39] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:57308) has disconnected
+[03:51:39] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has disconnected
+[03:51:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:43330) has disconnected
+[03:51:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has disconnected
+[03:52:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:49362) has disconnected
+[03:52:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[03:53:22] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:35738) has connected
+[03:53:22] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has connected
+[03:53:27] [nLogin - Task Executor #7/INFO] [nlogin]: The user Qx_v has successfully logged in.
+[03:53:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has connected
+[03:53:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has disconnected
+[03:53:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:32800) has connected
+[03:53:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[03:53:54] [nLogin - Task Executor #6/INFO] [nlogin]: The user I_am_bob_wow has successfully logged in.
+[03:53:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has connected
+[03:53:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[03:55:43] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:35738) has disconnected
+[03:55:43] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has disconnected
+[03:57:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:32800) has disconnected
+[03:57:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has disconnected
+[03:58:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:56724) has connected
+[03:58:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[03:58:47] [nLogin - Task Executor #8/INFO] [nlogin]: The user I_am_bob_wow has successfully logged in.
+[03:58:47] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has connected
+[03:58:47] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[03:59:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:36552) has connected
+[03:59:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[03:59:44] [nLogin - Task Executor #6/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[03:59:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[03:59:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[04:00:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:43516): kicked from server survival: disconnect.timeout
+[04:00:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has disconnected
+[04:00:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[04:00:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:43516) has disconnected: An internal error occurred in your connection.
+[04:00:20] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:43516): read timed out
+[04:00:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[04:01:10] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:56724) has disconnected
+[04:01:10] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has disconnected
+[04:03:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:41532) has connected
+[04:03:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[04:03:20] [nLogin - Task Executor #6/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[04:03:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[04:03:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[04:06:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:49766) has connected
+[04:06:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:06:20] [nLogin - Task Executor #11/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:06:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:06:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:06:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Krisha (localhost/[0:0:0:0:0:0:0:1]:60706) has connected
+[04:06:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> auth has connected
+[04:06:41] [nLogin - Task Executor #6/INFO] [nlogin]: The user Krisha has successfully logged in.
+[04:06:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> survival has connected
+[04:06:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> auth has disconnected
+[04:08:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:49766) has disconnected
+[04:08:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:10:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Krisha (localhost/[0:0:0:0:0:0:0:1]:60706) has disconnected
+[04:10:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> survival has disconnected
+[04:12:29] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:59742) has connected
+[04:12:29] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[04:12:36] [nLogin - Task Executor #14/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[04:12:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has connected
+[04:12:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[04:20:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:35456) has connected
+[04:20:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:20:56] [nLogin - Task Executor #17/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:20:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:20:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:21:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:35456) has disconnected
+[04:21:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:22:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:52062) has connected
+[04:22:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[04:22:40] [nLogin - Task Executor #18/INFO] [nlogin]: The user I_am_bob_wow has successfully logged in.
+[04:22:40] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has connected
+[04:22:40] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[04:22:59] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:52062) has disconnected
+[04:22:59] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has disconnected
+[04:23:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:34218) has connected
+[04:23:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:23:57] [nLogin - Task Executor #19/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:23:58] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:23:58] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:26:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:34218) has disconnected
+[04:26:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:27:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:43000) has connected
+[04:27:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:27:44] [nLogin - Task Executor #20/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:27:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:27:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:31:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:43000) has disconnected
+[04:31:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:33:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Krisha (localhost/[0:0:0:0:0:0:0:1]:57040) has connected
+[04:33:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> auth has connected
+[04:33:48] [nLogin - Task Executor #22/INFO] [nlogin]: The user Krisha has successfully logged in.
+[04:33:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> survival has connected
+[04:33:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> auth has disconnected
+[04:37:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:37100) has connected
+[04:37:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:37:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:37100) has disconnected
+[04:37:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:37:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:37104) has connected
+[04:37:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:37:24] [nLogin - Task Executor #22/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:37:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:37:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Krisha (localhost/[0:0:0:0:0:0:0:1]:57040) has disconnected
+[04:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Krisha -> survival has disconnected
+[04:38:53] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:37104) has disconnected
+[04:38:53] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:38:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:41532) has disconnected
+[04:38:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[04:47:44] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:55888) has connected
+[04:47:44] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[04:47:52] [nLogin - Task Executor #26/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[04:47:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[04:47:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[04:50:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:36552): kicked from server survival: Server closed
+[04:50:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:55888): kicked from server survival: Server closed
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:59742): kicked from server survival: Server closed
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has disconnected
+[04:50:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[04:50:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[04:50:43] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:36552) has disconnected
+[04:50:43] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[04:50:45] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:37498) has connected
+[04:50:45] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[04:50:51] [nLogin - Task Executor #26/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[04:50:51] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:55888) has disconnected
+[04:50:51] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[04:50:51] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:37498): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:50:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:41272) has connected
+[04:50:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[04:50:56] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:37498): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:50:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:37498) has disconnected
+[04:50:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[04:50:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:41272) has disconnected
+[04:50:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[04:52:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:47204) has connected
+[04:52:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[04:52:27] [nLogin - Task Executor #28/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[04:52:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[04:52:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[04:52:35] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:59742) has disconnected: An internal error occurred in your connection.
+[04:52:35] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:59742): read timed out
+[04:52:35] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[04:53:01] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:44354) has connected
+[04:53:01] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[04:53:06] [nLogin - Task Executor #27/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[04:53:07] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[04:53:07] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[04:53:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:47204) has disconnected
+[04:53:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[04:55:17] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:44354) has disconnected
+[04:55:17] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[04:56:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:52104) has connected
+[04:56:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[04:56:27] [nLogin - Task Executor #27/INFO] [nlogin]: The user I_am_bob_wow has successfully logged in.
+[04:56:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has connected
+[04:56:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[05:23:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:33532) has connected
+[05:23:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[05:23:42] [nLogin - Task Executor #37/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[05:23:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[05:23:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[05:24:08] [Netty epoll Worker #0/WARN] [viaversion]: ERROR IN Protocol1_14To1_13_2 IN REMAP OF CONTAINER_SET_CONTENT (0x14)
+[05:24:08] [Netty epoll Worker #0/WARN] [viaversion]: ERROR IN Protocol1_21_6To1_21_5 IN REMAP OF SHOW_DIALOG (0x85)
+[05:24:08] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@59e211b9
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report the full error (!) from the console on the Via support Discord or open an issue on the relevant GitHub repository.
+Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$$Lambda/0x000000003ebc91b8, Source 1: com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.Protocol1_21_6To1_21_5$$Lambda/0x000000003edfcfc8
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:348)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:470)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:487)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report the full error (!) from the console on the Via support Discord or open an issue on the relevant GitHub repository.
+Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$$Lambda/0x000000003ebc91b8, Source 1: com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.Protocol1_21_6To1_21_5$$Lambda/0x000000003edfcfc8
+Caused by: java.lang.IllegalStateException: Unsupported format: '%p'
+	at com.viaversion.viaversion.libs.mcstructs.text.components.TranslationComponent.resolveIntoComponents(TranslationComponent.java:124)
+	at com.viaversion.viaversion.libs.mcstructs.text.components.TranslationComponent.asLegacyFormatString(TranslationComponent.java:146)
+	at com.viaversion.viabackwards.protocol.v1_14to1_13_2.rewriter.BlockItemPacketRewriter1_14.handleItemToClient(BlockItemPacketRewriter1_14.java:466)
+	at com.viaversion.viaversion.rewriter.ItemRewriter.lambda$registerSetContent$0(ItemRewriter.java:154)
+	at com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:455)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:452)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.constructPacket(PacketWrapperImpl.java:344)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.sendNow(PacketWrapperImpl.java:317)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.send0(PacketWrapperImpl.java:309)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.send(PacketWrapperImpl.java:294)
+	at com.viaversion.viaversion.api.protocol.packet.PacketWrapper.send(PacketWrapper.java:192)
+	at com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.provider.ChestDialogViewProvider.updateDialog(ChestDialogViewProvider.java:236)
+	at com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.provider.ChestDialogViewProvider.openChestView(ChestDialogViewProvider.java:118)
+	at com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.provider.ChestDialogViewProvider.openDialog(ChestDialogViewProvider.java:107)
+	at com.viaversion.viabackwards.protocol.v1_21_6to1_21_5.Protocol1_21_6To1_21_5.lambda$registerPackets$5(Protocol1_21_6To1_21_5.java:151)
+	at com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:455)
+	at com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:452)
+	at com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:110)
+	at com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:358)
+	at com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:332)
+	at com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:285)
+	at com.viaversion.viaversion.platform.ViaDecodeHandler.decode(ViaDecodeHandler.java:54)
+	at com.viaversion.viaversion.platform.ViaDecodeHandler.decode(ViaDecodeHandler.java:31)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:348)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:470)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:487)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:24:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> survival has disconnected
+[05:24:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has connected
+[05:24:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] I_am_bob_wow (localhost/[0:0:0:0:0:0:0:1]:52104) has disconnected
+[05:24:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] I_am_bob_wow -> auth has disconnected
+[05:25:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:44376) has connected
+[05:25:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[05:25:18] [nLogin - Task Executor #32/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[05:25:18] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[05:25:18] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[05:26:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:33532) has disconnected
+[05:26:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[05:27:31] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:53960) has connected
+[05:27:31] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:27:35] [nLogin - Task Executor #39/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:27:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[05:27:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:28:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:40534) has connected
+[05:28:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[05:30:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:40534) has disconnected: You took too long to login.
+[05:30:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[05:33:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:45244) has connected
+[05:33:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[05:33:21] [nLogin - Task Executor #40/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[05:33:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[05:33:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[05:49:04] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:45244) has disconnected
+[05:49:04] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[05:56:23] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:53960): kicked from server survival: Server closed
+[05:56:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:44376): kicked from server survival: Server closed
+[05:56:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[05:56:23] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[05:56:23] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:56:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[05:56:25] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:44376) has disconnected
+[05:56:25] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[05:56:29] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:53960) has disconnected
+[05:56:29] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:56:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:40904) has connected
+[05:56:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:56:38] [nLogin - Task Executor #47/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:56:38] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:40904): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:56:40] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:40904) has disconnected
+[05:56:40] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:56:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:49098) has connected
+[05:56:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:56:54] [nLogin - Task Executor #47/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:56:54] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:49098): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:56:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:49106) has connected
+[05:56:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[05:56:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:49098) has disconnected
+[05:56:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:57:01] [nLogin - Task Executor #40/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[05:57:02] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:49106): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:57:07] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:49106): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:57:07] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52382) has connected
+[05:57:07] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:57:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:49106) has disconnected
+[05:57:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[05:57:14] [nLogin - Task Executor #47/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:57:14] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52382): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:57:19] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52382): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:57:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52382) has disconnected
+[05:57:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:57:38] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:39998) has connected
+[05:57:38] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:57:47] [nLogin - Task Executor #47/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:57:48] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:39998): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:57:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:39998) has disconnected
+[05:57:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:57:54] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52766) has connected
+[05:57:54] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:57:59] [nLogin - Task Executor #40/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:57:59] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52766): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:58:04] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52766): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:58:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52766) has disconnected
+[05:58:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[05:59:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:46194) has connected
+[05:59:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[05:59:27] [nLogin - Task Executor #48/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[05:59:27] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:46194): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:59:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52746) has connected
+[05:59:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[05:59:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:46194) has disconnected
+[05:59:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[05:59:35] [nLogin - Task Executor #40/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[05:59:36] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52746): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:59:41] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52746): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[05:59:42] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:52746) has disconnected
+[05:59:42] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[06:01:07] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:42756) has connected
+[06:01:07] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[06:01:20] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:42756) has disconnected
+[06:01:20] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[06:01:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46190) has connected
+[06:01:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[06:01:31] [nLogin - Task Executor #40/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[06:01:32] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46190): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:01:37] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46190): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:01:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46190) has disconnected
+[06:01:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[06:01:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:56038) has connected
+[06:01:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[06:02:02] [nLogin - Task Executor #49/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[06:02:02] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:56038): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:03] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504) has connected
+[06:02:03] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[06:02:07] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:56038): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:08] [nLogin - Task Executor #40/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[06:02:09] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:56038) has disconnected
+[06:02:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[06:02:14] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:19] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:24] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:29] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:34] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:39] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292) has connected
+[06:02:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[06:02:44] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:49] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:50] [nLogin - Task Executor #49/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[06:02:51] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:54] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:56] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:02:59] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:01] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:04] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:06] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:09] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:11] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:14] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:16] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:19] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:21] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:24] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:26] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:29] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:31] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:46292) has disconnected
+[06:03:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[06:03:34] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:03:34] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:41504) has disconnected
+[06:03:34] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[06:05:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:35366) has connected
+[06:05:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[06:05:23] [nLogin - Task Executor #51/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[06:05:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[06:05:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[06:06:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:33186) has connected
+[06:06:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[06:06:33] [nLogin - Task Executor #52/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[06:06:33] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[06:06:33] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[06:09:43] [nLogin - Task Executor #52/INFO] [nlogin]: Connection re-established with remote server
+[06:09:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:39532) has connected
+[06:09:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has connected
+[06:10:05] [nLogin - Task Executor #53/INFO] [nlogin]: The user Veer10 has successfully logged in.
+[06:10:05] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has connected
+[06:10:05] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> auth has disconnected
+[06:16:53] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Veer10 (localhost/[0:0:0:0:0:0:0:1]:39532) has disconnected
+[06:16:53] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Veer10 -> survival has disconnected
+[06:35:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:57478) has connected
+[06:35:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[06:35:51] [nLogin - Task Executor #60/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[06:35:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[06:35:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[06:45:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:57478) has disconnected
+[06:45:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[06:48:45] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:56228) has connected
+[06:48:45] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has connected
+[06:48:50] [nLogin - Task Executor #63/INFO] [nlogin]: The user Qx_v has successfully logged in.
+[06:48:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has connected
+[06:48:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has disconnected
+[06:49:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:35366) has disconnected
+[06:49:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[06:52:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:42494) has connected
+[06:52:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[06:52:27] [nLogin - Task Executor #64/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[06:52:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[06:52:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[06:53:43] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:33186) has disconnected
+[06:53:43] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
+[06:56:01] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (localhost/[0:0:0:0:0:0:0:1]:35706) has connected
+[06:56:01] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
+[06:56:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:42494) has disconnected
+[06:56:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has disconnected
+[06:56:39] [nLogin - Task Executor #66/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
+[06:56:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
+[06:56:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
+[06:56:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:40172) has connected
+[06:56:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[06:57:04] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:40172) has disconnected
+[06:57:04] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[06:57:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Dill_Pickle_ (localhost/[0:0:0:0:0:0:0:1]:60376) has connected
+[06:57:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has connected
+[06:57:14] [nLogin - Task Executor #66/INFO] [nlogin]: The user Dill_Pickle_ has successfully logged in.
+[06:57:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> survival has connected
+[06:57:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Dill_Pickle_ -> auth has disconnected
+[07:04:42] [nAntiBot - Task Executor #31/INFO] [nantibot]: Connection re-established with remote server
+[07:05:40] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:56228) has disconnected
+[07:05:40] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has disconnected
+[07:06:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Qx_v (localhost/[0:0:0:0:0:0:0:1]:39576) has connected
+[07:06:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has connected
+[07:06:19] [nLogin - Task Executor #70/INFO] [nlogin]: The user Qx_v has successfully logged in.
+[07:06:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> survival has connected
+[07:06:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Qx_v -> auth has disconnected
+[07:11:28] [Netty epoll Worker #6/INFO] [eaglerxserver]: Refreshed update certificate: https://deev.is/eagler/backup.cert

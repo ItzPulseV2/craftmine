@@ -1,159 +1,168 @@
-[23:10:11] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[23:10:11] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[23:10:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:10:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
-[23:10:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[06:05:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[06:05:10] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[06:05:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:05:11] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[06:05:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[06:05:11] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - FancyHolograms (2.11.0), LuckTags (1.4)
-[23:10:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
- - AdvancedBanZ (4.0.1), AevorinReports (1.1.2), AxSmithing (1.9), ClearLag (1.13.0), ClickVillagers (1.6.3), CoreProtect (24.0), Essentials (2.22.1-dev+23-43cb76a), EssentialsSpawn (2.22.1-dev+23-43cb76a), FlectonePulse (1.14.0), LPC (3.7.2), LimitedGrace (1.4.0), LuckPerms (5.5.81), OneMace (1.08), OrbitalStrike (1.6.8), TuffXPlus (1.1.1), ViaBackwards (5.11.0), ViaVersion (5.11.0), VillagerVault (1.0.0), WildRTP (3.6.5), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6)
-[23:10:23] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[23:10:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:10:25] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,777.3ms
-[23:10:30] [ServerMain/INFO]: Loaded 1585 recipes
-[23:10:30] [ServerMain/INFO]: Loaded 1688 advancements
-[23:10:31] [Server thread/INFO]: Starting minecraft server version 26.2
-[23:10:31] [Server thread/INFO]: Loading properties
-[23:10:31] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[23:10:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:10:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:10:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:10:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[23:10:33] [Server thread/INFO]: Default game type: SURVIVAL
-[23:10:33] [Server thread/INFO]: Generating keypair
-[23:10:34] [Server thread/INFO]: Starting Minecraft server on *:25567
-[23:10:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:10:34] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[23:10:36] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 2 libraries... please wait
-[23:10:37] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[23:10:37] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/org/xerial/sqlite-jdbc/3.46.1.3/sqlite-jdbc-3.46.1.3.jar
-[23:10:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[23:10:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[23:10:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[23:10:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[23:10:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.81
-[23:10:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[23:10:41] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
-[23:10:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3af4ec64]
-[23:10:43] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+23-43cb76a
-[23:10:43] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[23:10:43] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
-[23:10:43] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.11.0
-[23:10:43] [Server thread/INFO]: [AdvancedBanZ] Loading server plugin AdvancedBanZ v4.0.1
-[23:10:43] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+23-43cb76a
-[23:10:43] [Server thread/INFO]: [VillagerVault] Loading server plugin VillagerVault v1.0.0
-[23:10:43] [Server thread/INFO]: [ClickVillagers] Loading server plugin ClickVillagers v1.6.3
-[23:10:43] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
-[23:10:43] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.11.0
-[23:10:44] [Server thread/INFO]: [packetevents] Loading packetevents...
-[23:10:46] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
-[23:10:46] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
-[23:10:46] [Server thread/INFO]: [FlectonePulse] Loading server plugin FlectonePulse v1.14.0
-[23:10:46] [Server thread/INFO]: [FlectonePulse] Enabling...
-[23:10:48] [Server thread/INFO]: [packetevents] Loading packetevents...
-[23:10:50] [Server thread/INFO]: [packetevents] Loading block mappings for V_26_3/23...
-[23:10:50] [Server thread/INFO]: [packetevents] Finished loading block mappings for V_26_3/23 in 260.346883ms
-[23:10:50] [Server thread/INFO]: [packetevents] Loaded packetevents v2.14.0 for FlectonePulse
-[23:10:55] [Server thread/INFO]: [OrbitalStrike] Loading server plugin OrbitalStrike v1.6.8
-[23:10:55] [Server thread/INFO]: [AevorinReports] Loading server plugin AevorinReports v1.1.2
-[23:10:55] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.13.0
-[23:10:55] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.7.2
-[23:10:55] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v3.6.5
-[23:10:55] [Server thread/INFO]: [LimitedGrace] Loading server plugin LimitedGrace v1.4.0
-[23:10:55] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.0
-[23:10:55] [Server thread/INFO]: [OneMace] Loading server plugin OneMace v1.08
-[23:10:55] [Server thread/INFO]: [LuckTags] Loading server plugin LuckTags v1.4
-[23:10:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.81
-[23:10:55] [Server thread/INFO]:         __    
-[23:10:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.81
-[23:10:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:10:55] [Server thread/INFO]: 
-[23:10:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:10:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:10:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:10:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1287ms)
-[23:10:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
-[23:10:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[23:10:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[23:10:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
-[23:10:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:10:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:10:57] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[23:10:57] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[23:10:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:10:57] [Server thread/INFO]: Preparing level "world"
-[23:10:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[23:10:57] [Server thread/INFO]: Prepared spawn area in 1 ms
-[23:10:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[23:10:57] [Server thread/INFO]: Prepared spawn area in 3 ms
-[23:10:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[23:10:57] [Server thread/INFO]: Prepared spawn area in 0 ms
-[23:10:57] [Server thread/INFO]: Done preparing level "world" (0.618s)
-[23:10:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[23:10:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[23:10:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+23-43cb76a
-[23:10:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[23:10:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[23:10:58] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[23:10:58] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[23:10:58] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
-[23:10:58] [Server thread/INFO]: [Essentials] Using locale en
-[23:10:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[23:10:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[23:10:58] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[23:10:58] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[23:10:58] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[23:10:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[23:10:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
-[23:10:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[23:10:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[23:10:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[23:10:59] [Server thread/INFO]: [WorldGuard] Loading region data...
-[23:10:59] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.11.0
-[23:10:59] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.11.0
-[23:10:59] [Server thread/INFO]: [AdvancedBanZ] Enabling AdvancedBanZ v4.0.1
-[23:10:59] [FancyLogger/INFO]: [FancyHolograms] (ForkJoinPool.commonPool-worker-3) WARN: 
-[23:10:59] [FancyLogger/INFO]: -------------------------------------------------------
-[23:10:59] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
-[23:10:59] [FancyLogger/INFO]: Please update to the newest version (2.12.0).
-[23:10:59] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
-[23:10:59] [FancyLogger/INFO]: -------------------------------------------------------
-[23:10:59] [FancyLogger/INFO]: 
-[23:11:00] [Server thread/INFO]: [AdvancedBanZ] 
+[06:05:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (23):
+ - AdvancedBanZ (4.0.1), AevorinReports (1.1.2), AxSmithing (1.9), Chunky (1.5.3), ClearLag (1.13.0), ClickVillagers (1.6.3), CoreProtect (24.0), Essentials (2.22.1-dev+23-43cb76a), EssentialsSpawn (2.22.1-dev+23-43cb76a), FlectonePulse (1.14.0), LPC (3.7.2), LimitedGrace (1.4.0), LuckPerms (5.5.81), MCPanel (1.2.6), OneMace (1.08), OrbitalStrike (1.6.8), TuffXPlus (1.1.1), ViaBackwards (5.11.0), ViaVersion (5.11.0), VillagerVault (1.0.0), WildRTP (3.6.5), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6)
+[06:05:16] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:05:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:05:17] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 998.9ms
+[06:05:20] [ServerMain/INFO]: Loaded 1585 recipes
+[06:05:20] [ServerMain/INFO]: Loaded 1688 advancements
+[06:05:20] [Server thread/INFO]: Starting minecraft server version 26.2
+[06:05:20] [Server thread/INFO]: Loading properties
+[06:05:21] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[06:05:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:05:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:05:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:05:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:05:22] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[06:05:22] [Server thread/INFO]: Default game type: SURVIVAL
+[06:05:22] [Server thread/INFO]: Generating keypair
+[06:05:22] [Server thread/INFO]: Starting Minecraft server on *:25567
+[06:05:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:05:22] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:05:23] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 2 libraries... please wait
+[06:05:23] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[06:05:23] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/org/xerial/sqlite-jdbc/3.46.1.3/sqlite-jdbc-3.46.1.3.jar
+[06:05:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[06:05:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[06:05:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:05:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:05:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.81
+[06:05:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:05:26] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[06:05:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ea2d45f]
+[06:05:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+23-43cb76a
+[06:05:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[06:05:27] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
+[06:05:27] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.11.0
+[06:05:27] [Server thread/INFO]: [AdvancedBanZ] Loading server plugin AdvancedBanZ v4.0.1
+[06:05:27] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+23-43cb76a
+[06:05:27] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.11.0
+[06:05:27] [Server thread/INFO]: [VillagerVault] Loading server plugin VillagerVault v1.0.0
+[06:05:27] [Server thread/INFO]: [ClickVillagers] Loading server plugin ClickVillagers v1.6.3
+[06:05:27] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
+[06:05:28] [Server thread/INFO]: [packetevents] Loading packetevents...
+[06:05:29] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
+[06:05:29] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
+[06:05:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[06:05:29] [Server thread/INFO]: [FlectonePulse] Loading server plugin FlectonePulse v1.14.0
+[06:05:29] [Server thread/INFO]: [FlectonePulse] Enabling...
+[06:05:30] [Server thread/INFO]: [packetevents] Loading packetevents...
+[06:05:31] [Server thread/INFO]: [packetevents] Loading block mappings for V_26_3/23...
+[06:05:32] [Server thread/INFO]: [packetevents] Finished loading block mappings for V_26_3/23 in 390.462605ms
+[06:05:32] [Server thread/INFO]: [packetevents] Loaded packetevents v2.14.0 for FlectonePulse
+[06:05:36] [Server thread/INFO]: [OrbitalStrike] Loading server plugin OrbitalStrike v1.6.8
+[06:05:36] [Server thread/INFO]: [AevorinReports] Loading server plugin AevorinReports v1.1.2
+[06:05:36] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.13.0
+[06:05:36] [Server thread/INFO]: [MCPanel] Loading server plugin MCPanel v1.2.6
+[06:05:36] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.7.2
+[06:05:36] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v3.6.5
+[06:05:36] [Server thread/INFO]: [LimitedGrace] Loading server plugin LimitedGrace v1.4.0
+[06:05:36] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.0
+[06:05:36] [Server thread/INFO]: [OneMace] Loading server plugin OneMace v1.08
+[06:05:36] [Server thread/INFO]: [LuckTags] Loading server plugin LuckTags v1.4
+[06:05:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.81
+[06:05:37] [Server thread/INFO]:         __    
+[06:05:37] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.81
+[06:05:37] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:05:37] [Server thread/INFO]: 
+[06:05:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:05:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:05:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:05:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1060ms)
+[06:05:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[06:05:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:05:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[06:05:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[06:05:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:05:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:05:38] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[06:05:38] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[06:05:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:05:38] [Server thread/INFO]: Preparing level "world"
+[06:05:38] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[06:05:39] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[06:05:39] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[06:05:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[06:05:39] [Server thread/INFO]: Preparing spawn area: 100%
+[06:05:39] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:05:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[06:05:39] [Server thread/INFO]: Preparing spawn area: 100%
+[06:05:39] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:05:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[06:05:39] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:05:39] [Server thread/INFO]: Done preparing level "world" (1.124s)
+[06:05:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[06:05:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[06:05:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+23-43cb76a
+[06:05:40] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:05:40] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:05:40] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[06:05:40] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
+[06:05:40] [Server thread/INFO]: [Essentials] Using locale en
+[06:05:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:05:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:05:41] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[06:05:41] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[06:05:41] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[06:05:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[06:05:41] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[06:05:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[06:05:41] [Server thread/INFO]: [WorldGuard] Loading region data...
+[06:05:41] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.11.0
+[06:05:41] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.11.0
+[06:05:41] [Server thread/INFO]: [AdvancedBanZ] Enabling AdvancedBanZ v4.0.1
+[06:05:42] [FancyLogger/INFO]: [FancyHolograms] (ForkJoinPool.commonPool-worker-3) WARN: 
+[06:05:42] [FancyLogger/INFO]: -------------------------------------------------------
+[06:05:42] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
+[06:05:42] [FancyLogger/INFO]: Please update to the newest version (2.12.0).
+[06:05:42] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
+[06:05:42] [FancyLogger/INFO]: -------------------------------------------------------
+[06:05:42] [FancyLogger/INFO]: 
+[06:05:42] [Server thread/INFO]: [AdvancedBanZ] 
 
 []=====[Enabling AdvancedBanZ]=====[]
 | Information:
@@ -168,248 +177,1353 @@
 |   You have the newest version
 []================================[]
  
-[23:11:00] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+23-43cb76a
-[23:11:00] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Enabling VillagerVault v1.0.0
-[23:11:00] [Server thread/INFO]: [VillagerVault] Statistics tracking enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager death backup enabled (max 30).
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager glow highlighting enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Infinite villager stock enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager pickup & placement enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager protection enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager leashing enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Anti-zombie conversion enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager info display enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] No-wandering/freeze system enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Villager death backup listener enabled.
-[23:11:00] [Server thread/INFO]: [VillagerVault] Bedrock support enabled (will use UUID heuristic if Bedrock players join).
-[23:11:00] [Server thread/INFO]: [VillagerVault] VillagerVault has been enabled!
-[23:11:00] [Server thread/INFO]: [ClickVillagers] Enabling ClickVillagers v1.6.3
-[23:11:00] [Server thread/INFO]: [ClickVillagers] Checking for updates...
-[23:11:00] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
-[23:11:00] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
-[23:11:00] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 
-[23:11:00] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
-[23:11:00] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
-[23:11:00] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
-[23:11:00] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
-[23:11:00] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
-[23:11:00] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 
-[23:11:00] [Server thread/INFO]: [TuffXPlus] CREDITS
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 
-[23:11:00] [Server thread/INFO]: [TuffXPlus] Y0 support:
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 
-[23:11:00] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
-[23:11:00] [Server thread/INFO]: [TuffXPlus] 
-[23:11:00] [Server thread/INFO]: [TuffXPlus] Other:
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
-[23:11:00] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
-[23:11:00] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
-[23:11:01] [Server thread/INFO]: [FlectonePulse] Enabling FlectonePulse v1.14.0
-[23:11:01] [Server thread/INFO]: (FlectonePulse)  ___       ___  __  ___  __        ___
-[23:11:01] [Server thread/INFO]: (FlectonePulse) |__  |    |__  /  `  |  /  \ |\ | |__
-[23:11:01] [Server thread/INFO]: (FlectonePulse) |    |___ |___ \__,  |  \__/ | \| |___
-[23:11:01] [Server thread/INFO]: (FlectonePulse)  __             __   ___
-[23:11:01] [Server thread/INFO]: (FlectonePulse) |__) |  | |    /__` |__ 
-[23:11:01] [Server thread/INFO]: (FlectonePulse) |    \__/ |___ .__/ |___   /\
-[23:11:01] [Server thread/INFO]: (FlectonePulse)                           /  \ v1.14.0
-[23:11:01] [Server thread/INFO]: (FlectonePulse) __/\___  ____/\_____  ___/    \______
-[23:11:01] [Server thread/INFO]: (FlectonePulse)        \/           \/
-[23:11:01] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [+] Loaded translation: en_us.json
-[23:11:02] [Server thread/INFO]: (FlectonePulse) [+] Database connected: H2
-[23:11:02] [Server thread/INFO]: (FlectonePulse) [+] Loaded integration: LuckPerms
-[23:11:03] [Server thread/INFO]: (FlectonePulse) FlectonePulse v1.14.0 enabled
-[23:11:03] [Server thread/INFO]: [OrbitalStrike] Enabling OrbitalStrike v1.6.8
-[23:11:03] [Server thread/INFO]: [AevorinReports] Enabling AevorinReports v1.1.2
-[23:11:03] [Server thread/INFO]: [AevorinReports] Initializing AevorinReports
-[23:11:03] [Server thread/INFO]: [AevorinReports] Initializing enhanced exception handler...
-[23:11:03] [Server thread/INFO]: [AevorinReports] Loading configuration files...
-[23:11:03] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Loading configuration from plugins/AevorinReports/config.yml
-[23:11:03] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Configuration loaded successfully
-[23:11:03] [Server thread/INFO]: [AevorinReports] Configuration loaded successfully.
-[23:11:03] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[23:11:03] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@dee8f58
-[23:11:03] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[23:11:03] [Server thread/INFO]: [AevorinReports] Registering commands...
-[23:11:03] [Server thread/INFO]: [AevorinReports] Registered 'report' command and tab completer
-[23:11:03] [Server thread/INFO]: [AevorinReports] Registered 'reports' command
-[23:11:03] [Server thread/INFO]: [AevorinReports] Commands registered successfully!
-[23:11:03] [Server thread/INFO]: [AevorinReports] Registering event listeners...
-[23:11:03] [Server thread/INFO]: [AevorinReports] Event listeners registered successfully!
-[23:11:03] [Server thread/INFO]: [AevorinReports] PlaceholderAPI not found. Skipping placeholder registration.
-[23:11:03] [Server thread/INFO]: [AevorinReports] Modrinth update checker initialized with project ID: OwqSnlXx
-[23:11:03] [Server thread/INFO]: [AevorinReports] bStats Metrics initialized properly.
-[23:11:03] [Server thread/INFO]: [AevorinReports] FastStats Metrics initialized and ready.
-[23:11:03] [Server thread/INFO]: [AevorinReports] AevorinReports has been enabled!
-[23:11:03] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.13.0
-[23:11:03] [Server thread/INFO]: [ClearLag] Plugin hooks detected: FancyHolograms
-[23:11:03] [Server thread/INFO]: [ClearLag] Hook enabled: FancyHolograms
-[23:11:03] [Server thread/INFO]: [ClearLag] ClearLag configuration reloaded.
-[23:11:03] [Server thread/INFO]: [ClearLag] Loaded 0 player preferences.
-[23:11:03] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
-[23:11:03] [Server thread/INFO]: [ClearLag] Dynamic View Distance enabled.
-[23:11:03] [Server thread/INFO]: [ClearLag] Explosion optimization enabled.
-[23:11:03] [Server thread/INFO]: [ClearLag] Auto-Clear is enabled and starts every 300 seconds.
-[23:11:03] [Server thread/INFO]: [ClearLag] Mob AI Optimization is enabled.
-[23:11:03] [Server thread/INFO]: [ClearLag] Performance Warnings are enabled.
-[23:11:03] [Server thread/WARN]: [ClearLag] PlaceholderAPI not found! ClearLag placeholders will not work.
-[23:11:03] [Server thread/INFO]: [ClearLag] ClearLag has been successfully enabled!
-[23:11:03] [Server thread/INFO]: [LPC] Enabling LPC v3.7.2
-[23:11:03] [Server thread/INFO]: [WildRTP] Enabling WildRTP v3.6.5
-[23:11:04] [Server thread/INFO]: [WildRTP] WildRTP by Joni running version: 3.6.5
-[23:11:04] [Server thread/INFO]: [WildRTP] Checking for updates...
-[23:11:04] [Server thread/INFO]: [LimitedGrace] Enabling LimitedGrace v1.4.0
-[23:11:04] [Server thread/INFO]: [LimitedGrace] Enabled!
-[23:11:04] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.0
-[23:11:04] [Server thread/INFO]: [CoreProtect] Minecraft 26.2 is not supported.
-[23:11:04] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition was unable to start.
-[23:11:04] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v24.0
-[23:11:04] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[23:11:04] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v24.0
-[23:11:04] [Server thread/INFO]: [OneMace] Enabling OneMace v1.08
-[23:11:04] [Server thread/INFO]: [OneMace] [OneMace] Plugin enabled!
-[23:11:04] [Server thread/INFO]: [LuckTags] Enabling LuckTags v1.4
-[23:11:04] [ForkJoinPool.commonPool-worker-3/INFO]: [WildRTP] A new version is available! Current: 3.6.5 Latest: 4.0-beta.1
-[23:11:04] [ForkJoinPool.commonPool-worker-3/INFO]: [WildRTP] https://modrinth.com/plugin/wildrtp/version/4.0-beta.1
-[23:11:04] [ForkJoinPool.commonPool-worker-3/INFO]: [LimitedGrace] LimitedGrace is up to date.
-[23:11:04] [Server thread/INFO]: [spark] Starting background profiler...
-[23:11:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:11:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:11:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:11:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:11:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:11:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:11:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:11:04] [Server thread/INFO]: Running delayed init tasks
-[23:11:04] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[23:11:04] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[23:11:05] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: ========================================
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: ClearLag is outdated!
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: Your version: 1.13.0
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: Newest version: 1.13.1
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: Download the new version here: https://modrinth.com/plugin/7bhTp28M
-[23:11:05] [Craft Scheduler Thread - 9 - ClearLag/INFO]: ========================================
-[23:11:05] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
-[23:11:05] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.0, you're on: 5.11.0
-[23:11:05] [Server thread/INFO]: Done (56.185s)! For help, type "help"
-[23:11:05] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[23:11:05] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[23:11:06] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 18 builds behind ***
-[23:11:06] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[23:11:07] [Server thread/INFO]: [OneMace] [OneMace] Mace is recorded as crafted. Recipes removed.
-[23:11:49] [Server thread/INFO]: Stopping the server
-[23:11:49] [Server thread/INFO]: Stopping server
-[23:11:49] [Server thread/INFO]: [LuckTags] Disabling LuckTags v1.4
-[23:11:49] [Server thread/INFO]: [OneMace] Disabling OneMace v1.08
-[23:11:49] [Server thread/INFO]: [OneMace] [OneMace] Saving offline Mace tracking before shutdown...
-[23:11:49] [Server thread/INFO]: [OneMace] [OneMace] Plugin disabled!
-[23:11:49] [Server thread/INFO]: [LimitedGrace] Disabling LimitedGrace v1.4.0
-[23:11:49] [Server thread/INFO]: [LimitedGrace] Bye
-[23:11:49] [Server thread/INFO]: [WildRTP] Disabling WildRTP v3.6.5
-[23:11:49] [Server thread/INFO]: [LPC] Disabling LPC v3.7.2
-[23:11:49] [Server thread/INFO]: [ClearLag] Disabling ClearLag v1.13.0
-[23:11:49] [Server thread/INFO]: [ClearLag] ClearLag has been disabled!
-[23:11:49] [Server thread/INFO]: [AevorinReports] Disabling AevorinReports v1.1.2
-[23:11:49] [Server thread/INFO]: [AevorinReports] Shutting down AevorinReports
-[23:11:49] [Server thread/INFO]: [AevorinReports] Closing database connections...
-[23:11:49] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[23:11:49] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[23:11:49] [Server thread/INFO]: [AevorinReports] Database connections closed successfully.
-[23:11:49] [Server thread/ERROR]: [dev.aevorinstudios.aevorinReports.database.DatabaseManager] Failed to get total reports count: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
-[23:11:49] [Server thread/ERROR]: [dev.aevorinstudios.aevorinReports.database.DatabaseManager] Failed to get report count for status PENDING: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
-[23:11:49] [Server thread/INFO]: [AevorinReports] AevorinReports has been disabled!
-[23:11:49] [Server thread/INFO]: [OrbitalStrike] Disabling OrbitalStrike v1.6.8
-[23:11:49] [Server thread/INFO]: [FlectonePulse] Disabling FlectonePulse v1.14.0
-[23:11:49] [Server thread/INFO]: (FlectonePulse) Disabling...
-[23:11:49] [Server thread/INFO]: (FlectonePulse) [-] Unloaded integration: LuckPerms
-[23:11:49] [Server thread/INFO]: (FlectonePulse) [-] Database disconnected
-[23:11:49] [Server thread/INFO]: (FlectonePulse) FlectonePulse v1.14.0 disabled
-[23:11:49] [Server thread/INFO]: [AxSmithing] Disabling AxSmithing v1.9
-[23:11:49] [Server thread/INFO]: [TuffXPlus] Disabling TuffXPlus v1.1.1
-[23:11:49] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been disabled.
-[23:11:49] [Server thread/INFO]: [ClickVillagers] Disabling ClickVillagers v1.6.3
-[23:11:49] [Server thread/INFO]: [VillagerVault] Disabling VillagerVault v1.0.0
-[23:11:49] [Server thread/INFO]: [VillagerVault] VillagerVault has been disabled.
-[23:11:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.1-dev+23-43cb76a
-[23:11:49] [Server thread/INFO]: [AdvancedBanZ] Disabling AdvancedBanZ v4.0.1
-[23:11:49] [Server thread/INFO]: [AdvancedBanZ] 
-
-[]=====[Disabling AdvancedBanZ]=====[]
-| Information:
-|   Name: AdvancedBanZ
-|   Developer: Leoko
-|   Maintainer & Updater: Author87668, 2vY
-|   Version: 4.0.1
-|   Storage: SQLite (local)
-| Support:
-|   GitHub: https://github.com/At87668/AdvancedBanZ/issues
-[]================================[]
- 
-[23:11:49] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.11.0
-[23:11:49] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.11.0
-[23:11:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.18+2392-fa605e6
-[23:11:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[23:11:49] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[23:11:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.1-dev+23-43cb76a
-[23:11:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.5+7590-b8dc4c1
-[23:11:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:11:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.81
-[23:11:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:11:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:11:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:11:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
-[23:11:49] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[23:11:49] [Server thread/INFO]: Saving players
-[23:11:49] [Server thread/INFO]: Saving worlds
-[23:11:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[23:11:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[23:11:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[23:11:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[23:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:11:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[23:11:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[23:11:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:11:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[06:05:42] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+23-43cb76a
+[06:05:42] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Enabling VillagerVault v1.0.0
+[06:05:42] [Server thread/INFO]: [VillagerVault] Statistics tracking enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager death backup enabled (max 30).
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager glow highlighting enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Infinite villager stock enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager pickup & placement enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager protection enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager leashing enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Anti-zombie conversion enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager info display enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] No-wandering/freeze system enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Villager death backup listener enabled.
+[06:05:42] [Server thread/INFO]: [VillagerVault] Bedrock support enabled (will use UUID heuristic if Bedrock players join).
+[06:05:42] [Server thread/INFO]: [VillagerVault] VillagerVault has been enabled!
+[06:05:42] [Server thread/INFO]: [ClickVillagers] Enabling ClickVillagers v1.6.3
+[06:05:43] [Server thread/INFO]: [ClickVillagers] Checking for updates...
+[06:05:43] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
+[06:05:43] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
+[06:05:43] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 
+[06:05:43] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
+[06:05:43] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
+[06:05:43] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
+[06:05:43] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
+[06:05:43] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
+[06:05:43] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 
+[06:05:43] [Server thread/INFO]: [TuffXPlus] CREDITS
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 
+[06:05:43] [Server thread/INFO]: [TuffXPlus] Y0 support:
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 
+[06:05:43] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
+[06:05:43] [Server thread/INFO]: [TuffXPlus] 
+[06:05:43] [Server thread/INFO]: [TuffXPlus] Other:
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
+[06:05:43] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
+[06:05:43] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
+[06:05:43] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[06:05:43] [Server thread/INFO]: [FlectonePulse] Enabling FlectonePulse v1.14.0
+[06:05:43] [Server thread/INFO]: (FlectonePulse)  ___       ___  __  ___  __        ___
+[06:05:43] [Server thread/INFO]: (FlectonePulse) |__  |    |__  /  `  |  /  \ |\ | |__
+[06:05:43] [Server thread/INFO]: (FlectonePulse) |    |___ |___ \__,  |  \__/ | \| |___
+[06:05:43] [Server thread/INFO]: (FlectonePulse)  __             __   ___
+[06:05:43] [Server thread/INFO]: (FlectonePulse) |__) |  | |    /__` |__ 
+[06:05:43] [Server thread/INFO]: (FlectonePulse) |    \__/ |___ .__/ |___   /\
+[06:05:43] [Server thread/INFO]: (FlectonePulse)                           /  \ v1.14.0
+[06:05:43] [Server thread/INFO]: (FlectonePulse) __/\___  ____/\_____  ___/    \______
+[06:05:43] [Server thread/INFO]: (FlectonePulse)        \/           \/
+[06:05:44] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [+] Loaded translation: en_us.json
+[06:05:45] [Server thread/INFO]: (FlectonePulse) [+] Database connected: H2
+[06:05:45] [Server thread/INFO]: (FlectonePulse) [+] Loaded integration: LuckPerms
+[06:05:46] [Server thread/INFO]: (FlectonePulse) FlectonePulse v1.14.0 enabled
+[06:05:46] [Server thread/INFO]: [OrbitalStrike] Enabling OrbitalStrike v1.6.8
+[06:05:46] [Server thread/INFO]: [AevorinReports] Enabling AevorinReports v1.1.2
+[06:05:46] [Server thread/INFO]: [AevorinReports] Initializing AevorinReports
+[06:05:46] [Server thread/INFO]: [AevorinReports] Initializing enhanced exception handler...
+[06:05:46] [Server thread/INFO]: [AevorinReports] Loading configuration files...
+[06:05:46] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Loading configuration from plugins/AevorinReports/config.yml
+[06:05:46] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Configuration loaded successfully
+[06:05:46] [Server thread/INFO]: [AevorinReports] Configuration loaded successfully.
+[06:05:46] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[06:05:46] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@3750592c
+[06:05:46] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[06:05:46] [Server thread/INFO]: [AevorinReports] Registering commands...
+[06:05:46] [Server thread/INFO]: [AevorinReports] Registered 'report' command and tab completer
+[06:05:46] [Server thread/INFO]: [AevorinReports] Registered 'reports' command
+[06:05:46] [Server thread/INFO]: [AevorinReports] Commands registered successfully!
+[06:05:46] [Server thread/INFO]: [AevorinReports] Registering event listeners...
+[06:05:46] [Server thread/INFO]: [AevorinReports] Event listeners registered successfully!
+[06:05:46] [Server thread/INFO]: [AevorinReports] PlaceholderAPI not found. Skipping placeholder registration.
+[06:05:46] [Server thread/INFO]: [AevorinReports] Modrinth update checker initialized with project ID: OwqSnlXx
+[06:05:46] [Server thread/INFO]: [AevorinReports] bStats Metrics initialized properly.
+[06:05:46] [Server thread/INFO]: [AevorinReports] FastStats Metrics initialized and ready.
+[06:05:46] [Server thread/INFO]: [AevorinReports] AevorinReports has been enabled!
+[06:05:46] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.13.0
+[06:05:46] [Server thread/INFO]: [ClearLag] Plugin hooks detected: FancyHolograms
+[06:05:46] [Server thread/INFO]: [ClearLag] Hook enabled: FancyHolograms
+[06:05:46] [Server thread/INFO]: [ClearLag] ClearLag configuration reloaded.
+[06:05:46] [Server thread/INFO]: [ClearLag] Loaded 0 player preferences.
+[06:05:46] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
+[06:05:46] [Server thread/INFO]: [ClearLag] Dynamic View Distance enabled.
+[06:05:46] [Server thread/INFO]: [ClearLag] Explosion optimization enabled.
+[06:05:46] [Server thread/INFO]: [ClearLag] Auto-Clear is enabled and starts every 300 seconds.
+[06:05:46] [Server thread/INFO]: [ClearLag] Mob AI Optimization is enabled.
+[06:05:46] [Server thread/INFO]: [ClearLag] Performance Warnings are enabled.
+[06:05:46] [Server thread/WARN]: [ClearLag] PlaceholderAPI not found! ClearLag placeholders will not work.
+[06:05:46] [Server thread/INFO]: [ClearLag] ClearLag has been successfully enabled!
+[06:05:46] [Server thread/INFO]: [MCPanel] Enabling MCPanel v1.2.6
+[06:05:46] [Server thread/INFO]: [MCPanel] MCPanel: server root directory = /workspaces/craftmine/server
+[06:05:46] [Server thread/INFO]: [MCPanel] [MCPanel] Loaded 321 history entries.
+[06:05:46] [Server thread/INFO]: [LPC] Enabling LPC v3.7.2
+[06:05:46] [Server thread/INFO]: [WildRTP] Enabling WildRTP v3.6.5
+[06:05:46] [Server thread/INFO]: [WildRTP] WildRTP by Joni running version: 3.6.5
+[06:05:46] [Server thread/INFO]: [WildRTP] Checking for updates...
+[06:05:46] [Server thread/INFO]: [LimitedGrace] Enabling LimitedGrace v1.4.0
+[06:05:46] [Server thread/INFO]: [LimitedGrace] Enabled!
+[06:05:47] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.0
+[06:05:47] [Server thread/INFO]: [CoreProtect] Minecraft 26.2 is not supported.
+[06:05:47] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition was unable to start.
+[06:05:47] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v24.0
+[06:05:47] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[06:05:47] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v24.0
+[06:05:47] [Server thread/INFO]: [OneMace] Enabling OneMace v1.08
+[06:05:47] [Server thread/INFO]: [OneMace] [OneMace] Plugin enabled!
+[06:05:47] [Server thread/INFO]: [LuckTags] Enabling LuckTags v1.4
+[06:05:47] [ForkJoinPool.commonPool-worker-2/INFO]: [WildRTP] A new version is available! Current: 3.6.5 Latest: 4.0-beta.1
+[06:05:47] [ForkJoinPool.commonPool-worker-2/INFO]: [WildRTP] https://modrinth.com/plugin/wildrtp/version/4.0-beta.1
+[06:05:47] [ForkJoinPool.commonPool-worker-2/INFO]: [LimitedGrace] LimitedGrace is up to date.
+[06:05:47] [Server thread/INFO]: [spark] Starting background profiler...
+[06:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:05:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:05:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:05:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:05:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:05:48] [Server thread/INFO]: Running delayed init tasks
+[06:05:48] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:05:48] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: ========================================
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: ClearLag is outdated!
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: Your version: 1.13.0
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: Newest version: 1.13.1
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: Download the new version here: https://modrinth.com/plugin/7bhTp28M
+[06:05:48] [Craft Scheduler Thread - 5 - ClearLag/INFO]: ========================================
+[06:05:48] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
+[06:05:48] [User Authenticator #0/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
+[06:05:49] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
+[06:05:49] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.0, you're on: 5.11.0
+[06:05:49] [Server thread/INFO]: Done (39.475s)! For help, type "help"
+[06:05:49] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, FlectonePulse, WorldGuard]
+[06:05:49] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 18 builds behind ***
+[06:05:49] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[06:05:49] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[06:05:49] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[06:05:50] [Server thread/INFO]: [MCPanel] MCPanel started → http://0.0.0.0:8090
+[06:05:51] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:33282] logged in with entity id 1 at ([minecraft:overworld]262.5493493230382, -29.0, 328.89066599545583)
+[06:05:51] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) → Player Dill_Pickle_
+[06:05:51] [Server thread/INFO]: [OneMace] [OneMace] Mace is recorded as crafted. Recipes removed.
+[06:05:56] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » yooo ⇄ 
+[06:05:56] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: yooo
+[06:06:24] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: server?
+[06:06:24] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » server? ⇄ 
+[06:06:30] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: jack
+[06:06:30] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » jack ⇄ 
+[06:06:33] [User Authenticator #1/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[06:06:34] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) → [Owner] ironmanLJM
+[06:06:34] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:33164] logged in with entity id 191 at ([minecraft:overworld]-22.69999998807907, 103.0, -5.300000011920929)
+[06:06:38] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: yooooo
+[06:06:38] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » yooooo ⇄ 
+[06:06:48] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: jack can i buy the flow trim of u pls
+[06:06:48] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » jack can i buy the flow trim of u pls ⇄ 
+[06:06:50] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: sup
+[06:06:50] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » sup ⇄ 
+[06:06:54] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: no
+[06:06:54] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » no ⇄ 
+[06:06:57] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: why
+[06:06:57] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » why ⇄ 
+[06:07:07] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: im bissy
+[06:07:07] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » im bissy ⇄ 
+[06:07:12] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: waaaaaa
+[06:07:12] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » waaaaaa ⇄ 
+[06:07:21] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:07:23] [Server thread/INFO]: ironmanLJM issued server command: /tp Dill_Pickle_
+[06:07:31] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: yeah
+[06:07:31] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » yeah ⇄ 
+[06:07:32] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: what fps u gettin
+[06:07:32] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » what fps u gettin ⇄ 
+[06:07:41] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: 59 right now
+[06:07:41] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » 59 right now ⇄ 
+[06:07:50] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: around 55?
+[06:07:50] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » around 55? ⇄ 
+[06:07:55] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: yeah
+[06:07:55] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » yeah ⇄ 
+[06:07:58] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: at avrage
+[06:07:58] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » at avrage ⇄ 
+[06:08:30] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: how bro T-T
+[06:08:30] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » how bro T-T ⇄ 
+[06:08:35] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: odk
+[06:08:35] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » odk ⇄ 
+[06:08:38] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: idk
+[06:08:38] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » idk ⇄ 
+[06:08:41] [Server thread/INFO]: ironmanLJM issued server command: /fed
+[06:08:43] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:08:49] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: is that good or bad
+[06:08:49] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » is that good or bad ⇄ 
+[06:08:59] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: let me try disableing textures
+[06:08:59] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » let me try disableing textures ⇄ 
+[06:09:04] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: okay
+[06:09:04] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » okay ⇄ 
+[06:09:30] [pool-51-thread-3/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:30] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:30] [pool-51-thread-4/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:30] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:30] [pool-51-thread-1/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:30] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:30] [pool-51-thread-2/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:30] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:31] [pool-51-thread-3/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:31] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:31] [pool-51-thread-4/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:31] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:32] [pool-51-thread-1/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:32] [Server thread/WARN]: [MCPanel] Task #1637 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:32] [pool-51-thread-2/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:32] [Server thread/WARN]: [MCPanel] Task #1638 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:32] [pool-51-thread-3/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:32] [Server thread/WARN]: [MCPanel] Task #1639 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:32] [pool-51-thread-4/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:32] [Server thread/WARN]: [MCPanel] Task #1640 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:32] [pool-51-thread-1/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:32] [Server thread/WARN]: [MCPanel] Task #1641 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:33] [pool-51-thread-3/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:33] [Server thread/WARN]: [MCPanel] Task #1642 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:33] [pool-51-thread-4/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:33] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:33] [pool-51-thread-1/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:33] [Server thread/WARN]: [MCPanel] Task #1644 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:34] [pool-51-thread-2/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:instant_health 1 9
+[06:09:34] [Server thread/INFO]: Applied effect Instant Health to ironmanLJM
+[06:09:34] [pool-51-thread-3/INFO]: [MCPanel] [MCPanel] Executing: effect give ironmanLJM minecraft:saturation_20
+[06:09:34] [Server thread/WARN]: [MCPanel] Task #1646 for MCPanel v1.2.6 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'effect give ironmanLJM minecraft:saturation_20' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(effect)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:945) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1106) ~[paper-api-26.2.build.111-stable.jar:?]
+	at MCPanel-1.2.6.jar//com.enterx.mcpanel.MCPanel$CommandHandler.lambda$handle$0(MCPanel.java:839) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-111-f570646]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-111-f570646]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:saturation_20' of type 'minecraft:mob_effect' at position 46: ...uration_20<--[HERE]
+[06:09:51] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » how much render u say? ⇄ 
+[06:09:51] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: how much render u say?
+[06:09:52] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: yo my mouse is here
+[06:09:52] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » yo my mouse is here ⇄ 
+[06:09:56] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: nice
+[06:09:56] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » nice ⇄ 
+[06:10:02] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: one sec
+[06:10:02] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » one sec ⇄ 
+[06:10:05] [User Authenticator #2/INFO]: UUID of player Veer10 is b8e39939-61ea-3cff-be5a-8e05498cb70c
+[06:10:07] [Server thread/INFO]: Veer10[/[0:0:0:0:0:0:0:1]:44218] logged in with entity id 832 at ([minecraft:overworld]-15.510310538131675, 93.0, -150.15895792242245)
+[06:10:07] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) → Player Veer10
+[06:10:23] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: okay im back
+[06:10:23] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » okay im back ⇄ 
+[06:10:29] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: how much render u sya?
+[06:10:29] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » how much render u sya? ⇄ 
+[06:10:30] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: what are u doing
+[06:10:30] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » what are u doing ⇄ 
+[06:10:31] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: u gettin
+[06:10:31] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » u gettin ⇄ 
+[06:10:36] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: ill check
+[06:10:36] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » ill check ⇄ 
+[06:10:58] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ominous_trial_key 1
+[06:11:00] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ominous_trial_key 1
+[06:11:05] [Async Chat Thread - #1/INFO]: [Not Secure] Player Veer10: jAcK '
+[06:11:05] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Veer10 » jAcK ' ⇄ 
+[06:11:28] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: y chunks
+[06:11:28] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » y chunks ⇄ 
+[06:11:32] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: 7 chunks
+[06:11:32] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » 7 chunks ⇄ 
+[06:11:42] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: wierd
+[06:11:42] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » wierd ⇄ 
+[06:11:54] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: jack can i buy flow off u now
+[06:11:54] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » jack can i buy flow off u now ⇄ 
+[06:11:58] [Server thread/INFO]: ironmanLJM issued server command: /sethome trial
+[06:12:00] [Server thread/INFO]: ironmanLJM issued server command: /home
+[06:12:02] [Server thread/INFO]: ironmanLJM issued server command: /home home
+[06:12:05] [Server thread/INFO]: ironmanLJM issued server command: /spawn
+[06:12:07] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: i wanna look tuff
+[06:12:07] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » i wanna look tuff ⇄ 
+[06:12:34] [Server thread/INFO]: ironmanLJM has made the advancement [Stay Hydrated!]
+[06:12:34] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) 🌠 [Owner] ironmanLJM has completed the challenge [Stay Hydrated!]
+[06:12:45] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: pls jack
+[06:12:45] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » pls jack ⇄ 
+[06:12:47] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM fence
+[06:12:48] [Server thread/INFO]: Veer10 was burned to a crisp while fighting Zombie
+[06:12:48] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) ☠ Player Veer10 was burned to a crisp while fighting Zombie
+[06:12:49] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[06:12:50] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[06:12:51] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM fencen 1
+[06:12:54] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM fencen 1
+[06:12:57] [Server thread/INFO]: Dill_Pickle_ issued server command: /spawn
+[06:12:58] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM fencenbrick 1
+[06:13:14] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM snow_ball 64
+[06:13:19] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM snow_ball 2
+[06:13:22] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: plsssssssssssssssssssssssss
+[06:13:22] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » plsssssssssssssssssssssssss ⇄ 
+[06:13:24] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM snow_block 1
+[06:13:28] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: no
+[06:13:28] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » no ⇄ 
+[06:13:32] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: i give u god apple
+[06:13:32] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » i give u god apple ⇄ 
+[06:13:44] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: so u can pvp
+[06:13:44] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » so u can pvp ⇄ 
+[06:13:48] [Async Chat Thread - #0/INFO]: [Not Secure] Player Veer10: Jack why is alex stealing stuff from me?
+[06:13:48] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Veer10 » Jack why is alex stealing stuff from me? ⇄ 
+[06:13:55] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: is he Veer10
+[06:13:55] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » is he Veer10 ⇄ 
+[06:14:00] [Async Chat Thread - #0/INFO]: [Not Secure] Player Veer10: SOOOOO much stuff
+[06:14:01] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Veer10 » SOOOOO much stuff ⇄ 
+[06:14:02] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: is he actually
+[06:14:02] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » is he actually ⇄ 
+[06:14:05] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: are u sure its him
+[06:14:05] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » are u sure its him ⇄ 
+[06:14:07] [Async Chat Thread - #0/INFO]: [Not Secure] Player Veer10: bro he is
+[06:14:07] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Veer10 » bro he is ⇄ 
+[06:14:14] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: what did he steal
+[06:14:14] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » what did he steal ⇄ 
+[06:14:19] [Async Chat Thread - #0/INFO]: [Not Secure] Player Veer10: i havent shown anyone else my base
+[06:14:19] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Veer10 » i havent shown anyone else my base ⇄ 
+[06:14:22] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:14:36] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: is it vissable from above ground?
+[06:14:36] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » is it vissable from above ground? ⇄ 
+[06:14:46] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:14:49] [Async Chat Thread - #1/INFO]: [Not Secure] Player Veer10: its visible
+[06:14:49] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Veer10 » its visible ⇄ 
+[06:14:55] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: so
+[06:14:55] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » so ⇄ 
+[06:14:56] [Async Chat Thread - #1/INFO]: [Not Secure] Player Veer10: not from bridge
+[06:14:56] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Veer10 » not from bridge ⇄ 
+[06:14:59] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: some1 might have found it
+[06:14:59] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » some1 might have found it ⇄ 
+[06:15:08] [Async Chat Thread - #1/INFO]: [Not Secure] Player Veer10: not too visible
+[06:15:08] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Veer10 » not too visible ⇄ 
+[06:15:15] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: ehh
+[06:15:15] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » ehh ⇄ 
+[06:15:24] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: we cant be sure its him
+[06:15:24] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » we cant be sure its him ⇄ 
+[06:15:25] [Server thread/INFO]: ironmanLJM issued server command: /spawn
+[06:15:26] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: what does it look like
+[06:15:26] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » what does it look like ⇄ 
+[06:16:00] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: bye
+[06:16:00] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » bye ⇄ 
+[06:16:03] [Async Chat Thread - #1/INFO]: [Not Secure] Player Veer10: bye!
+[06:16:03] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Veer10 » bye! ⇄ 
+[06:16:04] [Server thread/INFO]: ironmanLJM issued server command: /home trial
+[06:16:06] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: bye
+[06:16:06] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » bye ⇄ 
+[06:16:18] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: im just leace some guys house\
+[06:16:18] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » im just leace some guys house\ ⇄ 
+[06:16:21] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: ohh
+[06:16:21] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » ohh ⇄ 
+[06:16:25] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: OHHH
+[06:16:25] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » OHHH ⇄ 
+[06:16:28] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: OH BET
+[06:16:28] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » OH BET ⇄ 
+[06:16:35] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: W VAULT
+[06:16:35] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » W VAULT ⇄ 
+[06:16:38] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:16:40] [Server thread/INFO]: ironmanLJM issued server command: /spawn
+[06:16:53] [Server thread/INFO]: Veer10 lost connection: Disconnected
+[06:16:53] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) ← Player Veer10
+[06:17:00] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[06:17:05] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:17:13] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: riptide 2
+[06:17:13] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » riptide 2 ⇄ 
+[06:17:14] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: www
+[06:17:14] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » www ⇄ 
+[06:17:22] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: iron man i got that one villager that drades sticks for emeralds
+[06:17:22] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » iron man i got that one villager that drades sticks for emeralds ⇄ 
+[06:17:33] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: noice
+[06:17:33] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » noice ⇄ 
+[06:17:43] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: and the mending one tooo
+[06:17:43] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » and the mending one tooo ⇄ 
+[06:17:46] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[06:17:49] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: ww
+[06:17:49] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » ww ⇄ 
+[06:18:12] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: jack, can i sell u rights to the mending villager for the flow trim
+[06:18:12] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » jack, can i sell u rights to the mending villager for the flow trim ⇄ 
+[06:18:21] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: like u can use him
+[06:18:21] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » like u can use him ⇄ 
+[06:18:31] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: hi
+[06:18:31] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » hi ⇄ 
+[06:18:34] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: can i
+[06:18:34] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » can i ⇄ 
+[06:18:37] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: pls
+[06:18:37] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » pls ⇄ 
+[06:18:39] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 16
+[06:18:40] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: what?
+[06:18:40] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » what? ⇄ 
+[06:18:49] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 8
+[06:18:58] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: i did hear
+[06:18:58] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » i did hear ⇄ 
+[06:19:00] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » sell u the rights to use my heap as mending villager for the flowtrim ⇄ 
+[06:19:00] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: sell u the rights to use my heap as mending villager for the flowtrim
+[06:19:00] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: what u say?
+[06:19:00] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » what u say? ⇄ 
+[06:19:10] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: i dont need
+[06:19:10] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » i dont need ⇄ 
+[06:19:12] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: ur
+[06:19:12] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur ⇄ 
+[06:19:14] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: ):
+[06:19:14] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » ): ⇄ 
+[06:19:16] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: tell u what
+[06:19:16] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » tell u what ⇄ 
+[06:19:22] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: lets go to a trial togethe
+[06:19:22] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » lets go to a trial togethe ⇄ 
+[06:19:23] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: i just wanna look tuff
+[06:19:23] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i just wanna look tuff ⇄ 
+[06:19:25] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner] ironmanLJM: and try to find one
+[06:19:25] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » and try to find one ⇄ 
+[06:19:35] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: why cant u give me one
+[06:19:35] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » why cant u give me one ⇄ 
+[06:19:48] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: and i can dupe it for u
+[06:19:48] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » and i can dupe it for u ⇄ 
+[06:19:50] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 64
+[06:19:55] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: pls
+[06:19:55] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » pls ⇄ 
+[06:20:01] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner] ironmanLJM: experience minecraft afk
+[06:20:01] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » experience minecraft afk ⇄ 
+[06:20:11] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: ):<
+[06:20:11] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » ):< ⇄ 
+[06:20:29] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 24
+[06:20:32] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 10
+[06:20:34] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: i just wanna look tuff
+[06:20:34] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i just wanna look tuff ⇄ 
+[06:20:39] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[06:20:50] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: if i go with u and we dont get it can i still have one
+[06:20:50] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » if i go with u and we dont get it can i still have one ⇄ 
+[06:20:51] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:21:14] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_chest 10
+[06:21:18] [Server thread/INFO]: Dill_Pickle_ issued server command: /spawn
+[06:22:12] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[06:22:15] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:22:20] [Server thread/INFO]: ironmanLJM issued server command: /spawn
+[06:22:27] [Server thread/INFO]: ironmanLJM issued server command: /mend
+[06:22:37] [Server thread/INFO]: ironmanLJM issued server command: /repair
+[06:22:40] [Server thread/INFO]: ironmanLJM issued server command: /repair all
+[06:23:22] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 128
+[06:23:27] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 128
+[06:23:27] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 128
+[06:23:32] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 128
+[06:23:54] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[06:24:02] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:24:10] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM green_dye 4
+[06:24:33] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM shulker_box 4
+[06:24:45] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 128
+[06:24:49] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 128
+[06:24:55] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 300
+[06:24:59] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 300
+[06:25:02] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 300
+[06:25:25] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM breeze_rod 30
+[06:25:53] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: yo Dill_Pickle_
+[06:25:53] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » yo Dill_Pickle_ ⇄ 
+[06:25:56] [Async Chat Thread - #2/INFO]: [Not Secure] Player Dill_Pickle_: what
+[06:25:56] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » what ⇄ 
+[06:26:04] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: want to go to a trial together?
+[06:26:04] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » want to go to a trial together? ⇄ 
+[06:26:11] [Async Chat Thread - #2/INFO]: [Not Secure] Player Dill_Pickle_: sure
+[06:26:11] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » sure ⇄ 
+[06:26:23] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: can u try find one? im doing some stuff rn
+[06:26:23] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » can u try find one? im doing some stuff rn ⇄ 
+[06:26:36] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: if i fail to get the trim, after can u still give me the trim
+[06:26:36] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » if i fail to get the trim, after can u still give me the trim ⇄ 
+[06:26:42] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: um
+[06:26:42] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » um ⇄ 
+[06:26:44] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: from the chambers
+[06:26:44] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » from the chambers ⇄ 
+[06:26:45] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: u wont fail
+[06:26:45] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » u wont fail ⇄ 
+[06:26:52] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: trust
+[06:26:52] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » trust ⇄ 
+[06:26:55] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: i havent gotten it thogh
+[06:26:55] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » i havent gotten it thogh ⇄ 
+[06:27:04] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: after 3 trails
+[06:27:04] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » after 3 trails ⇄ 
+[06:27:09] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: cuz u didnt loot all of them
+[06:27:09] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » cuz u didnt loot all of them ⇄ 
+[06:27:10] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: chambers
+[06:27:10] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » chambers ⇄ 
+[06:27:13] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: correctly
+[06:27:13] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » correctly ⇄ 
+[06:27:16] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: fine
+[06:27:16] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » fine ⇄ 
+[06:27:26] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: where should i go to find one
+[06:27:26] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » where should i go to find one ⇄ 
+[06:27:35] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: rtp
+[06:27:35] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » rtp ⇄ 
+[06:27:38] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: and f3a
+[06:27:38] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » and f3a ⇄ 
+[06:27:53] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: it only takes me 2 blocks away though
+[06:27:53] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » it only takes me 2 blocks away though ⇄ 
+[06:27:55] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:27:56] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: th rtp
+[06:27:56] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » th rtp ⇄ 
+[06:27:58] [Server thread/INFO]: Dill_Pickle_ issued server command: /rtp
+[06:27:59] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:28:03] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:28:07] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:28:11] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:28:11] [Async Chat Thread - #2/INFO]: [Not Secure] Player Dill_Pickle_: it took me to spanw
+[06:28:11] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » it took me to spanw ⇄ 
+[06:28:14] [Server thread/INFO]: Dill_Pickle_ issued server command: /rtp
+[06:28:15] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM firework_rocket 300
+[06:28:23] [Async Chat Thread - #2/INFO]: [Not Secure] Player Dill_Pickle_: can the cool down is 300 seconds
+[06:28:23] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » can the cool down is 300 seconds ⇄ 
+[06:28:32] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: uh
+[06:28:32] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » uh ⇄ 
+[06:28:40] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: can u make a cartography vilager
+[06:28:40] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » can u make a cartography vilager ⇄ 
+[06:28:44] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner] ironmanLJM: it will sell u maps
+[06:28:44] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » it will sell u maps ⇄ 
+[06:28:46] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: to trials
+[06:28:46] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » to trials ⇄ 
+[06:29:03] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: i dont have a cartoghrahy table
+[06:29:03] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i dont have a cartoghrahy table ⇄ 
+[06:29:14] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: make one
+[06:29:14] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » make one ⇄ 
+[06:29:15] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner] ironmanLJM: its easy
+[06:29:15] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » its easy ⇄ 
+[06:29:19] [Async Chat Thread - #3/INFO]: [Not Secure] Player Dill_Pickle_: how
+[06:29:19] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » how ⇄ 
+[06:30:27] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » im putting everything in my ec ⇄ 
+[06:30:27] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner] ironmanLJM: im putting everything in my ec
+[06:30:28] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner] ironmanLJM: um
+[06:30:28] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » um ⇄ 
+[06:30:31] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner] ironmanLJM: serch it up
+[06:30:31] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » serch it up ⇄ 
+[06:30:39] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM yellow_dye 4
+[06:30:54] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM shulker_box 4
+[06:31:11] [Server thread/INFO]: Dill_Pickle_ issued server command: /rtp
+[06:31:23] [Async Chat Thread - #4/INFO]: [Not Secure] Player Dill_Pickle_: cant u tp me to a trai;s
+[06:31:23] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » cant u tp me to a trai;s ⇄ 
+[06:31:33] [Async Chat Thread - #5/INFO]: [Not Secure] [Owner] ironmanLJM: i dont have a home set in any
+[06:31:33] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » i dont have a home set in any ⇄ 
+[06:31:36] [Async Chat Thread - #5/INFO]: [Not Secure] Player Dill_Pickle_: oh
+[06:31:36] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » oh ⇄ 
+[06:32:43] [Server thread/INFO]: Dill_Pickle_ issued server command: /home
+[06:33:14] [Server thread/INFO]: Dill_Pickle_ issued server command: /home
+[06:34:35] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: they wont tkae the job
+[06:34:35] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » they wont tkae the job ⇄ 
+[06:34:36] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 300
+[06:34:40] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: bry
+[06:34:40] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » bry ⇄ 
+[06:34:40] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » bry ⇄ 
+[06:34:40] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: bry
+[06:34:42] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 300
+[06:34:45] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 300
+[06:34:50] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: what is bry
+[06:34:50] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » what is bry ⇄ 
+[06:34:50] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM golden_carrot 300
+[06:34:59] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » bruh ⇄ 
+[06:34:59] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: bruh
+[06:35:06] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: what
+[06:35:06] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » what ⇄ 
+[06:35:09] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM green_dye 1
+[06:35:16] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: ur villagers wont take the job
+[06:35:16] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur villagers wont take the job ⇄ 
+[06:35:23] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: why
+[06:35:23] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » why ⇄ 
+[06:35:31] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: u just said it
+[06:35:31] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » u just said it ⇄ 
+[06:35:45] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: so how do i het to the chambers
+[06:35:45] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » so how do i het to the chambers ⇄ 
+[06:35:51] [User Authenticator #3/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[06:35:52] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:52342] logged in with entity id 6813 at ([minecraft:overworld]261.25953205123955, -29.0, 331.3486195891895)
+[06:35:52] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) → OG Vyqzren
+[06:36:01] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: v are u still at the chamber
+[06:36:01] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » v are u still at the chamber ⇄ 
+[06:36:13] [Async Chat Thread - #6/INFO]: [Not Secure] OG Vyqzren: yea yea
+[06:36:13] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) OG Vyqzren » yea yea ⇄ 
+[06:36:16] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa Vyqzren
+[06:36:18] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: yooo
+[06:36:18] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » yooo ⇄ 
+[06:36:20] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[06:36:20] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » tp ⇄ 
+[06:36:24] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: hi
+[06:36:24] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » hi ⇄ 
+[06:36:34] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: yo dill
+[06:36:34] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » yo dill ⇄ 
+[06:36:35] [Async Chat Thread - #6/INFO]: [Not Secure] OG Vyqzren: wait
+[06:36:35] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) OG Vyqzren » wait ⇄ 
+[06:36:38] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: jack Vyqzren is at the t chambers
+[06:36:38] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » jack Vyqzren is at the t chambers ⇄ 
+[06:36:43] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner] ironmanLJM: OH BET
+[06:36:43] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » OH BET ⇄ 
+[06:36:46] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[06:36:46] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » tp ⇄ 
+[06:36:48] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: Vyqzren
+[06:36:48] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » Vyqzren ⇄ 
+[06:36:50] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[06:36:50] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » tp ⇄ 
+[06:36:53] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 64
+[06:36:53] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 64
+[06:37:02] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: Vyqzren tp
+[06:37:02] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » Vyqzren tp ⇄ 
+[06:37:06] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[06:37:06] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » tp ⇄ 
+[06:37:10] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: pls
+[06:37:10] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » pls ⇄ 
+[06:37:19] [Async Chat Thread - #6/INFO]: [Not Secure] Player Dill_Pickle_: why wont u tp me
+[06:37:19] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » why wont u tp me ⇄ 
+[06:37:23] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa Vyqzren
+[06:37:26] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: bros greedy
+[06:37:26] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » bros greedy ⇄ 
+[06:37:27] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: Vyqzren
+[06:37:27] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » Vyqzren ⇄ 
+[06:37:32] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: Vyqzren
+[06:37:32] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » Vyqzren ⇄ 
+[06:37:34] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: greedy greedy
+[06:37:34] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » greedy greedy ⇄ 
+[06:37:37] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: plssss
+[06:37:37] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » plssss ⇄ 
+[06:37:45] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: yo Dill_Pickle_ alex is greedy
+[06:37:45] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » yo Dill_Pickle_ alex is greedy ⇄ 
+[06:37:54] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: you knwo u get more the more people are there right
+[06:37:54] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » you knwo u get more the more people are there right ⇄ 
+[06:37:58] [Server thread/INFO]: Dill_Pickle_ issued server command: /home
+[06:38:02] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: true
+[06:38:02] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » true ⇄ 
+[06:38:12] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[06:38:20] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa ironmanLJM
+[06:38:26] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner] ironmanLJM: im at spawn
+[06:38:26] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » im at spawn ⇄ 
+[06:38:29] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: oh
+[06:38:29] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » oh ⇄ 
+[06:38:33] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:38:39] [Async Chat Thread - #7/INFO]: [Not Secure] Player Dill_Pickle_: im going to Vyqzren
+[06:38:39] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » im going to Vyqzren ⇄ 
+[06:38:49] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM lead 1
+[06:39:40] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM harness
+[06:39:42] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[06:39:55] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[06:41:09] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: dill
+[06:41:09] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » dill ⇄ 
+[06:41:12] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: are u at trial
+[06:41:12] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » are u at trial ⇄ 
+[06:41:19] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: im close to his waypoint
+[06:41:19] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » im close to his waypoint ⇄ 
+[06:41:42] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: guess what dill
+[06:41:42] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » guess what dill ⇄ 
+[06:41:53] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: im right here
+[06:41:53] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » im right here ⇄ 
+[06:42:05] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: now give alex some payback
+[06:42:05] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » now give alex some payback ⇄ 
+[06:42:43] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: guys dont move
+[06:42:43] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » guys dont move ⇄ 
+[06:42:44] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: im coming
+[06:42:44] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » im coming ⇄ 
+[06:42:56] [Server thread/INFO]: Vyqzren issued server command: /home
+[06:43:05] [Async Chat Thread - #9/INFO]: [Not Secure] OG Vyqzren: gtg
+[06:43:05] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) OG Vyqzren » gtg ⇄ 
+[06:43:08] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: alex
+[06:43:08] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » alex ⇄ 
+[06:43:10] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: ur greedy
+[06:43:10] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur greedy ⇄ 
+[06:43:14] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: why his he so far away now
+[06:43:14] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » why his he so far away now ⇄ 
+[06:43:15] [Async Chat Thread - #9/INFO]: [Not Secure] OG Vyqzren: what
+[06:43:15] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) OG Vyqzren » what ⇄ 
+[06:43:20] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: u didnt tp dil;
+[06:43:20] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » u didnt tp dil; ⇄ 
+[06:43:25] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: greedy
+[06:43:25] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » greedy ⇄ 
+[06:43:29] [Async Chat Thread - #8/INFO]: [Not Secure] OG Vyqzren: i was fighting
+[06:43:29] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) OG Vyqzren » i was fighting ⇄ 
+[06:43:31] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: summer said u stole from him
+[06:43:31] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » summer said u stole from him ⇄ 
+[06:43:34] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: greedy
+[06:43:34] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » greedy ⇄ 
+[06:43:35] [Async Chat Thread - #8/INFO]: [Not Secure] OG Vyqzren: half a hart
+[06:43:35] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) OG Vyqzren » half a hart ⇄ 
+[06:43:39] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: Dill_Pickle_
+[06:43:39] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » Dill_Pickle_ ⇄ 
+[06:43:40] [Async Chat Thread - #8/INFO]: [Not Secure] OG Vyqzren: no
+[06:43:40] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) OG Vyqzren » no ⇄ 
+[06:43:41] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: where did u go
+[06:43:41] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » where did u go ⇄ 
+[06:43:49] [Server thread/INFO]: ironmanLJM issued server command: /tphere Dill_Pickle_
+[06:43:51] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: im looking for it
+[06:43:51] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » im looking for it ⇄ 
+[06:43:56] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: look up
+[06:43:56] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » look up ⇄ 
+[06:43:58] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: where am i
+[06:43:58] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » where am i ⇄ 
+[06:44:02] [Async Chat Thread - #8/INFO]: [Not Secure] Player Dill_Pickle_: dang
+[06:44:02] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » dang ⇄ 
+[06:44:08] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: im coming donw
+[06:44:08] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » im coming donw ⇄ 
+[06:44:10] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: this is why
+[06:44:10] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » this is why ⇄ 
+[06:44:13] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: we dont like tp
+[06:44:13] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » we dont like tp ⇄ 
+[06:44:13] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: brong it down
+[06:44:13] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » brong it down ⇄ 
+[06:44:17] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: this is more fun
+[06:44:17] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » this is more fun ⇄ 
+[06:44:27] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: come on
+[06:44:27] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » come on ⇄ 
+[06:44:31] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: cant
+[06:44:31] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » cant ⇄ 
+[06:44:38] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: to high up
+[06:44:38] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » to high up ⇄ 
+[06:44:38] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: rght click
+[06:44:38] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » rght click ⇄ 
+[06:44:46] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: ayyy
+[06:44:46] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » ayyy ⇄ 
+[06:44:48] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: yo
+[06:44:48] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » yo ⇄ 
+[06:44:52] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: yooo
+[06:44:52] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » yooo ⇄ 
+[06:44:56] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: right click
+[06:44:56] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » right click ⇄ 
+[06:44:57] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: lets go
+[06:44:57] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » lets go ⇄ 
+[06:45:03] [Async Chat Thread - #9/INFO]: [Not Secure] Player Dill_Pickle_: i know
+[06:45:03] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i know ⇄ 
+[06:45:04] [Async Chat Thread - #9/INFO]: [Not Secure] OG Vyqzren: yo why did summer say i stol from him
+[06:45:04] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) OG Vyqzren » yo why did summer say i stol from him ⇄ 
+[06:45:10] [Async Chat Thread - #10/INFO]: [Not Secure] Player Dill_Pickle_: i wanna stand thogh
+[06:45:10] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » i wanna stand thogh ⇄ 
+[06:45:20] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: u cant stand on a happy ghast dumb boy :)
+[06:45:20] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » u cant stand on a happy ghast dumb boy ☺ ⇄ 
+[06:45:21] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[06:45:21] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) ← OG Vyqzren
+[06:45:24] [Async Chat Thread - #10/INFO]: [Not Secure] Player Dill_Pickle_: i can
+[06:45:24] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » i can ⇄ 
+[06:45:26] [Async Chat Thread - #10/INFO]: [Not Secure] Player Dill_Pickle_: fly
+[06:45:26] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » fly ⇄ 
+[06:45:27] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: i cant move
+[06:45:27] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » i cant move ⇄ 
+[06:45:30] [Async Chat Thread - #10/INFO]: [Not Secure] Player Dill_Pickle_: do it
+[06:45:30] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » do it ⇄ 
+[06:45:30] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: im holding space
+[06:45:30] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » im holding space ⇄ 
+[06:45:36] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: see?
+[06:45:36] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » see? ⇄ 
+[06:45:42] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: u have to right click
+[06:45:42] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » u have to right click ⇄ 
+[06:45:43] [Async Chat Thread - #10/INFO]: [Not Secure] Player Dill_Pickle_: ohhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+[06:45:43] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » ohhhhhhhhhhhhhhhhhhhhhhhhhhhhh ⇄ 
+[06:46:19] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: im getting ready to build the tower soon
+[06:46:19] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » im getting ready to build the tower soon ⇄ 
+[06:46:41] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: sea of theves we saling with the team
+[06:46:41] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » sea of theves we saling with the team ⇄ 
+[06:46:59] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: we heading up north as far the eye could see :D
+[06:46:59] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » we heading up north as far the eye could see ☻ ⇄ 
+[06:46:59] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: what?
+[06:46:59] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » what? ⇄ 
+[06:47:03] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: its a song
+[06:47:03] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » its a song ⇄ 
+[06:47:06] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: ohhhhh
+[06:47:06] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » ohhhhh ⇄ 
+[06:47:15] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: look sun set
+[06:47:15] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » look sun set ⇄ 
+[06:47:21] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: dang
+[06:47:21] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » dang ⇄ 
+[06:47:32] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: this is how minecraft is supost to be played
+[06:47:32] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » this is how minecraft is supost to be played ⇄ 
+[06:47:50] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: go in f5
+[06:47:50] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » go in f5 ⇄ 
+[06:47:55] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: and also building clickbait ahhh thumnails
+[06:47:55] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » and also building clickbait ahhh thumnails ⇄ 
+[06:48:00] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: hehe
+[06:48:00] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » hehe ⇄ 
+[06:48:13] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: i built a 67 story skyscraper in 2 minutes
+[06:48:13] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » i built a 67 story skyscraper in 2 minutes ⇄ 
+[06:48:18] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: lol
+[06:48:18] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » lol ⇄ 
+[06:48:29] [Server thread/INFO]: ironmanLJM issued server command: /locate structure
+[06:48:45] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: phantoms
+[06:48:45] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » phantoms ⇄ 
+[06:48:50] [Async Chat Thread - #11/INFO]: [Not Secure] Player Dill_Pickle_: noooooo
+[06:48:50] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » noooooo ⇄ 
+[06:48:50] [User Authenticator #4/INFO]: UUID of player Qx_v is 8e96bd1a-7c75-35c8-b9b9-2ec81cfaae14
+[06:48:51] [Server thread/INFO]: Qx_v[/[0:0:0:0:0:0:0:1]:46334] logged in with entity id 10192 at ([minecraft:overworld]24.69999998807907, 70.0, 73.55419604247854)
+[06:48:51] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) → Player Qx_v
+[06:48:54] [Async Chat Thread - #11/INFO]: [Not Secure] Player Qx_v: yo
+[06:48:54] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Qx_v » yo ⇄ 
+[06:49:13] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: alr
+[06:49:13] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » alr ⇄ 
+[06:49:14] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: gogogog
+[06:49:14] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » gogogog ⇄ 
+[06:49:18] [Async Chat Thread - #8/INFO]: [Not Secure] Player Dill_Pickle_: where
+[06:49:18] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » where ⇄ 
+[06:49:21] [Async Chat Thread - #11/INFO]: [Not Secure] Player Qx_v: wha
+[06:49:21] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Qx_v » wha ⇄ 
+[06:49:24] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: wait let me drive
+[06:49:24] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » wait let me drive ⇄ 
+[06:49:34] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: oh hi Qx_v
+[06:49:34] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » oh hi Qx_v ⇄ 
+[06:49:39] [Async Chat Thread - #8/INFO]: [Not Secure] Player Qx_v: yo
+[06:49:39] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » yo ⇄ 
+[06:49:41] [Async Chat Thread - #8/INFO]: [Not Secure] Player Dill_Pickle_: wait afk
+[06:49:41] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » wait afk ⇄ 
+[06:49:44] [Async Chat Thread - #8/INFO]: [Not Secure] Player Qx_v: its elijah
+[06:49:44] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » its elijah ⇄ 
+[06:49:49] [Server thread/INFO]: Dill_Pickle_ lost connection: Disconnected
+[06:49:49] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) ← Player Dill_Pickle_
+[06:50:41] [Async Chat Thread - #8/INFO]: [Not Secure] Player Qx_v: wait where did dylan go
+[06:50:41] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » wait where did dylan go ⇄ 
+[06:50:45] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner] ironmanLJM: idk
+[06:50:45] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » idk ⇄ 
+[06:50:49] [Async Chat Thread - #8/INFO]: [Not Secure] Player Qx_v: k
+[06:50:49] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Qx_v » k ⇄ 
+[06:52:27] [User Authenticator #5/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
+[06:52:27] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:47232] logged in with entity id 11520 at ([minecraft:overworld]507.8189891436347, 182.96661418617686, 250.58938243265)
+[06:52:27] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) → Player Dill_Pickle_
+[06:52:31] [Server thread/INFO]: Dill_Pickle_ fell from a high place
+[06:52:31] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) ☠ Player Dill_Pickle_ fell from a high place
+[06:52:33] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[06:52:33] [Async Chat Thread - #12/INFO]: [Not Secure] Player Qx_v: yo ur back
+[06:52:33] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » yo ur back ⇄ 
+[06:52:36] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: yo wtf
+[06:52:36] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » yo wtf ⇄ 
+[06:52:36] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: oj
+[06:52:36] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » oj ⇄ 
+[06:52:38] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: oh
+[06:52:38] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » oh ⇄ 
+[06:52:54] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: i think i fell cuz i was riding the happy gast
+[06:52:54] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » i think i fell cuz i was riding the happy gast ⇄ 
+[06:53:00] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: when i logged off
+[06:53:00] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » when i logged off ⇄ 
+[06:53:16] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: bro there is a invisable compramos in my base
+[06:53:16] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Qx_v » bro there is a invisable compramos in my base ⇄ 
+[06:53:29] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: what
+[06:53:29] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » what ⇄ 
+[06:53:34] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa ironmanLJM
+[06:53:42] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: compramos = wandering trader
+[06:53:42] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Qx_v » compramos = wandering trader ⇄ 
+[06:53:43] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[06:53:43] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) ← [Owner] ironmanLJM
+[06:53:59] [Server thread/INFO]: [Not Secure] [Server] yo dill
+[06:54:01] [Server thread/INFO]: Qx_v issued server command: /tpa Dill_Pickle_
+[06:54:03] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: yo
+[06:54:03] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Qx_v » yo ⇄ 
+[06:54:07] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: ohh i call them wandey ts
+[06:54:07] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » ohh i call them wandey ts ⇄ 
+[06:54:09] [Server thread/INFO]: [Not Secure] [Server] is the ghast still there?
+[06:54:10] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[06:54:12] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: i
+[06:54:12] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Qx_v » i ⇄ 
+[06:54:16] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: idk
+[06:54:16] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » idk ⇄ 
+[06:54:23] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: cant see it
+[06:54:23] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » cant see it ⇄ 
+[06:54:27] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: could i have stuff
+[06:54:27] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Qx_v » could i have stuff ⇄ 
+[06:54:28] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: to far away
+[06:54:28] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » to far away ⇄ 
+[06:54:37] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: like what
+[06:54:37] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » like what ⇄ 
+[06:54:43] [Async Chat Thread - #12/INFO]: [Not Secure] Player Qx_v: diamonds
+[06:54:43] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Qx_v » diamonds ⇄ 
+[06:54:44] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: idk
+[06:54:44] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Qx_v » idk ⇄ 
+[06:54:58] [Async Chat Thread - #13/INFO]: [Not Secure] Player Dill_Pickle_: i have none but i can go try and get some
+[06:54:58] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i have none but i can go try and get some ⇄ 
+[06:55:01] [Server thread/INFO]: Dill_Pickle_ issued server command: /rtp
+[06:55:07] [Async Chat Thread - #13/INFO]: [Not Secure] Player Qx_v: k ty
+[06:55:07] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Qx_v » k ty ⇄ 
+[06:56:16] [Server thread/INFO]: Dill_Pickle_ issued server command: /home
+[06:56:22] [Server thread/INFO]: Dill_Pickle_ lost connection: Disconnected
+[06:56:22] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) ← Player Dill_Pickle_
+[06:56:33] [Server thread/INFO]: Qx_v issued server command: /home
+[06:56:40] [User Authenticator #6/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[06:56:40] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:57300] logged in with entity id 12922 at ([minecraft:overworld]397.3047468142728, 189.27720119709085, 233.58928344845418)
+[06:56:40] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) → [Owner] ironmanLJM
+[06:56:44] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: ohhh
+[06:56:44] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » ohhh ⇄ 
+[06:56:46] [Async Chat Thread - #14/INFO]: [Not Secure] Player Qx_v: yo ur back
+[06:56:46] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Qx_v » yo ur back ⇄ 
+[06:56:48] [Server thread/INFO]: ironmanLJM issued server command: /tphere di
+[06:56:53] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: wheres di
+[06:56:53] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » wheres di ⇄ 
+[06:56:55] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: dill
+[06:56:55] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » dill ⇄ 
+[06:57:00] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: he left
+[06:57:00] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » he left ⇄ 
+[06:57:06] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: :(
+[06:57:06] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » ☹ ⇄ 
+[06:57:15] [User Authenticator #7/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
+[06:57:15] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: lik 10seconds before u came back
+[06:57:15] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Qx_v » lik 10seconds before u came back ⇄ 
+[06:57:15] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:34214] logged in with entity id 13192 at ([minecraft:overworld]251.3657042409317, 104.0, -390.2073898829252)
+[06:57:15] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) → Player Dill_Pickle_
+[06:57:18] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » DILL ⇄ 
+[06:57:18] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: DILL
+[06:57:22] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: to
+[06:57:22] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » to ⇄ 
+[06:57:23] [Server thread/INFO]: ironmanLJM issued server command: /tpahere Dill_Pickle_
+[06:57:25] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: what
+[06:57:25] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » what ⇄ 
+[06:57:28] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[06:57:32] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: come
+[06:57:32] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » come ⇄ 
+[06:57:41] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: also can u kill this wandering trader who has been in my base and annoying me
+[06:57:41] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Qx_v » also can u kill this wandering trader who has been in my base and annoying me ⇄ 
+[06:57:42] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: also can u kill this wandering trader who has been in my base and annoying me
+[06:57:42] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » also can u kill this wandering trader who has been in my base and annoying me ⇄ 
+[06:57:55] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: im on
+[06:57:55] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » im on ⇄ 
+[06:57:59] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: alr
+[06:57:59] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » alr ⇄ 
+[06:58:05] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: lets continue the jorny
+[06:58:05] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » lets continue the jorny ⇄ 
+[06:58:10] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: haveing a mouse is so peak
+[06:58:10] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » haveing a mouse is so peak ⇄ 
+[06:58:13] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: journey
+[06:58:13] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » journey ⇄ 
+[06:58:15] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: ikr
+[06:58:15] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » ikr ⇄ 
+[06:58:19] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: dil
+[06:58:19] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » dil ⇄ 
+[06:58:21] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: isnt this fun
+[06:58:21] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » isnt this fun ⇄ 
+[06:58:23] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: yeha
+[06:58:23] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » yeha ⇄ 
+[06:58:25] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: yeah
+[06:58:25] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » yeah ⇄ 
+[06:58:26] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: instead of tping
+[06:58:26] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » instead of tping ⇄ 
+[06:58:27] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: :d
+[06:58:27] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » :d ⇄ 
+[06:58:28] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: :D
+[06:58:28] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » ☻ ⇄ 
+[06:58:35] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: ye
+[06:58:35] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » ye ⇄ 
+[06:58:52] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: go in f
+[06:58:52] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » go in f ⇄ 
+[06:58:53] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: f5
+[06:58:53] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » f5 ⇄ 
+[06:59:06] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: i eyl is the faster way but there are mods to make happy gast like fast
+[06:59:06] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » i eyl is the faster way but there are mods to make happy gast like fast ⇄ 
+[06:59:37] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: almost there
+[06:59:37] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » almost there ⇄ 
+[06:59:40] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: anyone have spare diamonds pls
+[06:59:40] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » anyone have spare diamonds pls ⇄ 
+[06:59:45] [Async Chat Thread - #15/INFO]: [Not Secure] Player Dill_Pickle_: yayyy
+[06:59:45] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » yayyy ⇄ 
+[06:59:54] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: we are here :D
+[06:59:54] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » we are here ☻ ⇄ 
+[07:00:00] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: opps
+[07:00:00] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » opps ⇄ 
+[07:00:08] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: anyone have spare diamonds pls
+[07:00:08] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Qx_v » anyone have spare diamonds pls ⇄ 
+[07:00:10] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Qx_v » anyone have spare diamonds pls ⇄ 
+[07:00:10] [Async Chat Thread - #14/INFO]: [Not Secure] Player Qx_v: anyone have spare diamonds pls
+[07:00:12] [Async Chat Thread - #14/INFO]: [Not Secure] Player Qx_v: pls
+[07:00:12] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Qx_v » pls ⇄ 
+[07:00:13] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: no sorry T-T
+[07:00:13] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » no sorry T-T ⇄ 
+[07:00:15] [Async Chat Thread - #14/INFO]: [Not Secure] Player Dill_Pickle_: no sowy
+[07:00:15] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » no sowy ⇄ 
+[07:00:18] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: mine some :D
+[07:00:18] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » mine some ☻ ⇄ 
+[07:00:29] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: w?
+[07:00:29] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » w? ⇄ 
+[07:00:39] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: now if we go this way
+[07:00:39] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » now if we go this way ⇄ 
+[07:01:10] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: bru
+[07:01:10] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » bru ⇄ 
+[07:01:15] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: my lead
+[07:01:15] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » my lead ⇄ 
+[07:01:21] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: give
+[07:01:21] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » give ⇄ 
+[07:01:24] [Async Chat Thread - #14/INFO]: [Not Secure] Player Dill_Pickle_: ny bad
+[07:01:24] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » ny bad ⇄ 
+[07:01:31] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: alr
+[07:01:31] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » alr ⇄ 
+[07:01:34] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: come
+[07:01:34] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » come ⇄ 
+[07:01:43] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: ok i thnk
+[07:01:43] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » ok i thnk ⇄ 
+[07:01:45] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: dig down
+[07:01:45] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » dig down ⇄ 
+[07:01:53] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: ill park it here
+[07:01:53] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » ill park it here ⇄ 
+[07:01:55] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[07:02:20] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[07:02:25] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[07:02:28] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: wow
+[07:02:28] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » wow ⇄ 
+[07:02:36] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: deep dark
+[07:02:36] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » deep dark ⇄ 
+[07:02:43] [Async Chat Thread - #14/INFO]: [Not Secure] Player Qx_v: TP PLS
+[07:02:43] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » TP PLS ⇄ 
+[07:02:43] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[07:02:48] [Server thread/INFO]: Qx_v issued server command: /tpa ironmanLJM
+[07:02:52] [Server thread/INFO]: ironmanLJM issued server command: /tpahere Dill_Pickle_
+[07:02:53] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: wai
+[07:02:53] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » wai ⇄ 
+[07:02:55] [Async Chat Thread - #14/INFO]: [Not Secure] [Owner] ironmanLJM: wait nrn
+[07:02:55] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » wait nrn ⇄ 
+[07:02:55] [Async Chat Thread - #15/INFO]: [Not Secure] Player Qx_v: k
+[07:02:55] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Qx_v » k ⇄ 
+[07:02:59] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[07:03:05] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: ok dill
+[07:03:05] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » ok dill ⇄ 
+[07:03:13] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner] ironmanLJM: u go loot ill check out the deep dark
+[07:03:13] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » u go loot ill check out the deep dark ⇄ 
+[07:04:29] [Server thread/INFO]: ironmanLJM issued server command: /feed
+[07:04:55] [Async Chat Thread - #16/INFO]: [Not Secure] [Owner] ironmanLJM: OMG
+[07:04:55] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » OMG ⇄ 
+[07:05:02] [Async Chat Thread - #16/INFO]: [Not Secure] [Owner] ironmanLJM: be careful
+[07:05:02] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » be careful ⇄ 
+[07:05:15] [Server thread/INFO]: Qx_v issued server command: /tpa ironmanLJM
+[07:05:20] [Server thread/INFO]: Qx_v issued server command: /tpa Dill_Pickle_
+[07:05:40] [Server thread/INFO]: Qx_v lost connection: Disconnected
+[07:05:40] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) ← Player Qx_v
+[07:06:19] [User Authenticator #8/INFO]: UUID of player Qx_v is 8e96bd1a-7c75-35c8-b9b9-2ec81cfaae14
+[07:06:20] [Async Chat Thread - #18/INFO]: [Not Secure] [Owner] ironmanLJM: watch out dill
+[07:06:20] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » watch out dill ⇄ 
+[07:06:20] [Server thread/INFO]: Qx_v[/[0:0:0:0:0:0:0:1]:42692] logged in with entity id 17432 at ([minecraft:overworld]29.653271130013668, 63.0, 75.43632056632791)
+[07:06:20] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) → Player Qx_v
+[07:06:30] [Async Chat Thread - #18/INFO]: [Not Secure] Player Qx_v: CAN I TP
+[07:06:30] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Qx_v » CAN I TP ⇄ 
+[07:06:33] [Async Chat Thread - #18/INFO]: [Not Secure] Player Qx_v: PLS
+[07:06:33] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Qx_v » PLS ⇄ 
+[07:06:36] [Async Chat Thread - #18/INFO]: [Not Secure] [Owner] ironmanLJM: fine
+[07:06:36] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » fine ⇄ 
+[07:06:38] [Async Chat Thread - #18/INFO]: [Not Secure] Player Dill_Pickle_: ur gonna die
+[07:06:38] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » ur gonna die ⇄ 
+[07:06:39] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[07:06:47] [Async Chat Thread - #18/INFO]: [Not Secure] [Owner] ironmanLJM: ur gonna die
+[07:06:47] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur gonna die ⇄ 
+[07:06:53] [Async Chat Thread - #18/INFO]: [Not Secure] [Owner] ironmanLJM: do /spawn if u want to
+[07:06:53] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » do /spawn if u want to ⇄ 
+[07:07:38] [Async Chat Thread - #18/INFO]: [Not Secure] [Owner] ironmanLJM: dill come
+[07:07:38] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » dill come ⇄ 
+[07:08:43] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: so close
+[07:08:43] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » so close ⇄ 
+[07:08:53] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: theres no chest
+[07:08:53] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » theres no chest ⇄ 
+[07:09:05] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: here
+[07:09:05] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » here ⇄ 
+[07:09:06] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: chest
+[07:09:06] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » chest ⇄ 
+[07:09:16] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: nothing in it
+[07:09:16] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » nothing in it ⇄ 
+[07:09:20] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: nothing good
+[07:09:20] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » nothing good ⇄ 
+[07:09:30] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » this is fun ⇄ 
+[07:09:30] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: this is fun
+[07:09:32] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: and scawwy
+[07:09:32] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » and scawwy ⇄ 
+[07:09:33] [Server thread/INFO]: Qx_v has made the advancement [Sneak 100]
+[07:09:33] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) 🌠 Player Qx_v has completed the challenge [Sneak 100]
+[07:09:51] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: you dont have to crouch on wool
+[07:09:51] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » you dont have to crouch on wool ⇄ 
+[07:09:54] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: ik
+[07:09:54] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » ik ⇄ 
+[07:10:24] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: dont worry if a warden spawns we can just kill it
+[07:10:24] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » dont worry if a warden spawns we can just kill it ⇄ 
+[07:10:44] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: dumb ways to die, so many dumb ways to die
+[07:10:44] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) Player Dill_Pickle_ » dumb ways to die, so many dumb ways to die ⇄ 
+[07:10:48] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: lol
+[07:10:48] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » lol ⇄ 
+[07:10:53] [Server thread/INFO]: Qx_v issued server command: /sethome 2
+[07:11:14] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: gang i have summoned 3 wardens
+[07:11:14] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » gang i have summoned 3 wardens ⇄ 
+[07:11:15] [Server thread/WARN]: ironmanLJM moved wrongly!
+[07:11:27] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: dont
+[07:11:27] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » dont ⇄ 
+[07:11:33] [Server thread/INFO]: Qx_v has made the advancement [Not Today, Thank You]
+[07:11:33] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) 🌠 Player Qx_v has completed the challenge [Not Today, Thank You]
+[07:11:48] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: HOLY
+[07:11:48] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » HOLY ⇄ 
+[07:11:50] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: almost died
+[07:11:50] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » almost died ⇄ 
+[07:12:08] [Server thread/INFO]: ironmanLJM was obliterated by a sonically-charged shriek
+[07:12:08] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was obliterated by a sonically-charged shriek
+[07:12:09] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:12:11] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: FAHH
+[07:12:11] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » FAHH ⇄ 
+[07:12:15] [Server thread/INFO]: ironmanLJM issued server command: /tp Dill_Pickle_
+[07:12:32] [Server thread/INFO]: ironmanLJM was slain by Warden
+[07:12:32] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was slain by Warden
+[07:12:34] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:12:36] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: op
+[07:12:36] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Qx_v » op ⇄ 
+[07:12:37] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: bro are we fr
+[07:12:37] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » bro are we fr ⇄ 
+[07:12:38] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: good luck gng
+[07:12:38] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » good luck gng ⇄ 
+[07:12:43] [Server thread/INFO]: ironmanLJM issued server command: /tp Dill_Pickle_
+[07:13:08] [Server thread/INFO]: ironmanLJM was slain by Warden
+[07:13:08] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was slain by Warden
+[07:13:09] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:13:12] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: i dont give up
+[07:13:12] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » i dont give up ⇄ 
+[07:13:15] [Server thread/INFO]: ironmanLJM issued server command: /tp Dill_Pickle_
+[07:13:33] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: bye bye
+[07:13:33] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » bye bye ⇄ 
+[07:13:37] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: fuck u wardern
+[07:13:37] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » fuck u wardern ⇄ 
+[07:13:40] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: suuuuu
+[07:13:40] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) Player Dill_Pickle_ » suuuuu ⇄ 
+[07:13:46] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: and i hit it once'
+[07:13:46] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » and i hit it once' ⇄ 
+[07:13:50] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » wait ⇄ 
+[07:13:50] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner] ironmanLJM: wait
+[07:13:57] [Async Chat Thread - #21/INFO]: [Not Secure] Player Dill_Pickle_: nooo
+[07:13:57] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » nooo ⇄ 
+[07:14:12] [Server thread/INFO]: ironmanLJM was obliterated by a sonically-charged shriek
+[07:14:12] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was obliterated by a sonically-charged shriek
+[07:14:14] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:17] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: thats crazy
+[07:14:17] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) [Owner] ironmanLJM » thats crazy ⇄ 
+[07:14:20] [Server thread/INFO]: ironmanLJM issued server command: /tp Dill_Pickle_
+[07:14:25] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: YO TRIAL CHAMBERS
+[07:14:25] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Qx_v » YO TRIAL CHAMBERS ⇄ 
+[07:14:25] [Server thread/INFO]: Dill_Pickle_ was obliterated by a sonically-charged shriek
+[07:14:25] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) ☠ Player Dill_Pickle_ was obliterated by a sonically-charged shriek
+[07:14:28] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:32] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: fahhhhhh
+[07:14:32] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » fahhhhhh ⇄ 
+[07:14:36] [Server thread/INFO]: ironmanLJM was slain by Warden
+[07:14:36] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was slain by Warden
+[07:14:37] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:37] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:38] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner] ironmanLJM: fuck
+[07:14:38] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » fuck ⇄ 
+[07:14:43] [Server thread/INFO]: ironmanLJM issued server command: /back
+[07:14:49] [Server thread/INFO]: Qx_v has made the advancement [Minecraft: Trial(s) Edition]
+[07:14:49] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) 🌠 Player Qx_v has completed the challenge [Minecraft: Trial(s) Edition]
+[07:14:53] [Server thread/INFO]: ironmanLJM was obliterated by a sonically-charged shriek
+[07:14:53] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) ☠ [Owner] ironmanLJM was obliterated by a sonically-charged shriek
+[07:14:54] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:54] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:14:57] [Server thread/INFO]: ironmanLJM issued server command: /back
+[07:15:01] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa ironmanLJM
+[07:15:02] [Server thread/INFO]: ironmanLJM issued server command: /back
+[07:15:04] [Server thread/INFO]: ironmanLJM issued server command: /back
+[07:15:08] [Server thread/INFO]: ironmanLJM issued server command: /back back
+[07:15:13] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[07:15:13] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » tp ⇄ 
+[07:15:14] [Server thread/INFO]: ironmanLJM issued server command: /tp 247 -24 263
+[07:15:18] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[07:15:27] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: that warden is dead
+[07:15:27] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » that warden is dead ⇄ 
+[07:15:33] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: ohh
+[07:15:33] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » ohh ⇄ 
+[07:15:38] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: can u still tp
+[07:15:38] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Dill_Pickle_ » can u still tp ⇄ 
+[07:15:39] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[07:15:42] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[07:15:50] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: i wanna try my luck with the t chambers\
+[07:15:50] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » i wanna try my luck with the t chambers\ ⇄ 
+[07:15:53] [Server thread/INFO]: Qx_v was slain by Cave Spider
+[07:15:53] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) ☠ Player Qx_v was slain by Cave Spider
+[07:15:53] [Server thread/INFO]: ironmanLJM issued server command: /repair all
+[07:15:54] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: oh
+[07:15:54] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » oh ⇄ 
+[07:15:55] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:15:55] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: ok
+[07:15:55] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » ok ⇄ 
+[07:15:58] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: gettign flow
+[07:15:58] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » gettign flow ⇄ 
+[07:15:59] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner] ironmanLJM: lets go
+[07:15:59] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » lets go ⇄ 
+[07:16:02] [Server thread/INFO]: Qx_v issued server command: /back
+[07:16:02] [Server thread/INFO]: [Essentials] Qx_v was denied access to command.
+[07:16:03] [Server thread/INFO]: ironmanLJM issued server command: /tp 247 -24 263
+[07:16:07] [Server thread/INFO]: ironmanLJM issued server command: /tpahere Dill_Pickle_
+[07:16:09] [Server thread/INFO]: Qx_v issued server command: /tpa ironmanLJM
+[07:16:14] [Server thread/INFO]: Qx_v issued server command: /tpa Dill_Pickle_
+[07:16:17] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: again pls
+[07:16:17] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Qx_v » again pls ⇄ 
+[07:16:20] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa ironmanLJM
+[07:16:24] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[07:16:26] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: pls
+[07:16:26] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Qx_v » pls ⇄ 
+[07:16:29] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: no wait
+[07:16:29] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » no wait ⇄ 
+[07:16:33] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[07:16:35] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: PLS
+[07:16:35] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Qx_v » PLS ⇄ 
+[07:16:38] [Async Chat Thread - #20/INFO]: [Not Secure] Player Qx_v: TY
+[07:16:38] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Qx_v » TY ⇄ 
+[07:16:38] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: soww
+[07:16:38] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » soww ⇄ 
+[07:16:52] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: ur gonna die
+[07:16:52] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur gonna die ⇄ 
+[07:17:01] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charged 64
+[07:17:05] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM wind_charge 64
+[07:17:13] [Server thread/INFO]: ironmanLJM issued server command: /give ironmanLJM ender_pearl 64
+[07:17:28] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: fuk
+[07:17:28] [FlectonePulse Thread #-5/INFO]: (FlectonePulse) [Owner] ironmanLJM » fuk ⇄ 
+[07:17:32] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: my stuff
+[07:17:32] [FlectonePulse Thread #-0/INFO]: (FlectonePulse) [Owner] ironmanLJM » my stuff ⇄ 
+[07:17:35] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: what
+[07:17:35] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » what ⇄ 
+[07:17:37] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: MY INVENTORY
+[07:17:37] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » MY INVENTORY ⇄ 
+[07:17:38] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: NOOOO
+[07:17:38] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » NOOOO ⇄ 
+[07:17:41] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: its messy
+[07:17:41] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » its messy ⇄ 
+[07:17:45] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: hahahahhahaha
+[07:17:45] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » hahahahhahaha ⇄ 
+[07:17:55] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: bro look at mine
+[07:17:55] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) Player Dill_Pickle_ » bro look at mine ⇄ 
+[07:17:57] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: NOOOOO
+[07:17:57] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » NOOOOO ⇄ 
+[07:17:59] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: oh wait
+[07:17:59] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) [Owner] ironmanLJM » oh wait ⇄ 
+[07:18:00] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: ur rigth
+[07:18:00] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) [Owner] ironmanLJM » ur rigth ⇄ 
+[07:18:01] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » lol ⇄ 
+[07:18:01] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: lol
+[07:18:02] [Server thread/INFO]: Qx_v issued server command: /rtp
+[07:18:09] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner] ironmanLJM: ima take the ghast home
+[07:18:09] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) [Owner] ironmanLJM » ima take the ghast home ⇄ 
+[07:18:11] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[07:18:15] [Server thread/INFO]: Qx_v issued server command: /home
+[07:18:26] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: here i come flow
+[07:18:26] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) Player Dill_Pickle_ » here i come flow ⇄ 
+[07:18:31] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) [Owner] ironmanLJM » lol ⇄ 
+[07:18:31] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner] ironmanLJM: lol
+[07:18:45] [Async Chat Thread - #21/INFO]: [Not Secure] Player Qx_v: have u got ur stuff back
+[07:18:45] [FlectonePulse Thread #-2/INFO]: (FlectonePulse) Player Qx_v » have u got ur stuff back ⇄ 
+[07:18:53] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[07:18:56] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[07:19:39] [Server thread/INFO]: Dill_Pickle_ was shot by Bogged
+[07:19:39] [FlectonePulse Thread #-6/INFO]: (FlectonePulse) ☠ Player Dill_Pickle_ was shot by Bogged
+[07:19:41] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
+[07:19:42] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner] ironmanLJM: rip
+[07:19:42] [FlectonePulse Thread #-3/INFO]: (FlectonePulse) [Owner] ironmanLJM » rip ⇄ 
+[07:19:46] [Async Chat Thread - #21/INFO]: [Not Secure] Player Dill_Pickle_: waaaaa
+[07:19:46] [FlectonePulse Thread #-7/INFO]: (FlectonePulse) Player Dill_Pickle_ » waaaaa ⇄ 
+[07:19:50] [Async Chat Thread - #21/INFO]: [Not Secure] Player Dill_Pickle_: no flow trim
+[07:19:50] [FlectonePulse Thread #-1/INFO]: (FlectonePulse) Player Dill_Pickle_ » no flow trim ⇄ 
+[07:20:29] [Async Chat Thread - #20/INFO]: [Not Secure] Player Dill_Pickle_: but i got the skulk catakslic from the wrden, i can make a exp farm now
+[07:20:29] [FlectonePulse Thread #-4/INFO]: (FlectonePulse) Player Dill_Pickle_ » but i got the skulk catakslic from the wrden, i can make a exp farm now ⇄ 

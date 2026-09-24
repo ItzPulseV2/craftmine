@@ -16,8 +16,8 @@ regions:
         members:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
         flags: {use: deny, greeting: You are now entering MY CASTLE SO GET OUT, block-break: deny,
-            interact: deny, lighter: deny, chest-access: deny, tnt: deny, block-place: deny,
-            mob-spawning: deny}
+            interact: deny, lighter: deny, tnt: deny, chest-access: deny, mob-spawning: allow,
+            block-place: deny}
         owners:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
         type: cuboid

@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1790145508220
+  lastteleport: 1790234163654
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1790145509834
-  login: 1790144902299
+  logout: 1790232823497
+  login: 1790233000892
 money: '0'
 last-account-name: ironmanLJM
 logoutlocation:
   world: b667114e-74cd-4fd7-bf4d-9a02c875c6a8
   world-name: world
-  x: -13.5
-  y: 103.0
-  z: -35.5
-  yaw: -171.827392578125
-  pitch: 8.779093742370605
+  x: 395.79636039902965
+  y: 189.27720119709085
+  z: 234.37321178316716
+  yaw: 62.538116455078125
+  pitch: 16.959714889526367
 lastlocation:
   world: b667114e-74cd-4fd7-bf4d-9a02c875c6a8
   world-name: world
-  x: -14.341852463846005
-  y: 52.66144181685249
-  z: -124.59447518872813
-  yaw: -95.20895385742188
-  pitch: 8.967813491821289
+  x: 40.704354920674746
+  y: -44.0
+  z: 302.9835313826583
+  yaw: -112.32389831542969
+  pitch: 14.371936798095703
 homes:
   home:
     world: b667114e-74cd-4fd7-bf4d-9a02c875c6a8
@@ -54,3 +54,11 @@ homes:
     z: -187.79005923737867
     yaw: 5.195068359375
     pitch: 18.462188720703125
+  trial:
+    world: b667114e-74cd-4fd7-bf4d-9a02c875c6a8
+    world-name: world
+    x: 255.95717153436868
+    y: -32.0
+    z: 343.11670409161485
+    yaw: 8.4141845703125
+    pitch: 29.39737319946289

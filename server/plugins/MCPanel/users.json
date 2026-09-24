@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "passwordHash": "$2a$10$wqG0wJbs4L/v4MCadnqgq.nnK2wGaILjx9eiYMVYfqFHUh8M7Fnp6",
+    "role": "admin",
+    "permissions": {
+      "console": true,
+      "management_files": true,
+      "management": true,
+      "players": true,
+      "management_plugins": true,
+      "players_interact": true,
+      "dashboard_console": true,
+      "management_users": true,
+      "dashboard": true,
+      "management_settings": true
+    }
+  }
+}

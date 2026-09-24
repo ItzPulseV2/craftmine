@@ -8,6 +8,7 @@ settings:
     - ENDER_CHEST
     - ANVIL
     - ENCHANTING
+  mace-owner: d00c14c9-9ee3-3788-b053-a1de57b43b72
 
 # Stores whether an offline player logged out with the Mace.
 # If set to true, the Mace is in their inventory or Ender Chest when they logged out.
@@ -15,19 +16,17 @@ settings:
 # This is automatically updated when a player logs out or the server shuts down.
 offline_inventory:
   67802201-04a1-3121-bbdc-c1a9325e5992: false
-  a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc: false
   41942e52-3953-35f5-95f8-cfdda10d1924: false
   fa982166-b3b0-311b-8a91-626d17a3972a: false
   4064e026-c017-3d5f-83e4-2c24cbb95330: false
+  4b0ddb4a-13b0-3a59-a1b5-2034c753000a: false
+  a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc: false
   936fabde-9c8e-38f9-8999-75b58c2f70c9: false
   c7354076-f910-3f83-8e34-cbe09ec4023d: false
-  4b0ddb4a-13b0-3a59-a1b5-2034c753000a: false
   cfca5747-d82a-3b57-8ccf-68ea2a6599f2: false
-  8e96bd1a-7c75-35c8-b9b9-2ec81cfaae14: false
+  dba1242f-2214-311a-95f1-b5aff9e687d7: false
   b8e39939-61ea-3cff-be5a-8e05498cb70c: false
   f7b02e42-9974-3b87-83a1-7ff87122c29a: false
-  d00c14c9-9ee3-3788-b053-a1de57b43b72: true
-  0e2c972c-f39c-37b3-b41e-956f9e53ef4e: false
 
 # Customizable messages
 messages:

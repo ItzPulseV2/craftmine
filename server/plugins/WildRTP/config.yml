@@ -132,7 +132,7 @@ list: blacklist
 
 # Set to '[]' to disable the blacklist.
 # Add blocked worlds here
-blacklist: []
+blacklist: ["world_nether", "world_the_end"]
 
 # Set to '[]' to disable the whitelist.
 # Add allowed worlds here

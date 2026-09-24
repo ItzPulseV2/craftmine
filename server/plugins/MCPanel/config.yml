@@ -1,0 +1,10 @@
+# MCPanel Configuration
+panel:
+  port: 8090          # HTTP port
+  host: "0.0.0.0"     # ALL
+
+auth:
+  username: "admin" #You can change name
+  password: "admin"  # CHANGE THIS!
+  jwt-secret: "dfkj2458gfjdg8243u028gfd42" #CHANGE THIS!
+  token-hours: 24
