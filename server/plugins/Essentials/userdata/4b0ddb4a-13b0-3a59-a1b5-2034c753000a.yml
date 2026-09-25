@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1790135732583
-  login: 1790134780174
+  logout: 1790309704905
+  login: 1790309705217
 money: '0'
 last-account-name: sup67
 lastlocation:
@@ -32,8 +32,8 @@ lastlocation:
 logoutlocation:
   world: b667114e-74cd-4fd7-bf4d-9a02c875c6a8
   world-name: world
-  x: -25.500092372973388
-  y: 101.0
-  z: -101.69831442496579
-  yaw: -166.27780151367188
-  pitch: 8.849931716918945
+  x: -24.30000001192093
+  y: 90.0
+  z: -243.33659132758137
+  yaw: -173.92713928222656
+  pitch: 49.429134368896484
