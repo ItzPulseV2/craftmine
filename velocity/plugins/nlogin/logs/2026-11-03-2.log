@@ -1,0 +1,18 @@
+[2026/11/03 01:46:19 INFO]:           __             _       
+[2026/11/03 01:46:19 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/03 01:46:19 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/03 01:46:19 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/03 01:46:19 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/03 01:46:19 INFO]:                   |___/            
+[2026/11/03 01:46:19 INFO]:  By: www.nickuc.com - V 2.0.22
+[2026/11/03 01:46:19 INFO]:  
+[2026/11/03 01:46:20 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/03 01:46:20 DEBUG]: Messages were loaded in 241 ms (single file).
+[2026/11/03 01:46:20 DEBUG]: Settings were loaded in 367 ms.
+[2026/11/03 01:46:20 DEBUG]: Loading database...
+[2026/11/03 01:46:20 DEBUG]: Starting logger filter...
+[2026/11/03 01:46:20 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/03 01:47:03 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ThisNotAlex', `unique_id` = 014e105a2f7c315c9249d97c288a3fec,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$VoBIwTWGsQlPWBfmsv1m9w$OME/ExzET4FP+X8LYaxfqDXVUk1JB3sx1Fms027nvJI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-03 01:43:19.554, `last_seen` = 2026-11-03 01:47:03.111, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 27" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/03 01:47:03 INFO]: The user ThisNotAlex has successfully logged in.
+[2026/11/03 01:47:05 DEBUG]: The ironmanLJM (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/11/03 01:47:25 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ThisNotAlex', `unique_id` = 014e105a2f7c315c9249d97c288a3fec,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$VoBIwTWGsQlPWBfmsv1m9w$OME/ExzET4FP+X8LYaxfqDXVUk1JB3sx1Fms027nvJI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-03 01:43:19.554, `last_seen` = 2026-11-03 01:47:25.042, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"auth","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 27" (applied to [last_seen, settings] columns)

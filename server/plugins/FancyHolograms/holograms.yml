@@ -1,81 +1,14 @@
 version: 2 # DO NOT CHANGE
 holograms:
-  Spawn:
+  spawn:
     type: TEXT
     location:
       world: world
-      x: -18.92667007446289
-      y: 105.15814971923828
-      z: -38.1548957824707
-      yaw: -70.0
-      pitch: 50.933834
-    visibility_distance: 15
-    visibility: ALL
-    persistent: true
-    scale_x: 1.0
-    scale_y: 1.0
-    scale_z: 1.0
-    translation_x: 0.0
-    translation_y: 0.0
-    translation_z: 0.0
-    shadow_radius: 0.0
-    shadow_strength: 1.0
-    text:
-    - <gradient:blue:#ff0000>Welcome to Fish Stick!</gradient>
-    - 'Please Read The Rules:'
-    text_shadow: true
-    see_through: true
-    text_alignment: center
-    update_text_interval: -1
-    background: '#60000000'
-    block_brightness: 0
-    sky_brightness: 15
-    billboard: horizontal
-  Rules:
-    type: TEXT
-    location:
-      world: world
-      x: -19.306907653808594
-      y: 103.66350555419922
-      z: -38.371421813964844
-      yaw: -70.0
-      pitch: 14.70586
-    visibility_distance: 15
-    visibility: ALL
-    persistent: true
-    scale_x: 0.7
-    scale_y: 0.7
-    scale_z: 0.7
-    translation_x: 0.0
-    translation_y: 0.0
-    translation_z: 0.0
-    shadow_radius: 0.0
-    shadow_strength: 1.0
-    billboard: fixed
-    text:
-    - You have a LIMMITED amount of lives
-    - No killing unless challenged to a 1v1 or challenge someone to 1v1 and they accept,
-      no griefing, stealing from other peoples chests
-    - You must NOT get materials in spawn and you MUST build your base in spawn
-    - If you catch someone breaking the rules report it
-    - and you will get a reward
-    - No Abusing glitches, x-ray, cheat
-    - Have fun!
-    - ALSO SPAWN IS 300 BLOCKS TO EVERY DIRECTION FROM 0,0
-    - do /rtp to get started
-    text_shadow: true
-    see_through: false
-    text_alignment: center
-    update_text_interval: -1
-  castle:
-    type: TEXT
-    location:
-      world: world
-      x: -11.503005981445312
-      y: 103.0
-      z: -30.42351531982422
-      yaw: 176.8693
-      pitch: 88.74788
+      x: 27.588167190551758
+      y: 69.1875
+      z: 91.44961547851562
+      yaw: 0.0
+      pitch: 85.99321
     visibility_distance: -1
     visibility: ALL
     persistent: true
@@ -87,38 +20,13 @@ holograms:
     translation_z: 0.0
     shadow_radius: 0.0
     shadow_strength: 1.0
+    billboard: horizontal
     text:
-    - NO GOING IN CASTLE ITS UNDER CONSTRUCTION
+    - HI welcome to Fish Stick SMP
+    - 'Rules: NO stealing, Greafing'
+    - NO running to spawn when in a duel
+    - have fun :)
     text_shadow: false
     see_through: false
     text_alignment: center
     update_text_interval: -1
-    billboard: horizontal
-  rule2:
-    type: TEXT
-    location:
-      world: world
-      x: -5.713022708892822
-      y: 104.03233337402344
-      z: -36.60715103149414
-      yaw: 63.21112
-      pitch: 82.570724
-    visibility_distance: -1
-    visibility: ALL
-    persistent: true
-    scale_x: 1.0
-    scale_y: 1.0
-    scale_z: 1.0
-    translation_x: 0.0
-    translation_y: 0.0
-    translation_z: 0.0
-    shadow_radius: 0.0
-    shadow_strength: 1.0
-    text:
-    - 'Commands: /rtp, /tpa, /home, /sethome, /tpaccept, /spawn'
-    - also only one mace, one dragon egg, one set of silence trim armor.
-    text_shadow: false
-    see_through: false
-    text_alignment: center
-    update_text_interval: -1
-    billboard: horizontal

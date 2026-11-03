@@ -17,8 +17,8 @@ lang: en
 # Custom settings per world can be defined in the custom section
 global:
   # Min & max teleportation range
-  min: 0
-  max: 300
+  min: 50
+  max: 1000
   
   # Shape of the teleportation area [CIRCLE/SQUARE]
   shape: CIRCLE
