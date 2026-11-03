@@ -1,293 +1,116 @@
-[04:36:21] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
-[04:36:21] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[04:36:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:36:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:36:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.19)
-[04:36:27] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[04:36:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[04:36:28] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,187.9ms
-[04:36:31] [ServerMain/INFO]: Loaded 1585 recipes
-[04:36:31] [ServerMain/INFO]: Loaded 1688 advancements
-[04:36:31] [Server thread/INFO]: Starting minecraft server version 26.2
-[04:36:31] [Server thread/INFO]: Loading properties
-[04:36:31] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[04:36:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:36:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:36:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:36:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:36:32] [Server thread/INFO]: Default game type: SURVIVAL
-[04:36:32] [Server thread/INFO]: Generating keypair
-[04:36:33] [Server thread/INFO]: Starting Minecraft server on *:65535
-[04:36:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:36:33] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[04:36:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[04:36:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[04:36:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:36:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:36:36] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.19
-[04:36:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[04:36:36] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.19
-[04:36:39] [Server thread/INFO]: [nLogin] Successful plugin core start (took 2.55s)
-[04:36:39] [Server thread/INFO]: [nLogin]           __             _       
-[04:36:39] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[04:36:39] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[04:36:39] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[04:36:39] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[04:36:39] [Server thread/INFO]: [nLogin]                   |___/            
-[04:36:39] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.19
-[04:36:39] [Server thread/INFO]: [nLogin]  
-[04:36:39] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.13.0...
-[04:36:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:36:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:36:43] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[04:36:43] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[04:36:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:36:43] [Server thread/INFO]: Preparing level "world"
-[04:36:43] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[04:36:43] [Server thread/INFO]: Preparing spawn area: 100%
-[04:36:43] [Server thread/INFO]: Prepared spawn area in 8 ms
-[04:36:43] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[04:36:43] [Server thread/INFO]: Prepared spawn area in 6 ms
-[04:36:43] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[04:36:43] [Server thread/INFO]: Prepared spawn area in 1 ms
-[04:36:43] [Server thread/INFO]: Done preparing level "world" (0.839s)
-[04:36:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[04:36:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[04:36:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[04:36:44] [Server thread/INFO]: [spark] Starting background profiler...
-[04:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:36:45] [Server thread/INFO]: Running delayed init tasks
-[04:36:45] [Server thread/INFO]: Done (26.277s)! For help, type "help"
-[04:36:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:36:45] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
-[04:36:45] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
-[04:36:45] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
-[04:37:37] [User Authenticator #0/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[04:37:38] [Server thread/INFO]: ironmanLJM joined the game
-[04:37:39] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:48522] logged in with entity id 1 at ([minecraft:overworld]8.5, -315.9524396716412, 8.5)
-[04:37:43] [User Authenticator #1/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[04:37:43] [Server thread/INFO]: blueberryhill (c7354076-f910-3f83-8e34-cbe09ec4023d) lost connection: Disconnected
-[04:37:50] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[04:37:50] [Server thread/INFO]: ironmanLJM left the game
-[04:37:54] [User Authenticator #2/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[04:37:54] [Server thread/INFO]: blueberryhill joined the game
-[04:37:54] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:41454] logged in with entity id 2 at ([minecraft:overworld]8.5, -2658.4141229919705, 8.5)
-[04:38:01] [Server thread/WARN]: blueberryhill moved too quickly! 0.0,-10.81856966884152,0.0
-[04:38:01] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[04:38:01] [Server thread/INFO]: blueberryhill left the game
-[04:38:01] [User Authenticator #3/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[04:38:02] [Server thread/INFO]: I_am_bob_wow joined the game
-[04:38:02] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:34156] logged in with entity id 3 at ([minecraft:overworld]8.5, -329.761794175316, 8.5)
-[04:38:07] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[04:38:07] [Server thread/INFO]: I_am_bob_wow left the game
-[04:38:28] [User Authenticator #4/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:38:29] [Server thread/INFO]: Vyqzren joined the game
-[04:38:29] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:50008] logged in with entity id 4 at ([minecraft:overworld]8.5, -1075.269518515256, 8.5)
-[04:38:34] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:38:34] [Server thread/INFO]: Vyqzren left the game
-[04:58:55] [User Authenticator #5/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:58:55] [Server thread/INFO]: Vyqzren joined the game
-[04:58:55] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:33976] logged in with entity id 5 at ([minecraft:overworld]8.5, -1310.9253534145948, 8.5)
-[04:59:00] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:59:00] [Server thread/INFO]: Vyqzren left the game
-[04:59:41] [User Authenticator #6/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:59:42] [Server thread/INFO]: Vyqzren joined the game
-[04:59:42] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:43348] logged in with entity id 6 at ([minecraft:overworld]8.5, -1526.151236143048, 8.5)
-[04:59:43] [Server thread/INFO]: Vyqzren fell out of the world
-[04:59:48] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:59:48] [Server thread/INFO]: Vyqzren left the game
-[05:00:48] [User Authenticator #7/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[05:00:49] [Server thread/INFO]: Vyqzren joined the game
-[05:00:49] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:47908] logged in with entity id 7 at ([minecraft:overworld]8.5, -144.40290480352576, 8.5)
-[05:01:06] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[05:01:06] [Server thread/INFO]: Vyqzren left the game
-[05:02:21] [User Authenticator #8/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[05:02:21] [Server thread/INFO]: I_am_bob_wow joined the game
-[05:02:21] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:47232] logged in with entity id 8 at ([minecraft:overworld]8.5, -531.5857573345413, 8.5)
-[05:02:26] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[05:02:26] [Server thread/INFO]: I_am_bob_wow left the game
-[05:32:37] [User Authenticator #9/INFO]: UUID of player 8976ISMEEE is 08a45a9c-e4ab-32e9-8e41-57aff28625d7
-[05:32:38] [Server thread/INFO]: 8976ISMEEE joined the game
-[05:32:38] [Server thread/INFO]: 8976ISMEEE[/[0:0:0:0:0:0:0:1]:57210] logged in with entity id 9 at ([minecraft:overworld]8.5, -597.0989232509645, 8.5)
-[05:32:41] [Server thread/INFO]: 8976ISMEEE lost connection: Disconnected
-[05:32:41] [Server thread/INFO]: 8976ISMEEE left the game
-[05:34:25] [User Authenticator #10/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[05:34:25] [User Authenticator #12/INFO]: UUID of player 8976ISMEEE is 08a45a9c-e4ab-32e9-8e41-57aff28625d7
-[05:34:25] [User Authenticator #11/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[05:34:25] [User Authenticator #13/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[05:34:26] [Server thread/INFO]: blueberryhill joined the game
-[05:34:26] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:53728] logged in with entity id 10 at ([minecraft:overworld]8.5, -2968.346881742797, 8.5)
-[05:34:26] [Server thread/INFO]: 8976ISMEEE joined the game
-[05:34:26] [Server thread/INFO]: 8976ISMEEE[/[0:0:0:0:0:0:0:1]:53744] logged in with entity id 11 at ([minecraft:overworld]8.5, -700.1495571358017, 8.5)
-[05:34:26] [Server thread/INFO]: ironmanLJM joined the game
-[05:34:26] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:53750] logged in with entity id 12 at ([minecraft:overworld]8.5, -1035.1770504343895, 8.5)
-[05:34:26] [Server thread/INFO]: Vyqzren joined the game
-[05:34:26] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:53758] logged in with entity id 13 at ([minecraft:overworld]8.5, -1308.823796694522, 8.5)
-[05:34:28] [Server thread/INFO]: blueberryhill fell out of the world
-[05:34:28] [Server thread/INFO]: Vyqzren fell out of the world
-[05:34:29] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:34:29] [Server thread/INFO]: ironmanLJM fell out of the world
-[05:34:32] [Server thread/INFO]: 8976ISMEEE lost connection: Disconnected
-[05:34:32] [Server thread/INFO]: 8976ISMEEE left the game
-[05:34:35] [User Authenticator #14/INFO]: UUID of player 8976ISMEEE is 08a45a9c-e4ab-32e9-8e41-57aff28625d7
-[05:34:35] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[05:34:35] [Server thread/INFO]: Vyqzren left the game
-[05:34:35] [Server thread/INFO]: 8976ISMEEE joined the game
-[05:34:35] [Server thread/INFO]: 8976ISMEEE[/[0:0:0:0:0:0:0:1]:53770] logged in with entity id 14 at ([minecraft:overworld]8.5, -778.1244327159055, 8.5)
-[05:34:38] [Server thread/INFO]: blueberryhill fell out of the world
-[05:34:44] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:34:46] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[05:34:46] [Server thread/INFO]: ironmanLJM left the game
-[05:34:47] [Server thread/INFO]: blueberryhill fell out of the world
-[05:34:50] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:34:50] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[05:34:50] [Server thread/INFO]: blueberryhill left the game
-[05:34:52] [User Authenticator #15/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[05:34:52] [Server thread/INFO]: blueberryhill joined the game
-[05:34:52] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:50580] logged in with entity id 15 at ([minecraft:overworld]8.09759437527655, -278.2242386078576, 8.521084134234988)
-[05:34:56] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:35:02] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:35:05] [Server thread/INFO]: 8976ISMEEE lost connection: Disconnected
-[05:35:05] [Server thread/INFO]: 8976ISMEEE left the game
-[05:35:09] [User Authenticator #16/INFO]: UUID of player 8976ISMEEE is 08a45a9c-e4ab-32e9-8e41-57aff28625d7
-[05:35:09] [Server thread/INFO]: 8976ISMEEE joined the game
-[05:35:09] [Server thread/INFO]: 8976ISMEEE[/[0:0:0:0:0:0:0:1]:58052] logged in with entity id 16 at ([minecraft:overworld]8.5, -277.31928579314297, 8.5)
-[05:35:14] [Server thread/INFO]: 8976ISMEEE fell out of the world
-[05:35:16] [Server thread/INFO]: 8976ISMEEE lost connection: Disconnected
-[05:35:16] [Server thread/INFO]: 8976ISMEEE left the game
-[05:35:17] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[05:35:17] [Server thread/INFO]: blueberryhill left the game
-[05:35:22] [User Authenticator #17/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[05:35:23] [Server thread/INFO]: blueberryhill joined the game
-[05:35:23] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:54374] logged in with entity id 17 at ([minecraft:overworld]8.5, -1752.5332605138346, 8.5)
-[05:35:26] [Server thread/WARN]: blueberryhill moved too quickly! 0.0,-11.243034768853022,0.0
-[05:35:28] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[05:35:28] [Server thread/INFO]: blueberryhill left the game
-[05:36:20] [User Authenticator #18/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[05:36:21] [Server thread/INFO]: ironmanLJM joined the game
-[05:36:21] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:38472] logged in with entity id 18 at ([minecraft:overworld]8.5, -1119.775881074001, 8.5)
-[05:36:31] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[05:36:31] [Server thread/INFO]: ironmanLJM left the game
-[05:36:35] [User Authenticator #19/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[05:36:36] [Server thread/INFO]: Vyqzren joined the game
-[05:36:36] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:32854] logged in with entity id 19 at ([minecraft:overworld]8.5, -1364.6051599828343, 8.5)
-[05:36:39] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[05:36:39] [Server thread/INFO]: Vyqzren left the game
-[05:36:48] [User Authenticator #20/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[05:36:48] [Server thread/INFO]: Vyqzren joined the game
-[05:36:48] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:52412] logged in with entity id 20 at ([minecraft:overworld]8.5, -186.1045608481778, 8.5)
-[05:36:55] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[05:36:55] [Server thread/INFO]: Vyqzren left the game
-[05:49:03] [User Authenticator #21/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[05:49:04] [Server thread/INFO]: I_am_bob_wow joined the game
-[05:49:04] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:45888] logged in with entity id 21 at ([minecraft:overworld]8.5, -723.4818915226148, 8.5)
-[05:49:08] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[05:49:08] [Server thread/INFO]: I_am_bob_wow left the game
-[06:04:01] [User Authenticator #22/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[06:04:02] [Server thread/INFO]: I_am_bob_wow joined the game
-[06:04:02] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:45918] logged in with entity id 22 at ([minecraft:overworld]8.5, -861.5143399785269, 8.5)
-[06:04:25] [Server thread/WARN]: I_am_bob_wow moved too quickly! 0.0,-11.758515731378338,0.0
-[06:04:31] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[06:04:31] [Server thread/INFO]: I_am_bob_wow left the game
-[06:13:13] [User Authenticator #23/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[06:13:13] [Server thread/INFO]: Vyqzren joined the game
-[06:13:13] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:38610] logged in with entity id 23 at ([minecraft:overworld]8.5, -550.4899912859025, 8.5)
-[06:13:18] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[06:13:18] [Server thread/INFO]: Vyqzren left the game
-[06:13:48] [User Authenticator #24/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[06:13:49] [Server thread/INFO]: I_am_bob_wow joined the game
-[06:13:49] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:48922] logged in with entity id 24 at ([minecraft:overworld]8.5, -2737.719028430054, 8.5)
-[06:13:53] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[06:13:53] [Server thread/INFO]: I_am_bob_wow left the game
-[06:16:12] [User Authenticator #25/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[06:16:12] [Server thread/INFO]: I_am_bob_wow joined the game
-[06:16:12] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:33082] logged in with entity id 25 at ([minecraft:overworld]8.5, -2922.991353123562, 8.5)
-[06:16:17] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[06:16:17] [Server thread/INFO]: I_am_bob_wow left the game
-[06:17:01] [User Authenticator #26/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[06:17:01] [Server thread/INFO]: I_am_bob_wow joined the game
-[06:17:01] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:56672] logged in with entity id 26 at ([minecraft:overworld]8.5, -3134.8483784154864, 8.5)
-[06:17:05] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[06:17:05] [Server thread/INFO]: I_am_bob_wow left the game
-[06:38:08] [User Authenticator #27/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
-[06:38:08] [Server thread/INFO]: I_am_bob_wow joined the game
-[06:38:08] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:57942] logged in with entity id 27 at ([minecraft:overworld]8.5, -3251.936984778318, 8.5)
-[06:38:13] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
-[06:38:13] [Server thread/INFO]: I_am_bob_wow left the game
-[06:58:48] [User Authenticator #28/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[06:58:50] [Server thread/INFO]: ironmanLJM joined the game
-[06:58:50] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:58552] logged in with entity id 28 at ([minecraft:overworld]8.5, -650.5978824707801, 8.5)
-[06:59:02] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[06:59:02] [Server thread/INFO]: ironmanLJM left the game
-[07:29:05] [User Authenticator #29/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[07:29:06] [Server thread/INFO]: Vyqzren joined the game
-[07:29:06] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:48286] logged in with entity id 29 at ([minecraft:overworld]8.5, -762.4323409645081, 8.5)
-[07:29:12] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[07:29:12] [Server thread/INFO]: Vyqzren left the game
-[08:01:09] [User Authenticator #30/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[08:01:09] [Server thread/INFO]: blueberryhill joined the game
-[08:01:09] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:44178] logged in with entity id 30 at ([minecraft:overworld]8.5, -1909.3635749284465, 8.5)
-[08:01:12] [Server thread/WARN]: blueberryhill moved too quickly! 0.0,-10.56902644954016,0.0
-[08:01:15] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[08:01:15] [Server thread/INFO]: blueberryhill left the game
-[08:05:11] [User Authenticator #31/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[08:05:11] [Server thread/INFO]: blueberryhill joined the game
-[08:05:11] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:38046] logged in with entity id 31 at ([minecraft:overworld]8.5, -2072.6381004713235, 8.5)
-[08:05:17] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[08:05:17] [Server thread/INFO]: blueberryhill left the game
-[08:09:51] [User Authenticator #32/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[08:09:52] [Server thread/INFO]: blueberryhill joined the game
-[08:09:52] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:40766] logged in with entity id 32 at ([minecraft:overworld]8.5, -2329.0762494958617, 8.5)
-[08:09:56] [Server thread/INFO]: blueberryhill lost connection: Disconnected
-[08:09:56] [Server thread/INFO]: blueberryhill left the game
-[08:14:24] [User Authenticator #33/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
-[08:14:25] [Server thread/INFO]: blueberryhill joined the game
-[08:14:25] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:55078] logged in with entity id 33 at ([minecraft:overworld]8.5, -2507.9169453057625, 8.5)
-[08:14:26] [Server thread/INFO]: Stopping the server
-[08:14:26] [Server thread/INFO]: Stopping server
-[08:14:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[08:14:26] [Server thread/INFO]: [nLogin] Disabling nLogin v2.0.19
-[08:14:27] [Server thread/INFO]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v2.0.19 e06d80 => v2.0.25 d0117d)
-[08:14:27] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 1.11s)
-[08:14:27] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
-[08:14:27] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[08:14:27] [Server thread/INFO]: Saving players
-[08:14:28] [Server thread/INFO]: blueberryhill lost connection: Server closed
-[08:14:28] [Server thread/INFO]: blueberryhill left the game
-[08:14:28] [Server thread/INFO]: Saving worlds
-[08:14:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saved 170 block chunks, 170 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.26s
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[08:14:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[08:14:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[08:14:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[08:14:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:14:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:14:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:14:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:14:28] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[08:14:28] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[08:14:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[08:14:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[09:38:26] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
+[09:38:26] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[09:38:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:38:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[09:38:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.25)
+[09:38:34] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[09:38:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[09:38:35] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 876.4ms
+[09:38:37] [ServerMain/INFO]: Loaded 1585 recipes
+[09:38:37] [ServerMain/INFO]: Loaded 1688 advancements
+[09:38:37] [Server thread/INFO]: Starting minecraft server version 26.2
+[09:38:37] [Server thread/INFO]: Loading properties
+[09:38:38] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[09:38:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:38:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:38:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:38:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[09:38:38] [Server thread/INFO]: Default game type: SURVIVAL
+[09:38:38] [Server thread/INFO]: Generating keypair
+[09:38:38] [Server thread/INFO]: Starting Minecraft server on *:65535
+[09:38:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:38:38] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[09:38:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[09:38:39] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[09:38:40] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:38:40] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:38:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[09:38:40] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.25
+[09:38:40] [Server thread/INFO]: [nLogin] Removing unused dependencies (1)
+[09:38:40] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.25
+[09:38:41] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.12s)
+[09:38:41] [Server thread/INFO]: [nLogin]           __             _       
+[09:38:41] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[09:38:41] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[09:38:41] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[09:38:41] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[09:38:41] [Server thread/INFO]: [nLogin]                   |___/            
+[09:38:41] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.25
+[09:38:41] [Server thread/INFO]: [nLogin]  
+[09:38:42] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[09:38:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:38:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:38:47] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:38:47] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[09:38:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:38:47] [Server thread/INFO]: Preparing level "world"
+[09:38:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[09:38:47] [Server thread/INFO]: Prepared spawn area in 0 ms
+[09:38:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[09:38:47] [Server thread/INFO]: Prepared spawn area in 1 ms
+[09:38:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[09:38:47] [Server thread/INFO]: Preparing spawn area: 100%
+[09:38:47] [Server thread/INFO]: Prepared spawn area in 1 ms
+[09:38:47] [Server thread/INFO]: Done preparing level "world" (0.321s)
+[09:38:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[09:38:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[09:38:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[09:38:47] [Server thread/INFO]: [spark] Starting background profiler...
+[09:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:38:48] [Server thread/INFO]: Running delayed init tasks
+[09:38:48] [Server thread/INFO]: Done (23.918s)! For help, type "help"
+[09:38:48] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:38:48] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
+[09:38:48] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[09:38:48] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[09:39:31] [User Authenticator #0/INFO]: UUID of player ItzPulse is a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc
+[09:39:33] [Server thread/INFO]: ItzPulse joined the game
+[09:39:33] [Server thread/INFO]: ItzPulse[/[0:0:0:0:0:0:0:1]:41870] logged in with entity id 1 at ([minecraft:overworld]8.5, -3433.0172841017047, 8.5)
+[09:39:40] [Server thread/WARN]: ItzPulse moved too quickly! 0.0,-12.054678450184838,0.0
+[09:39:44] [Server thread/INFO]: ItzPulse lost connection: Disconnected
+[09:39:44] [Server thread/INFO]: ItzPulse left the game
+[09:44:31] [Server thread/INFO]: Stopping the server
+[09:44:31] [Server thread/INFO]: Stopping server
+[09:44:31] [Server thread/INFO]: [nLogin] Disabling nLogin v2.0.25
+[09:44:31] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[09:44:31] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[09:44:31] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[09:44:31] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[09:44:31] [Server thread/INFO]: Saving players
+[09:44:31] [Server thread/INFO]: Saving worlds
+[09:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[09:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[09:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[09:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[09:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:44:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[09:44:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[09:44:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[09:44:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

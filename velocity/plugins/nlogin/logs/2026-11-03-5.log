@@ -1,0 +1,18 @@
+[2026/11/03 09:38:27 INFO]:           __             _       
+[2026/11/03 09:38:27 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/03 09:38:27 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/03 09:38:27 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/03 09:38:27 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/03 09:38:27 INFO]:                   |___/            
+[2026/11/03 09:38:27 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/03 09:38:27 INFO]:  
+[2026/11/03 09:38:27 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/03 09:38:27 DEBUG]: Messages were loaded in 305 ms (single file).
+[2026/11/03 09:38:27 DEBUG]: Settings were loaded in 407 ms.
+[2026/11/03 09:38:27 DEBUG]: Loading database...
+[2026/11/03 09:38:28 DEBUG]: Starting logger filter...
+[2026/11/03 09:38:28 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/03 09:39:43 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItzPulse', `unique_id` = a3ae9cb7fa9f3574b047ddba5fdb56bc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$37PQq9m7hzcL4EWdDK/90g$d1FDPvDbqOAoLEwsHdX2d+eq1E7m6ETGd1c4WUzB4TE', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-18 23:48:08.565, `last_seen` = 2026-11-03 09:39:43.078, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/03 09:39:43 INFO]: The user ItzPulse has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/03 09:44:17 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItzPulse', `unique_id` = a3ae9cb7fa9f3574b047ddba5fdb56bc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$37PQq9m7hzcL4EWdDK/90g$d1FDPvDbqOAoLEwsHdX2d+eq1E7m6ETGd1c4WUzB4TE', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-18 23:48:08.565, `last_seen` = 2026-11-03 09:44:17.88, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to [last_seen, settings] columns)
+[2026/11/03 09:44:29 INFO]: Successful plugin core shutdown (took 0.00s)

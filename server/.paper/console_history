@@ -648,3 +648,27 @@
 1793693647899:say STOPING SERVER
 1793693657129:say see you TOMORROW
 1793693663313:stop
+1793694952649:gamerule locator_bar false
+1793695255874:stop
+1793695869261:gamerule minecraft:locator_bar true
+1793695876925:attribute @s minecraft:waypoint_receive_range base set 0
+1793695947991:stop
+1793696106063:gamerule minecraft:locator_bar true
+1793696111341:lb receive
+1793696171706:gamerule minecraft:locator_bar true
+1793696178780:stop
+1793696216488:attribute @a minecraft:waypoint_receive_range get
+1793696366454:execute as @a run attribute @s minecraft:waypoint_receive_range base set 0
+1793696374424:execute as @a[nbt={Inventory:[{id:"minecraft:dragon_egg"}]}] run attribute @s minecraft:waypoint_receive_range base reset
+1793696607975:cd /workspaces/craftmine/server\n\nmkdir -p world/datapacks/dragon_locator/data/dragon_locator/function\nmkdir -p world/datapacks/dragon_locator/data/minecraft/tags/function\n\ncat > world/datapacks/dragon_locator/pack.mcmeta <<'EOF'\n{\n  "pack": {\n    "pack_format": 94,\n    "description": "Dragon Egg Locator Powers"\n  }\n}\nEOF\n\ncat > world/datapacks/dragon_locator/data/dragon_locator/function/tick.mcfunction <<'EOF'\nexecute as @a run attribute @s minecraft:waypoint_receive_range base set 0\nexecute as @a[nbt={Inventory:[{id:"minecraft:dragon_egg"}]}] run attribute @s minecraft:waypoint_receive_range base reset\nEOF\n\ncat > world/datapacks/dragon_locator/data/minecraft/tags/function/tick.json <<'EOF'\n{\n  "values": [\n    "dragon_locator:tick"\n  ]\n}\nEOF
+1793696968730:reload
+1793696980070:datapack list enabled
+1793697018838:function dragon_locator:tick
+1793697180357:schedule function dragon_locator:tick 5s
+1793697233672:gamerule minecraft:locator_bar
+1793698207133:stop
+1793698334870:plugins
+1793698432639:reload
+1793698451620:stop
+1793698879979:op ItzPulse
+1793699061061:stop

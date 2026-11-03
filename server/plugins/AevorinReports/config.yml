@@ -15,7 +15,7 @@ language: "en_US"
 
 # Database Configuration
 database:
-  type: "file" # Options: "mysql" (for multi-server) or "file" (local SQLite)
+  type: "file" # Optsdions: "mysql" (for multi-server) or "file" (local SQLite)
   mysql:
     host: "localhost"
     port: 3306
