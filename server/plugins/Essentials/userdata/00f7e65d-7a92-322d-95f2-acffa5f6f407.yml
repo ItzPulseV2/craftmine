@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1793841858158
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1793841995711
+  login: 1793841590065
+money: '0'
+last-account-name: Thundra1
+lastlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 220.96669184416382
+  y: 65.0
+  z: -829.6210381674917
+  yaw: -64.69789123535156
+  pitch: 14.400014877319336
+homes:
+  home:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: 313.06793766721927
+    y: 72.0
+    z: -888.6352718234623
+    yaw: -116.29193115234375
+    pitch: 74.8499755859375
+logoutlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 33.80015311919529
+  y: 66.1875
+  z: 86.48459062319058
+  yaw: 103.76486206054688
+  pitch: 64.34998321533203

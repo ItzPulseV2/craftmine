@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1793841949358
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1793842028012
+  login: 1793840823248
+money: '0'
+last-account-name: 13135_penuin_
+lastlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 14.192775460228255
+  y: 64.0
+  z: -36.04626961573285
+  yaw: -159.03509521484375
+  pitch: 45.5999870300293
+logoutlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 28.69999998807907
+  y: 68.1875
+  z: 95.74339793270086
+  yaw: 130.16445922851562
+  pitch: 21.750051498413086

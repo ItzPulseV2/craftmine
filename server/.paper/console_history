@@ -672,3 +672,50 @@
 1793698451620:stop
 1793698879979:op ItzPulse
 1793699061061:stop
+1793742824585:whitelist add 13135_penguin_
+1793742871548:whitelist add Penuin13134
+1793743010496:whitelist add 13135_penuin_
+1793743201190:stop
+1793759639008:whitelist add HACK1original1
+1793759674185:whitelist add HACKER1original1
+1793759690099:whitelist remove HACK1orgininal1
+1793759844411:hologram edit spawn addline ALSO NO NAKED KILLING AND NO LOOPHOLING
+1793759980108:op ironmanLJM
+1793760040088:whitelist remove HACK1original1
+1793760045500:whitelist remove HACKER1original1
+1793760168744:deop ironmanLJM
+1793760183105:gamemode survival ironmanLJM
+1793768992132:op ironmanLJM
+1793770439660:deop ironmanLJM
+1793772836231:give ironmanLJM diamond_pickaxe 1
+1793772839017:op ironmanLJM
+1793775222032:whitelist add 13135_penuin_
+1793775273708:whitelist remove 13135_penguin_
+1793775329721:difficulty easy
+1793775332330:reload
+1793775336862:say yo
+1793775344758:say um good news
+1793775351582:say you can now cure zombie villagers forever
+1793775352941:say and
+1793775359007:say SERVER IS ON EASY MODE
+1793775368706:say im the goat
+1793775381365:say im too good :D
+1793826584083:stop
+1793829670767:whitelist remove WaveFire0110
+1793829675267:whitelist add dark89
+1793829943894:whitelist add Thundra1
+1793830084367:whitelist add BlueFischer
+1793832570122:whitelist add Krisha
+1793832573509:whitelist add Jayda
+1793833199147:say GUESS WHAT :(
+1793833218611:say SERVER RESTART LIKE A QUICK RESTART JOIN BACK RIGHT AWAY IN LIKE 30 SECONDS
+1793837293362:lp user Thundra1 meta setprefix 100 "&7Player "
+1793837344090:whitelist add HACKER1original1
+1793837589786:lp user HACKER1original1 meta setprefix 100 "&7 Player "
+1793837989667:essentials reload
+1793838177316:op ironmanLJM
+1793838390797:essentials reload
+1793838434023:deop ironmanLJM
+1793839973572:say YO
+1793840080490:op ironmanLJM
+1793840155535:deop ironmanLJM

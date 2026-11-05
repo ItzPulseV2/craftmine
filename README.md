@@ -1,28 +1,8 @@
 # ⛏️ Minecraft 26.2 Server
 
-<a href="https://github.com/Hyrisks">
-  <img
-    align="right"
-    src="https://avatars.githubusercontent.com/u/288812336?v=4"
-    width="220"
-    height="220"
-    alt="Server Logo"
-  />
-</a>
-
 A Minecraft **26.2 server** designed to run through **GitHub Codespaces**, with support for both **normal Minecraft** and **EaglerCraft**.
 
-The server is primarily designed to be accessed through **Tuff Client**, providing a simple way to connect, authenticate, and play without needing a traditional dedicated server machine.
-
-**⚡ Recommended Client:** <a href="https://tuffclient.com"> Tuff client </a>
-
-[![EaglerCraft](https://img.shields.io/badge/EaglerCraft-Supported-blue.svg)](https://https://eaglercraft.com/)
-
-[![Tuff Client](https://img.shields.io/badge/Client-Tuff%20Client-purple.svg)](https://https://tuffclient.com/)
-
-[![Video on how to set it up](https://img.shields.io/badge/YouTube-How%20to%20set%20it%20up-red?logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
-
-Note:this project will be soon moved over to my friends Hyrisks account.
+**⚡ Recommended Client:** <a href="https://itzpulsev2.github.io"> ItzPulse Client </a>
 
 ---
 

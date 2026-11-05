@@ -1,0 +1,20 @@
+[2026/11/05 01:38:16 INFO]:           __             _       
+[2026/11/05 01:38:16 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/05 01:38:16 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/05 01:38:16 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/05 01:38:16 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/05 01:38:16 INFO]:                   |___/            
+[2026/11/05 01:38:16 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/05 01:38:16 INFO]:  
+[2026/11/05 01:38:16 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/05 01:38:16 DEBUG]: Messages were loaded in 295 ms (single file).
+[2026/11/05 01:38:16 DEBUG]: Settings were loaded in 354 ms.
+[2026/11/05 01:38:16 DEBUG]: Loading database...
+[2026/11/05 01:38:18 DEBUG]: Starting logger filter...
+[2026/11/05 01:38:18 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/05 01:39:38 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HACKER1original1', `unique_id` = cfad3c5e6ceb30a4ac88b9c3a83b80db,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$H+2M65anxv/+9a6qQF6dAA$GY+R8ARc/kDoWwBjYG0c0BTC3eHoq9r3V93avtKuPmg', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-04 02:31:50.823, `last_seen` = 2026-11-05 01:39:38.044, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 31" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/05 01:39:38 INFO]: The user HACKER1original1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/05 01:39:48 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HACKER1original1', `unique_id` = cfad3c5e6ceb30a4ac88b9c3a83b80db,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$H+2M65anxv/+9a6qQF6dAA$GY+R8ARc/kDoWwBjYG0c0BTC3eHoq9r3V93avtKuPmg', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-04 02:31:50.823, `last_seen` = 2026-11-05 01:39:48.6, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 31" (applied to [last_seen, settings] columns)
+[2026/11/05 01:54:55 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Dill_Pickle_', `unique_id` = 0e2c972cf39c37b3b41e956f9e53ef4e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TqHBztSVhJVMDjbnsshD+A$XbC8SwSP+fMKiKhP82NCDVN4cibWJwyuVU5SYW1NOME', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-13 22:53:39.571, `last_seen` = 2026-11-05 01:54:55.058, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"},{"value":"survival","key":"last-server"}],"version":0}' WHERE `ai` = 7" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/05 01:54:55 INFO]: The user Dill_Pickle_ has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/05 01:55:00 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Dill_Pickle_', `unique_id` = 0e2c972cf39c37b3b41e956f9e53ef4e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TqHBztSVhJVMDjbnsshD+A$XbC8SwSP+fMKiKhP82NCDVN4cibWJwyuVU5SYW1NOME', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-13 22:53:39.571, `last_seen` = 2026-11-05 01:55:00.577, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"},{"value":"survival","key":"last-server"}],"version":0}' WHERE `ai` = 7" (applied to [last_seen, settings] columns)

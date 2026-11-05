@@ -134,7 +134,7 @@ entities:
     should-remove-dragon: false
     spawner-nerfed-mobs-should-jump: false
     stuck-entity-poi-retry-delay: 200
-    zombie-villager-infection-chance: default
+    zombie-villager-infection-chance: 100.0
     zombies-target-turtle-eggs: true
   markers:
     tick: true
