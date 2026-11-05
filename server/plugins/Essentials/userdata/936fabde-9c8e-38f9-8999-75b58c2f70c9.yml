@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793833479607
-  login: 1793833259023
+  logout: 1793850867209
+  login: 1793849218722
 money: '0'
 last-account-name: Jayda
 lastlocation:
@@ -32,8 +32,8 @@ lastlocation:
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: -6.625119121830174
-  y: 63.0
-  z: 37.660114669298146
-  yaw: 0.56494140625
-  pitch: 35.19174575805664
+  x: 108.69999998807907
+  y: -9.970777811762083
+  z: -14.699999988079071
+  yaw: -25.389385223388672
+  pitch: -90.0

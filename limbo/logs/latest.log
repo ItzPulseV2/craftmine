@@ -1,84 +1,70 @@
-[01:37:15] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
-[01:37:15] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[01:37:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:37:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[01:37:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[04:41:03] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
+[04:41:03] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[04:41:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:41:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:41:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.25)
-[01:37:26] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:37:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:37:27] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,616.9ms
-[01:37:36] [ServerMain/INFO]: Loaded 1585 recipes
-[01:37:36] [ServerMain/INFO]: Loaded 1688 advancements
-[01:37:37] [Server thread/INFO]: Starting minecraft server version 26.2
-[01:37:37] [Server thread/INFO]: Loading properties
-[01:37:37] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[01:37:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:37:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:37:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:37:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:37:40] [Server thread/INFO]: Default game type: SURVIVAL
-[01:37:40] [Server thread/INFO]: Generating keypair
-[01:37:40] [Server thread/INFO]: Starting Minecraft server on *:65535
-[01:37:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:37:40] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:37:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[01:37:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[01:37:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:37:56] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:37:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[01:37:57] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.25
-[01:38:00] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.25
-[01:38:03] [Server thread/INFO]: [nLogin] Successful plugin core start (took 3.02s)
-[01:38:03] [Server thread/INFO]: [nLogin]           __             _       
-[01:38:03] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[01:38:03] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[01:38:03] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[01:38:03] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[01:38:03] [Server thread/INFO]: [nLogin]                   |___/            
-[01:38:03] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.25
-[01:38:03] [Server thread/INFO]: [nLogin]  
-[01:38:04] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.14.0-SNAPSHOT...
-[01:38:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:38:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:38:13] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[01:38:13] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[01:38:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:38:13] [Server thread/INFO]: Preparing level "world"
-[01:38:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[01:38:14] [Server thread/INFO]: Preparing spawn area: 100%
-[01:38:14] [Server thread/INFO]: Prepared spawn area in 13 ms
-[01:38:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[01:38:14] [Server thread/INFO]: Prepared spawn area in 3 ms
-[01:38:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[01:38:14] [Server thread/INFO]: Prepared spawn area in 6 ms
-[01:38:14] [Server thread/INFO]: Done preparing level "world" (1.672s)
-[01:38:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[01:38:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[01:38:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[01:38:16] [Server thread/INFO]: [spark] Starting background profiler...
-[01:38:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:38:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:38:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:38:18] [Server thread/INFO]: Running delayed init tasks
-[01:38:18] [Server thread/INFO]: Done (70.084s)! For help, type "help"
-[01:38:18] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[01:38:18] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
-[01:38:18] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
-[01:38:18] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
-[01:39:23] [User Authenticator #0/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[01:39:29] [Server thread/INFO]: HACKER1original1 joined the game
-[01:39:29] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:60560] logged in with entity id 1 at ([minecraft:overworld]8.5, -3216.7063333077954, 8.5)
-[01:39:38] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-11.286408703364486,0.0
-[01:39:40] [Server thread/INFO]: HACKER1original1 fell out of the world
-[01:39:42] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[01:39:42] [Server thread/INFO]: HACKER1original1 left the game
-[01:54:45] [User Authenticator #1/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
-[01:54:46] [Server thread/INFO]: Dill_Pickle_ joined the game
-[01:54:46] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:36784] logged in with entity id 2 at ([minecraft:overworld]8.5, -4662.52505625572, 8.5)
-[01:54:55] [Server thread/WARN]: Dill_Pickle_ moved too quickly! 0.0,-11.443545504734175,0.0
-[01:54:55] [Server thread/INFO]: Dill_Pickle_ lost connection: Disconnected
-[01:54:55] [Server thread/INFO]: Dill_Pickle_ left the game
+[04:41:15] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:41:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:41:17] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,820.1ms
+[04:41:21] [ServerMain/INFO]: Loaded 1585 recipes
+[04:41:21] [ServerMain/INFO]: Loaded 1688 advancements
+[04:41:22] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:41:22] [Server thread/INFO]: Loading properties
+[04:41:22] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[04:41:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:41:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:41:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:41:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:41:24] [Server thread/INFO]: Default game type: SURVIVAL
+[04:41:24] [Server thread/INFO]: Generating keypair
+[04:41:24] [Server thread/INFO]: Starting Minecraft server on *:65535
+[04:41:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:41:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:41:27] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[04:41:27] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[04:41:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:41:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:41:30] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[04:41:30] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.25
+[04:41:32] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.25
+[04:41:34] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.57s)
+[04:41:34] [Server thread/INFO]: [nLogin]           __             _       
+[04:41:34] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[04:41:34] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[04:41:34] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[04:41:34] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[04:41:34] [Server thread/INFO]: [nLogin]                   |___/            
+[04:41:34] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.25
+[04:41:34] [Server thread/INFO]: [nLogin]  
+[04:41:35] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[04:41:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:41:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:41:40] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[04:41:40] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[04:41:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:41:40] [Server thread/INFO]: Preparing level "world"
+[04:41:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[04:41:40] [Server thread/INFO]: Prepared spawn area in 1 ms
+[04:41:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[04:41:40] [Server thread/INFO]: Prepared spawn area in 0 ms
+[04:41:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[04:41:40] [Server thread/INFO]: Prepared spawn area in 0 ms
+[04:41:40] [Server thread/INFO]: Done preparing level "world" (0.471s)
+[04:41:40] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[04:41:40] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[04:41:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[04:41:40] [Server thread/INFO]: [spark] Starting background profiler...
+[04:41:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:41:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:41:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:41:42] [Server thread/INFO]: Running delayed init tasks
+[04:41:42] [Server thread/INFO]: Done (43.580s)! For help, type "help"
+[04:41:42] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:41:42] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[04:41:42] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
+[04:41:42] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***

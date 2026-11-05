@@ -88,7 +88,7 @@ villager-leashing:
 # Prevent villagers from becoming zombie villagers
 anti-zombie-conversion:
   # Enable or disable anti-zombie conversion
-  enabled: true
+  enabled: false
   # Worlds where anti-zombie conversion is disabled
   excluded-worlds: []
 

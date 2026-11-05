@@ -719,3 +719,12 @@
 1793839973572:say YO
 1793840080490:op ironmanLJM
 1793840155535:deop ironmanLJM
+1793849945909:lp user Jayda meta setprefix 100 "&7Player "
+1793850049758:give ironmanLJM zombiespawnegg 1
+1793850087333:difficulty normal
+1793850380770:say rip
+1793850438095:villagervault reload
+1793850471742:whitelist remove 8976ISMEEE
+1793850868183:reload
+1793850886042:say BYE GUYS
+1793850888703:stop
