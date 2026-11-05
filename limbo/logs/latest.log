@@ -69,3 +69,138 @@
 [06:51:18] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
 [06:51:18] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
 [06:51:18] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[07:29:28] [User Authenticator #0/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[07:29:29] [Server thread/INFO]: Connection closed during protocol change
+[07:29:30] [Server thread/INFO]: Connection closed during protocol change
+[07:29:30] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[07:29:30] [Server thread/INFO]: ironmanLJM left the game
+[07:37:20] [User Authenticator #1/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[07:37:21] [Server thread/INFO]: Vyqzren joined the game
+[07:37:21] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:45222] logged in with entity id 2 at ([minecraft:overworld]8.5, -5833.041033378998, 8.5)
+[07:37:28] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[07:37:28] [Server thread/INFO]: Vyqzren left the game
+[07:37:58] [User Authenticator #2/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:37:58] [Server thread/INFO]: ThisNotAlex (014e105a-2f7c-315c-9249-d97c288a3fec) lost connection: Disconnected
+[07:38:03] [User Authenticator #3/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:38:03] [Server thread/INFO]: ThisNotAlex joined the game
+[07:38:03] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:43314] logged in with entity id 3 at ([minecraft:overworld]8.5, -1574.5737007913744, 8.5)
+[07:38:09] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[07:38:09] [Server thread/INFO]: ThisNotAlex left the game
+[07:40:41] [User Authenticator #4/INFO]: UUID of player Thundra2 is 0b5b4895-bb85-3798-b2b6-3abe153e436b
+[07:40:42] [Server thread/INFO]: Thundra2 joined the game
+[07:40:42] [Server thread/INFO]: Thundra2[/[0:0:0:0:0:0:0:1]:51092] logged in with entity id 4 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[07:40:46] [Server thread/WARN]: Thundra2 moved too quickly! 0.0,-12.164936879560642,0.0
+[07:40:49] [Server thread/WARN]: Thundra2 moved too quickly! 0.0,-10.552241243705595,0.0
+[07:40:51] [Server thread/WARN]: Thundra2 moved too quickly! 0.0,-11.558953062305562,0.0
+[07:40:53] [Server thread/INFO]: Thundra2 lost connection: Disconnected
+[07:40:53] [Server thread/INFO]: Thundra2 left the game
+[07:41:02] [User Authenticator #5/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:41:03] [Server thread/INFO]: Thundra1 joined the game
+[07:41:03] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:41544] logged in with entity id 5 at ([minecraft:overworld]8.5, -3262.679837107403, 8.5)
+[07:41:06] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-11.858367777659168,0.0
+[07:41:09] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:41:09] [Server thread/INFO]: Thundra1 left the game
+[07:42:44] [User Authenticator #6/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:42:45] [Server thread/INFO]: Thundra1 joined the game
+[07:42:45] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:53040] logged in with entity id 6 at ([minecraft:overworld]8.5, -3403.0299313226146, 8.5)
+[07:42:48] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-11.539157979691936,0.0
+[07:42:52] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-10.771421415317946,0.0
+[07:42:54] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:42:54] [Server thread/INFO]: Thundra1 left the game
+[07:47:50] [User Authenticator #7/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:47:51] [Server thread/INFO]: ThisNotAlex joined the game
+[07:47:51] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:53224] logged in with entity id 7 at ([minecraft:overworld]8.5, -1824.0477067472243, 8.5)
+[07:47:57] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[07:47:57] [Server thread/INFO]: ThisNotAlex left the game
+[07:51:56] [User Authenticator #8/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:51:57] [Server thread/INFO]: Thundra1 joined the game
+[07:51:57] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:47634] logged in with entity id 8 at ([minecraft:overworld]8.5, -3609.7085376437994, 8.5)
+[07:52:01] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:52:01] [Server thread/INFO]: Thundra1 left the game
+[07:58:54] [User Authenticator #9/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[07:58:55] [Server thread/INFO]: ironmanLJM joined the game
+[07:58:55] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:34432] logged in with entity id 9 at ([minecraft:overworld]2.19195021208967, -8673.952129199868, 7.144393048092723)
+[07:59:05] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[07:59:05] [Server thread/INFO]: ironmanLJM left the game
+[07:59:08] [User Authenticator #10/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:59:08] [Server thread/INFO]: ThisNotAlex joined the game
+[07:59:08] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:38466] logged in with entity id 10 at ([minecraft:overworld]8.5, -2130.13407480853, 8.5)
+[07:59:17] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[07:59:17] [Server thread/INFO]: ThisNotAlex left the game
+[08:00:51] [User Authenticator #11/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:00:51] [Server thread/INFO]: Thundra1 (00f7e65d-7a92-322d-95f2-acffa5f6f407) lost connection: Disconnected
+[08:00:58] [User Authenticator #12/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:00:58] [Server thread/INFO]: Thundra1 (00f7e65d-7a92-322d-95f2-acffa5f6f407) lost connection: Disconnected
+[08:01:05] [User Authenticator #13/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:01:05] [Server thread/INFO]: Thundra1 joined the game
+[08:01:05] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:44078] logged in with entity id 11 at ([minecraft:overworld]8.5, -3804.901616939362, 8.5)
+[08:01:07] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-11.700375047819307,0.0
+[08:01:11] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-12.267877057997339,0.0
+[08:01:12] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:01:12] [Server thread/INFO]: Thundra1 left the game
+[08:01:54] [User Authenticator #14/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:01:54] [Server thread/INFO]: Vyqzren joined the game
+[08:01:54] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:39850] logged in with entity id 12 at ([minecraft:overworld]8.5, -6186.724877920059, 8.5)
+[08:02:01] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:02:01] [Server thread/INFO]: Vyqzren left the game
+[08:03:26] [User Authenticator #15/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:03:26] [Server thread/INFO]: Thundra1 joined the game
+[08:03:26] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:42434] logged in with entity id 13 at ([minecraft:overworld]8.5, -4016.420348881784, 8.5)
+[08:03:28] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-12.032610980257687,0.0
+[08:03:30] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:03:30] [Server thread/INFO]: Thundra1 left the game
+[08:04:00] [User Authenticator #16/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[08:04:01] [Server thread/INFO]: I_am_bob_wow joined the game
+[08:04:01] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:35308] logged in with entity id 14 at ([minecraft:overworld]8.5, -9591.22691815712, 8.5)
+[08:04:05] [Server thread/WARN]: I_am_bob_wow moved too quickly! 0.0,-12.777093797629277,0.0
+[08:04:05] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[08:04:05] [Server thread/INFO]: I_am_bob_wow left the game
+[08:06:36] [User Authenticator #17/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:06:36] [Server thread/INFO]: Vyqzren (f7b02e42-9974-3b87-83a1-7ff87122c29a) lost connection: Disconnected
+[08:06:57] [User Authenticator #18/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:06:58] [Server thread/INFO]: Vyqzren joined the game
+[08:06:58] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:53658] logged in with entity id 15 at ([minecraft:overworld]8.5, -6558.491517567663, 8.5)
+[08:07:04] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:07:04] [Server thread/INFO]: Vyqzren left the game
+[08:09:06] [User Authenticator #19/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:09:06] [Server thread/INFO]: Thundra1 (/[0:0:0:0:0:0:0:1]:37094) lost connection: Disconnected
+[08:09:22] [User Authenticator #20/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[08:09:23] [Server thread/INFO]: I_am_bob_wow joined the game
+[08:09:23] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:41544] logged in with entity id 16 at ([minecraft:overworld]8.5, -9763.621304849816, 8.5)
+[08:09:29] [Server thread/WARN]: I_am_bob_wow moved too quickly! 0.0,-10.718660955046289,0.0
+[08:09:30] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[08:09:30] [Server thread/INFO]: I_am_bob_wow left the game
+[08:09:44] [User Authenticator #21/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:09:45] [Server thread/INFO]: Thundra1 joined the game
+[08:09:45] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:37586] logged in with entity id 17 at ([minecraft:overworld]8.5, -4117.183502342645, 8.5)
+[08:09:53] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-12.40299760318976,0.0
+[08:09:53] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:09:53] [Server thread/INFO]: Thundra1 left the game
+[08:10:13] [User Authenticator #22/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:10:14] [Server thread/INFO]: Vyqzren joined the game
+[08:10:14] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:33324] logged in with entity id 18 at ([minecraft:overworld]8.5, -6850.422496932272, 8.5)
+[08:10:21] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:10:21] [Server thread/INFO]: Vyqzren left the game
+[08:12:00] [User Authenticator #23/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:12:01] [Server thread/INFO]: Vyqzren joined the game
+[08:12:01] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:51812] logged in with entity id 19 at ([minecraft:overworld]8.5, -7214.807697696596, 8.5)
+[08:12:06] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:12:06] [Server thread/INFO]: Vyqzren left the game
+[08:12:48] [User Authenticator #24/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:12:48] [Server thread/INFO]: Thundra1 (/[0:0:0:0:0:0:0:1]:43508) lost connection: Disconnected
+[08:12:52] [User Authenticator #25/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:12:53] [Server thread/INFO]: Thundra1 joined the game
+[08:12:53] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:54610] logged in with entity id 20 at ([minecraft:overworld]8.5, -4272.142724289572, 8.5)
+[08:13:01] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:13:01] [Server thread/INFO]: Thundra1 left the game
+[08:13:39] [User Authenticator #26/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:13:41] [Server thread/INFO]: Thundra1 joined the game
+[08:13:41] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:47574] logged in with entity id 21 at ([minecraft:overworld]8.5, -4703.556817534514, 8.5)
+[08:13:47] [Server thread/WARN]: Thundra1 moved too quickly! 0.0,-13.210316637640062,0.0
+[08:13:49] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:13:49] [Server thread/INFO]: Thundra1 left the game
+[08:24:17] [User Authenticator #27/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:24:17] [Server thread/INFO]: Thundra1 joined the game
+[08:24:17] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:47116] logged in with entity id 22 at ([minecraft:overworld]8.5, -4943.836507548545, 8.5)
+[08:24:21] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:24:21] [Server thread/INFO]: Thundra1 left the game

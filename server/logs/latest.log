@@ -341,3 +341,412 @@ com.google.gson.JsonParseException: Pack declares support for version newer than
 [06:51:38] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24455
 [06:51:38] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
 [06:51:38] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[07:37:27] [User Authenticator #0/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[07:37:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[07:37:29] [Server thread/INFO]: Vyqzren joined the game
+[07:37:29] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:60286] logged in with entity id 1 at ([minecraft:overworld]310.73484249066007, 64.0, -851.8982267249771)
+[07:37:42] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[07:37:42] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[07:37:43] [Server thread/INFO]: Vyqzren left the game
+[07:38:09] [User Authenticator #1/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:38:10] [Server thread/INFO]: ThisNotAlex joined the game
+[07:38:10] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:42336] logged in with entity id 184 at ([minecraft:overworld]29.601994519391422, 65.0, 117.30000001192093)
+[07:38:17] [Server thread/INFO]: ThisNotAlex issued server command: /home
+[07:39:24] [Server thread/INFO]: ThisNotAlex has made the advancement [Sweet Dreams]
+[07:39:32] [Server thread/INFO]: [Not Secure] [Server] HELLO EVERYONE
+[07:39:38] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: yo
+[07:39:50] [Server thread/INFO]: [Not Secure] [Server] I CANT PLAY THE SERVER NOW
+[07:39:54] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: ok
+[07:40:01] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: what u doing
+[07:40:02] [Server thread/INFO]: [Not Secure] [Server] BUT IM STILL GONNA RUN IT
+[07:40:18] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: noice can u run it untile 8 or 9
+[07:40:19] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: plz
+[07:40:23] [Server thread/INFO]: [Not Secure] [Server] ALSO I FIXED THAT GLITCH WHERE IT LIKE NEEDS U TO CHANGE IP CONSTANTLY
+[07:40:32] [Server thread/INFO]: [Not Secure] [Server] ALSO ALEX IM BACK TO TEAMING WITH U
+[07:40:35] [Server thread/INFO]: [Not Secure] [Server] I THINK IDK
+[07:40:39] [Server thread/INFO]: [Not Secure] [Server] SO BUILD THE BASE
+[07:40:43] [Server thread/INFO]: [Not Secure] [Server] I GTG
+[07:40:45] [Server thread/INFO]: [Not Secure] [Server] BYE
+[07:40:48] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: byeeee
+[07:40:54] [Server thread/INFO]: [Not Secure] [Server] ALSO SAY HI TO THUNDRA1
+[07:40:59] [Server thread/INFO]: [Not Secure] [Server] HES GONNA COME SOON
+[07:41:03] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: alr
+[07:41:09] [User Authenticator #2/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:41:11] [Server thread/INFO]: Thundra1 joined the game
+[07:41:11] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:43856] logged in with entity id 964 at ([minecraft:overworld]33.80015311919529, 66.1875, 86.48459062319058)
+[07:41:16] [Async Chat Thread - #1/INFO]: [Not Secure] ThisNotAlex: yooooo
+[07:41:18] [Server thread/INFO]: [Not Secure] [Server] HELLO THUNDRA
+[07:41:26] [Async Chat Thread - #1/INFO]: [Not Secure] Player Thundra1: yooooo
+[07:41:33] [Server thread/INFO]: [Not Secure] [Server] UNFORTURNATLY I CANT PLAY WITH U GUYS
+[07:41:39] [Server thread/INFO]: [Not Secure] [Server] BECAUSE MY FUCKING WIFI
+[07:41:45] [Server thread/INFO]: [Not Secure] [Server] BUT IMA STILL RUN THE SERVER
+[07:41:46] [Server thread/INFO]: Thundra1 issued server command: /home
+[07:41:49] [Server thread/INFO]: Thundra1 issued server command: /home
+[07:41:51] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: alrrrrr
+[07:41:52] [Server thread/INFO]: [Not Secure] [Server] ALsO I FIXED THE GLITCH
+[07:41:55] [Server thread/INFO]: [Not Secure] [Server] IM SO SMART
+[07:41:57] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: can i have loooot
+[07:41:59] [Async Chat Thread - #0/INFO]: [Not Secure] ThisNotAlex: until 9
+[07:42:01] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: how u fix
+[07:42:07] [Async Chat Thread - #0/INFO]: [Not Secure] ThisNotAlex: un it until 9 a clock
+[07:42:08] [Server thread/INFO]: [Not Secure] [Server] AND thundra PLEASE GET US GEAR
+[07:42:16] [Server thread/INFO]: [Not Secure] [Server] THE FIX IS VERY COMPLECATED
+[07:42:22] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: open it untill 9 a clock
+[07:42:24] [Server thread/INFO]: [Not Secure] [Server] GET UR SELF GEAR THUNDRA
+[07:42:28] [Server thread/INFO]: [Not Secure] [Server] ILL TRY
+[07:42:29] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: i get loot for u?
+[07:42:31] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:42:31] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[07:42:31] [Server thread/INFO]: Thundra1 left the game
+[07:42:54] [User Authenticator #3/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:42:55] [Server thread/INFO]: Thundra1 joined the game
+[07:42:55] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:45308] logged in with entity id 1579 at ([minecraft:overworld]308.1792080269414, 71.0, -889.1677551053689)
+[07:43:01] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: i get loot for u guys?
+[07:43:15] [Server thread/INFO]: [Not Secure] [Server] NO
+[07:43:18] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: why
+[07:43:23] [Server thread/INFO]: [Not Secure] [Server] GET FOR UR SELF
+[07:43:25] [Server thread/INFO]: [Not Secure] [Server] FIRST
+[07:43:32] [Async Chat Thread - #0/INFO]: [Not Secure] Player Thundra1: i have 2 sets of diamond
+[07:43:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg Thundra1 then get loot for me if u can
+[07:43:34] [Server thread/INFO]: [me -> Thundra1] then get loot for me if u can
+[07:43:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r cuz we teamates
+[07:43:41] [Server thread/INFO]: [me -> Thundra1] cuz we teamates
+[07:43:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r we can cominate the server
+[07:43:47] [Server thread/INFO]: [me -> Thundra1] we can cominate the server
+[07:43:49] [Server thread/INFO]: Thundra1 issued server command: /what loot do u need
+[07:43:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r just anything
+[07:43:56] [Server thread/INFO]: [me -> Thundra1] just anything
+[07:43:59] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:43:59] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[07:43:59] [Server thread/INFO]: Thundra1 left the game
+[07:43:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r trap stuff
+[07:43:59] [Server thread/INFO]: Thundra1 recently went offline.
+[07:44:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r trap stuff
+[07:44:09] [Server thread/INFO]: Thundra1 recently went offline.
+[07:44:29] [Server thread/INFO]: [Not Secure] [Server] BYE
+[07:44:33] [Async Chat Thread - #0/INFO]: [Not Secure] ThisNotAlex: byeeeee
+[07:44:40] [Server thread/INFO]: [Not Secure] [Server] LOVE YOU ALL
+[07:44:45] [Async Chat Thread - #0/INFO]: [Not Secure] ThisNotAlex: ????
+[07:44:47] [Async Chat Thread - #0/INFO]: [Not Secure] ThisNotAlex: gay
+[07:44:48] [Server thread/INFO]: ThisNotAlex has made the advancement [A Seedy Place]
+[07:46:01] [Server thread/INFO]: [Not Secure] [Server] BTW
+[07:46:08] [Server thread/INFO]: [Not Secure] [Server] I NEED TO RESTART THE SERVER
+[07:46:15] [Async Chat Thread - #3/INFO]: [Not Secure] ThisNotAlex: why
+[07:46:15] [Server thread/INFO]: [Not Secure] [Server] FOR LIKE 20 SECONDS
+[07:46:25] [Server thread/INFO]: [Not Secure] [Server] FOR CHANGING THE SERVER DISCRIPTION
+[07:46:30] [Server thread/INFO]: [Not Secure] [Server] JOIN BACK AFTER
+[07:46:33] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[07:46:33] [Server thread/INFO]: [voicechat] Disconnecting client ThisNotAlex
+[07:46:33] [Server thread/INFO]: ThisNotAlex left the game
+[07:47:57] [User Authenticator #4/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:47:58] [Server thread/INFO]: ThisNotAlex joined the game
+[07:47:58] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:58646] logged in with entity id 2300 at ([minecraft:overworld]292.1755105005129, 77.07236020351671, -867.9183451543756)
+[07:51:38] [Craft Scheduler Thread - 363 - AevorinReports/INFO]: [AevorinReports] A new version of AevorinReports (release) is available: 1.1.3
+[07:51:38] [Craft Scheduler Thread - 363 - AevorinReports/INFO]: [AevorinReports] Download it from: https://cdn.modrinth.com/data/OwqSnlXx/versions/8WzOely5/AevorinReports-1.1.3-all.jar
+[07:52:01] [User Authenticator #5/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[07:52:02] [Server thread/INFO]: Thundra1 joined the game
+[07:52:02] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:45892] logged in with entity id 3085 at ([minecraft:overworld]290.98922525154234, 73.0, -872.851232398478)
+[07:52:07] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: ThisNotAlex
+[07:52:11] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: ye
+[07:52:15] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: where ru
+[07:52:26] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: idk
+[07:52:34] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: some where exploring
+[07:52:40] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: nice
+[07:52:44] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: u just go get loot
+[07:52:51] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: just rtp around
+[07:52:55] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: can i make anvil with ur iron?
+[07:53:01] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: and i will build the house
+[07:53:03] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: ok
+[07:53:05] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: alr
+[07:53:55] [Async Chat Thread - #5/INFO]: [Not Secure] ThisNotAlex: and btw i have max enchanting table now
+[07:54:02] [Async Chat Thread - #5/INFO]: [Not Secure] Player Thundra1: wwwwwwwww
+[07:55:22] [Server thread/INFO]: [Not Secure] [Server] HEY GUYS
+[07:55:24] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: yo
+[07:55:30] [Server thread/INFO]: [Not Secure] [Server] THIS THING THAT I MADE
+[07:55:35] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: ?
+[07:55:35] [Server thread/INFO]: [Not Secure] [Server] WILL CHANGE MY SERVER
+[07:55:37] [Server thread/INFO]: [Not Secure] [Server] FOREVER
+[07:55:41] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: what is it
+[07:55:44] [Server thread/INFO]: [Not Secure] [Server] GUESS WHAT I ADDED
+[07:55:51] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: lifesteaL?
+[07:55:55] [Server thread/INFO]: [Not Secure] [Server] VOICE CHAT
+[07:55:56] [Server thread/INFO]: [Not Secure] [Server] VOICE CHAT
+[07:55:56] [Server thread/INFO]: [Not Secure] [Server] VOICE CHAT
+[07:55:59] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: wwwwwww
+[07:56:03] [Server thread/INFO]: [Not Secure] [Server] BUT idk if it works
+[07:56:06] [Server thread/INFO]: [Not Secure] [Server] so ima test
+[07:56:19] [Server thread/INFO]: [Not Secure] [Server] can u guys like log back on in 20 seconds ima reload my thing
+[07:56:23] [Async Chat Thread - #7/INFO]: [Not Secure] Player Thundra1: ok
+[07:56:25] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[07:56:25] [Server thread/INFO]: [voicechat] Disconnecting client ThisNotAlex
+[07:56:25] [Server thread/INFO]: ThisNotAlex left the game
+[07:56:25] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[07:56:25] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[07:56:25] [Server thread/INFO]: Thundra1 left the game
+[07:59:05] [User Authenticator #6/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[07:59:06] [Server thread/INFO]: ironmanLJM joined the game
+[07:59:06] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:45810] logged in with entity id 4201 at ([minecraft:overworld]-1119.5, 72.0, -1158.5)
+[07:59:17] [User Authenticator #7/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
+[07:59:18] [Server thread/INFO]: ThisNotAlex joined the game
+[07:59:18] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:56490] logged in with entity id 4279 at ([minecraft:overworld]152.6865111196329, -53.0, -986.0515424693456)
+[07:59:22] [Async Chat Thread - #9/INFO]: [Not Secure] ThisNotAlex: yooooo
+[07:59:36] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: yoo
+[08:00:35] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: wheres ur tag
+[08:00:49] [Async Chat Thread - #9/INFO]: [Not Secure] ThisNotAlex: what u mean
+[08:00:49] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: like chat tag
+[08:00:55] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: like og rank
+[08:01:12] [User Authenticator #8/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:01:12] [Async Chat Thread - #9/INFO]: [Not Secure] ThisNotAlex: thats on my vyqzren account
+[08:01:12] [Server thread/INFO]: Thundra1 joined the game
+[08:01:12] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:44832] logged in with entity id 4858 at ([minecraft:the_nether]-37.30000001192093, 55.25220334025373, -186.90741251630035)
+[08:01:12] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: is it showing up for u?
+[08:01:16] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: oh
+[08:01:23] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: wait u can only use one account
+[08:01:32] [Server thread/INFO]: Made ironmanLJM a server operator
+[08:01:37] [Server thread/INFO]: ironmanLJM issued server command: /tp ThisNotAlex
+[08:01:41] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
+[08:01:41] [Server thread/INFO]: [voicechat] Disconnecting client ThisNotAlex
+[08:01:41] [Server thread/INFO]: ThisNotAlex left the game
+[08:01:42] [Server thread/INFO]: ironmanLJM issued server command: /tp Thundra1
+[08:01:43] [Server thread/INFO]: ironmanLJM has completed the challenge [Hot Tourist Destinations]
+[08:01:51] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: speak
+[08:01:53] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: Thundra1
+[08:01:56] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: im testing
+[08:01:58] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: the voice chat
+[08:01:59] [Async Chat Thread - #9/INFO]: [Not Secure] Player Thundra1: i cant rn
+[08:02:01] [User Authenticator #9/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:02:02] [Server thread/INFO]: Vyqzren joined the game
+[08:02:02] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:42052] logged in with entity id 5107 at ([minecraft:overworld]291.7153710191586, 67.0, -856.226789633172)
+[08:02:04] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: bro try
+[08:02:05] [Async Chat Thread - #9/INFO]: [Not Secure] OG Vyqzren: yo
+[08:02:09] [Async Chat Thread - #9/INFO]: [Not Secure] Player Thundra1: my mum is here
+[08:02:12] [Async Chat Thread - #9/INFO]: [Not Secure] [Owner] ironmanLJM: yo ok Vyqzren so ur using this account
+[08:02:17] [Async Chat Thread - #9/INFO]: [Not Secure] OG Vyqzren: ye
+[08:02:20] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner] ironmanLJM: ok
+[08:02:28] [Async Chat Thread - #10/INFO]: [Not Secure] OG Vyqzren: the other one no reason alr
+[08:02:32] [Server thread/INFO]: ironmanLJM issued server command: /whitelist remove Thisnotalex
+[08:02:34] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:02:34] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:02:35] [Server thread/INFO]: Thundra1 left the game
+[08:02:39] [Server thread/INFO]: ironmanLJM issued server command: /whitelist remove ThisNotAlex
+[08:02:43] [Server thread/INFO]: Vyqzren issued server command: /rtp
+[08:02:48] [Server thread/INFO]: Player is not whitelisted
+[08:03:10] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:03:16] [Server thread/INFO]: Removed HACKER1original1 from the whitelist
+[08:03:28] [Server thread/INFO]: Whitelist is already turned on
+[08:03:30] [User Authenticator #10/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:03:31] [Server thread/INFO]: Thundra1 joined the game
+[08:03:31] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:55264] logged in with entity id 5735 at ([minecraft:the_nether]-54.82687887249231, 47.0, -165.24413606099662)
+[08:03:36] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: Thundra1
+[08:03:38] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[08:03:38] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: yes
+[08:03:43] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: can u plz try
+[08:04:05] [User Authenticator #11/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[08:04:06] [Server thread/INFO]: I_am_bob_wow joined the game
+[08:04:06] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:36942] logged in with entity id 5937 at ([minecraft:overworld]23.25586329912228, 65.5, 87.07454923823227)
+[08:04:10] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: yooo bob
+[08:04:11] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: yoooo
+[08:04:12] [Server thread/INFO]: I_am_bob_wow issued server command: /HELP
+[08:04:13] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: hi bob
+[08:04:20] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: THE SPAWN BLINDS ME
+[08:04:20] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: i fixed everything
+[08:04:21] [Server thread/INFO]: I_am_bob_wow issued server command: /home
+[08:04:23] [Server thread/INFO]: ironmanLJM issued server command: /tp Thundra1
+[08:04:27] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: bro
+[08:04:30] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: when i do /spawn
+[08:04:31] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: speak Thundra1
+[08:04:37] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: what
+[08:04:39] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: im not on ur clent
+[08:04:42] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: BRUH
+[08:04:46] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: can u switch
+[08:04:51] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: and see if u can hear me
+[08:05:03] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: no i cant soz bro
+[08:05:04] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM bro he killed me cuz i had armour i have proof
+[08:05:09] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: my mum will here me
+[08:05:10] [Server thread/INFO]: ironmanLJM issued server command: /r who killed u
+[08:05:13] [Server thread/INFO]: ironmanLJM issued server command: /r hacker?
+[08:05:18] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM no thunddra1
+[08:05:29] [Server thread/INFO]: ironmanLJM issued server command: /r in spawn?
+[08:05:33] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM i think so
+[08:05:35] [Server thread/INFO]: ironmanLJM issued server command: /r like the spawn house
+[08:05:39] [Server thread/INFO]: ironmanLJM issued server command: /tp I_am_bob_wow
+[08:05:47] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM prob
+[08:05:55] [Server thread/INFO]: ironmanLJM issued server command: /r pvp is not on in spawn house
+[08:05:56] [Server thread/INFO]: ironmanLJM issued server command: /spawn
+[08:05:59] [Async Chat Thread - #12/INFO]: [Not Secure] OG Vyqzren: yo
+[08:06:02] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM he randomly killed me
+[08:06:10] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM naked killing if you will
+[08:06:11] [Server thread/INFO]: ironmanLJM issued server command: /r do u have armor on
+[08:06:13] [Async Chat Thread - #12/INFO]: [Not Secure] OG Vyqzren: i just ran back to spawn from base
+[08:06:18] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM ye?
+[08:06:25] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: Thundra1
+[08:06:27] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:06:27] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[08:06:27] [Server thread/INFO]: Vyqzren left the game
+[08:06:28] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: nvm
+[08:06:30] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: yes?
+[08:06:30] [Server thread/INFO]: ironmanLJM issued server command: /r bro
+[08:06:32] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: ok
+[08:06:33] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM can you kill people with armour cuz thats what he did to me
+[08:06:34] [Server thread/INFO]: ironmanLJM issued server command: /r if u have armor on
+[08:06:37] [Server thread/INFO]: ironmanLJM issued server command: /r its alowed
+[08:06:41] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM wait what
+[08:06:42] [Server thread/INFO]: ironmanLJM issued server command: /r yes
+[08:06:44] [Server thread/INFO]: Thundra1 has made the advancement [Who is Cutting Onions?]
+[08:06:45] [Server thread/INFO]: ironmanLJM issued server command: /r it is
+[08:06:52] [Server thread/INFO]: ironmanLJM issued server command: /r ill tell him to not kill u
+[08:07:03] [Server thread/INFO]: ironmanLJM issued server command: /r also i added voice chat
+[08:07:04] [User Authenticator #12/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:07:05] [Server thread/INFO]: Vyqzren joined the game
+[08:07:05] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:59118] logged in with entity id 7526 at ([minecraft:overworld]66.84801683931258, 62.9375, 13.117174256899382)
+[08:07:08] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM but theres 2 meaning to naked killing
+[08:07:09] [Server thread/INFO]: ironmanLJM issued server command: /r so we can chat in game
+[08:07:18] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:07:18] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:07:18] [Server thread/INFO]: Thundra1 left the game
+[08:07:18] [Server thread/INFO]: ironmanLJM issued server command: /r no only no armor
+[08:07:22] [Server thread/INFO]: I_am_bob_wow issued server command: /whisper ironmanLJM so you should change that
+[08:07:23] [Async Chat Thread - #12/INFO]: [Not Secure] OG Vyqzren: and my game just crashed
+[08:07:36] [Server thread/INFO]: I_am_bob_wow went up in flames
+[08:07:42] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: rip
+[08:07:47] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: bro
+[08:07:49] [Server thread/INFO]: I_am_bob_wow issued server command: /home
+[08:07:52] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: yes?
+[08:07:56] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: yes Vyqzren
+[08:07:57] [Async Chat Thread - #12/INFO]: [Not Secure] OG Vyqzren: cheater
+[08:07:59] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: my client bugs at spawn
+[08:08:05] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: dude im testing voice chat
+[08:08:09] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: also I_am_bob_wow
+[08:08:12] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: yes
+[08:08:23] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: use itzpulsev2.github.io
+[08:08:26] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: i am
+[08:08:27] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: its better
+[08:08:31] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: dylan client?
+[08:08:34] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: yes
+[08:08:40] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: wait press right shift
+[08:08:40] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: can you tp me to the villave
+[08:08:45] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: u should see voice chat
+[08:08:49] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: i dont
+[08:08:50] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: and enable it
+[08:08:56] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: yo iron
+[08:08:57] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: when u scroll down
+[08:08:59] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[08:08:59] [Server thread/INFO]: [voicechat] Disconnecting client I_am_bob_wow
+[08:08:59] [Server thread/INFO]: I_am_bob_wow left the game
+[08:09:01] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: yes Vyqzren
+[08:09:10] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: i just ran here from base
+[08:09:15] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: its so close
+[08:09:20] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: do u have voice chat enabled Vyqzren oh yea true
+[08:09:30] [User Authenticator #13/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[08:09:31] [Server thread/INFO]: I_am_bob_wow joined the game
+[08:09:31] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:56540] logged in with entity id 8502 at ([minecraft:the_nether]-30.273643965896973, 15.0, -6.120220007019319)
+[08:09:32] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: do u have voice chat enabled Vyqzren
+[08:09:33] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: do u have voice chat enabled Vyqzren
+[08:09:38] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: can you tp me to the village
+[08:09:41] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: on delan
+[08:09:45] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: cant sorry I_am_bob_wow
+[08:09:46] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: yea Vyqzren
+[08:09:53] [Server thread/INFO]: I_am_bob_wow issued server command: /spawn is bugged for me
+[08:09:53] [User Authenticator #14/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:09:54] [Server thread/INFO]: Thundra1 joined the game
+[08:09:54] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:41106] logged in with entity id 8691 at ([minecraft:the_nether]-71.27860343511993, 44.0, -162.5458654196668)
+[08:09:56] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: no iam not using dylan
+[08:10:03] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: can u change to dylan client
+[08:10:05] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: and try
+[08:10:09] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: Thundra1
+[08:10:10] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: the screen goes black when i do /spawn
+[08:10:10] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:10:10] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[08:10:10] [Server thread/INFO]: Vyqzren left the game
+[08:10:12] [Server thread/INFO]: I_am_bob_wow issued server command: /home
+[08:10:21] [User Authenticator #15/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:10:21] [Server thread/INFO]: Vyqzren joined the game
+[08:10:21] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:44276] logged in with entity id 9030 at ([minecraft:overworld]30.07737782687131, 63.0, 72.10912777951742)
+[08:10:23] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: oh idk why that happens
+[08:10:24] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:10:24] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:10:24] [Server thread/INFO]: Thundra1 left the game
+[08:10:30] [Server thread/INFO]: I_am_bob_wow issued server command: /rtp
+[08:10:33] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: do u have voice chat enabled Vyqzren
+[08:10:38] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: so can you tp me to the overworld
+[08:10:39] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: ye
+[08:10:47] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: hold v and talk
+[08:11:04] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: can u hear me
+[08:11:16] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: bro my game keeps like 频闪
+[08:11:24] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: on dylan client
+[08:11:26] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: but can u hear me
+[08:11:33] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: no
+[08:11:38] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: oh :(
+[08:11:46] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: bro so annoying
+[08:11:52] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: ima switch back
+[08:11:52] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: ima test it somewhere else
+[08:11:57] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[08:11:57] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[08:11:57] [Server thread/INFO]: Vyqzren left the game
+[08:11:58] [Server thread/INFO]: ironmanLJM issued server command: /home
+[08:12:06] [User Authenticator #16/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[08:12:08] [Server thread/INFO]: Vyqzren joined the game
+[08:12:08] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:60406] logged in with entity id 9773 at ([minecraft:overworld]28.015097634944606, 63.0, 75.03189107710863)
+[08:12:12] [Async Chat Thread - #11/INFO]: [Not Secure] Player I_am_bob_wow: ironman can you /tpa me to the overworld
+[08:12:21] [Async Chat Thread - #11/INFO]: [Not Secure] OG Vyqzren: fianly
+[08:12:24] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: just do /spawn
+[08:12:28] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: its bugged for me
+[08:12:33] [Server thread/INFO]: Vyqzren issued server command: /rtp
+[08:12:35] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: i cant see
+[08:12:54] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: thats wierd
+[08:12:57] [Async Chat Thread - #12/INFO]: [Not Secure] Player I_am_bob_wow: ye
+[08:13:01] [User Authenticator #17/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:13:01] [Server thread/INFO]: Thundra1 joined the game
+[08:13:01] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:35698] logged in with entity id 10378 at ([minecraft:the_nether]-72.02419113506376, 44.0, -162.4524707967493)
+[08:13:06] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: Thundra1
+[08:13:09] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: what
+[08:13:11] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: can u please test out voice chat
+[08:13:16] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: u dont have to speak
+[08:13:21] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: alr
+[08:13:22] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: just listen for my voice
+[08:13:27] [Server thread/INFO]: I_am_bob_wow issued server command: /spawn
+[08:13:27] [Server thread/INFO]: ironmanLJM issued server command: /tp Thundra1
+[08:13:34] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: dont pick uppppppppppp
+[08:13:36] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:13:36] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:13:36] [Server thread/INFO]: Thundra1 left the game
+[08:13:49] [User Authenticator #18/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:13:50] [Server thread/INFO]: Thundra1 joined the game
+[08:13:50] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:34628] logged in with entity id 10860 at ([minecraft:the_nether]-72.69999998807907, 44.0, -161.7622789968692)
+[08:13:56] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: speak
+[08:13:58] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: did u enable vc
+[08:14:03] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: yes i hear u
+[08:14:06] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: helllo
+[08:14:06] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: WWW
+[08:14:12] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: VOICE CHAT WORKS IM THE GOAT
+[08:14:13] [Async Chat Thread - #12/INFO]: [Not Secure] Player Thundra1: i gtg
+[08:14:15] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner] ironmanLJM: bye
+[08:14:15] [Async Chat Thread - #11/INFO]: [Not Secure] Player Thundra1: yes bro
+[08:14:17] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:14:17] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:14:17] [Server thread/INFO]: Thundra1 left the game
+[08:14:18] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: also
+[08:14:19] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: wait
+[08:14:21] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner] ironmanLJM: bru
+[08:14:27] [Server thread/INFO]: ironmanLJM issued server command: /home
+[08:15:46] [Server thread/INFO]: I_am_bob_wow issued server command: /sethome
+[08:15:54] [Server thread/INFO]: I_am_bob_wow issued server command: /spawn
+[08:16:15] [Server thread/INFO]: ironmanLJM issued server command: /rg info
+[08:16:33] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[08:16:37] [Server thread/INFO]: Gamerule mob_griefing is currently set to: true
+[08:18:08] [Server thread/INFO]: I_am_bob_wow issued server command: /home
+[08:19:23] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[08:19:23] [Server thread/INFO]: [voicechat] Disconnecting client I_am_bob_wow
+[08:19:23] [Server thread/INFO]: I_am_bob_wow left the game
+[08:21:17] [Server thread/INFO]: Vyqzren issued server command: /home
+[08:22:17] [Async Chat Thread - #13/INFO]: [Not Secure] OG Vyqzren: yo iron
+[08:23:54] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[08:23:54] [Server thread/INFO]: [voicechat] Disconnecting client ironmanLJM
+[08:23:54] [Server thread/INFO]: ironmanLJM left the game
+[08:24:21] [User Authenticator #19/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[08:24:22] [Server thread/INFO]: Thundra1 joined the game
+[08:24:22] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:34586] logged in with entity id 15469 at ([minecraft:the_nether]-72.69999998807907, 44.0, -161.30000001192093)
+[08:24:35] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[08:24:35] [Server thread/INFO]: [voicechat] Disconnecting client Thundra1
+[08:24:35] [Server thread/INFO]: Thundra1 left the game
+[08:24:59] [Server thread/INFO]: VillagerVault » Configuration reloaded successfully!

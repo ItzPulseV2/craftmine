@@ -57,7 +57,7 @@ villager-pickup:
 # Prevent villagers from taking damage
 villager-protection:
   # Enable or disable villager protection
-  enabled: true
+  enabled: false
   # Which damage causes to block. Remove entries to allow specific damage types.
   # Full list: PLAYER, MOB, LIGHTNING, LAVA, FIRE, FIRE_TICK, EXPLOSION,
   # SUFFOCATION, DROWNING, FALL, PROJECTILE, CACTUS, WITHER, STARVATION, POISON, MAGIC, ALL

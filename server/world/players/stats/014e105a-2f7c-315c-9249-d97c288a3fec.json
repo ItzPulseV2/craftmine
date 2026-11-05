@@ -1,5 +1,30 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:oak_fence": 3,
+      "minecraft:grass_block": 71,
+      "minecraft:red_wool": 38,
+      "minecraft:stone_sword": 6,
+      "minecraft:acacia_planks": 5,
+      "minecraft:red_carpet": 3,
+      "minecraft:deepslate": 75,
+      "minecraft:bamboo_fence": 255,
+      "minecraft:oak_log": 10,
+      "minecraft:stone": 52,
+      "minecraft:oak_stairs": 5,
+      "minecraft:soul_sand": 16,
+      "minecraft:stone_brick_slab": 29,
+      "minecraft:barrier": 5,
+      "minecraft:stone_brick_stairs": 74,
+      "minecraft:bookshelf": 11,
+      "minecraft:nether_wart": 12,
+      "minecraft:chest": 2,
+      "minecraft:splash_potion": 17,
+      "minecraft:glass_pane": 12,
+      "minecraft:command_block": 3,
+      "minecraft:warped_planks": 4,
+      "minecraft:bedrock": 129
+    },
     "minecraft:picked_up": {
       "minecraft:enchanted_golden_apple": 192,
       "minecraft:hay_block": 1,
@@ -10,44 +35,6 @@
       "minecraft:bamboo_fence": 130,
       "minecraft:golden_carrot": 640,
       "minecraft:golden_apple": 768
-    },
-    "minecraft:used": {
-      "minecraft:stone": 52,
-      "minecraft:grass_block": 21,
-      "minecraft:red_wool": 38,
-      "minecraft:stone_sword": 6,
-      "minecraft:acacia_planks": 5,
-      "minecraft:barrier": 5,
-      "minecraft:chest": 2,
-      "minecraft:red_carpet": 3,
-      "minecraft:bamboo_fence": 255,
-      "minecraft:command_block": 3,
-      "minecraft:warped_planks": 4,
-      "minecraft:bedrock": 129
-    },
-    "minecraft:custom": {
-      "minecraft:talked_to_villager": 7,
-      "minecraft:time_since_rest": 10715,
-      "minecraft:walk_one_cm": 45851,
-      "minecraft:leave_game": 6,
-      "minecraft:walk_under_water_one_cm": 1082,
-      "minecraft:damage_taken": 359,
-      "minecraft:play_time": 43616,
-      "minecraft:damage_dealt": 367,
-      "minecraft:jump": 522,
-      "minecraft:time_since_death": 10695,
-      "minecraft:drop": 39,
-      "minecraft:open_barrel": 2,
-      "minecraft:sprint_one_cm": 72746,
-      "minecraft:open_chest": 24,
-      "minecraft:fall_one_cm": 2807,
-      "minecraft:total_world_time": 43616,
-      "minecraft:swim_one_cm": 5715,
-      "minecraft:fly_one_cm": 361632,
-      "minecraft:walk_on_water_one_cm": 4729,
-      "minecraft:crouch_one_cm": 820,
-      "minecraft:sneak_time": 2292,
-      "minecraft:deaths": 1
     },
     "minecraft:killed_by": {
       "minecraft:player": 1
@@ -64,6 +51,31 @@
     "minecraft:mined": {
       "minecraft:short_grass": 1,
       "minecraft:bamboo_fence": 2
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 7,
+      "minecraft:time_since_rest": 21480,
+      "minecraft:walk_one_cm": 64232,
+      "minecraft:leave_game": 9,
+      "minecraft:walk_under_water_one_cm": 1950,
+      "minecraft:damage_taken": 359,
+      "minecraft:play_time": 66685,
+      "minecraft:damage_dealt": 377,
+      "minecraft:jump": 702,
+      "minecraft:time_since_death": 33764,
+      "minecraft:drop": 39,
+      "minecraft:open_barrel": 2,
+      "minecraft:sprint_one_cm": 97531,
+      "minecraft:open_chest": 31,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 2807,
+      "minecraft:total_world_time": 66685,
+      "minecraft:swim_one_cm": 5715,
+      "minecraft:fly_one_cm": 607767,
+      "minecraft:walk_on_water_one_cm": 5256,
+      "minecraft:crouch_one_cm": 1827,
+      "minecraft:sneak_time": 3538,
+      "minecraft:deaths": 1
     }
   },
   "DataVersion": 4903

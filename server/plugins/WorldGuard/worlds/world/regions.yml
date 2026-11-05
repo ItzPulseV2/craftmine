@@ -16,9 +16,15 @@ regions:
         members:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
         flags: {use: deny, greeting: Welcome to the spawn!, block-break: deny, lighter: deny,
-            interact: deny, tnt: deny, pvp: deny, chest-access: deny, mob-spawning: deny,
-            block-place: deny, fire-spread: deny}
+            interact: deny, tnt: deny, pvp: deny, chest-access: deny, block-place: deny,
+            mob-spawning: deny, fire-spread: deny}
         owners:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
         type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
         priority: 0
