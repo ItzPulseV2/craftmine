@@ -1,7 +1,7 @@
-[04:41:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
-[04:41:06] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[04:41:07] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[04:41:08] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[07:14:02] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
+[07:14:03] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[07:14:03] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[07:14:03] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.lang.IllegalArgumentException: Image is not 64x64 (found 436x441)
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:307)
 	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82)
@@ -11,129 +11,69 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 436x441)
 	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:409)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:293)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[04:41:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[04:41:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[04:41:11] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
-[04:41:11] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[04:41:11] [main/ERROR] [eaglerxserver]: Server startup aborted: Could not read one or more config files!
-[04:41:11] [main/ERROR] [eaglerxserver]: Caused by: 
-java.io.IOException: Failed to load config file: /workspaces/craftmine/velocity/plugins/eaglerxserver/listeners.toml
-	at net.lax1dude.eaglercraft.backend.server.config.nightconfig.NightConfigLoader.getConfigFile(NightConfigLoader.java:46)
-	at net.lax1dude.eaglercraft.backend.server.config.EnumConfigFormat.lambda$static$1(EnumConfigFormat.java:37)
-	at net.lax1dude.eaglercraft.backend.server.config.EnumConfigFormat.getConfigFile(EnumConfigFormat.java:70)
-	at net.lax1dude.eaglercraft.backend.server.base.config.ConfigHelper$2.loadConfig(ConfigHelper.java:136)
-	at net.lax1dude.eaglercraft.backend.server.base.config.EaglerConfigLoader.loadConfig(EaglerConfigLoader.java:578)
-	at net.lax1dude.eaglercraft.backend.server.base.config.EaglerConfigLoader.lambda$loadConfig$0(EaglerConfigLoader.java:61)
-	at net.lax1dude.eaglercraft.backend.server.base.config.ConfigHelper.getConfigDirectory(ConfigHelper.java:112)
-	at net.lax1dude.eaglercraft.backend.server.base.config.EaglerConfigLoader.loadConfig(EaglerConfigLoader.java:60)
-	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.load(EaglerXServer.java:217)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity.<init>(PlatformPluginVelocity.java:256)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$67fcb.GUICE$TRAMPOLINE(<generated>)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$67fcb.apply(<generated>)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
-	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
-	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
-	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
-	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.createPlugin(JavaPluginLoader.java:135)
-	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:199)
-	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:439)
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:310)
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[04:41:11] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Can't create plugin eaglerxserver
-com.google.inject.ProvisionException: Unable to provision, see the following errors:
-
-1) [Guice/ErrorInjectingConstructor]: IllegalStateException: Startup aborted
-  at PlatformPluginVelocity.<init>(PlatformPluginVelocity.java:173)
-  at VelocityPluginModule.configure(VelocityPluginModule.java:47)
-  while locating PlatformPluginVelocity
-
-Learn more:
-  https://github.com/google/guice/wiki/ERROR_INJECTING_CONSTRUCTOR
-
-1 error
-
-======================
-Full classname legend:
-======================
-PlatformPluginVelocity: "net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity"
-VelocityPluginModule:   "com.velocitypowered.proxy.plugin.loader.java.VelocityPluginModule"
-========================
-End of classname legend:
-========================
-
-	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:251)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1151)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
-	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.createPlugin(JavaPluginLoader.java:135)
-	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:199)
-	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:439)
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:310)
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-Caused by: java.lang.IllegalStateException: Startup aborted
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity.<init>(PlatformPluginVelocity.java:264)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$67fcb.GUICE$TRAMPOLINE(<generated>)
-	at net.lax1dude.eaglercraft.backend.server.velocity.PlatformPluginVelocity$$FastClassByGuice$$67fcb.apply(<generated>)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
-	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
-	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
-	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
-	... 6 more
-[04:41:11] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
-[04:41:12] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
-[04:41:12] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.25 by NickUC
-[04:41:13] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
-[04:41:13] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
-[04:41:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 6 plugins
-[04:41:14] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
-[04:41:15] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
-[04:41:15] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
-[04:41:15] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
-[04:41:15] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[04:41:16] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
-[04:41:17] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
-[04:41:17] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
-[04:41:17] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 4475ms)
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 1.75s)
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
-[04:41:21] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
-[04:41:26] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.15s)
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.25
-[04:41:27] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
-[04:41:28] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
-[04:41:30] [pool-6-thread-1/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 8.40s)
-[04:41:34] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[04:41:35] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
-[04:41:35] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[04:41:35] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[04:41:35] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
-[04:41:35] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
-[04:41:36] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
-[04:41:36] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
-[04:41:36] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
-[04:41:36] [main/INFO] [nantibot]: Injecting channel initializers
-[04:41:36] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[04:41:36] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[04:41:36] [nAntiBot - Task Executor #1/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
-[04:41:36] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (32.84s)!
-[04:41:36] [ViaVersion - Task Executor #0/WARN] [viaversion]: There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[07:14:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[07:14:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[07:14:04] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[07:14:04] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[07:14:04] [main/INFO] [eaglerxserver]: Config file was updated: /workspaces/craftmine/velocity/plugins/eaglerxserver/listeners.toml
+[07:14:04] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.25 by NickUC
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[07:14:04] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
+[07:14:04] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1321ms)
+[07:14:05] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[07:14:05] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[07:14:06] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[07:14:06] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/craftmine/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[07:14:06] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[07:14:07] [Netty epoll Worker #1/INFO] [eaglerxserver]: Refreshed update certificate: https://deev.is/eagler/backup.cert
+[07:14:07] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 1.54s)
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
+[07:14:08] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.14s)
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.25
+[07:14:11] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
+[07:14:12] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[07:14:16] [pool-7-thread-4/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 7.64s)
+[07:14:17] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[07:14:18] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
+[07:14:18] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[07:14:18] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[07:14:18] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
+[07:14:18] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
+[07:14:19] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
+[07:14:19] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
+[07:14:19] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
+[07:14:19] [main/INFO] [nantibot]: Injecting channel initializers
+[07:14:19] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[07:14:19] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x85c95aa0, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
+[07:14:19] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[07:14:19] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[07:14:19] [ViaVersion - Task Executor #0/WARN] [viaversion]: There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[07:14:19] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (16.91s)!
