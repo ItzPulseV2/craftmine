@@ -193,3 +193,34 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 436x441)
 [08:24:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected
 [08:24:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:57744) has disconnected
 [08:24:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has disconnected
+[08:26:25] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:34268) has connected
+[08:26:26] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has connected
+[08:26:30] [nLogin - Task Executor #12/INFO] [nlogin]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[08:26:30] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has connected
+[08:26:30] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected
+[08:27:58] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:34268) has disconnected
+[08:27:58] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has disconnected
+[08:31:56] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:43888) has connected
+[08:31:56] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has connected
+[08:32:24] [nLogin - Task Executor #13/INFO] [nlogin]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[08:32:24] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has connected
+[08:32:24] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected
+[08:33:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:43888) has disconnected
+[08:33:03] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has disconnected
+[08:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:56608) has connected
+[08:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has connected
+[08:34:21] [nLogin - Task Executor #14/INFO] [nlogin]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[08:34:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:56608) has disconnected
+[08:34:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected
+[08:34:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:33544) has connected
+[08:34:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has connected
+[08:34:29] [nLogin - Task Executor #13/INFO] [nlogin]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[08:34:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has connected
+[08:34:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected
+[08:34:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:38554) has disconnected
+[08:34:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[08:35:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:33544): kicked from server survival: Server closed
+[08:35:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> survival has disconnected
+[08:35:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has connected
+[08:35:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Thundra1 (localhost/[0:0:0:0:0:0:0:1]:33544) has disconnected
+[08:35:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Thundra1 -> auth has disconnected

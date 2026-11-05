@@ -17,18 +17,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793866317489
+  logout: 1793867690839
   login: 1793866328267
 money: '0'
 last-account-name: Vyqzren
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 28.015097634944606
-  y: 63.0
-  z: 75.03189107710863
-  yaw: -75.80314636230469
-  pitch: 62.4207763671875
+  x: 286.7132641846999
+  y: 73.0
+  z: -873.6837786958642
+  yaw: 150.2093505859375
+  pitch: -12.900033950805664
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world

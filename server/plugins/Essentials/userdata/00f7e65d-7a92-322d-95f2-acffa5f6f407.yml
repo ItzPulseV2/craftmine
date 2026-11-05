@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793867075588
-  login: 1793867062164
+  logout: 1793867731904
+  login: 1793867671144
 money: '0'
 last-account-name: Thundra1
 lastlocation:
@@ -41,8 +41,8 @@ homes:
 logoutlocation:
   world: 7ad073d0-82ea-4974-a0d9-79c27e6050dd
   world-name: world_nether
-  x: -69.69255327084464
-  y: 44.0
-  z: -162.80284773665025
-  yaw: 73.15718841552734
-  pitch: 30.149951934814453
+  x: -73.69999998807907
+  y: 42.0
+  z: -163.5184574802269
+  yaw: 20.35747528076172
+  pitch: 90.0
