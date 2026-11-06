@@ -11,15 +11,24 @@
 #
 regions:
     spawn:
-        min: {x: 10, y: -64, z: 82}
-        max: {x: 44, y: 319, z: 106}
+        min: {x: -64, y: -64, z: 48}
+        max: {x: -49, y: 319, z: 63}
         members:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
         flags: {use: deny, greeting: Welcome to the spawn!, block-break: deny, lighter: deny,
-            interact: deny, tnt: deny, pvp: deny, chest-access: deny, block-place: deny,
-            mob-spawning: deny, fire-spread: deny}
+            interact: deny, chest-access: deny, pvp: deny, tnt: deny, mob-spawning: deny,
+            block-place: deny, fire-spread: deny}
         owners:
             unique-ids: [d00c14c9-9ee3-3788-b053-a1de57b43b72]
+        type: cuboid
+        priority: 0
+    house:
+        min: {x: -54, y: -64, z: 57}
+        max: {x: -32, y: 319, z: 89}
+        members: {}
+        flags: {build: deny, use: deny, interact: deny, chest-access: deny, pvp: deny,
+            mob-spawning: deny}
+        owners: {}
         type: cuboid
         priority: 0
     __global__:

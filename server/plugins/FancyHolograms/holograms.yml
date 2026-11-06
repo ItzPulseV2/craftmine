@@ -4,10 +4,10 @@ holograms:
     type: TEXT
     location:
       world: world
-      x: 27.588167190551758
-      y: 69.1875
-      z: 91.44961547851562
-      yaw: 0.0
+      x: -39.44765090942383
+      y: 73.1875
+      z: 73.50008392333984
+      yaw: -270.0
       pitch: 85.99321
     visibility_distance: -1
     visibility: ALL
