@@ -52,7 +52,7 @@ anticheat:
     use-permission: false
 chunks:
   auto-save-interval: default
-  delay-chunk-unloads-by: 0t
+  delay-chunk-unloads-by: 0s
   entity-per-chunk-save-limit:
     area_effect_cloud: 8
     arrow: 16
