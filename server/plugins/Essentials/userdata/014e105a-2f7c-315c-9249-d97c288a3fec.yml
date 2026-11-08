@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1793939776026
+  lastteleport: 1794017316882
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793939797418
-  login: 1793939771434
+  logout: 1794018862992
+  login: 1794018846531
 money: '0'
 last-account-name: ThisNotAlex
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 87.30000001192093
-  y: -49.0
-  z: -981.6999999880791
-  yaw: -50.37967300415039
-  pitch: 24.845788955688477
+  x: 290.61275558886274
+  y: -12.0
+  z: -866.7624999880791
+  yaw: 31.13137435913086
+  pitch: 28.199949264526367
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 296.20424641369874
-  y: 68.0
-  z: -873.4081681012932
-  yaw: -83.29238891601562
-  pitch: 37.00270080566406
+  x: 299.69999998807907
+  y: 73.0
+  z: -875.6999999880791
+  yaw: 83.57763671875
+  pitch: 33.185874938964844
 homes:
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341

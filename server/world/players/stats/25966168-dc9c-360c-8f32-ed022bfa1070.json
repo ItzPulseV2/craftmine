@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_shovel": 34,
+      "minecraft:stone_axe": 1,
+      "minecraft:stone_pickaxe": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3163,
+      "minecraft:walk_one_cm": 6013,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 60,
+      "minecraft:play_time": 3163,
+      "minecraft:jump": 56,
+      "minecraft:time_since_death": 3163,
+      "minecraft:sprint_one_cm": 13969,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 1781,
+      "minecraft:total_world_time": 3163,
+      "minecraft:fly_one_cm": 5642,
+      "minecraft:walk_on_water_one_cm": 384,
+      "minecraft:crouch_one_cm": 6,
+      "minecraft:sneak_time": 41
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:tall_grass": 2,
+      "minecraft:dirt": 24,
+      "minecraft:oak_log": 1,
+      "minecraft:grass_block": 8,
+      "minecraft:cobblestone": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 30,
+      "minecraft:oak_log": 1,
+      "minecraft:cobblestone": 1
+    }
+  },
+  "DataVersion": 4903
+}

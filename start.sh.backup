@@ -1,0 +1,26 @@
+#!/bin/bash
+cd /workspaces/craftmine
+
+start_server() {
+    local name="$1"
+    local folder="$2"
+    local jar="$3"
+
+    if pgrep -f "^java .*${jar}$" >/dev/null; then
+        echo "⚠️ $name might already be running. Check before starting another copy."
+        return
+    fi
+
+    echo "🚀 Starting $name..."
+    (
+        cd "$folder" || exit 1
+        exec java -jar "$jar" nogui
+    ) > "$folder/console.log" 2>&1 &
+}
+
+start_server "Paper" "server" "paper.jar"
+start_server "Limbo" "limbo" "paper.jar"
+start_server "Velocity" "velocity" "velocity.jar"
+
+echo "✅ Startup commands sent!"
+echo "Check console.log in each folder for errors."

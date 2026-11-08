@@ -1,0 +1,12 @@
+[2026-11-07 01:26:03] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials
+[2026-11-07 01:26:09] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials
+[2026-11-07 01:26:50] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials
+[2026-11-07 01:28:37] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials
+[2026-11-07 01:28:46] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-07 01:36:44] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-07 01:37:39] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: give ironmanLJM waterbucket  1
+[2026-11-07 06:44:04] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-07 06:47:55] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op iron
+[2026-11-07 06:48:07] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-07 06:48:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: deop iron
+[2026-11-07 07:24:16] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: banlist 1

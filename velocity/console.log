@@ -1,0 +1,108 @@
+2026-11-07T01:08:14.410947918Z main WARN Advanced terminal features are not available in this environment
+[01:08:15 INFO]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
+[01:08:15 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[01:08:15 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[01:08:16 INFO]: Unable to load your server-icon.png, continuing without it.
+java.lang.IllegalArgumentException: Image is not 64x64 (found 436x441)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:307) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:107) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:253) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:244) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:409) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:293) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:4.1.0-SNAPSHOT (git-00759e52-b16)]
+[01:08:16 INFO]: Loading localizations...
+[01:08:16 INFO]: Loading plugins...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/workspaces/craftmine/velocity/velocity.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[01:08:17 INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[01:08:17 INFO] [eaglerxserver]: (Platform: Velocity)
+[01:08:17 INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[01:08:18 INFO]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[01:08:18 INFO]: Loaded plugin luckperms 5.5.71 by Luck
+[01:08:18 INFO]: Loaded plugin nantibot 2.0.8 by NickUC
+[01:08:18 INFO]: Loaded plugin nlogin 2.0.25 by NickUC
+[01:08:18 INFO]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[01:08:18 INFO]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[01:08:18 INFO]: Loaded 7 plugins
+[01:08:19 INFO] [luckperms]: Loading configuration...
+[01:08:19 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[01:08:19 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [0m[38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.71[0m
+[01:08:19 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Velocity[0m
+[01:08:19 INFO]: 
+[01:08:20 INFO] [luckperms]: Loading storage provider... [H2]
+[01:08:20 INFO] [luckperms]: Loading internal permission managers...
+[01:08:20 INFO] [luckperms]: Performing initial data load...
+[01:08:20 INFO] [luckperms]: Successfully enabled. (took 2125ms)
+[01:08:21 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:08:21 INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[01:08:21 INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[01:08:21 INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[01:08:21 INFO] [eaglerxserver]: Reloaded certificate: /workspaces/craftmine/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[01:08:21 WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[01:08:22 INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[01:08:23 INFO] [nantibot]: Successful plugin core start (took 1.03s)
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m          _         _   _   ___       _   [0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m                                         [0m
+[01:08:23 INFO]: [nAntiBot] [38;2;255;85;85m By: www.nickuc.com - V 2.0.8[0m
+[01:08:23 INFO]: [nAntiBot] 
+[01:08:27 INFO] [nlogin]: Successful plugin core start (took 1.70s)
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m          __             _       [0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m  _ __   / /  ___   __ _(_)_ __  [0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m | '_ \ / /  / _ \ / _` | | '_ \ [0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m | | | / /__| (_) | (_| | | | | |[0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m |_| |_\____/\___/ \__, |_|_| |_|[0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m                  |___/            [0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m By: www.nickuc.com - V 2.0.25[0m
+[01:08:27 INFO]: [nLogin] [38;2;85;85;255m [0m
+[01:08:29 INFO] [nlogin]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[01:08:31 INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 7.81s)
+[01:08:34 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:08:36 INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
+[01:08:36 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:08:36 WARN]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:08:36 INFO] [viabackwards]: Loading translations...
+[01:08:36 INFO] [viabackwards]: Registering protocols...
+[01:08:37 INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
+[01:08:37 INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
+[01:08:37 INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
+[01:08:37 INFO] [nantibot]: Injecting channel initializers
+[01:08:37 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:08:37 INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xbc490ac5, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
+[01:08:37 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[01:08:37 INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[01:08:37 WARN] [viaversion]: There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[01:08:37 INFO]: Done (22.61s)!
+[01:11:51 INFO]: [connected player] ThisNotAlex (localhost/[0:0:0:0:0:0:0:1]:50274) has connected
+[01:11:51 INFO]: [server connection] ThisNotAlex -> auth has connected
+[01:11:51 INFO]: [connected player] ThisNotAlex (localhost/[0:0:0:0:0:0:0:1]:50274) has disconnected
+[01:11:51 INFO]: [server connection] ThisNotAlex -> auth has disconnected
+[01:11:59 INFO]: [connected player] ThisNotAlex (localhost/[0:0:0:0:0:0:0:1]:33128) has connected
+[01:11:59 INFO]: [server connection] ThisNotAlex -> auth has connected
+[01:12:07 INFO]: [connected player] ThisNotAlex (localhost/[0:0:0:0:0:0:0:1]:33128) has disconnected
+[01:12:07 INFO]: [server connection] ThisNotAlex -> auth has disconnected
+[01:12:16 INFO]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:58028) has connected
+[01:12:16 INFO]: [server connection] Vyqzren -> auth has connected
+[01:12:22 INFO] [nlogin]: The user Vyqzren has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[01:12:23 INFO]: [server connection] Vyqzren -> survival has connected
+[01:12:23 INFO]: [server connection] Vyqzren -> auth has disconnected
+[01:12:53 INFO]: Shutting down the proxy...
+[01:12:53 INFO]: Closing endpoint /0.0.0.0:25565
+[01:12:53 INFO]: [connected player] Vyqzren (localhost/[0:0:0:0:0:0:0:1]:58028) has disconnected: Proxy shutting down.
+[01:12:53 INFO]: [server connection] Vyqzren -> survival has disconnected
+[01:12:53 INFO] [eaglerxserver]: Disabling EaglercraftXServer 1.1.1...
+[01:12:53 INFO] [eaglerxserver]: Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[01:12:53 INFO] [eaglerxserver]: Disconnected from skin cache database successfully!
+[01:12:53 INFO] [nantibot]: Successful plugin core shutdown (took 0.00s)
+[01:12:53 INFO] [nantibot]: Disconnecting from remote server...
+[01:12:55 INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[01:12:55 INFO] [luckperms]: Starting shutdown process...
+[01:12:55 INFO] [luckperms]: Closing storage...
+[01:12:55 INFO] [luckperms]: Goodbye!

@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793850795858
-  login: 1793849169177
+  logout: 1794040448116
+  login: 1794039745271
 money: '0'
 last-account-name: Krisha
 lastlocation:
@@ -32,8 +32,8 @@ lastlocation:
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 50.13843403589437
-  y: 62.9375
-  z: 53.13710368910723
-  yaw: -31.049875259399414
-  pitch: 26.40006446838379
+  x: 137.37906763093414
+  y: 66.0
+  z: -48.88749375784344
+  yaw: 50.5411376953125
+  pitch: 8.09998893737793

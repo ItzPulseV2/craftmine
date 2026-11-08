@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1793951463408
-  login: 1793949995500
+  logout: 1794007206031
+  login: 1794007145907
 money: '0'
 last-account-name: blueberryhill
 lastlocation:
@@ -32,11 +32,11 @@ lastlocation:
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 815.335014578645
-  y: 70.0
-  z: 204.50911512494142
-  yaw: 98.5341796875
-  pitch: 80.85002899169922
+  x: 818.3734232131245
+  y: 66.0
+  z: 218.30925177834868
+  yaw: -29.865966796875
+  pitch: 84.74996948242188
 homes:
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
