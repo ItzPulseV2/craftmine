@@ -12,23 +12,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794017925891
+  lastteleport: 1794116131434
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794018107143
-  login: 1794016669154
+  logout: 1794116382586
+  login: 1794113439808
 money: '0'
 last-account-name: Dill_Pickle_
 lastlocation:
-  world: 6bd83792-5943-464f-87e1-34772dbd6341
-  world-name: world
-  x: 305.0054254667704
-  y: 68.0
-  z: -878.7461461083611
-  yaw: 143.9075927734375
-  pitch: 31.650014877319336
+  world: 7ad073d0-82ea-4974-a0d9-79c27e6050dd
+  world-name: world_nether
+  x: 17.30000001192093
+  y: 34.0
+  z: 40.30000001192093
+  yaw: -67.538818359375
+  pitch: 20.849971771240234
 homes:
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
@@ -38,11 +38,19 @@ homes:
     z: -63.40165231167332
     yaw: 130.0145263671875
     pitch: 12.900028228759766
+  nether:
+    world: 7ad073d0-82ea-4974-a0d9-79c27e6050dd
+    world-name: world_nether
+    x: -2.0553279465191188
+    y: 16.0
+    z: -103.81329385754606
+    yaw: -173.862548828125
+    pitch: 32.250179290771484
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: -0.442517776124698
-  y: 24.0
-  z: -9.664621322133572
-  yaw: -159.48553466796875
-  pitch: -90.0
+  x: 39.65205652808148
+  y: 64.0
+  z: -51.2376441196181
+  yaw: -138.3365478515625
+  pitch: 2.550053596496582

@@ -12,40 +12,40 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794037885020
+  lastteleport: 1794117690334
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794037925841
-  login: 1794033551550
+  logout: 1794117755587
+  login: 1794116511575
 money: '0'
 last-account-name: ironmanLJM
 logoutlocation:
-  world: 6bd83792-5943-464f-87e1-34772dbd6341
-  world-name: world
-  x: -6353.96472962757
-  y: 30.252203340253722
-  z: -975.5406147060868
-  yaw: 64.11080932617188
-  pitch: 26.628419876098633
+  world: 7ad073d0-82ea-4974-a0d9-79c27e6050dd
+  world-name: world_nether
+  x: -72.32464713033504
+  y: 46.0
+  z: -171.55527458696423
+  yaw: 166.64556884765625
+  pitch: 30.148656845092773
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: -6345.737495749177
-  y: 32.0
-  z: -976.2683788196507
-  yaw: 27.408355712890625
-  pitch: 18.197481155395508
+  x: -9928.142989580921
+  y: 66.0
+  z: -289.70829929515435
+  yaw: -52.045501708984375
+  pitch: 29.466543197631836
 homes:
   hi:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
     world-name: world
-    x: -6345.3012303357
-    y: 32.0
-    z: -977.6630761610053
-    yaw: 57.292236328125
-    pitch: 22.78858757019043
+    x: -9924.34349905625
+    y: 65.0
+    z: -289.40154811058346
+    yaw: 94.50762939453125
+    pitch: 21.119094848632812
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
     world-name: world
@@ -62,3 +62,19 @@ homes:
     z: -970.8551902887897
     yaw: -141.35116577148438
     pitch: 18.69832992553711
+  trial:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: 280.4140552524713
+    y: -32.0
+    z: 11.5899096919878
+    yaw: -165.6520233154297
+    pitch: -6.079361438751221
+mail:
+- legacy: false
+  read: true
+  message: /tp 281 -25 9
+  sender-name: Console
+  sender-uuid: 'null'
+  timestamp: 1794098928912
+  expire: 0

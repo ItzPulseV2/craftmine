@@ -1,57 +1,7 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:netherite_axe": 5,
-      "minecraft:book": 20,
-      "minecraft:enchanted_book": 162,
-      "minecraft:netherrack": 62,
-      "minecraft:netherite_spear": 5,
-      "minecraft:painting": 2,
-      "minecraft:trident": 5,
-      "minecraft:cooked_beef": 1152,
-      "minecraft:stone": 64,
-      "minecraft:player_head": 1,
-      "minecraft:enchanted_golden_apple": 192,
-      "minecraft:hay_block": 1,
-      "minecraft:netherite_pickaxe": 5,
-      "minecraft:mace": 5,
-      "minecraft:gold_ingot": 768,
-      "minecraft:diamond": 320,
-      "minecraft:netherite_ingot": 256,
-      "minecraft:splash_potion": 183,
-      "minecraft:bamboo_fence": 130,
-      "minecraft:netherite_upgrade_smithing_template": 320,
-      "minecraft:golden_carrot": 1792,
-      "minecraft:golden_apple": 1920,
-      "minecraft:netherite_sword": 5
-    },
-    "minecraft:killed_by": {
-      "minecraft:player": 1
-    },
-    "minecraft:custom": {
-      "minecraft:talked_to_villager": 7,
-      "minecraft:time_since_rest": 44297,
-      "minecraft:walk_one_cm": 91149,
-      "minecraft:leave_game": 18,
-      "minecraft:walk_under_water_one_cm": 1950,
-      "minecraft:damage_taken": 359,
-      "minecraft:play_time": 89502,
-      "minecraft:damage_dealt": 387,
-      "minecraft:jump": 744,
-      "minecraft:time_since_death": 56581,
-      "minecraft:drop": 488,
-      "minecraft:open_barrel": 2,
-      "minecraft:sprint_one_cm": 109612,
-      "minecraft:open_chest": 86,
-      "minecraft:sleep_in_bed": 1,
-      "minecraft:fall_one_cm": 2807,
-      "minecraft:total_world_time": 89502,
-      "minecraft:swim_one_cm": 5715,
-      "minecraft:fly_one_cm": 621601,
-      "minecraft:walk_on_water_one_cm": 5270,
-      "minecraft:crouch_one_cm": 2090,
-      "minecraft:sneak_time": 3731,
-      "minecraft:deaths": 1
+    "minecraft:killed": {
+      "minecraft:creeper": 1
     },
     "minecraft:dropped": {
       "minecraft:netherite_spear": 5,
@@ -78,6 +28,35 @@
     "minecraft:mined": {
       "minecraft:short_grass": 1,
       "minecraft:bamboo_fence": 2
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 7,
+      "minecraft:time_since_rest": 45787,
+      "minecraft:walk_one_cm": 92470,
+      "minecraft:leave_game": 20,
+      "minecraft:walk_under_water_one_cm": 1950,
+      "minecraft:damage_taken": 359,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 90992,
+      "minecraft:damage_dealt": 577,
+      "minecraft:jump": 772,
+      "minecraft:time_since_death": 58071,
+      "minecraft:drop": 488,
+      "minecraft:open_barrel": 2,
+      "minecraft:sprint_one_cm": 111328,
+      "minecraft:open_chest": 91,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 2807,
+      "minecraft:total_world_time": 90992,
+      "minecraft:swim_one_cm": 5715,
+      "minecraft:fly_one_cm": 626987,
+      "minecraft:walk_on_water_one_cm": 5270,
+      "minecraft:crouch_one_cm": 2090,
+      "minecraft:sneak_time": 3733,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
     },
     "minecraft:used": {
       "minecraft:oak_fence": 21,
@@ -108,6 +87,32 @@
       "minecraft:splash_potion": 32,
       "minecraft:cow_spawn_egg": 10,
       "minecraft:bedrock": 129
+    },
+    "minecraft:picked_up": {
+      "minecraft:netherite_axe": 5,
+      "minecraft:book": 20,
+      "minecraft:enchanted_book": 162,
+      "minecraft:netherrack": 62,
+      "minecraft:netherite_spear": 5,
+      "minecraft:painting": 2,
+      "minecraft:trident": 5,
+      "minecraft:cooked_beef": 1152,
+      "minecraft:stone": 64,
+      "minecraft:player_head": 1,
+      "minecraft:enchanted_golden_apple": 192,
+      "minecraft:hay_block": 1,
+      "minecraft:netherite_pickaxe": 5,
+      "minecraft:mace": 5,
+      "minecraft:gold_ingot": 768,
+      "minecraft:diamond": 320,
+      "minecraft:netherite_ingot": 256,
+      "minecraft:splash_potion": 183,
+      "minecraft:bamboo_fence": 130,
+      "minecraft:netherite_upgrade_smithing_template": 320,
+      "minecraft:gunpowder": 1,
+      "minecraft:golden_carrot": 1792,
+      "minecraft:golden_apple": 1920,
+      "minecraft:netherite_sword": 5
     }
   },
   "DataVersion": 4903
