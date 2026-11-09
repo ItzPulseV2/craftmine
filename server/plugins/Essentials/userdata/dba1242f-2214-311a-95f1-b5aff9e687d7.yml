@@ -12,37 +12,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794040326820
+  lastteleport: 1794209219783
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794040448118
-  login: 1794039507657
+  logout: 1794209242340
+  login: 1794209364365
 money: '0'
 last-account-name: I_am_bob_wow
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: -57.860064865746615
-  y: 64.0
-  z: -16.038398913520457
-  yaw: -96.939697265625
-  pitch: 28.499998092651367
+  x: -756.7680531510578
+  y: -54.0
+  z: -341.87858610148953
+  yaw: 61.201904296875
+  pitch: 23.550006866455078
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 135.7884836305967
-  y: 67.0
-  z: -47.344868568018526
-  yaw: -133.2357635498047
-  pitch: 46.891845703125
+  x: -3.9171236686800253
+  y: 54.9375
+  z: -42.421657165145966
+  yaw: 91.3144760131836
+  pitch: 62.550025939941406
 homes:
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
     world-name: world
-    x: -55.690717031188676
-    y: 20.0
-    z: -8.715309287674668
-    yaw: 127.610595703125
-    pitch: 13.349976539611816
+    x: -135.44965694161428
+    y: -24.0
+    z: 176.44273709712874
+    yaw: -36.96709060668945
+    pitch: 12.599998474121094
+  e:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: 0.699999988079071
+    y: 55.0
+    z: -39.32896971017282
+    yaw: -12.486968994140625
+    pitch: 52.949981689453125

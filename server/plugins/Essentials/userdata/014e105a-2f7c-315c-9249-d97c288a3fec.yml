@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794107372186
-  login: 1794107333426
+  logout: 1794208126150
+  login: 1794208082314
 money: '0'
 last-account-name: ThisNotAlex
 lastlocation:
@@ -32,11 +32,11 @@ lastlocation:
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 286.2962803122151
+  x: 287.12574524945694
   y: 73.0
-  z: -872.7272525668614
-  yaw: 100.52812194824219
-  pitch: 12.33588981628418
+  z: -873.5904332767817
+  yaw: 99.55931091308594
+  pitch: 12.449980735778809
 homes:
   home:
     world: 6bd83792-5943-464f-87e1-34772dbd6341

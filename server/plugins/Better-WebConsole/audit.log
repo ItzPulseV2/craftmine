@@ -29,3 +29,99 @@
 [2026-11-08 05:47:06] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
 [2026-11-08 05:48:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: deop ironmanLJM
 [2026-11-08 05:58:45] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-09 00:07:34] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-09 00:13:40] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: lp user BlueFischer meta setprefix 100 "&7Player "
+[2026-11-09 00:16:58] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: lp group default permission set essentials.delhome true
+[2026-11-09 00:28:22] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: lp user 13135_penuin_ meta setprefix 100 "&7Player "
+[2026-11-09 00:41:41] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say helo?
+[2026-11-09 00:41:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say helo?
+[2026-11-09 00:41:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say helo?
+[2026-11-09 00:43:45] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey bardy
+[2026-11-09 01:03:48] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey handsome
+[2026-11-09 01:20:27] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: whitelist add BedfightGG
+[2026-11-09 01:20:44] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: weather clear
+[2026-11-09 01:20:49] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: weather clear
+[2026-11-09 01:20:59] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: weather world clear
+[2026-11-09 01:27:32] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: lp user dark89 meta setprefix 100 "&7Player "
+[2026-11-09 01:45:22] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey handsomes
+[2026-11-09 01:45:30] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say elllo?
+[2026-11-09 01:45:31] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say elllo?
+[2026-11-09 01:45:31] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say elllo?
+[2026-11-09 01:45:31] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say elllo?
+[2026-11-09 01:45:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say in fishstick?
+[2026-11-09 01:45:47] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say in fishstick?
+[2026-11-09 01:45:55] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hes not even whitelisted
+[2026-11-09 01:46:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hes not even whitelisted
+[2026-11-09 01:46:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hes not even whitelisted
+[2026-11-09 01:46:25] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say fahhh
+[2026-11-09 01:47:41] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say yo
+[2026-11-09 01:47:44] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say restart server
+[2026-11-09 02:35:32] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-09 02:35:55] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say yoyoyo
+[2026-11-09 02:38:42] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say HI
+[2026-11-09 04:25:03] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-09 04:52:44] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey
+[2026-11-09 05:07:20] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey guys
+[2026-11-09 05:07:37] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say no restart
+[2026-11-09 05:07:38] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say but
+[2026-11-09 05:07:40] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say dill
+[2026-11-09 05:07:48] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: msg Dill_Pickle_ loot a trial with me right now
+[2026-11-09 05:07:52] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say dont tell any
+[2026-11-09 05:07:54] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say 1
+[2026-11-09 05:08:16] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say yoo
+[2026-11-09 05:08:22] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say welcome
+[2026-11-09 05:08:40] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: lp user dark6777 meta setprefix 100 "&7Player "
+[2026-11-09 05:09:13] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey chasss
+[2026-11-09 05:09:18] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say what client u usin
+[2026-11-09 05:09:30] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say dylan client?
+[2026-11-09 05:09:43] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say use dylan client
+[2026-11-09 05:09:48] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say and use voicechat
+[2026-11-09 05:09:56] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say why not
+[2026-11-09 05:10:18] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say why doesnt it
+[2026-11-09 05:10:23] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say like on my website
+[2026-11-09 05:10:29] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say it does
+[2026-11-09 05:11:02] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say dude chassy
+[2026-11-09 05:20:05] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-09 05:24:01] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: deop ironmanLJM
+[2026-11-09 05:25:55] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-09 05:27:14] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: deop ironmanLJM
+[2026-11-09 05:27:34] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: give ironmanLJM apple 64
+[2026-11-09 05:48:03] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: give ironmanLJM ender_chest
+[2026-11-09 05:57:34] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-09 06:11:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-09 06:13:35] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say BOB
+[2026-11-09 06:13:36] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hi
+[2026-11-09 06:13:42] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say tell me when dills online
+[2026-11-09 06:13:57] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say bro hes looting a trial with me but then
+[2026-11-09 06:14:01] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say bro loged out
+[2026-11-09 06:14:04] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say ;-;
+[2026-11-09 06:14:10] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hm
+[2026-11-09 06:14:14] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say first mace is mine
+[2026-11-09 06:14:26] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say first flowtrim is mine
+[2026-11-09 06:14:41] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say alr
+[2026-11-09 06:14:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say when dill logs back on
+[2026-11-09 06:14:48] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say but
+[2026-11-09 06:14:52] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say dont ask him about it
+[2026-11-09 06:15:04] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say just dont\
+[2026-11-09 06:25:52] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say uh
+[2026-11-09 06:25:59] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say nothin
+[2026-11-09 06:27:56] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: heal I_am_bob_wow
+[2026-11-09 06:27:59] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hehe
+[2026-11-09 06:28:09] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say look at ur hart count
+[2026-11-09 06:28:18] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say i healed u
+[2026-11-09 06:28:25] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say :D
+[2026-11-09 06:28:27] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say um
+[2026-11-09 06:28:31] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say i gtg do my work
+[2026-11-09 06:28:36] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say bye
+[2026-11-09 06:29:45] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say hey bardy
+[2026-11-09 06:29:55] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say bud
+[2026-11-09 06:40:25] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say wohwoh jinghan
+[2026-11-09 06:40:39] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say u have c*caine
+[2026-11-09 06:40:52] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say can i have some
+[2026-11-09 06:41:03] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say >:)
+[2026-11-09 06:41:04] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say >:)
+[2026-11-09 06:41:05] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say >:)
+[2026-11-09 06:41:20] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say >:)
+[2026-11-09 06:41:21] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: say >:)
+[2026-11-09 06:59:14] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: give ironmanLJM ominous_trial_key 1
+[2026-11-09 07:01:48] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
