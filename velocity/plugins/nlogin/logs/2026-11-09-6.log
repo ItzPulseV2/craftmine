@@ -1,0 +1,21 @@
+[2026/11/09 20:46:14 INFO]:           __             _       
+[2026/11/09 20:46:14 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/09 20:46:14 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/09 20:46:14 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/09 20:46:14 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/09 20:46:14 INFO]:                   |___/            
+[2026/11/09 20:46:14 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/09 20:46:14 INFO]:  
+[2026/11/09 20:46:14 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/09 20:46:15 DEBUG]: Messages were loaded in 484 ms (single file).
+[2026/11/09 20:46:15 DEBUG]: Settings were loaded in 747 ms.
+[2026/11/09 20:46:15 DEBUG]: Loading database...
+[2026/11/09 20:46:15 DEBUG]: Starting logger filter...
+[2026/11/09 20:46:15 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/09 20:50:22 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Thundra1', `unique_id` = 00f7e65d7a92322d95f2acffa5f6f407,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$x3eqCgTcFD4YDBd+z2QN7g$8TgFW/BGl5Gx+2zAfZMeac5PmNnUwxDp95N5vVAWlso', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-05 00:05:31.765, `last_seen` = 2026-11-09 20:50:22.456, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 34" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/09 20:50:22 INFO]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/09 20:50:48 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Thundra1', `unique_id` = 00f7e65d7a92322d95f2acffa5f6f407,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$x3eqCgTcFD4YDBd+z2QN7g$8TgFW/BGl5Gx+2zAfZMeac5PmNnUwxDp95N5vVAWlso', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-05 00:05:31.765, `last_seen` = 2026-11-09 20:50:48.695, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 34" (applied to [last_seen, settings] columns)
+[2026/11/09 20:54:47 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Thundra1', `unique_id` = 00f7e65d7a92322d95f2acffa5f6f407,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$x3eqCgTcFD4YDBd+z2QN7g$8TgFW/BGl5Gx+2zAfZMeac5PmNnUwxDp95N5vVAWlso', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-05 00:05:31.765, `last_seen` = 2026-11-09 20:54:47.195, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 34" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/09 20:54:47 INFO]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/09 21:00:31 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Thundra1', `unique_id` = 00f7e65d7a92322d95f2acffa5f6f407,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$x3eqCgTcFD4YDBd+z2QN7g$8TgFW/BGl5Gx+2zAfZMeac5PmNnUwxDp95N5vVAWlso', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-05 00:05:31.765, `last_seen` = 2026-11-09 21:00:31.093, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 34" (applied to [last_seen, settings] columns)
+[2026/11/09 21:00:33 INFO]: Successful plugin core shutdown (took 0.00s)

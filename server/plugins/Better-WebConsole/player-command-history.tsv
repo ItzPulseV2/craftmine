@@ -882,3 +882,10 @@ command	1794209206347	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home ho
 command	1794209212132	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa Dill_Pickle_
 command	1794209216777	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
 leave	1794209242340	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+join	1794257424871	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+leave	1794257448710	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1794257688262	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1794258153752	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1794258279243	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1794258297035	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+leave	1794258350018	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
