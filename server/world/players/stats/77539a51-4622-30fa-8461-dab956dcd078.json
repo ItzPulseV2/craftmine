@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:short_grass": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:quartz": 11,
+      "minecraft:potato": 17,
+      "minecraft:baked_potato": 1,
+      "minecraft:iron_ingot": 16
+    },
+    "minecraft:used": {
+      "minecraft:stone_sword": 6,
+      "minecraft:baked_potato": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6219,
+      "minecraft:walk_one_cm": 9335,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 195,
+      "minecraft:play_time": 6219,
+      "minecraft:damage_dealt": 167,
+      "minecraft:jump": 184,
+      "minecraft:time_since_death": 6219,
+      "minecraft:sprint_one_cm": 11641,
+      "minecraft:fall_one_cm": 4700,
+      "minecraft:total_world_time": 6219,
+      "minecraft:fly_one_cm": 36181,
+      "minecraft:walk_on_water_one_cm": 321,
+      "minecraft:sneak_time": 163
+    }
+  },
+  "DataVersion": 4903
+}

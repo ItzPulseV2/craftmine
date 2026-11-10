@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1794270019667
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1794270227642
+  login: 1794270852603
+money: '0'
+last-account-name: TheGermanHotDog
+lastlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: -88.2280881222356
+  y: 71.0
+  z: 316.5112046051693
+  yaw: 119.0936279296875
+  pitch: 21.65341567993164
+homes:
+  hi:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: -87.12752616796935
+    y: 71.0
+    z: 317.1870239796975
+    yaw: 121.55426025390625
+    pitch: 21.65341567993164
+logoutlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: -5.711174993776411
+  y: 117.0
+  z: 183.77452550844092
+  yaw: -157.71331787109375
+  pitch: 18.267112731933594
