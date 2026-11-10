@@ -12,28 +12,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794186094908
+  lastteleport: 1794278842192
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794192917685
-  login: 1794192250356
+  logout: 1794279321945
+  login: 1794278342127
 money: '0'
 last-account-name: BlueFischer
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 846.2406747442299
-  y: 62.9375
-  z: 335.4875077203363
-  yaw: 6.444124698638916
-  pitch: 20.999887466430664
+  x: -553.9894997899912
+  y: -26.260198684514734
+  z: -240.14044494333902
+  yaw: -120.0698471069336
+  pitch: 47.55008316040039
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 841.8277913332765
-  y: 63.0
-  z: 297.3775922004173
-  yaw: -162.1075439453125
-  pitch: 51.15010070800781
+  x: -556.0511107344771
+  y: -27.0
+  z: -240.1900044319382
+  yaw: 26.954423904418945
+  pitch: 30.8414363861084
+homes:
+  trial:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: -556.0511107344771
+    y: -27.0
+    z: -240.1900044319382
+    yaw: 26.954423904418945
+    pitch: 30.8414363861084

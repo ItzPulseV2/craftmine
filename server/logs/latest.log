@@ -1,16 +1,16 @@
-[21:01:38] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
-[21:01:38] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[21:01:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:01:39] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
-[21:01:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 29 plugins
-[21:01:39] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[02:30:56] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
+[02:30:56] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[02:30:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:30:59] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[02:30:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 29 plugins
+[02:30:59] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - FancyHolograms (2.11.0), LuckTags (1.4)
-[21:01:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (27):
+[02:30:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (27):
  - AdvancedBanZ (4.0.1), AevorinReports (1.1.2), AntiBookBan (1.0.0), AxSmithing (1.9), Better-WebConsole (2.4.11), BetterStasis (1.5.0), Chunky (1.5.3), ClearLag (1.13.0), ClickVillagers (1.6.3), CombatLog (1.20), CoreProtect (24.0), DragonEgg (1.0.0), Essentials (2.22.1-dev+23-43cb76a), EssentialsSpawn (2.22.1-dev+23-43cb76a), InvisDeathMessage (0.1.0), LPC (3.7.2), LocatorBar (1.1), LuckPerms (5.5.81), OrbitalStrike (1.6.8), TuffXPlus (1.1.1), ViaBackwards (5.11.0), ViaVersion (5.11.0), VillagerVault (1.0.0), WildRTP (3.6.5), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6), voicechat (2.6.25)
-[21:01:52] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:01:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:01:55] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 3,051.7ms
-[21:01:55] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+[02:31:12] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:31:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:31:16] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 3,071.1ms
+[02:31:17] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
 com.google.gson.JsonParseException: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-10.0.21.jar:?]
 	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.2.jar:26.2-111-f570646]
@@ -32,152 +32,158 @@ com.google.gson.JsonParseException: Pack declares support for version newer than
 	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-111-f570646]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[21:02:02] [ServerMain/INFO]: Loaded 1585 recipes
-[21:02:02] [ServerMain/INFO]: Loaded 1688 advancements
-[21:02:02] [Server thread/INFO]: Starting minecraft server version 26.2
-[21:02:02] [Server thread/INFO]: Loading properties
-[21:02:02] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[21:02:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:02:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:02:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:02:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:02:03] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[21:02:04] [Server thread/INFO]: Default game type: SURVIVAL
-[21:02:04] [Server thread/INFO]: Generating keypair
-[21:02:04] [Server thread/INFO]: Starting Minecraft server on *:25567
-[21:02:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:02:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[21:02:05] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 2 libraries... please wait
-[21:02:05] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[21:02:05] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/org/xerial/sqlite-jdbc/3.46.1.3/sqlite-jdbc-3.46.1.3.jar
-[21:02:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[21:02:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[21:02:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:02:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[21:02:08] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
-[21:02:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@499a10ba]
-[21:02:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.81
-[21:02:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:02:09] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
-[21:02:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[21:02:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+23-43cb76a
-[21:02:09] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.11.0
-[21:02:09] [Server thread/INFO]: [AdvancedBanZ] Loading server plugin AdvancedBanZ v4.0.1
-[21:02:09] [Server thread/INFO]: [LuckTags] Loading server plugin LuckTags v1.4
-[21:02:09] [Server thread/INFO]: [CombatLog] Loading server plugin CombatLog v1.20
-[21:02:09] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.11.0
-[21:02:09] [Server thread/INFO]: [CombatLog] WorldGuard detected: custom flag 'allow-combat-entry' registered.
-[21:02:09] [Server thread/INFO]: [ClickVillagers] Loading server plugin ClickVillagers v1.6.3
-[21:02:09] [Server thread/INFO]: [Better-WebConsole] Loading server plugin Better-WebConsole v2.4.11
-[21:02:09] [Server thread/INFO]: [OrbitalStrike] Loading server plugin OrbitalStrike v1.6.8
-[21:02:09] [Server thread/INFO]: [InvisDeathMessage] Loading server plugin InvisDeathMessage v0.1.0
-[21:02:09] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.7.2
-[21:02:09] [Server thread/INFO]: [VillagerVault] Loading server plugin VillagerVault v1.0.0
-[21:02:09] [Server thread/INFO]: [DragonEgg] Loading server plugin DragonEgg v1.0.0
-[21:02:09] [Server thread/INFO]: [AevorinReports] Loading server plugin AevorinReports v1.1.2
-[21:02:09] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.0
-[21:02:09] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
-[21:02:09] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.25
-[21:02:09] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
-[21:02:10] [Server thread/INFO]: [packetevents] Loading packetevents...
-[21:02:13] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
-[21:02:13] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
-[21:02:13] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v3.6.5
-[21:02:13] [Server thread/INFO]: [LocatorBar] Loading server plugin LocatorBar v1.1
-[21:02:13] [Server thread/INFO]: [BetterStasis] Loading server plugin BetterStasis v1.5.0
-[21:02:13] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+23-43cb76a
-[21:02:13] [Server thread/INFO]: [AntiBookBan] Loading server plugin AntiBookBan v1.0.0
-[21:02:13] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.13.0
-[21:02:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
-[21:02:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:02:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:02:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
-[21:02:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.81
-[21:02:15] [Server thread/INFO]:         __    
-[21:02:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.81
-[21:02:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:02:15] [Server thread/INFO]: 
-[21:02:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:02:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:02:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:02:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2347ms)
-[21:02:17] [Server thread/INFO]: [Better-WebConsole] Enabling Better-WebConsole v2.4.11
-[21:02:18] [Server thread/INFO]: [Better-WebConsole] [Better-WebConsole] Loaded 1 user(s).
-[21:02:19] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.Server] jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 25.0.5.0.2+1-LTS
-[21:02:19] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
-[21:02:19] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.handler.ContextHandler] Started d.w.s.j.s.ServletContextHandler@9046303{/,null,AVAILABLE}
-[21:02:19] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.AbstractConnector] Started ServerConnector@2b8dea3c{HTTP/1.1, (http/1.1)}{0.0.0.0:4242}
-[21:02:19] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.Server] Started Server@a71f637{STARTING}[11.0.20,sto=0] @44727ms
-[21:02:19] [Server thread/INFO]: [Better-WebConsole] Better-WebConsole started on 0.0.0.0:4242
-[21:02:19] [Server thread/WARN]: [Better-WebConsole] [SECURITY] Better-WebConsole is listening on all interfaces without secure cookies or an IP whitelist.
-[21:02:19] [Server thread/WARN]: [Better-WebConsole] [SECURITY] For production, bind to 127.0.0.1 behind HTTPS/VPN/firewall or configure security.ip-whitelist.
-[21:02:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:02:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:02:19] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[21:02:19] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[21:02:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:02:19] [Server thread/INFO]: Preparing level "world"
-[21:02:19] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[21:02:20] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[21:02:20] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[21:02:20] [Server thread/INFO]: Prepared spawn area in 4 ms
-[21:02:20] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[21:02:20] [Server thread/INFO]: Prepared spawn area in 1 ms
-[21:02:20] [Server thread/INFO]: Done preparing level "world" (0.966s)
-[21:02:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[21:02:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[21:02:20] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:02:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:02:20] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:02:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[21:02:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+23-43cb76a
-[21:02:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:02:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[21:02:21] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[21:02:21] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
-[21:02:21] [Server thread/INFO]: [Essentials] Using locale en
-[21:02:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:02:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:02:22] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[21:02:22] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[21:02:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[21:02:22] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.11.0
-[21:02:22] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.11.0
-[21:02:22] [Server thread/INFO]: [AdvancedBanZ] Enabling AdvancedBanZ v4.0.1
-[21:02:22] [Server thread/INFO]: [AdvancedBanZ] 
+[02:31:23] [ServerMain/INFO]: Loaded 1585 recipes
+[02:31:23] [ServerMain/INFO]: Loaded 1688 advancements
+[02:31:23] [Server thread/INFO]: Starting minecraft server version 26.2
+[02:31:23] [Server thread/INFO]: Loading properties
+[02:31:23] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[02:31:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:31:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:31:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:31:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:31:25] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[02:31:25] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:25] [Server thread/INFO]: Generating keypair
+[02:31:25] [Server thread/INFO]: Starting Minecraft server on *:25567
+[02:31:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:31:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:31:28] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 2 libraries... please wait
+[02:31:28] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[02:31:28] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/craftmine/server/libraries/org/xerial/sqlite-jdbc/3.46.1.3/sqlite-jdbc-3.46.1.3.jar
+[02:31:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[02:31:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[02:31:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:31:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:31:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[02:31:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74c9d80a]
+[02:31:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.81
+[02:31:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:31:32] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
+[02:31:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[02:31:32] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+23-43cb76a
+[02:31:32] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.11.0
+[02:31:32] [Server thread/INFO]: [AdvancedBanZ] Loading server plugin AdvancedBanZ v4.0.1
+[02:31:32] [Server thread/INFO]: [LuckTags] Loading server plugin LuckTags v1.4
+[02:31:32] [Server thread/INFO]: [CombatLog] Loading server plugin CombatLog v1.20
+[02:31:32] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.11.0
+[02:31:32] [Server thread/INFO]: [CombatLog] WorldGuard detected: custom flag 'allow-combat-entry' registered.
+[02:31:32] [Server thread/INFO]: [ClickVillagers] Loading server plugin ClickVillagers v1.6.3
+[02:31:32] [Server thread/INFO]: [Better-WebConsole] Loading server plugin Better-WebConsole v2.4.11
+[02:31:32] [Server thread/INFO]: [OrbitalStrike] Loading server plugin OrbitalStrike v1.6.8
+[02:31:32] [Server thread/INFO]: [InvisDeathMessage] Loading server plugin InvisDeathMessage v0.1.0
+[02:31:32] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.7.2
+[02:31:32] [Server thread/INFO]: [VillagerVault] Loading server plugin VillagerVault v1.0.0
+[02:31:32] [Server thread/INFO]: [DragonEgg] Loading server plugin DragonEgg v1.0.0
+[02:31:32] [Server thread/INFO]: [AevorinReports] Loading server plugin AevorinReports v1.1.2
+[02:31:32] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.0
+[02:31:32] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
+[02:31:33] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.25
+[02:31:33] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
+[02:31:34] [Server thread/INFO]: [packetevents] Loading packetevents...
+[02:31:38] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
+[02:31:38] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[02:31:38] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v3.6.5
+[02:31:38] [Server thread/INFO]: [LocatorBar] Loading server plugin LocatorBar v1.1
+[02:31:38] [Server thread/INFO]: [BetterStasis] Loading server plugin BetterStasis v1.5.0
+[02:31:38] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+23-43cb76a
+[02:31:38] [Server thread/INFO]: [AntiBookBan] Loading server plugin AntiBookBan v1.0.0
+[02:31:38] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.13.0
+[02:31:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[02:31:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:31:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:31:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[02:31:39] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.81
+[02:31:40] [Server thread/INFO]:         __    
+[02:31:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.81
+[02:31:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:31:40] [Server thread/INFO]: 
+[02:31:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:31:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:31:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:31:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2651ms)
+[02:31:42] [Server thread/INFO]: [Better-WebConsole] Enabling Better-WebConsole v2.4.11
+[02:31:43] [Server thread/INFO]: [Better-WebConsole] [Better-WebConsole] Loaded 1 user(s).
+[02:31:44] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.Server] jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 25.0.5.0.2+1-LTS
+[02:31:44] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
+[02:31:44] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.handler.ContextHandler] Started d.w.s.j.s.ServletContextHandler@4361a82b{/,null,AVAILABLE}
+[02:31:44] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.AbstractConnector] Started ServerConnector@1c43d91d{HTTP/1.1, (http/1.1)}{0.0.0.0:4242}
+[02:31:44] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.Server] Started Server@7a4fcfd3{STARTING}[11.0.20,sto=0] @63866ms
+[02:31:44] [Server thread/INFO]: [Better-WebConsole] Better-WebConsole started on 0.0.0.0:4242
+[02:31:44] [Server thread/WARN]: [Better-WebConsole] [SECURITY] Better-WebConsole is listening on all interfaces without secure cookies or an IP whitelist.
+[02:31:44] [Server thread/WARN]: [Better-WebConsole] [SECURITY] For production, bind to 127.0.0.1 behind HTTPS/VPN/firewall or configure security.ip-whitelist.
+[02:31:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:31:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:31:44] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:31:44] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[02:31:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:31:44] [Server thread/INFO]: Preparing level "world"
+[02:31:44] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[02:31:45] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[02:31:45] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[02:31:45] [Server thread/INFO]: Preparing spawn area: 100%
+[02:31:45] [Server thread/INFO]: Prepared spawn area in 2 ms
+[02:31:45] [Server thread/INFO]: Loading 49 persistent chunks for level 'minecraft:the_nether'...
+[02:31:45] [Server thread/INFO]: Preparing spawn area: 16%
+[02:31:47] [Server thread/INFO]: Preparing spawn area: 67%
+[02:31:47] [Server thread/INFO]: Preparing spawn area: 67%
+[02:31:47] [Server thread/INFO]: Preparing spawn area: 72%
+[02:31:47] [Server thread/INFO]: Prepared spawn area in 1678 ms
+[02:31:47] [Server thread/INFO]: Done preparing level "world" (2.734s)
+[02:31:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[02:31:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[02:31:47] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
+[02:31:47] [qtp775162185-103/INFO]: [Better-WebConsole] [BWC] WS connected: admin@[0:0:0:0:0:0:0:1]
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:31:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:31:47] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:31:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[02:31:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+23-43cb76a
+[02:31:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:31:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:31:48] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:31:48] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:31:48] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:31:48] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:31:48] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[02:31:48] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[02:31:48] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:31:48] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
+[02:31:49] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
+[02:31:49] [Server thread/INFO]: [Essentials] Using locale en
+[02:31:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:31:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:31:49] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[02:31:49] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[02:31:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:31:49] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.11.0
+[02:31:49] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.11.0
+[02:31:49] [Server thread/INFO]: [AdvancedBanZ] Enabling AdvancedBanZ v4.0.1
+[02:31:50] [Server thread/INFO]: [AdvancedBanZ] 
 
 []=====[Enabling AdvancedBanZ]=====[]
 | Information:
@@ -192,289 +198,446 @@ com.google.gson.JsonParseException: Pack declares support for version newer than
 |   You have the newest version
 []================================[]
  
-[21:02:22] [FancyLogger/INFO]: [FancyHolograms] (ForkJoinPool.commonPool-worker-3) WARN: 
-[21:02:22] [FancyLogger/INFO]: -------------------------------------------------------
-[21:02:22] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
-[21:02:22] [FancyLogger/INFO]: Please update to the newest version (2.12.0).
-[21:02:22] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
-[21:02:22] [FancyLogger/INFO]: -------------------------------------------------------
-[21:02:22] [FancyLogger/INFO]: 
-[21:02:22] [Server thread/INFO]: [LuckTags] Enabling LuckTags v1.4
-[21:02:22] [Server thread/INFO]: [CombatLog] Enabling CombatLog v1.20
-[21:02:22] [Server thread/INFO]: [ClickVillagers] Enabling ClickVillagers v1.6.3
-[21:02:23] [Server thread/INFO]: [ClickVillagers] Checking for updates...
-[21:02:23] [Server thread/INFO]: [OrbitalStrike] Enabling OrbitalStrike v1.6.8
-[21:02:23] [Server thread/INFO]: [InvisDeathMessage] Enabling InvisDeathMessage v0.1.0
-[21:02:23] [Server thread/INFO]: [LPC] Enabling LPC v3.7.2
-[21:02:23] [Server thread/INFO]: [VillagerVault] Enabling VillagerVault v1.0.0
-[21:02:23] [Server thread/INFO]: [VillagerVault] Statistics tracking enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager death backup enabled (max 30).
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager glow highlighting enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Infinite villager stock enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager pickup & placement enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager leashing enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager info display enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] No-wandering/freeze system enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Villager death backup listener enabled.
-[21:02:23] [Server thread/INFO]: [VillagerVault] Bedrock support enabled (will use UUID heuristic if Bedrock players join).
-[21:02:23] [Server thread/INFO]: [VillagerVault] VillagerVault has been enabled!
-[21:02:23] [Server thread/INFO]: [DragonEgg] Enabling DragonEgg v1.0.0
-[21:02:23] [Server thread/INFO]: [DragonEgg] DragonEgg 1.0.0 enabled successfully for Paper 26.1, 26.2, and 26.3!
-[21:02:23] [Server thread/INFO]: [AevorinReports] Enabling AevorinReports v1.1.2
-[21:02:23] [ForkJoinPool.commonPool-worker-3/INFO]: [ClickVillagers] New version available: 1.6.4
-[21:02:23] [Server thread/INFO]: [AevorinReports] Initializing AevorinReports
-[21:02:23] [Server thread/INFO]: [AevorinReports] Initializing enhanced exception handler...
-[21:02:23] [Server thread/INFO]: [AevorinReports] Loading configuration files...
-[21:02:23] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Loading configuration from plugins/AevorinReports/config.yml
-[21:02:23] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Configuration loaded successfully
-[21:02:23] [Server thread/INFO]: [AevorinReports] Configuration loaded successfully.
-[21:02:23] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[21:02:23] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@3c85f776
-[21:02:23] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[21:02:23] [Server thread/INFO]: [AevorinReports] Registering commands...
-[21:02:23] [Server thread/INFO]: [AevorinReports] Registered 'report' command and tab completer
-[21:02:23] [Server thread/INFO]: [AevorinReports] Registered 'reports' command
-[21:02:23] [Server thread/INFO]: [AevorinReports] Commands registered successfully!
-[21:02:23] [Server thread/INFO]: [AevorinReports] Registering event listeners...
-[21:02:23] [Server thread/INFO]: [AevorinReports] Event listeners registered successfully!
-[21:02:23] [Server thread/INFO]: [AevorinReports] PlaceholderAPI not found. Skipping placeholder registration.
-[21:02:23] [Server thread/INFO]: [AevorinReports] Modrinth update checker initialized with project ID: OwqSnlXx
-[21:02:23] [Server thread/INFO]: [AevorinReports] bStats Metrics initialized properly.
-[21:02:23] [Server thread/INFO]: [AevorinReports] FastStats Metrics initialized and ready.
-[21:02:23] [Server thread/INFO]: [AevorinReports] AevorinReports has been enabled!
-[21:02:23] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.0
-[21:02:23] [Server thread/INFO]: [CoreProtect] Minecraft 26.2 is not supported.
-[21:02:23] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition was unable to start.
-[21:02:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v24.0
-[21:02:23] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[21:02:23] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v24.0
-[21:02:23] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
-[21:02:23] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.25
-[21:02:23] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.2.build.111-stable
-[21:02:23] [Server thread/INFO]: [voicechat] Compatibility version 20
-[21:02:23] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[21:02:23] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[21:02:23] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
-[21:02:23] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
-[21:02:23] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
-[21:02:24] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 
-[21:02:24] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
-[21:02:24] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
-[21:02:24] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
-[21:02:24] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
-[21:02:24] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
-[21:02:24] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 
-[21:02:24] [Server thread/INFO]: [TuffXPlus] CREDITS
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 
-[21:02:24] [Server thread/INFO]: [TuffXPlus] Y0 support:
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 
-[21:02:24] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
-[21:02:24] [Server thread/INFO]: [TuffXPlus] 
-[21:02:24] [Server thread/INFO]: [TuffXPlus] Other:
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
-[21:02:24] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
-[21:02:24] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
-[21:02:24] [Server thread/INFO]: [WildRTP] Enabling WildRTP v3.6.5
-[21:02:24] [Server thread/INFO]: [WildRTP] WildRTP by Joni running version: 3.6.5
-[21:02:24] [Server thread/INFO]: [WildRTP] Checking for updates...
-[21:02:24] [Server thread/INFO]: [LocatorBar] Enabling LocatorBar v1.1
-[21:02:24] [Server thread/INFO]: [LocatorBar] bStats metrics enabled!
-[21:02:24] [Server thread/INFO]: [LocatorBar] LocatorBar has been enabled successfully!
-[21:02:24] [Server thread/INFO]: [BetterStasis] Enabling BetterStasis v1.5.0
-[21:02:24] [Server thread/WARN]: [BetterStasis] Vault not found! Economy features will be disabled.
-[21:02:24] [Server thread/INFO]: [BetterStasis] Better Stasis plugin enabled!
-[21:02:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+23-43cb76a
-[21:02:24] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[21:02:24] [Server thread/INFO]: [AntiBookBan] Enabling AntiBookBan v1.0.0
-[21:02:24] [Server thread/INFO]: [AntiBookBan] AntiBookBan enabled. Shulker limit: 2.00 MB, max 25 book pages (ASCII only)
-[21:02:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.13.0
-[21:02:24] [Server thread/INFO]: [ClearLag] Plugin hooks detected: FancyHolograms
-[21:02:24] [Server thread/INFO]: [ClearLag] Hook enabled: FancyHolograms
-[21:02:24] [Server thread/INFO]: [ClearLag] ClearLag configuration reloaded.
-[21:02:24] [Server thread/INFO]: [ClearLag] Loaded 0 player preferences.
-[21:02:24] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
-[21:02:24] [Server thread/INFO]: [ClearLag] Dynamic View Distance enabled.
-[21:02:24] [Server thread/INFO]: [ClearLag] Explosion optimization enabled.
-[21:02:24] [Server thread/INFO]: [ClearLag] Auto-Clear is enabled and starts every 300 seconds.
-[21:02:24] [Server thread/INFO]: [ClearLag] Mob AI Optimization is enabled.
-[21:02:24] [Server thread/INFO]: [ClearLag] Performance Warnings are enabled.
-[21:02:24] [Server thread/WARN]: [ClearLag] PlaceholderAPI not found! ClearLag placeholders will not work.
-[21:02:24] [Server thread/INFO]: [ClearLag] ClearLag has been successfully enabled!
-[21:02:24] [ForkJoinPool.commonPool-worker-3/INFO]: [WildRTP] A new version is available! Current: 3.6.5 Latest: 4.0
-[21:02:24] [ForkJoinPool.commonPool-worker-3/INFO]: [WildRTP] https://modrinth.com/plugin/wildrtp/version/4.0
-[21:02:24] [Server thread/INFO]: [spark] Starting background profiler...
-[21:02:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:02:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:02:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:02:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:02:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:02:25] [Server thread/INFO]: Running delayed init tasks
-[21:02:25] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:02:25] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:02:25] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ========================================
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ClearLag is outdated!
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Your version: 1.13.0
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Newest version: 2.0.0
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Download the new version here: https://modrinth.com/plugin/7bhTp28M
-[21:02:25] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ========================================
-[21:02:25] [Craft Scheduler Thread - 0 - CombatLog/INFO]: [CombatLog] A new version is available!
-[21:02:25] [Craft Scheduler Thread - 0 - CombatLog/INFO]: [CombatLog] Current: 1.20 | Latest: 1.20+26.3
-[21:02:25] [Craft Scheduler Thread - 0 - CombatLog/INFO]: [CombatLog] https://modrinth.com/plugin/simple-combatlog/versions
-[21:02:25] [Craft Scheduler Thread - 4 - OrbitalStrike/WARN]: [OrbitalStrike] [OrbitalStrike] GitHub API ERROR: HTTP 404
-[21:02:25] [Craft Scheduler Thread - 5 - AevorinReports/INFO]: [AevorinReports] A new version of AevorinReports (release) is available: 1.1.3
-[21:02:25] [Craft Scheduler Thread - 5 - AevorinReports/INFO]: [AevorinReports] Download it from: https://cdn.modrinth.com/data/OwqSnlXx/versions/8WzOely5/AevorinReports-1.1.3-all.jar
-[21:02:25] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
-[21:02:25] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[21:02:25] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
-[21:02:25] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
-[21:02:25] [Server thread/INFO]: Done (50.227s)! For help, type "help"
-[21:02:25] [Server thread/INFO]: [voicechat] Loading plugins
-[21:02:25] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[21:02:25] [Server thread/INFO]: [voicechat] Initializing plugins
-[21:02:25] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[21:02:25] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[21:02:25] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24455
-[21:02:26] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
-[21:02:26] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
-[21:02:31] [User Authenticator #0/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[21:02:31] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
-[21:02:33] [Server thread/INFO]: ironmanLJM joined the game
-[21:02:33] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:48366] logged in with entity id 1 at ([minecraft:overworld]-753.7705017862577, -52.0, -344.4195609878362)
-[21:04:39] [Server thread/INFO]: ironmanLJM issued server command: /home hi
-[21:04:57] [Server thread/INFO]: ironmanLJM issued server command: /home home
-[21:05:50] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[21:05:50] [Server thread/INFO]: [voicechat] Disconnecting client ironmanLJM
-[21:05:50] [Server thread/INFO]: ironmanLJM left the game
-[21:08:56] [Server thread/INFO]: Stopping server
-[21:08:56] [Server thread/INFO]: [ClearLag] Disabling ClearLag v1.13.0
-[21:08:56] [Server thread/INFO]: [ClearLag] ClearLag has been disabled!
-[21:08:56] [Server thread/INFO]: [AntiBookBan] Disabling AntiBookBan v1.0.0
-[21:08:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.1-dev+23-43cb76a
-[21:08:56] [Server thread/INFO]: [BetterStasis] Disabling BetterStasis v1.5.0
-[21:08:56] [Server thread/INFO]: [BetterStasis] Better Stasis plugin disabled!
-[21:08:56] [Server thread/INFO]: [LocatorBar] Disabling LocatorBar v1.1
-[21:08:56] [Server thread/INFO]: [LocatorBar] LocatorBar has been disabled!
-[21:08:56] [Server thread/INFO]: [WildRTP] Disabling WildRTP v3.6.5
-[21:08:56] [Server thread/INFO]: [Chunky] Disabling Chunky v1.5.3
-[21:08:56] [Server thread/INFO]: [TuffXPlus] Disabling TuffXPlus v1.1.1
-[21:08:56] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been disabled.
-[21:08:56] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.25
-[21:08:56] [Server thread/INFO]: [AxSmithing] Disabling AxSmithing v1.9
-[21:08:56] [Server thread/INFO]: [AevorinReports] Disabling AevorinReports v1.1.2
-[21:08:56] [Server thread/INFO]: [AevorinReports] Shutting down AevorinReports
-[21:08:56] [Server thread/INFO]: [AevorinReports] Closing database connections...
-[21:08:56] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[21:08:56] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[21:08:56] [Server thread/INFO]: [AevorinReports] Database connections closed successfully.
-[21:08:56] [Server thread/ERROR]: [dev.aevorinstudios.aevorinReports.database.DatabaseManager] Failed to get total reports count: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
-[21:08:56] [Server thread/ERROR]: [dev.aevorinstudios.aevorinReports.database.DatabaseManager] Failed to get report count for status PENDING: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
-[21:08:56] [Server thread/INFO]: [AevorinReports] AevorinReports has been disabled!
-[21:08:56] [Server thread/INFO]: [DragonEgg] Disabling DragonEgg v1.0.0
-[21:08:56] [Server thread/INFO]: [DragonEgg] DragonEgg disabled successfully.
-[21:08:56] [Server thread/INFO]: [VillagerVault] Disabling VillagerVault v1.0.0
-[21:08:56] [Server thread/INFO]: [VillagerVault] VillagerVault has been disabled.
-[21:08:56] [Server thread/INFO]: [LPC] Disabling LPC v3.7.2
-[21:08:56] [Server thread/INFO]: [InvisDeathMessage] Disabling InvisDeathMessage v0.1.0
-[21:08:56] [Server thread/INFO]: [OrbitalStrike] Disabling OrbitalStrike v1.6.8
-[21:08:56] [Server thread/INFO]: [Better-WebConsole] Disabling Better-WebConsole v2.4.11
-[21:08:56] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.Server] Stopped Server@a71f637{STOPPING}[11.0.20,sto=0]
-[21:08:56] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.AbstractConnector] Stopped ServerConnector@2b8dea3c{HTTP/1.1, (http/1.1)}{0.0.0.0:4242}
-[21:08:56] [Server thread/INFO]: [dev.webconsole.shaded.jetty.server.handler.ContextHandler] Stopped d.w.s.j.s.ServletContextHandler@9046303{/,null,STOPPED}
-[21:08:56] [Server thread/INFO]: [Better-WebConsole] Better-WebConsole disabled.
-[21:08:56] [Server thread/INFO]: [ClickVillagers] Disabling ClickVillagers v1.6.3
-[21:08:56] [Server thread/INFO]: [CombatLog] Disabling CombatLog v1.20
-[21:08:56] [Server thread/INFO]: [LuckTags] Disabling LuckTags v1.4
-[21:08:56] [Server thread/INFO]: [AdvancedBanZ] Disabling AdvancedBanZ v4.0.1
-[21:08:56] [Server thread/INFO]: [AdvancedBanZ] 
-
-[]=====[Disabling AdvancedBanZ]=====[]
-| Information:
-|   Name: AdvancedBanZ
-|   Developer: Leoko
-|   Maintainer & Updater: Author87668, 2vY
-|   Version: 4.0.1
-|   Storage: SQLite (local)
-| Support:
-|   GitHub: https://github.com/At87668/AdvancedBanZ/issues
-[]================================[]
- 
-[21:08:56] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.11.0
-[21:08:56] [Server thread/ERROR]: Error occurred while disabling FancyHolograms v2.11.0
-java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@2a6183be[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@aae7590[Wrapped task = de.oliver.fancyanalytics.logger.FancyLogger$$Lambda/0x00000000996ae7b8@49bc2fa7]] rejected from java.util.concurrent.ThreadPoolExecutor@7108a329[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328) ~[?:?]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125) ~[?:?]
-	at java.base/java.util.concurrent.Executors$DelegatedExecutorService.submit(Executors.java:696) ~[?:?]
-	at FancyHolograms-2.11.0.jar//de.oliver.fancyanalytics.logger.FancyLogger.log(FancyLogger.java:117) ~[?:?]
-	at FancyHolograms-2.11.0.jar//de.oliver.fancyanalytics.logger.ExtendedFancyLogger.log(ExtendedFancyLogger.java:60) ~[?:?]
-	at FancyHolograms-2.11.0.jar//de.oliver.fancyanalytics.logger.ExtendedFancyLogger.info(ExtendedFancyLogger.java:77) ~[?:?]
-	at FancyHolograms-2.11.0.jar//de.oliver.fancyholograms.FancyHolograms.onDisable(FancyHolograms.java:188) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-26.2.build.111-stable.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:236) ~[paper-26.2.jar:26.2-111-f570646]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:160) ~[paper-26.2.jar:26.2-111-f570646]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-26.2.jar:26.2-111-f570646]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:540) ~[paper-api-26.2.build.111-stable.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:606) ~[paper-26.2.jar:26.2-111-f570646]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1028) ~[paper-26.2.jar:26.2-111-f570646]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:909) ~[paper-26.2.jar:26.2-111-f570646]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1384) ~[paper-26.2.jar:26.2-111-f570646]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[21:08:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.1-dev+23-43cb76a
-[21:08:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[21:08:56] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.18+2392-fa605e6
-[21:08:56] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:08:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.81
-[21:08:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:08:56] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:08:56] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:08:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.5+7590-b8dc4c1
-[21:08:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:08:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
-[21:08:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[21:08:56] [Server thread/INFO]: Saving players
-[21:08:56] [Server thread/INFO]: Saving worlds
-[21:08:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[21:08:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[21:08:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[21:08:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:08:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:08:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:08:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:08:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:08:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:08:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:31:50] [Server thread/INFO]: [LuckTags] Enabling LuckTags v1.4
+[02:31:50] [Server thread/INFO]: [CombatLog] Enabling CombatLog v1.20
+[02:31:50] [Server thread/INFO]: [ClickVillagers] Enabling ClickVillagers v1.6.3
+[02:31:50] [Server thread/INFO]: [ClickVillagers] Checking for updates...
+[02:31:50] [Server thread/INFO]: [OrbitalStrike] Enabling OrbitalStrike v1.6.8
+[02:31:50] [Server thread/INFO]: [InvisDeathMessage] Enabling InvisDeathMessage v0.1.0
+[02:31:50] [Server thread/INFO]: [LPC] Enabling LPC v3.7.2
+[02:31:50] [Server thread/INFO]: [VillagerVault] Enabling VillagerVault v1.0.0
+[02:31:50] [Server thread/INFO]: [VillagerVault] Statistics tracking enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager death backup enabled (max 30).
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager glow highlighting enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Infinite villager stock enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager pickup & placement enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager leashing enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager info display enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] No-wandering/freeze system enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Villager death backup listener enabled.
+[02:31:50] [Server thread/INFO]: [VillagerVault] Bedrock support enabled (will use UUID heuristic if Bedrock players join).
+[02:31:50] [Server thread/INFO]: [VillagerVault] VillagerVault has been enabled!
+[02:31:50] [Server thread/INFO]: [DragonEgg] Enabling DragonEgg v1.0.0
+[02:31:50] [Server thread/INFO]: [DragonEgg] DragonEgg 1.0.0 enabled successfully for Paper 26.1, 26.2, and 26.3!
+[02:31:50] [Server thread/INFO]: [AevorinReports] Enabling AevorinReports v1.1.2
+[02:31:50] [FancyLogger/INFO]: [FancyHolograms] (ForkJoinPool.commonPool-worker-2) WARN: 
+[02:31:50] [FancyLogger/INFO]: -------------------------------------------------------
+[02:31:50] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
+[02:31:50] [FancyLogger/INFO]: Please update to the newest version (2.12.0).
+[02:31:50] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
+[02:31:50] [FancyLogger/INFO]: -------------------------------------------------------
+[02:31:50] [FancyLogger/INFO]: 
+[02:31:50] [ForkJoinPool.commonPool-worker-2/INFO]: [ClickVillagers] New version available: 1.6.4
+[02:31:51] [Server thread/INFO]: [AevorinReports] Initializing AevorinReports
+[02:31:51] [Server thread/INFO]: [AevorinReports] Initializing enhanced exception handler...
+[02:31:51] [Server thread/INFO]: [AevorinReports] Loading configuration files...
+[02:31:51] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Loading configuration from plugins/AevorinReports/config.yml
+[02:31:51] [Server thread/INFO]: [dev.aevorinstudios.aevorinReports.config.ConfigManager] Configuration loaded successfully
+[02:31:51] [Server thread/INFO]: [AevorinReports] Configuration loaded successfully.
+[02:31:51] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[02:31:51] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@43be8546
+[02:31:51] [Server thread/INFO]: [dev.aevorinstudios.aevorinreports.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[02:31:51] [Server thread/INFO]: [AevorinReports] Registering commands...
+[02:31:51] [Server thread/INFO]: [AevorinReports] Registered 'report' command and tab completer
+[02:31:51] [Server thread/INFO]: [AevorinReports] Registered 'reports' command
+[02:31:51] [Server thread/INFO]: [AevorinReports] Commands registered successfully!
+[02:31:51] [Server thread/INFO]: [AevorinReports] Registering event listeners...
+[02:31:51] [Server thread/INFO]: [AevorinReports] Event listeners registered successfully!
+[02:31:51] [Server thread/INFO]: [AevorinReports] PlaceholderAPI not found. Skipping placeholder registration.
+[02:31:51] [Server thread/INFO]: [AevorinReports] Modrinth update checker initialized with project ID: OwqSnlXx
+[02:31:51] [Server thread/INFO]: [AevorinReports] bStats Metrics initialized properly.
+[02:31:51] [Server thread/INFO]: [AevorinReports] FastStats Metrics initialized and ready.
+[02:31:51] [Server thread/INFO]: [AevorinReports] AevorinReports has been enabled!
+[02:31:51] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.0
+[02:31:51] [Server thread/INFO]: [CoreProtect] Minecraft 26.2 is not supported.
+[02:31:51] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition was unable to start.
+[02:31:51] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v24.0
+[02:31:51] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[02:31:51] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v24.0
+[02:31:51] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
+[02:31:51] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.25
+[02:31:51] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.2.build.111-stable
+[02:31:51] [Server thread/INFO]: [voicechat] Compatibility version 20
+[02:31:51] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[02:31:51] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[02:31:51] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
+[02:31:51] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
+[02:31:51] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
+[02:31:52] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 
+[02:31:52] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
+[02:31:52] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
+[02:31:52] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
+[02:31:52] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
+[02:31:52] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
+[02:31:52] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 
+[02:31:52] [Server thread/INFO]: [TuffXPlus] CREDITS
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 
+[02:31:52] [Server thread/INFO]: [TuffXPlus] Y0 support:
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 
+[02:31:52] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
+[02:31:52] [Server thread/INFO]: [TuffXPlus] 
+[02:31:52] [Server thread/INFO]: [TuffXPlus] Other:
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
+[02:31:52] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
+[02:31:52] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[02:31:52] [Server thread/INFO]: [WildRTP] Enabling WildRTP v3.6.5
+[02:31:52] [Server thread/INFO]: [WildRTP] WildRTP by Joni running version: 3.6.5
+[02:31:52] [Server thread/INFO]: [WildRTP] Checking for updates...
+[02:31:52] [Server thread/INFO]: [LocatorBar] Enabling LocatorBar v1.1
+[02:31:52] [Server thread/INFO]: [LocatorBar] bStats metrics enabled!
+[02:31:52] [Server thread/INFO]: [LocatorBar] LocatorBar has been enabled successfully!
+[02:31:52] [Server thread/INFO]: [BetterStasis] Enabling BetterStasis v1.5.0
+[02:31:52] [Server thread/WARN]: [BetterStasis] Vault not found! Economy features will be disabled.
+[02:31:52] [Server thread/INFO]: [BetterStasis] Better Stasis plugin enabled!
+[02:31:52] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+23-43cb76a
+[02:31:52] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:31:52] [Server thread/INFO]: [AntiBookBan] Enabling AntiBookBan v1.0.0
+[02:31:52] [Server thread/INFO]: [AntiBookBan] AntiBookBan enabled. Shulker limit: 2.00 MB, max 25 book pages (ASCII only)
+[02:31:52] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.13.0
+[02:31:52] [Server thread/INFO]: [ClearLag] Plugin hooks detected: FancyHolograms
+[02:31:52] [Server thread/INFO]: [ClearLag] Hook enabled: FancyHolograms
+[02:31:52] [Server thread/INFO]: [ClearLag] ClearLag configuration reloaded.
+[02:31:52] [Server thread/INFO]: [ClearLag] Loaded 0 player preferences.
+[02:31:52] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
+[02:31:52] [Server thread/INFO]: [ClearLag] Dynamic View Distance enabled.
+[02:31:52] [ForkJoinPool.commonPool-worker-2/INFO]: [WildRTP] A new version is available! Current: 3.6.5 Latest: 4.0
+[02:31:52] [ForkJoinPool.commonPool-worker-2/INFO]: [WildRTP] https://modrinth.com/plugin/wildrtp/version/4.0
+[02:31:52] [Server thread/INFO]: [ClearLag] Explosion optimization enabled.
+[02:31:52] [Server thread/INFO]: [ClearLag] Auto-Clear is enabled and starts every 300 seconds.
+[02:31:52] [Server thread/INFO]: [ClearLag] Mob AI Optimization is enabled.
+[02:31:52] [Server thread/INFO]: [ClearLag] Performance Warnings are enabled.
+[02:31:52] [Server thread/WARN]: [ClearLag] PlaceholderAPI not found! ClearLag placeholders will not work.
+[02:31:52] [Server thread/INFO]: [ClearLag] ClearLag has been successfully enabled!
+[02:31:53] [Server thread/INFO]: [spark] Starting background profiler...
+[02:31:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:31:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:31:53] [User Authenticator #0/INFO]: UUID of player BlueFischer is 571641a3-5de9-3a62-b6db-d6ddb4312c2b
+[02:31:53] [User Authenticator #1/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[02:31:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:31:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:31:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:31:53] [Server thread/INFO]: Running delayed init tasks
+[02:31:53] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:31:53] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:31:53] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
+[02:31:54] [Craft Scheduler Thread - 1 - CombatLog/INFO]: [CombatLog] A new version is available!
+[02:31:54] [Craft Scheduler Thread - 1 - CombatLog/INFO]: [CombatLog] Current: 1.20 | Latest: 1.20+26.3
+[02:31:54] [Craft Scheduler Thread - 1 - CombatLog/INFO]: [CombatLog] https://modrinth.com/plugin/simple-combatlog/versions
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ========================================
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ClearLag is outdated!
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Your version: 1.13.0
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Newest version: 2.0.0
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: Download the new version here: https://modrinth.com/plugin/7bhTp28M
+[02:31:54] [Craft Scheduler Thread - 7 - ClearLag/INFO]: ========================================
+[02:31:54] [Craft Scheduler Thread - 4 - OrbitalStrike/WARN]: [OrbitalStrike] [OrbitalStrike] GitHub API ERROR: HTTP 404
+[02:31:54] [Craft Scheduler Thread - 5 - AevorinReports/INFO]: [AevorinReports] A new version of AevorinReports (release) is available: 1.1.3
+[02:31:54] [Craft Scheduler Thread - 5 - AevorinReports/INFO]: [AevorinReports] Download it from: https://cdn.modrinth.com/data/OwqSnlXx/versions/8WzOely5/AevorinReports-1.1.3-all.jar
+[02:31:54] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
+[02:31:54] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.11.0
+[02:31:54] [Server thread/INFO]: Done (60.231s)! For help, type "help"
+[02:31:54] [Server thread/INFO]: [voicechat] Loading plugins
+[02:31:54] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[02:31:54] [Server thread/INFO]: [voicechat] Initializing plugins
+[02:31:54] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[02:31:54] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[02:31:54] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24455
+[02:31:54] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 24 builds behind!
+[02:31:54] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[02:31:54] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[02:31:54] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[02:31:54] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[02:31:57] [Server thread/INFO]: ironmanLJM joined the game
+[02:31:57] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:38658] logged in with entity id 64 at ([minecraft:overworld]-633.3520288051585, -20.0, -166.46694765571178)
+[02:31:57] [Server thread/INFO]: BlueFischer joined the game
+[02:31:57] [Server thread/INFO]: BlueFischer[/[0:0:0:0:0:0:0:1]:38644] logged in with entity id 65 at ([minecraft:overworld]-551.3214186632711, -27.0, -239.53019631682398)
+[02:32:08] [qtp775162185-110/INFO]: [Better-WebConsole] [BWC] Command by 'admin': op ironmanLJM
+[02:32:08] [Server thread/INFO]: Made ironmanLJM a server operator
+[02:32:13] [User Authenticator #2/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[02:32:14] [Server thread/INFO]: I_am_bob_wow joined the game
+[02:32:14] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:33268] logged in with entity id 240 at ([minecraft:overworld]-15.279144078409889, 54.0, -48.40576377667823)
+[02:32:15] [User Authenticator #3/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
+[02:32:17] [Server thread/INFO]: Dill_Pickle_ joined the game
+[02:32:17] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:33284] logged in with entity id 310 at ([minecraft:overworld]-7.795831805072421, 64.0, -44.07345288477678)
+[02:32:20] [User Authenticator #4/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
+[02:32:21] [Server thread/INFO]: blueberryhill joined the game
+[02:32:21] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:57452] logged in with entity id 389 at ([minecraft:overworld]-738.4930101476655, 59.0, 381.48672921177615)
+[02:32:25] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa Dill_Pickle_
+[02:32:33] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[02:32:36] [Server thread/INFO]: blueberryhill fell from a high place
+[02:32:41] [Server thread/INFO]: blueberryhill issued server command: /rtp
+[02:32:58] [User Authenticator #5/INFO]: UUID of player dark6777 is 9608d436-1ed4-37ce-b19e-254855361526
+[02:32:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ca80588e-69fd-4970-b2a0-41cd32b2ebaf, mapped to Zombie['Zombie'/1164, uuid='ca80588e-69fd-4970-b2a0-41cd32b2ebaf', l='ServerLevel[world]', x=5677.89, y=33.00, z=-4829.46, cpos=[354, -302], tl=0, v=true], can't add Zombie['Zombie'/1174, uuid='ca80588e-69fd-4970-b2a0-41cd32b2ebaf', l='ServerLevel[world]', x=5684.54, y=34.00, z=-4832.50, cpos=[355, -303], tl=0, v=false]
+[02:32:59] [Server thread/INFO]: dark6777 joined the game
+[02:32:59] [Server thread/INFO]: dark6777[/[0:0:0:0:0:0:0:1]:59684] logged in with entity id 1122 at ([minecraft:overworld]5672.5075833784995, 64.0, -4840.850657713804)
+[02:33:12] [Server thread/INFO]: I_am_bob_wow has completed the challenge [Cover Me in Debris]
+[02:33:39] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: dark 67 do u still have flow
+[02:33:44] [Async Chat Thread - #0/INFO]: [Not Secure] Player dark6777: yes
+[02:33:47] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: tp
+[02:33:53] [Server thread/INFO]: blueberryhill lost connection: Disconnected
+[02:33:53] [Server thread/INFO]: [voicechat] Disconnecting client blueberryhill
+[02:33:53] [Server thread/INFO]: blueberryhill left the game
+[02:33:55] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpahere dark6777
+[02:34:00] [Server thread/INFO]: dark6777 issued server command: /
+[02:34:04] [Server thread/INFO]: dark6777 issued server command: /tpaccept
+[02:34:09] [Server thread/INFO]: ironmanLJM issued server command: /sethome trial2
+[02:34:11] [Server thread/INFO]: BlueFischer issued server command: /tpahere ironmanLJM
+[02:34:11] [Server thread/INFO]: ironmanLJM issued server command: /sethome trial2
+[02:34:14] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[02:34:15] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: pass it pls
+[02:34:31] [User Authenticator #6/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[02:34:31] [Server thread/INFO]: Vyqzren joined the game
+[02:34:31] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:46070] logged in with entity id 2075 at ([minecraft:overworld]286.40807661789137, 73.0, -873.254465135777)
+[02:34:34] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: pass it bro, pls
+[02:34:34] [Async Chat Thread - #1/INFO]: [Not Secure] Player dark6777: netherite upgaer
+[02:34:37] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:34:39] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:34:39] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: dont have
+[02:34:40] [Async Chat Thread - #1/INFO]: [Not Secure] OG Vyqzren: yo iron
+[02:34:48] [Server thread/INFO]: Dill_Pickle_ issued server command: /i give you netheright thoug
+[02:34:48] [Server thread/INFO]: [Essentials] Dill_Pickle_ was denied access to command.
+[02:34:49] [Async Chat Thread - #1/INFO]: [Not Secure] Player dark6777: no flow trim
+[02:34:51] [User Authenticator #7/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
+[02:34:52] [Server thread/INFO]: blueberryhill joined the game
+[02:34:52] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:36734] logged in with entity id 2294 at ([minecraft:overworld]442.3673652110958, 63.0, 16.0420105804845)
+[02:34:52] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: pls
+[02:34:56] [Async Chat Thread - #0/INFO]: [Not Secure] OG Vyqzren: plzz
+[02:34:57] [Async Chat Thread - #0/INFO]: [Not Secure] Player dark6777: netherite upgaer
+[02:34:57] [Async Chat Thread - #0/INFO]: [Not Secure] Player dark6777: netherite upgaer
+[02:34:59] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: i give u netheright
+[02:35:05] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: normal nethering
+[02:35:06] [Server thread/INFO]: ironmanLJM issued server command: /msg dark6777 remember the plan
+[02:35:14] [Async Chat Thread - #1/INFO]: [Not Secure] OG Vyqzren: yo dark
+[02:35:20] [Async Chat Thread - #1/INFO]: [Not Secure] Player dark6777: yo
+[02:35:21] [Server thread/INFO]: ironmanLJM issued server command: /home hi
+[02:35:22] [Server thread/INFO]: Vyqzren issued server command: /msg dark6777 yo
+[02:35:23] [Async Chat Thread - #1/INFO]: [Not Secure] Player dark6777: \
+[02:35:24] [Server thread/INFO]: ironmanLJM issued server command: /home trial
+[02:35:28] [Server thread/INFO]: Vyqzren issued server command: /r can i have flow
+[02:35:31] [Server thread/INFO]: dark6777 issued server command: /home base
+[02:35:31] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: pls dark
+[02:35:36] [Server thread/INFO]: Vyqzren issued server command: /r i will pay u 1 ingot
+[02:35:36] [Server thread/INFO]: blueberryhill lost connection: Disconnected
+[02:35:36] [Server thread/INFO]: [voicechat] Disconnecting client blueberryhill
+[02:35:36] [Server thread/INFO]: blueberryhill left the game
+[02:35:41] [Server thread/INFO]: Vyqzren issued server command: /r neth'
+[02:35:44] [User Authenticator #8/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
+[02:35:46] [Server thread/INFO]: blueberryhill joined the game
+[02:35:46] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:36386] logged in with entity id 3120 at ([minecraft:overworld]401.30000001192093, 12.0, 9.699999988079071)
+[02:35:46] [Server thread/INFO]: Vyqzren issued server command: /r pls
+[02:36:02] [Server thread/INFO]: ironmanLJM issued server command: /tpa BlueFischer
+[02:36:05] [Server thread/INFO]: BlueFischer issued server command: /tpaccept
+[02:36:06] [Async Chat Thread - #1/INFO]: [Not Secure] Player Dill_Pickle_: iron man side the flow trim
+[02:36:08] [Server thread/INFO]: Vyqzren issued server command: /r plz
+[02:36:11] [Async Chat Thread - #1/INFO]: [Not Secure] Player dark6777: who want the flow trim for a netherite upger tepat
+[02:36:13] [Server thread/INFO]: BlueFischer has reached the goal [Revaulting]
+[02:36:16] [Async Chat Thread - #0/INFO]: [Not Secure] Player Dill_Pickle_: and then we talk bro
+[02:36:26] [Server thread/INFO]: Dill_Pickle_ issued server command: /msg ironmanLJM side the flow trim
+[02:36:42] [Server thread/INFO]: BlueFischer lost connection: Disconnected
+[02:36:42] [Server thread/INFO]: [voicechat] Disconnecting client BlueFischer
+[02:36:42] [Server thread/INFO]: BlueFischer left the game
+[02:36:51] [Server thread/INFO]: dark6777 issued server command: /msg ironmanLJM can u vc
+[02:36:54] [Server thread/INFO]: ironmanLJM issued server command: /r sure
+[02:36:57] [User Authenticator #9/INFO]: UUID of player BlueFischer is 571641a3-5de9-3a62-b6db-d6ddb4312c2b
+[02:36:58] [Server thread/INFO]: BlueFischer joined the game
+[02:36:58] [Server thread/INFO]: BlueFischer[/[0:0:0:0:0:0:0:1]:34334] logged in with entity id 4210 at ([minecraft:overworld]-554.8990440522471, -32.0, -215.2543249403969)
+[02:37:46] [Server thread/INFO]: BlueFischer issued server command: /tpa BlueFischer
+[02:37:46] [Server thread/INFO]: dark6777 issued server command: /home tt
+[02:37:49] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:37:54] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:38:05] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:38:06] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:38:07] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:38:08] [Server thread/INFO]: blueberryhill issued server command: /rtp
+[02:38:18] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:38:27] [Server thread/INFO]: BlueFischer lost connection: Disconnected
+[02:38:27] [Server thread/INFO]: [voicechat] Disconnecting client BlueFischer
+[02:38:27] [Server thread/INFO]: BlueFischer left the game
+[02:38:28] [Server thread/INFO]: blueberryhill fell from a high place
+[02:38:31] [Server thread/INFO]: blueberryhill issued server command: /rtp
+[02:38:37] [Server thread/INFO]: Vyqzren issued server command: /home
+[02:38:42] [Server thread/INFO]: dark6777 issued server command: /home base
+[02:38:58] [Server thread/INFO]: ironmanLJM issued server command: /home trial2
+[02:39:01] [User Authenticator #10/INFO]: UUID of player BlueFischer is 571641a3-5de9-3a62-b6db-d6ddb4312c2b
+[02:39:02] [Server thread/INFO]: BlueFischer joined the game
+[02:39:02] [Server thread/INFO]: BlueFischer[/[0:0:0:0:0:0:0:1]:46048] logged in with entity id 6251 at ([minecraft:overworld]-553.9052965276674, -25.0, -249.30000001192093)
+[02:39:12] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[02:39:12] [Server thread/INFO]: [voicechat] Disconnecting client I_am_bob_wow
+[02:39:12] [Server thread/INFO]: I_am_bob_wow left the game
+[02:39:19] [Server thread/INFO]: BlueFischer issued server command: /tpa ironmanLJM
+[02:39:23] [User Authenticator #11/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[02:39:23] [Server thread/INFO]: I_am_bob_wow joined the game
+[02:39:23] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:48112] logged in with entity id 6573 at ([minecraft:overworld]80.90463377026961, 63.7531999805212, 14.848609524420228)
+[02:39:40] [Server thread/INFO]: Vyqzren issued server command: /spawn
+[02:40:06] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[02:40:13] [Async Chat Thread - #2/INFO]: [Not Secure] OG Vyqzren: yo who has iron
+[02:40:18] [Async Chat Thread - #2/INFO]: [Not Secure] Player dark6777: me
+[02:40:22] [Async Chat Thread - #2/INFO]: [Not Secure] OG Vyqzren: how much
+[02:40:24] [Server thread/INFO]: Vyqzren issued server command: /home
+[02:40:34] [Server thread/INFO]: blueberryhill tried to swim in lava
+[02:40:44] [Async Chat Thread - #2/INFO]: [Not Secure] Player dark6777: 53m stack
+[02:40:56] [Async Chat Thread - #2/INFO]: [Not Secure] OG Vyqzren: can i have 1 stack
+[02:41:01] [Async Chat Thread - #2/INFO]: [Not Secure] Player dark6777: no
+[02:41:12] [Server thread/INFO]: Vyqzren issued server command: /msg dark6777 i will pay u 30 dims
+[02:41:13] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa i
+[02:41:18] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpacancel
+[02:41:24] [Server thread/INFO]: Vyqzren issued server command: /r ye?
+[02:41:25] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa blueberryhill
+[02:41:28] [Server thread/INFO]: blueberryhill issued server command: /tpaccept
+[02:42:02] [Server thread/INFO]: Vyqzren issued server command: /r ok or no
+[02:42:20] [Server thread/WARN]: blueberryhill moved too quickly! 5.071738239611051,7.249187078744683,4.884723104302928
+[02:42:24] [Server thread/INFO]: Vyqzren issued server command: /home
+[02:42:29] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa Dill_Pickle_
+[02:42:30] [Server thread/INFO]: Vyqzren issued server command: /rtp
+[02:42:34] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[02:42:40] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa Dill_Pickle_
+[02:42:44] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[02:43:23] [Server thread/INFO]: BlueFischer issued server command: /msg ironmanLJM bro what is this kid asking yo
+[02:44:18] [Server thread/INFO]: Vyqzren issued server command: /home
+[02:44:21] [Server thread/INFO]: I_am_bob_wow issued server command: /home e
+[02:44:25] [Server thread/INFO]: BlueFischer has made the advancement [Who Needs Rockets?]
+[02:45:03] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:45:05] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:45:46] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:46:00] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:46:05] [Server thread/INFO]: Vyqzren issued server command: /spawn
+[02:46:18] [Server thread/INFO]: BlueFischer issued server command: /tpahere ironmanLJM
+[02:46:20] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[02:46:25] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:46:26] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:46:27] [Server thread/INFO]: Vyqzren issued server command: /home
+[02:46:44] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:46:45] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:46:48] [Server thread/INFO]: blueberryhill issued server command: /sethome
+[02:46:51] [Server thread/INFO]: BlueFischer has made the advancement [Sweet Dreams]
+[02:47:17] [Server thread/INFO]: BlueFischer issued server command: /tpa ironmanLJM
+[02:47:18] [Server thread/INFO]: ironmanLJM issued server command: /tpaccept
+[02:47:39] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa blueberryhill
+[02:47:40] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa blueberryhill
+[02:47:41] [Server thread/INFO]: blueberryhill issued server command: /tpaccept
+[02:47:50] [Server thread/INFO]: blueberryhill issued server command: /tpaccept
+[02:48:08] [Server thread/INFO]: dark6777 issued server command: /home base
+[02:48:39] [Server thread/INFO]: I_am_bob_wow issued server command: /home e
+[02:48:44] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa Dill_Pickle_
+[02:48:47] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpaccept
+[02:48:58] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa I_am_bob_wow
+[02:48:58] [Server thread/INFO]: I_am_bob_wow issued server command: /tpaccept
+[02:50:11] [Server thread/INFO]: blueberryhill was blown up by Creeper
+[02:51:12] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa blueberryhill
+[02:52:01] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:52:04] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:52:29] [Async Chat Thread - #5/INFO]: [Not Secure] [Owner] ironmanLJM: frick
+[02:52:30] [Async Chat Thread - #5/INFO]: [Not Secure] [Owner] ironmanLJM: guys
+[02:52:34] [Async Chat Thread - #5/INFO]: [Not Secure] [Owner] ironmanLJM: ima fix something
+[02:52:35] [Async Chat Thread - #4/INFO]: [Not Secure] Player Dill_Pickle_: no, pls no
+[02:52:37] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner] ironmanLJM: theres a bug
+[02:52:41] [Async Chat Thread - #4/INFO]: [Not Secure] Player Dill_Pickle_: booooooooooooooooooooooooooooooooooooooooooooooooooooo
+[02:52:42] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner] ironmanLJM: no im not restarting
+[02:52:45] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[02:52:47] [Async Chat Thread - #4/INFO]: [Not Secure] Player Dill_Pickle_: oh. yay
+[02:52:55] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:52:57] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:53:19] [Server thread/INFO]: Dill_Pickle_ issued server command: /tpa blueberryhill
+[02:53:20] [Server thread/INFO]: blueberryhill issued server command: /tpaccept
+[02:53:45] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[02:53:47] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[02:53:47] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[02:53:47] [Server thread/INFO]: Vyqzren left the game
+[02:53:50] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa dark6777
+[02:53:53] [Server thread/INFO]: I_am_bob_wow issued server command: /tpacancel
+[02:53:55] [User Authenticator #12/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
+[02:53:55] [Server thread/INFO]: Vyqzren joined the game
+[02:53:55] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:56874] logged in with entity id 20130 at ([minecraft:the_nether]-346.0977871232303, 61.875, -156.63197132718605)
+[02:53:56] [Server thread/INFO]: I_am_bob_wow issued server command: /tpa Dill_Pickle_
+[02:54:08] [Server thread/INFO]: ironmanLJM issued server command: /gamemode spectator BlueFischer
+[02:54:43] [Server thread/INFO]: blueberryhill issued server command: /sethome
+[02:54:48] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:54:49] [Server thread/INFO]: blueberryhill was shot by Skeleton
+[02:54:52] [Server thread/INFO]: blueberryhill issued server command: /home
+[02:54:59] [Server thread/INFO]: [ironmanLJM: Set own game mode to Spectator Mode]
+[02:55:02] [Server thread/INFO]: [ironmanLJM: Set own game mode to Creative Mode]
+[02:55:03] [Server thread/INFO]: [ironmanLJM: Set own game mode to Survival Mode]
+[02:55:06] [Server thread/INFO]: ironmanLJM issued server command: /tphere BlueFischer
+[02:55:11] [Server thread/INFO]: ironmanLJM issued server command: /gamemode survival BlueFischer
+[02:55:18] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[02:55:18] [Server thread/INFO]: [voicechat] Disconnecting client ironmanLJM
+[02:55:18] [Server thread/INFO]: ironmanLJM left the game
+[02:55:19] [Server thread/INFO]: BlueFischer issued server command: /sethome Trial
+[02:55:21] [Server thread/INFO]: BlueFischer lost connection: Disconnected
+[02:55:21] [Server thread/INFO]: [voicechat] Disconnecting client BlueFischer
+[02:55:21] [Server thread/INFO]: BlueFischer left the game
+[02:55:22] [qtp775162185-103/INFO]: [Better-WebConsole] [BWC] WS disconnected: admin
+[02:55:41] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[02:55:41] [Server thread/INFO]: [voicechat] Disconnecting client I_am_bob_wow
+[02:55:41] [Server thread/INFO]: I_am_bob_wow left the game
+[02:55:51] [Server thread/INFO]: Vyqzren lost connection: Disconnected
+[02:55:51] [Server thread/INFO]: [voicechat] Disconnecting client Vyqzren
+[02:55:51] [Server thread/INFO]: Vyqzren left the game
+[02:57:00] [Server thread/INFO]: Dill_Pickle_ lost connection: Disconnected
+[02:57:00] [Server thread/INFO]: [voicechat] Disconnecting client Dill_Pickle_
+[02:57:00] [Server thread/INFO]: Dill_Pickle_ left the game
+[02:58:38] [User Authenticator #13/INFO]: UUID of player I_am_bob_wow is dba1242f-2214-311a-95f1-b5aff9e687d7
+[02:58:38] [Server thread/INFO]: I_am_bob_wow joined the game
+[02:58:38] [Server thread/INFO]: I_am_bob_wow[/[0:0:0:0:0:0:0:1]:54028] logged in with entity id 22759 at ([minecraft:overworld]-8.54582809681101, 53.9375, -36.30000001192093)
+[02:59:07] [Server thread/INFO]: I_am_bob_wow lost connection: Disconnected
+[02:59:07] [Server thread/INFO]: [voicechat] Disconnecting client I_am_bob_wow
+[02:59:07] [Server thread/INFO]: I_am_bob_wow left the game
+[03:01:11] [User Authenticator #14/INFO]: UUID of player Dill_Pickle_ is 0e2c972c-f39c-37b3-b41e-956f9e53ef4e
+[03:01:12] [Server thread/INFO]: Dill_Pickle_ joined the game
+[03:01:12] [Server thread/INFO]: Dill_Pickle_[/[0:0:0:0:0:0:0:1]:45208] logged in with entity id 23890 at ([minecraft:overworld]92.00374034061404, 120.0, 162.28330076215036)
+[03:01:22] [Server thread/INFO]: dark6777 issued server command: /home base
+[03:01:33] [Server thread/INFO]: Dill_Pickle_ issued server command: /home home
+[03:02:46] [qtp775162185-103/INFO]: [Better-WebConsole] [BWC] WS connected: admin@[0:0:0:0:0:0:0:1]
+[03:03:16] [qtp775162185-107/INFO]: [Better-WebConsole] [BWC] WS disconnected: admin
+[03:03:22] [Server thread/INFO]: Dill_Pickle_ issued server command: /spawn
+[03:04:15] [Server thread/INFO]: dark6777 issued server command: /home base
+[03:06:00] [Server thread/INFO]: Dill_Pickle_ issued server command: /home home
+[03:06:30] [Server thread/INFO]: blueberryhill lost connection: Disconnected
+[03:06:30] [Server thread/INFO]: [voicechat] Disconnecting client blueberryhill
+[03:06:30] [Server thread/INFO]: blueberryhill left the game
+[03:07:42] [Server thread/INFO]: Dill_Pickle_ lost connection: Disconnected
+[03:07:42] [Server thread/INFO]: [voicechat] Disconnecting client Dill_Pickle_
+[03:07:42] [Server thread/INFO]: Dill_Pickle_ left the game
+[03:08:26] [User Authenticator #15/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
+[03:08:26] [Server thread/INFO]: blueberryhill joined the game
+[03:08:26] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:35458] logged in with entity id 26919 at ([minecraft:overworld]128.55866361947974, 2.0, 84.69999998807907)
+[03:08:41] [Server thread/INFO]: blueberryhill issued server command: /rtp
+[03:10:16] [Server thread/INFO]: blueberryhill fell from a high place
+[03:10:21] [Server thread/INFO]: blueberryhill issued server command: /rtp
+[03:11:03] [Server thread/INFO]: blueberryhill lost connection: Disconnected
+[03:11:03] [Server thread/INFO]: [voicechat] Disconnecting client blueberryhill
+[03:11:03] [Server thread/INFO]: blueberryhill left the game
+[03:11:17] [User Authenticator #16/INFO]: UUID of player blueberryhill is c7354076-f910-3f83-8e34-cbe09ec4023d
+[03:11:17] [Server thread/INFO]: blueberryhill joined the game
+[03:11:17] [Server thread/INFO]: blueberryhill[/[0:0:0:0:0:0:0:1]:34762] logged in with entity id 28526 at ([minecraft:overworld]28.36520607819537, 101.0, 137.42229610090487)
+[03:11:41] [Server thread/INFO]: blueberryhill lost connection: Disconnected
+[03:11:41] [Server thread/INFO]: [voicechat] Disconnecting client blueberryhill
+[03:11:41] [Server thread/INFO]: blueberryhill left the game
+[03:11:45] [Server thread/INFO]: dark6777 issued server command: /home base
+[03:14:03] [Server thread/INFO]: dark6777 issued server command: /rtp
+[03:14:08] [Server thread/INFO]: dark6777 lost connection: Disconnected
+[03:14:08] [Server thread/INFO]: [voicechat] Disconnecting client dark6777
+[03:14:08] [Server thread/INFO]: dark6777 left the game
+[03:16:41] [User Authenticator #17/INFO]: UUID of player dark6777 is 9608d436-1ed4-37ce-b19e-254855361526
+[03:16:42] [Server thread/INFO]: dark6777 joined the game
+[03:16:42] [Server thread/INFO]: dark6777[/[0:0:0:0:0:0:0:1]:48054] logged in with entity id 28983 at ([minecraft:overworld]5676.623342255782, 64.0, -4842.762499988079)
