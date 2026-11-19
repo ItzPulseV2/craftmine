@@ -12,13 +12,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794708526300
+  lastteleport: 1794970130705
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794708618658
-  login: 1794707422465
+  logout: 1795056163096
+  login: 1795056001861
 money: '0'
 last-account-name: dark6777
 lastlocation:
@@ -27,16 +27,16 @@ lastlocation:
   x: 27.36711198054293
   y: 68.0
   z: 93.45754825097276
-  yaw: 171.8647918701172
-  pitch: 18.691856384277344
+  yaw: -172.08531188964844
+  pitch: 0.6918604373931885
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 5675.660342521801
-  y: 64.0
-  z: -4835.342560990472
-  yaw: 177.70587158203125
-  pitch: 14.99979019165039
+  x: 27.36711198054293
+  y: 68.0
+  z: 93.45754825097276
+  yaw: 179.21466064453125
+  pitch: 16.29186248779297
 homes:
   base:
     world: 6bd83792-5943-464f-87e1-34772dbd6341

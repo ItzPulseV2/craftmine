@@ -1,0 +1,51 @@
+# Messages in MiniMessage format: https://docs.advntr.dev/minimessage/format.html
+# Do not change — when it differs, the old file is backed up and a fresh one is generated.
+messages-version: 2
+
+prefix: "<gradient:#00d2ff:#3a7bd5><bold>AntiXray</bold></gradient> <dark_gray>»</dark_gray> "
+
+no-permission: "<prefix><red>You do not have permission to use this command."
+player-only: "<prefix><red>This command can only be used in-game."
+reloaded: "<prefix><green>Configuration and messages reloaded. <gray>Engine: <aqua><engine></aqua>"
+toggled-on: "<prefix><green>AntiXray has been <bold>enabled</bold>."
+toggled-off: "<prefix><red>AntiXray has been <bold>disabled</bold>."
+stats-reset: "<prefix><green>Statistics reset."
+monitor-on: "<prefix><green>Live view enabled."
+monitor-off: "<prefix><gray>Live view disabled."
+selftest-running: "<prefix><gray>Testing the <aqua><engine></aqua> engine on chunk <white><chunk></white>..."
+selftest-ok: "<prefix><green>✔ Test passed</green> <dark_gray>|</dark_gray> <gray>ores in chunk: <white><total></white>, obfuscated: <aqua><hidden></aqua>, exposed in caves: <yellow><exposed></yellow>, time: <white><time> ms</white>"
+selftest-fail: "<prefix><red>✘ Test failed: <white><reason></white>"
+
+help:
+  - "<gradient:#00d2ff:#3a7bd5><strikethrough>                                        </strikethrough></gradient>"
+  - " <gradient:#00d2ff:#3a7bd5><bold>AntiXray</bold></gradient> <gray>v<version> <dark_gray>·</dark_gray> engine <aqua><engine></aqua>"
+  - ""
+  - " <click:run_command:'/ax gui'><hover:show_text:'<gray>Click to open'><aqua>/ax gui</aqua> <dark_gray>-</dark_gray> <gray>settings panel</gray></hover></click>"
+  - " <click:run_command:'/ax status'><aqua>/ax status</aqua> <dark_gray>-</dark_gray> <gray>plugin status</gray></click>"
+  - " <click:run_command:'/ax stats'><aqua>/ax stats</aqua> <dark_gray>-</dark_gray> <gray>performance statistics</gray></click>"
+  - " <click:run_command:'/ax monitor'><aqua>/ax monitor</aqua> <dark_gray>-</dark_gray> <gray>live view (bossbar)</gray></click>"
+  - " <click:run_command:'/ax toggle'><aqua>/ax toggle</aqua> <dark_gray>-</dark_gray> <gray>enable / disable</gray></click>"
+  - " <click:run_command:'/ax selftest'><aqua>/ax selftest</aqua> <dark_gray>-</dark_gray> <gray>test the engine on your chunk</gray></click>"
+  - " <click:run_command:'/ax reload'><aqua>/ax reload</aqua> <dark_gray>-</dark_gray> <gray>reload config</gray></click>"
+  - "<gradient:#3a7bd5:#00d2ff><strikethrough>                                        </strikethrough></gradient>"
+
+status:
+  - "<gradient:#00d2ff:#3a7bd5><strikethrough>                                        </strikethrough></gradient>"
+  - " <gray>State: <state>"
+  - " <gray>Engine: <aqua><engine></aqua> <dark_gray>(<engine-info>)</dark_gray>"
+  - " <gray>Mode: <white><mode></white> <dark_gray>·</dark_gray> <gray>hidden blocks: <white><hidden-count></white>"
+  - " <gray>Proximity: <proximity>"
+  - " <gray>Worlds: <white><worlds></white>"
+  - " <gray>Server: <white><server-version></white>"
+  - "<gradient:#3a7bd5:#00d2ff><strikethrough>                                        </strikethrough></gradient>"
+
+stats:
+  - "<gradient:#00d2ff:#3a7bd5><strikethrough>                                        </strikethrough></gradient>"
+  - " <gray>Chunks processed: <white><chunks></white> <dark_gray>(<chunks-rate>/s)</dark_gray>"
+  - " <gray>Average time per chunk: <time-color><avg> ms</time-color>"
+  - " <gray>Blocks obfuscated: <aqua><hidden></aqua> <dark_gray>(<hidden-rate>/s)</dark_gray>"
+  - " <gray>Blocks revealed: <green><revealed></green>"
+  - " <gray>Errors: <errors>"
+  - "<gradient:#3a7bd5:#00d2ff><strikethrough>                                        </strikethrough></gradient>"
+
+monitor: "<gradient:#00d2ff:#3a7bd5><bold>AntiXray</bold></gradient> <dark_gray>▸</dark_gray> <white><chunks-rate></white> <gray>chunks/s</gray> <dark_gray>▸</dark_gray> <time-color><avg> ms</time-color> <dark_gray>▸</dark_gray> <aqua><hidden-rate></aqua> <gray>hidden/s</gray> <dark_gray>▸</dark_gray> <green><revealed-rate></green> <gray>revealed/s</gray>"

@@ -23,7 +23,7 @@ combat-log:
   punishment:
     damage: 5.0                          # Damage penalty for restricted actions (0 = off)
     logout:
-      mode: none                         # none | kill | commands
+      mode: kill                         # none | kill | commands
       commands: []                       # Console commands for mode "commands", {player} = player name
       # commands:
       #   - "clear {player}"

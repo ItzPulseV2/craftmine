@@ -1,0 +1,85 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║                AntiXray v4.2.0 — configuration                ║
+# ║  Paper / Purpur 1.20 – 26.x · no ProtocolLib or other plugins  ║
+# ╚══════════════════════════════════════════════════════════════╝
+# Most options can also be changed in-game: /ax gui
+
+# Do not change — used for automatic config migration.
+config-version: 4
+
+# Master switch.
+enabled: true
+
+engine:
+  # auto   – tries the packet engine and falls back to "api" if the server does not support it
+  # packet – obfuscates ores directly inside the chunk packet (full protection; Paper 1.20.5+ and 26.x)
+  # api    – sends replaced blocks right after the chunk (works everywhere from 1.20, weaker protection)
+  type: auto
+
+  # 1 – ores fully surrounded by solid blocks look like stone/deepslate/netherrack
+  # 2 – like 1, plus fake ores are scattered inside solid stone (X-ray sees "ores everywhere")
+  mode: 1
+
+  # mode: 2 only — what fraction of solid stone gets a fake ore (0.0 – 1.0).
+  fake-ore-density: 0.3
+
+  # mode: 2 only — which blocks fake ores may appear in.
+  replaceable-blocks:
+    - STONE
+    - DEEPSLATE
+    - TUFF
+    - ANDESITE
+    - DIORITE
+    - GRANITE
+    - NETHERRACK
+
+# Blocks hidden while they do not touch air / a transparent block.
+# Wildcards are allowed, e.g. "*_ORE". Names that do not exist in this server version are skipped.
+hidden-blocks:
+  - "*_ORE"
+  - ANCIENT_DEBRIS
+  - RAW_IRON_BLOCK
+  - RAW_COPPER_BLOCK
+  - RAW_GOLD_BLOCK
+
+# Proximity hider — also hides blocks that are exposed (e.g. in a cave)
+# until the player gets close and (optionally) can actually see them.
+proximity:
+  enabled: true
+  # Distance (in blocks) at which blocks are revealed.
+  distance: 24
+  # Require line of sight (ray-trace) — X-ray will not see chests behind walls.
+  ray-trace: true
+  # How often to check, in ticks (20 ticks = 1 second).
+  check-interval-ticks: 10
+  # Also hide exposed hidden-blocks ores lying in caves.
+  hide-exposed-ores: true
+  # Blocks always hidden by the proximity hider (chests, spawners, etc.).
+  blocks:
+    - CHEST
+    - TRAPPED_CHEST
+    - BARREL
+    - ENDER_CHEST
+    - "*SHULKER_BOX"
+    - SPAWNER
+    - TRIAL_SPAWNER
+    - VAULT
+
+# Blocks from hidden-blocks / proximity.blocks that were placed by a player (chests and barrels
+# in bases, decorative ores...) are never hidden and always look normal.
+# Note: this also lets X-ray users see chests inside player bases.
+show-player-placed-blocks: true
+
+# Radius (in blocks) around a broken/exploded/pushed block
+# in which exposed ores are revealed immediately.
+update-radius: 2
+
+# Worlds where AntiXray does NOT run (empty list = runs everywhere).
+disabled-worlds: []
+
+monitor:
+  # How to display the live view (/ax monitor): BOSSBAR or ACTIONBAR
+  style: BOSSBAR
+
+# Extra diagnostic logging in the console.
+debug: false

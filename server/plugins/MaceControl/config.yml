@@ -1,0 +1,83 @@
+# MaceControl - config.yml
+#
+# Everything here is live-reloadable with /macecontrol reload.
+# Messages accept MiniMessage tags (<red>, <bold>, ...) or old &-codes.
+
+cooldown:
+  # Master switch for the whole cooldown system.
+  enabled: false
+
+  # How long the mace is on cooldown after it lands a hit. Decimals are fine.
+  seconds: 15.0
+
+  # What starts the cooldown:
+  #   ANY_HIT     - any hit dealt with a mace in hand
+  #   SMASH_ONLY  - only the falling smash attack (minecraft:mace_smash)
+  trigger: ANY_HIT
+
+  # Which victims start the cooldown: ALL or PLAYERS_ONLY.
+  targets: ALL
+
+  # What happens when a player attacks with a mace that is still on cooldown:
+  #   BLOCK          - the hit does nothing at all
+  #   BLOCK_SMASH    - normal melee hits still work, smash attacks do nothing
+  #   NO_SMASH_BONUS - the hit lands but is capped at normal melee damage
+  #   ALLOW          - no restriction, the bar is cosmetic only
+  on-cooldown: BLOCK
+
+  # The vanilla hotbar cooldown sweep over the item, like ender pearls.
+  show-hotbar-bar: true
+
+  # Live countdown on the action bar while the cooldown runs. The hotbar sweep
+  # above already shows it, so this is off by default.
+  actionbar-countdown: false
+  actionbar-format: "<gray>Mace <dark_gray>[<red><bar><dark_gray>] <gray><time>s"
+
+  # Clear a player's cooldown when they die.
+  reset-on-death: true
+
+  # Short click when a hit is denied, so it is obvious why nothing happened.
+  deny-sound: true
+
+  # Where the "still on cooldown" text goes: ACTIONBAR, CHAT or NONE.
+  notify: ACTIONBAR
+  message: "<red>Your mace is still recovering. <gray>(<time>s)"
+
+  # Minimum gap between two of those messages, in seconds. Stops chat spam
+  # when someone keeps swinging.
+  notify-interval-seconds: 1.0
+
+enchantments:
+  # Master switch for the allow-list below. With this off, maces can take any
+  # enchantment except the ones in 'blocked' / 'block-fire-aspect'.
+  restrict: true
+
+  # Enchantments not named in 'allowed': DENY or ALLOW.
+  # DENY + an empty 'allowed' list = maces cannot be enchanted at all.
+  unlisted: DENY
+
+  # enchantment: highest level it may reach on a mace.
+  # Set a level to 0 to ban that enchantment outright.
+  allowed:
+    density: 2
+    breach: 3
+    Wind Burst: 1
+
+  # Always banned, even when 'restrict' is false or they appear in 'allowed'.
+  blocked: []
+
+  # The mace + Fire Aspect combo, called out separately because it is the
+  # usual reason for turning any of this on.
+  block-fire-aspect: true
+
+  # Strip illegal enchantments off maces that are already in players'
+  # inventories (creative, /give, loot, older worlds).
+  strip-existing: true
+
+  # How often that sweep runs, in seconds. 0 disables the repeating sweep;
+  # joins and inventory closes are still checked.
+  scan-interval-seconds: 5
+
+  # Where the "not allowed on a mace" text goes: ACTIONBAR, CHAT or NONE.
+  notify: ACTIONBAR
+  message: "<red>That enchantment is not allowed on a mace."

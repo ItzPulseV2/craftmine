@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1795060502650
+  login: 1795060466159
+money: '0'
+last-account-name: Duckie
+lastlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 26.5
+  y: 72.0
+  z: 97.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: -12.142659754238869
+  y: 65.0
+  z: 101.00477920669559
+  yaw: 126.90006256103516
+  pitch: 7.500004291534424

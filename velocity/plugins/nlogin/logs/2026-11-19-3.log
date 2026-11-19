@@ -1,0 +1,18 @@
+[2026/11/19 03:53:13 INFO]:           __             _       
+[2026/11/19 03:53:13 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/19 03:53:13 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/19 03:53:13 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/19 03:53:13 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/19 03:53:13 INFO]:                   |___/            
+[2026/11/19 03:53:13 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/19 03:53:13 INFO]:  
+[2026/11/19 03:53:14 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/19 03:53:14 DEBUG]: Messages were loaded in 488 ms (single file).
+[2026/11/19 03:53:14 DEBUG]: Settings were loaded in 692 ms.
+[2026/11/19 03:53:14 DEBUG]: Loading database...
+[2026/11/19 03:53:16 DEBUG]: Starting logger filter...
+[2026/11/19 03:53:16 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/19 03:54:23 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Duckie', d1ea79d85d4a3a1083649e6d98d7c298, null, null, '$argon2id$v=19$m=32768,t=5,p=1$ydanp40Tq6cwaJmzn/f9Xw$j9B1XxvwcQ3knN7xSa3ZTIg53kD/jy+/9Rp3BFao1yk', '0:0:0:0:0:0:0:1', '2026-11-19 03:54:23.476', '2026-11-19 03:54:23.476', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/11/19 03:54:23 INFO]: The user Duckie has successfully registered.
+[2026/11/19 03:55:02 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Duckie', `unique_id` = d1ea79d85d4a3a1083649e6d98d7c298,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$ydanp40Tq6cwaJmzn/f9Xw$j9B1XxvwcQ3knN7xSa3ZTIg53kD/jy+/9Rp3BFao1yk', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-19 03:54:23.476, `last_seen` = 2026-11-19 03:55:02.628, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 44" (applied to [last_seen, settings] columns)
+[2026/11/19 03:55:39 INFO]: Successful plugin core shutdown (took 0.00s)
