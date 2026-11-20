@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1795065608613
-  login: 1795064285987
+  logout: 1795068140588
+  login: 1795067996044
 money: '0'
 last-account-name: HACKER1original1
 lastlocation:
@@ -32,11 +32,11 @@ lastlocation:
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 12.23137585512133
-  y: 63.0
-  z: 51.154463746590274
-  yaw: -149.88551330566406
-  pitch: 20.041915893554688
+  x: -8.321000648557215
+  y: 54.0
+  z: -34.30000001192093
+  yaw: 61.01380920410156
+  pitch: 12.750011444091797
 homes:
   base:
     world: 6bd83792-5943-464f-87e1-34772dbd6341

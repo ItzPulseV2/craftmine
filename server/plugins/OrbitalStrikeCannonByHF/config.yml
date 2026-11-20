@@ -1,0 +1,39 @@
+# ============================================================
+#  Orbital Strike Cannon By HF – Configuration File
+#  Reload with /reload after making changes.
+# ============================================================
+
+# ---- Rod Delays ----
+rod-delay: 1
+tp-delay: 7
+
+# ---- Arrow / Railgun ----
+arrow-velocity: 50000
+arrow-delay: 0
+
+# ---- Death Ban ----
+death-ban:
+  enabled: false
+  ban-duration: 1d
+  ban-message: "&c&lYou Died!\n&7Permanent death ban."
+
+# ---- Mafia Void ----
+mafia-void:
+  delay: 2
+  teleport-y: -70
+
+# ---- Nuke ----
+nuke-rings: 15
+
+# ---- Wolf ----
+wolf-amount: 150
+
+# ---- Darkness ----
+darkness-duration: 25
+darkness-range: 50
+
+# ---- Pearl Cannon ----
+pearlcannon-delay: 7
+
+# ---- Wither Canon ----
+wither-canon-count: 20

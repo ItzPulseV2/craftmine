@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1795137551623
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1795137564079
+  login: 1795136866892
+money: '0'
+last-account-name: ZHOUYIIII
+lastlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: -23.30000001192093
+  y: 49.495200877005914
+  z: -83.52569685278253
+  yaw: 77.96390533447266
+  pitch: 63.39179992675781
+homes:
+  home:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: 489.8079359516448
+    y: 115.0
+    z: 271.6162166900131
+    yaw: -42.90185546875
+    pitch: 25.6499080657959
+logoutlocation:
+  world: 6bd83792-5943-464f-87e1-34772dbd6341
+  world-name: world
+  x: 483.6440424205422
+  y: 117.17675927506424
+  z: 287.91450374175366
+  yaw: -27.901865005493164
+  pitch: 3.299891948699951

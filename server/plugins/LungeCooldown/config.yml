@@ -1,0 +1,27 @@
+# LungeCooldown Configuration
+# Format: <number><unit>  ->  30s | 5m | 1h | 0 (disabled)
+
+cooldowns:
+  lunge-1: 0s
+  lunge-2: 0s
+  lunge-3: 0s
+
+# How to display the cooldown to the player.
+# Options:
+#   HOTBAR  - Shows a live countdown above the hotbar (default)
+#   CHAT    - Shows remaining time in chat when you try to lunge, sends a message when ready
+#   BOSSBAR - Shows a live countdown bar at the top of the screen
+display-mode: HOTBAR
+
+# Message shown when cooldown is active. Use %time% for remaining time.
+cooldown-message: "&cLunge on cooldown! &e%time% &cremaining."
+
+# Message shown when the cooldown expires and lunge is ready again.
+ready-message: "&aLunge is ready!"
+
+# Play a sound when a player tries to lunge while on cooldown?
+play-sound: true
+
+# Sound to play on cooldown.
+# Full list of valid sounds: https://jd.papermc.io/paper/1.21.1/org/bukkit/Sound.html
+cooldown-sound: ENTITY_VILLAGER_NO

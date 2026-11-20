@@ -59,7 +59,7 @@ enchantments:
   # enchantment: highest level it may reach on a mace.
   # Set a level to 0 to ban that enchantment outright.
   allowed:
-    density: 2
+    density: 3
     breach: 3
     Wind Burst: 1
 

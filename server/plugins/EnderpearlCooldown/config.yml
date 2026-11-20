@@ -1,0 +1,20 @@
+# Enderpearl Cooldown Configuration
+
+# Cooldown duration in seconds
+cooldown-duration: 15
+
+# Message type: BOSSBAR, ACTIONBAR, CHAT, or NONE
+message-type: ACTIONBAR
+
+# Message to display when cooldown is active
+# Use {time} as placeholder for remaining cooldown time
+cooldown-message: "&7[&dEnderpearl&7] &ccooldown: &e{time} &cseconds remaining"
+
+# Bossbar settings (only used when message-type is BOSSBAR)
+bossbar:
+  # Bossbar color: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+  color: RED
+  # Bossbar style: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+  style: SOLID
+  # Bossbar title (use {time} for remaining time)
+  title: "&cEnderpearl Cooldown: &e{time}s"

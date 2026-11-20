@@ -252,3 +252,16 @@
 [2026-11-19 05:09:41] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: jumpscare HACKER1original1
 [2026-11-19 05:09:56] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: jumpscare Thundra1
 [2026-11-19 05:15:37] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-19 06:54:44] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-19 06:54:44] [LOGOUT] admin@[0:0:0:0:0:0:0:1] :: session ended
+[2026-11-19 06:54:49] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-19 06:54:52] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-19 07:30:49] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: msg Thundra1 yo
+[2026-11-19 07:30:59] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: msg Thundra1 wanta duel
+[2026-11-19 07:31:17] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: msg Thundra1 alr, BUT THIS TIME DONT FUCKING break my armor and use pearls and drain plz thx :D
+[2026-11-20 00:11:09] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-20 00:11:13] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-20 05:06:09] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-20 05:24:10] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-20 05:34:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: enchant ironmanLJM looting
+[2026-11-20 05:34:50] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
