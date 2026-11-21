@@ -1,0 +1,18 @@
+[2026/11/21 21:03:18 INFO]:           __             _       
+[2026/11/21 21:03:18 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/21 21:03:18 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/21 21:03:18 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/21 21:03:18 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/21 21:03:18 INFO]:                   |___/            
+[2026/11/21 21:03:18 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/21 21:03:18 INFO]:  
+[2026/11/21 21:03:18 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/21 21:03:18 DEBUG]: Messages were loaded in 146 ms (single file).
+[2026/11/21 21:03:19 DEBUG]: Settings were loaded in 300 ms.
+[2026/11/21 21:03:19 DEBUG]: Loading database...
+[2026/11/21 21:03:19 DEBUG]: Starting logger filter...
+[2026/11/21 21:03:19 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/21 21:04:10 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ironmanLJM', `unique_id` = d00c14c99ee33788b053a1de57b43b72,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$qbHtwHpzp74FL3Jjv1KwdQ$COiHK3eEzwa4Xz73YuhdOKYNJAG2QFuPkiTZ3SymimQ', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-09 03:37:34.079, `last_seen` = 2026-11-21 21:04:10.426, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/21 21:04:10 INFO]: The user ironmanLJM has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/21 21:13:49 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Thundra1', `unique_id` = 00f7e65d7a92322d95f2acffa5f6f407,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$x3eqCgTcFD4YDBd+z2QN7g$8TgFW/BGl5Gx+2zAfZMeac5PmNnUwxDp95N5vVAWlso', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-11-05 00:05:31.765, `last_seen` = 2026-11-21 21:13:49.747, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 34" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/21 21:13:49 INFO]: The user Thundra1 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
