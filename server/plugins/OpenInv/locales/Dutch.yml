@@ -1,0 +1,133 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             ℹ TAAL CONFIGURATIE ℹ                                  ║
+# ║                                                                                    ║
+# ║  Gebruik dit bestand om de gewenste taal voor de plugin berichten aan te passen.   ║
+# ║  Andere vertalingen staan in de 'locales' map.                                     ║
+# ║                                                                                    ║
+# ║  Om een aangepaste taal te maken, kopieer je een bestand uit 'locales', hernomen,  ║
+# ║  vertaal je het, en verander je de naam in messages.yml naar jouw nieuwe bestand.  ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Dutch Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cJe hebt geen toestemming om dat te doen."
+
+command:
+  check:
+    usage: "&cGebruik: /openinv check <speler>"
+    self: "&cJe kunt je eigen inventaris niet bekijken!"
+    help: "&e/openinv check <speler> &7- Bekijk de inventaris van een speler"
+  freeze:
+    usage: "&cGebruik: /openinv freeze <speler>"
+    self: "&cJe kunt je eigen inventaris niet bevriezen!"
+    exempt: "&cDeze speler kan niet bevroren worden!"
+    success: "&aJe hebt de inventaris van {player} bevroren."
+    help: "&e/openinv freeze <speler> &7- Bevries de inventaris van een speler"
+  unfreeze:
+    usage: "&cGebruik: /openinv unfreeze <speler>"
+    not-frozen: "&cDe inventaris van deze speler is niet bevroren!"
+    success: "&aJe hebt de inventaris van {player} ontdooid."
+    help: "&e/openinv unfreeze <speler> &7- Ontdooi de inventaris van een speler"
+  echeck:
+    usage: "&cGebruik: /openinv echeck <speler>"
+    self: "&cJe kunt je eigen ender kist niet bekijken!"
+    exempt: "&cJe kunt de ender kist van deze speler niet bekijken!"
+    help: "&e/openinv echeck <speler> &7- Bekijk de ender kist van een speler"
+  offlinecheck:
+    usage: "&cGebruik: /openinv offlineinv <speler>"
+    help: "&e/openinv offlineinv <speler> - Bewerk de inventaris van een offline speler."
+  offlineecheck:
+    usage: "&cGebruik: /openinv offlineec <speler>"
+    help: "&e/openinv offlineec <speler> - Bewerk een ender kist van een offline speler."
+  help:
+    help: "&e/openinv help - Toon dit helpvenster."
+  reload:
+    success: "&aConfiguratie succesvol herladen, maar sommige wijzigingen vereisen een herstart om effect te hebben."
+    failed: "&cKan configuratie niet herladen: {error}"
+    help: "&e/openinv reload - Herlaad de plugin configuratie."
+  open:
+    success: "&aInventaris van {player} geopend."
+    self: "&cJe kunt je eigen inventaris niet openen."
+    offline-check: "&aOffline inventaris van {player} geopend. Sluit om op te slaan."
+    offline-ender-check: "&aOffline ender kist van {player} geopend. Sluit om op te slaan."
+  close:
+    success: "&aInventaris van {player} succesvol gesloten."
+  save:
+    success: "&aInventaris succesvol opgeslagen."
+    error: "&cKan inventaris niet opslaan: {error}"
+  restore:
+    success: "&aInventaris succesvol hersteld."
+    error: "&cKan inventaris niet herstellen: {error}"
+  clear:
+    success: "&aInventaris succesvol gewist."
+    confirm: "&cWeet je zeker dat je deze inventaris wilt wissen? Typ /openinv clear confirm"
+
+freeze:
+  frozen: "&cJouw inventaris is bevroren door een beheerder."
+  unfrozen: "&aJouw inventaris is niet langer bevroren."
+  warning: "&cJouw inventaris is momenteel bevroren."
+
+shulker:
+  title: "&8Shulker Kijker"
+  save-back: "&aOpslaan & Terug"
+  save-close: "&cOpslaan & Sluiten"
+  not-a-shulker: "&cDat is geen shulker doos!"
+  corrupted: "&cBeschadigde shulker doos data."
+  modified-cancelled: "&cShulker doos is gewijzigd door eigenaar. Bewerking geannuleerd."
+  saved: "&aShulker doos opgeslagen voor {player}."
+  saved-offline: "&aShulker doos opgeslagen voor offline data."
+  saved-preview: "&aShulker doos opgeslagen (Voorbeeld)."
+  debug-opening: "&aShulker doos bewerker openen..."
+
+event:
+  inventory-modified: "&aInventaris aangepast en opgeslagen."
+  inventory-restored: "&aInventaris hersteld naar vorige staat."
+  inventory-saved: "&aInventaris succesvol opgeslagen."
+  offline-inventory-update: "&eJouw inventaris was bijgesteld door een beheerder terwijl je offline was."
+  offline-enderchest-update: "&eJouw ender kist was bijgesteld door een beheerder terwijl je offline was."
+
+error:
+  player-only: "&cDit commando kan alleen door spelers gebruikt worden!"
+  player-not-found: "&cSpeler niet gevonden."
+  generic: "&cEr is een fout opgetreden: {error}"
+  invalid-player: "&cOngeldige spelernaam."
+  invalid-world: "&cOngeldige wereld."
+  world-not-loaded: "&cWereld is niet geladen."
+  inventory-in-use: "&cDie inventaris wordt momenteel door een andere speler bekeken."
+  save-failed: "&cKan inventaris niet opslaan: {error}"
+  load-failed: "&cKan inventaris niet ophalen: {error}"
+  database-error: "&cDatabase fout: {error}"
+  offline-online-player: "&cKan offlinecheck niet gebruiken op een speler die online is."
+  online-warning: "&eWaarschuwing: Speler is online. Gebruik /openinv check voor live bewerking."
+  no-snapshot: "&cGeen opgeslagen inventaris data gevonden voor {player}"
+  no-snapshot-standard: "&cGeen standaard inventaris data gevonden (Alleen ender kist data gevonden)."
+
+player-offline: "&cDie speler is offline."
+player-never-played: "&cSpeler {player} heeft nog nooit op deze server gespeeld."
+inventory-not-found: "&cInventaris niet gevonden."
+invalid-inventory: "&cOngeldig inventaris type."
+
+welcome:
+  welcome: "&eWelkom, {player}!"
+  commands: "&eHier zijn jouw commando's:"
+  search:
+    usage: "&cGebruik: /openinv search <item> <speler>"
+    help: "&e/openinv search <item> <speler> &7- Zoek naar items in een inventaris"
+    no-items: "&cGeen items gevonden overeenkomend met: {item} in de inventaris van {player}"
+    found-items: "&aGevonden items voor {player}: {items}"
+  history:
+    usage: "&cGebruik: /openinv history <speler>"
+    help: "&e/openinv history <speler> - Bekijk inventaris geschiedenis/back-ups"
+    header: "&6Inventaris geschiedenis voor {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Geen geschiedenis gevonden."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

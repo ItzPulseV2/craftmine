@@ -1,0 +1,110 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ إعدادات اللغة ℹ                                         ║
+# ║                                                                                    ║
+# ║  استخدم هذا الملف لتخصيص لغتك المطلوبة لرسائل الإضافة.                             ║
+# ║  يمكنك العثور على ملفات الترجمة الأخرى داخل مجلد 'locales'.                        ║
+# ║                                                                                    ║
+# ║  لاستخدام لغة مخصصة، انسخ ملفًا موجودًا في 'locales'، وأعد تسميته،                 ║
+# ║  وترجم الرسائل، ثم غيّر الإعداد في messages.yml إلى اسم ملفك الجديد.               ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Arabic Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cليس لديك إذن للقيام بذلك."
+
+command:
+  reload:
+    success: "&aتمت إعادة تحميل التكوين بنجاح، ولكن بعض التغييرات تحتاج إلى إعادة تشغيل لتفعيلها."
+    failed: "&cحدث خطأ أثناء إعادة تحميل التكوين: {error}"
+  open:
+    success: "&aتم فتح مخزون {player}."
+    self: "&cلا يمكنك فتح مخزونك."
+    offline-check: "&aتم فتح المخزون غير المتصل بالإنترنت لـ {player}. أغلق للحفظ."
+    offline-ender-check: "&aتم فتح صندوق إنتر غير المتصل بالإنترنت لـ {player}. أغلق للحفظ."
+  close:
+    success: "&aتم إغلاق مخزون {player} بنجاح."
+  save:
+    success: "&aتم حفظ المخزون بنجاح."
+    error: "&cحدث خطأ أثناء حفظ المخزون: {error}"
+  restore:
+    success: "&aتمت استعادة المخزون بنجاح."
+    error: "&cحدث خطأ أثناء استعادة المخزون: {error}"
+  clear:
+    success: "&aتم مسح المخزون بنجاح."
+    confirm: "&cهل أنت متأكد أنك تريد مسح هذا المخزون ؟ اكتب /openinv clear confirm"
+
+freeze:
+  frozen: "&cتم تجميد مخزونك بواسطة مسؤول."
+  unfrozen: "&aتم إلغاء تجميد مخزونك."
+  warning: "&cمخزونك مجمد حاليًا."
+
+shulker:
+  title: "&8عارض شولكر"
+  save-back: "&aحفظ ورجوع"
+  save-close: "&cحفظ وإغلاق"
+  not-a-shulker: "&cهذا ليس صندوق شولكر!"
+  corrupted: "&cبيانات صندوق شولكر تالفة."
+  modified-cancelled: "&cصندوق شولكر تم تعديله/نقله بواسطة المالك. تم إلغاء التحرير."
+  saved: "&aتم حفظ صندوق شولكر لـ {player}."
+  saved-offline: "&aتم حفظ صندوق شولكر في البيانات غير المتصلة بالإنترنت."
+  saved-preview: "&aتم حفظ صندوق شولكر (معاينة)."
+  debug-opening: "&aجاري فتح محرر صندوق شولكر..."
+
+event:
+  inventory-modified: "&aتم تعديل المخزون وحفظه."
+  inventory-restored: "&aتمت استعادة المخزون إلى الحالة السابقة."
+  inventory-saved: "&aتم حفظ المخزون بنجاح."
+  offline-inventory-update: "&eتم تحديث مخزونك من قبل المسؤول بينما كنت غير متصل بالإنترنت."
+  offline-enderchest-update: "&eتم تحديث صندوق إنتر الخاص بك من قبل المسؤول بينما كنت غير متصل بالإنترنت."
+
+error:
+  player-not-found: "&cلم يتم العثور على اللاعب."
+  generic: "&cحدث خطأ: {error}"
+  invalid-player: "&cاسم لاعب غير صالح."
+  invalid-world: "&cعالم غير صالح."
+  world-not-loaded: "&cالعالم غير محمل."
+  inventory-in-use: "&cيتم عرض هذا المخزون حاليًا من قبل لاعب آخر."
+  save-failed: "&cفشل حفظ المخزون: {error}"
+  load-failed: "&cفشل تحميل المخزون: {error}"
+  database-error: "&cخطأ في قاعدة البيانات: {error}"
+  offline-online-player: "&cلا يمكنك استخدام offlinecheck على لاعب متصل بالإنترنت."
+  online-warning: "&eتحذير: اللاعب متصل بالإنترنت. استخدم /openinv check للتحرير المباشر."
+  no-snapshot: "&cلم يتم العثور على بيانات المخزون المحفوظة لـ {player}"
+  no-snapshot-standard: "&cلم يتم العثور على بيانات المخزون القياسية المحفوظة (البحث الأولي EC فقط)."
+
+player-offline: "&cهذا اللاعب غير متصل بالإنترنت."
+player-never-played: "&cلم يلعب اللاعب {player} أبدًا على هذا الخادم."
+inventory-not-found: "&cلم يتم العثور على المخزون."
+invalid-inventory: "&cنوع مخزون غير صالح."
+  history:
+    header: "&6سجل المخزون لـ {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7لم يتم العثور على سجل."
+  search:
+    no-items: "&cلم يتم العثور على عناصر تطابق: {item} في مخزون {player}"
+    found-items: "&aتم العثور على عناصر لـ {player}: {items}"
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."
+
+welcome:
+  welcome: "&eWelcome, {player}!"
+  commands: "&eHere are your commands:"
+  search:
+    usage: "&cUsage: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Search for items in a player's inventory"
+    no-items: "&cNo items found matching: {item} in {player}'s inventory"
+    found-items: "&aFound items for {player}: {items}"
+  history:
+    usage: "&cUsage: /openinv history <player>"
+    help: "&e/openinv history <player> - View inventory history/backups"
+    header: "&6Inventory History for {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7No history found."

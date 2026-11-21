@@ -1,0 +1,135 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ НАСТРОЙКА ЯЗЫКА ℹ                                       ║
+# ║                                                                                    ║
+# ║  Используйте этот файл для настройки языка сообщений плагина. Другие               ║
+# ║  файлы перевода можно найти в папке 'locales'.                                     ║
+# ║                                                                                    ║
+# ║  Чтобы использовать свой язык, скопируйте существующий файл из 'locales',          ║
+# ║  переименуйте его, переведите сообщения и укажите имя вашего нового файла          ║
+# ║  в конфигурации messages.yml.                                                      ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Russian Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cУ вас нет разрешения на это."
+
+command:
+  check:
+    usage: "&cИспользование: /openinv check <player>"
+    self: "&cВы не можете проверить свой собственный инвентарь!"
+    help: "&e/openinv check <player> &7- Просмотр инвентаря игрока"
+  freeze:
+    usage: "&cИспользование: /openinv freeze <player>"
+    self: "&cВы не можете заморозить свой инвентарь!"
+    exempt: "&cЭтого игрока нельзя заморозить!"
+    success: "&aВы заморозили инвентарь {player}."
+    help: "&e/openinv freeze <player> &7- Заморозить инвентарь"
+  unfreeze:
+    usage: "&cИспользование: /openinv unfreeze <player>"
+    not-frozen: "&cЭтот инвентарь не заморожен!"
+    success: "&aВы разморозили инвентарь {player}."
+    help: "&e/openinv unfreeze <player> &7- Разморозить инвентарь"
+  echeck:
+    usage: "&cИспользование: /openinv echeck <player>"
+    self: "&cВы не можете просмотреть свой эндер-сундук!"
+    exempt: "&cВы не можете просмотреть этот эндер-сундук!"
+    help: "&e/openinv echeck <player> &7- Просмотр эндер-сундука"
+  offlinecheck:
+    usage: "&cИспользование: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Изменить оффлайн инвентарь."
+  offlineecheck:
+    usage: "&cИспользование: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Изменить оффлайн эндер-сундук."
+  help:
+    help: "&e/openinv help - Показать это сообщение помощи."
+  reload:
+    success: "&aКонфигурация успешно перезагружена, но для вступления в силу некоторых изменений требуется перезагрузка."
+    failed: "&cОшибка перезагрузки конфигурации: {error}"
+    help: "&e/openinv reload - Перезагрузить конфигурацию."
+  open:
+    success: "&aОткрыт инвентарь игрока {player}."
+    self: "&cВы не можете открыть свой собственный инвентарь."
+    offline-check: "&aОткрыт оффлайн инвентарь {player}. Закройте, чтобы сохранить."
+    offline-ender-check: "&aОткрыт оффлайн эндер-сундук {player}. Закройте, чтобы сохранить."
+  close:
+    success: "&aИнвентарь игрока {player} успешно закрыт."
+  save:
+    success: "&aИнвентарь успешно сохранен."
+    error: "&cОшибка сохранения инвентаря: {error}"
+  restore:
+    success: "&aИнвентарь успешно восстановлен."
+    error: "&cОшибка восстановления инвентаря: {error}"
+  clear:
+    success: "&aИнвентарь успешно очищен."
+    confirm: "&cВы уверены, что хотите очистить этот инвентарь? Введите /openinv clear confirm"
+
+freeze:
+  frozen: "&cВаш инвентарь был заморожен администратором."
+  unfrozen: "&aВаш инвентарь был разморожен."
+  warning: "&cВаш инвентарь в настоящее время заморожен."
+
+shulker:
+  title: "&8Просмотр шалкера"
+  save-back: "&aСохранить и вернуться"
+  save-close: "&cСохранить и закрыть"
+  not-a-shulker: "&cЭто не шалкер-бокс!"
+  corrupted: "&cПоврежденные данные шалкер-бокса."
+  modified-cancelled: "&cШалкер-бокс изменен/перемещен владельцем. Редактирование отменено."
+  saved: "&aШалкер-бокс сохранен у {player}."
+  saved-offline: "&aШалкер-бокс сохранен в оффлайн-данных."
+  saved-preview: "&aШалкер-бокс сохранен (предпросмотр)."
+  debug-opening: "&aОткрытие редактора шалкер-бокса..."
+
+event:
+  inventory-modified: "&aИнвентарь изменен и сохранен."
+  inventory-restored: "&aИнвентарь восстановлен до предыдущего состояния."
+  inventory-saved: "&aИнвентарь успешно сохранен."
+  offline-inventory-update: "&eВаш инвентарь был обновлен администратором, пока вы были в оффлайне."
+  offline-enderchest-update: "&eВаш эндер-сундук был обновлен администратором, пока вы были в оффлайне."
+
+error:
+  player-only: "&cЭта команда может использоваться только игроками!"
+  player-not-found: "&cИгрок не найден."
+  generic: "&cПроизошла ошибка: {error}"
+  invalid-player: "&cНедопустимое имя игрока."
+  invalid-world: "&cНедопустимый мир."
+  world-not-loaded: "&cМир не загружен."
+  inventory-in-use: "&cЭтот инвентарь в настоящее время просматривается другим игроком."
+  save-failed: "&cНе удалось сохранить инвентарь: {error}"
+  load-failed: "&cНе удалось загрузить инвентарь: {error}"
+  database-error: "&cОшибка базы данных: {error}"
+  offline-online-player: "&cНевозможно использовать offlinecheck на онлайн-игроке."
+  online-warning: "&eПредупреждение: игрок в сети. Используйте /openinv check для редактирования в реальном времени."
+  no-snapshot: "&cСохраненные данные инвентаря для {player} не найдены"
+  no-snapshot-standard: "&cСохраненные стандартные данные инвентаря не найдены (найдены только данные EC)."
+
+player-offline: "&cЭтот игрок оффлайн."
+player-never-played: "&cИгрок {player} никогда не играл на этом сервере."
+inventory-not-found: "&cИнвентарь не найден."
+invalid-inventory: "&cНедопустимый тип инвентаря."
+
+
+welcome:
+  welcome: "&eДобро пожаловать, {player}!"
+  commands: "&eВаши команды:"
+  search:
+    usage: "&cИспользование: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Поиск предметов в инвентаре"
+    no-items: "&cПредметы, соответствующие {item}, в инвентаре {player} не найдены."
+    found-items: "&aНайдены предметы для {player}: {items}"
+  history:
+    usage: "&cИспользование: /openinv history <player>"
+    help: "&e/openinv history <player> - История/резервные копии"
+    header: "&6История инвентаря для {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7История не найдена."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

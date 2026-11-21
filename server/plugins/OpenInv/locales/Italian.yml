@@ -1,0 +1,135 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ CONFIGURAZIONE DELLA LINGUA ℹ                           ║
+# ║                                                                                    ║
+# ║  Usa questo file per personalizzare la lingua dei messaggi del plugin.             ║
+# ║  Puoi trovare altri file di traduzione nella cartella 'locales'.                   ║
+# ║                                                                                    ║
+# ║  Per usare una lingua personalizzata, copia un file da 'locales', rinominalo,      ║
+# ║  traduci i messaggi e cambia l'impostazione in messages.yml con il                 ║
+# ║  nome del tuo nuovo file.                                                          ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Italian Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cNon hai il permesso per farlo."
+
+command:
+  check:
+    usage: "&cUso: /openinv check <player>"
+    self: "&cNon puoi controllare il tuo stesso inventario!"
+    help: "&e/openinv check <player> &7- Visualizza l'inventario"
+  freeze:
+    usage: "&cUso: /openinv freeze <player>"
+    self: "&cNon puoi congelare il tuo inventario!"
+    exempt: "&cQuesto giocatore non può essere congelato!"
+    success: "&aHai congelato l'inventario di {player}."
+    help: "&e/openinv freeze <player> &7- Congela l'inventario"
+  unfreeze:
+    usage: "&cUso: /openinv unfreeze <player>"
+    not-frozen: "&cL'inventario non è congelato!"
+    success: "&aHai scongelato l'inventario di {player}."
+    help: "&e/openinv unfreeze <player> &7- Scongela l'inventario"
+  echeck:
+    usage: "&cUso: /openinv echeck <player>"
+    self: "&cNon puoi controllare la tua ender chest!"
+    exempt: "&cNon puoi controllare questa ender chest!"
+    help: "&e/openinv echeck <player> &7- Visualizza l'ender chest"
+  offlinecheck:
+    usage: "&cUso: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Modifica un inventario offline."
+  offlineecheck:
+    usage: "&cUso: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Modifica un'ender chest offline."
+  help:
+    help: "&e/openinv help - Mostra questo messaggio di aiuto."
+  reload:
+    success: "&aConfigurazione ricaricata con successo, ma alcune modifiche richiedono un riavvio per avere effetto."
+    failed: "&cErrore durante il ricaricamento della configurazione: {error}"
+    help: "&e/openinv reload - Ricarica la configurazione."
+  open:
+    success: "&aInventario di {player} aperto."
+    self: "&cNon puoi aprire il tuo stesso inventario."
+    offline-check: "&aInventario offline di {player} aperto. Chiudi per salvare."
+    offline-ender-check: "&aEnder chest offline di {player} aperto. Chiudi per salvare."
+  close:
+    success: "&aInventario di {player} chiuso con successo."
+  save:
+    success: "&aInventario salvato con successo."
+    error: "&cErrore durante il salvataggio dell'inventario: {error}"
+  restore:
+    success: "&aInventario ripristinato con successo."
+    error: "&cErrore durante il ripristino dell'inventario: {error}"
+  clear:
+    success: "&aInventario svuotato con successo."
+    confirm: "&cSei sicuro di voler svuotare questo inventario? Digita /openinv clear confirm"
+
+freeze:
+  frozen: "&cIl tuo inventario è stato congelato da un amministratore."
+  unfrozen: "&aIl tuo inventario è stato scongelato."
+  warning: "&cIl tuo inventario è attualmente congelato."
+
+shulker:
+  title: "&8Visualizzatore Shulker"
+  save-back: "&aSalva ed Esci"
+  save-close: "&cSalva e Chiudi"
+  not-a-shulker: "&cQuesta non è una scatola shulker!"
+  corrupted: "&cDati della scatola shulker danneggiati."
+  modified-cancelled: "&cScatola Shulker modificata/spostata dal proprietario. Modifica annullata."
+  saved: "&aScatola shulker salvata in {player}."
+  saved-offline: "&aScatola shulker salvata nei dati offline."
+  saved-preview: "&aScatola shulker salvata (Anteprima)."
+  debug-opening: "&aApertura editor della scatola shulker in corso..."
+
+event:
+  inventory-modified: "&aInventario modificato e salvato."
+  inventory-restored: "&aInventario ripristinato allo stato precedente."
+  inventory-saved: "&aInventario salvato con successo."
+  offline-inventory-update: "&eIl tuo inventario è stato aggiornato da un amministratore mentre eri offline."
+  offline-enderchest-update: "&eLa tua ender chest è stata aggiornata da un amministratore mentre eri offline."
+
+error:
+  player-only: "&cQuesto comando può essere usato solo dai giocatori!"
+  player-not-found: "&cGiocatore non trovato."
+  generic: "&cSi è verificato un errore: {error}"
+  invalid-player: "&cNome giocatore non valido."
+  invalid-world: "&cMondo non valido."
+  world-not-loaded: "&cIl mondo non è caricato."
+  inventory-in-use: "&cQuesto inventario è attualmente visualizzato da un altro giocatore."
+  save-failed: "&cImpossibile salvare l'inventario: {error}"
+  load-failed: "&cImpossibile caricare l'inventario: {error}"
+  database-error: "&cErrore del database: {error}"
+  offline-online-player: "&cImpossibile utilizzare offlinecheck su un giocatore online."
+  online-warning: "&eAttenzione: Il giocatore è online. Usa /openinv check per modifiche dal vivo."
+  no-snapshot: "&cNessun dato di inventario salvato trovato per {player}"
+  no-snapshot-standard: "&cNessun dato di inventario standard salvato trovato (trovati solo i dati EC)."
+
+player-offline: "&cQuel giocatore è offline."
+player-never-played: "&cIl giocatore {player} non ha mai giocato su questo server."
+inventory-not-found: "&cInventario non trovato."
+invalid-inventory: "&cTipo di inventario non valido."
+
+
+welcome:
+  welcome: "&eBenvenuto, {player}!"
+  commands: "&eEcco i tuoi comandi:"
+  search:
+    usage: "&cUso: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Cerca oggetti nell'inventario"
+    no-items: "&cNessun oggetto corrispondente a {item} trovato nell'inventario di {player}."
+    found-items: "&aOggetti trovati per {player}: {items}"
+  history:
+    usage: "&cUso: /openinv history <player>"
+    help: "&e/openinv history <player> - Visualizza la cronologia"
+    header: "&6Cronologia dell'inventario per {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Nessuna cronologia trovata."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

@@ -265,3 +265,10 @@
 [2026-11-20 05:24:10] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
 [2026-11-20 05:34:46] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: enchant ironmanLJM looting
 [2026-11-20 05:34:50] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-21 01:05:09] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-21 01:05:12] [LOGIN] admin@[0:0:0:0:0:0:0:1] :: authenticated
+[2026-11-21 01:05:42] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ItzPulse
+[2026-11-21 01:31:05] [COMMAND] admin@[0:0:0:0:0:0:0:1] :: op ironmanLJM
+[2026-11-21 03:20:31] [LOGOUT] admin@[0:0:0:0:0:0:0:1] :: session ended
+[2026-11-21 03:20:35] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials
+[2026-11-21 03:22:11] [FAIL] admin@[0:0:0:0:0:0:0:1] :: bad credentials

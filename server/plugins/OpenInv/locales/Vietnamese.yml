@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             ℹ CẤU HÌNH NGÔN NGỮ ℹ                                  ║
+# ║                                                                                    ║
+# ║  Sử dụng tệp này để tùy chỉnh ngôn ngữ cho các thông báo của plugin.               ║
+# ║  Bạn có thể tìm thấy các tệp bản dịch khác trong thư mục 'locales'.                ║
+# ║                                                                                    ║
+# ║  Để sử dụng ngôn ngữ tùy chỉnh, hãy sao chép một tệp hiện có trong 'locales',      ║
+# ║  đổi tên nó, dịch các thông báo và thay đổi cài đặt trong messages.yml             ║
+# ║  thành tên tệp mới của bạn.                                                        ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Vietnamese Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cBạn không có quyền làm điều đó."
+
+command:
+  check:
+    usage: "&cCách dùng: /openinv check <người_chơi>"
+    self: "&cBạn không thể kiểm tra túi đồ của chính mình!"
+    help: "&e/openinv check <người_chơi> &7- Xem túi đồ của một người chơi"
+  freeze:
+    usage: "&cCách dùng: /openinv freeze <người_chơi>"
+    self: "&cBạn không thể đóng băng túi đồ của chính mình!"
+    exempt: "&cNgười chơi này không thể bị đóng băng!"
+    success: "&aBạn đã đóng băng túi đồ của {player}."
+    help: "&e/openinv freeze <người_chơi> &7- Đóng băng túi đồ của một người chơi"
+  unfreeze:
+    usage: "&cCách dùng: /openinv unfreeze <người_chơi>"
+    not-frozen: "&cTúi đồ của người chơi này chưa bị đóng băng!"
+    success: "&aBạn đã hủy đóng băng túi đồ của {player}."
+    help: "&e/openinv unfreeze <người_chơi> &7- Hủy đóng băng túi đồ của một người chơi"
+  echeck:
+    usage: "&cCách dùng: /openinv echeck <người_chơi>"
+    self: "&cBạn không thể kiểm tra rương ender của chính mình!"
+    exempt: "&cBạn không thể kiểm tra rương ender của người chơi này!"
+    help: "&e/openinv echeck <người_chơi> &7- Xem rương ender của một người chơi"
+  offlinecheck:
+    usage: "&cCách dùng: /openinv offlineinv <người_chơi>"
+    help: "&e/openinv offlineinv <người_chơi> - Chỉnh sửa túi đồ của người chơi ngoại tuyến."
+  offlineecheck:
+    usage: "&cCách dùng: /openinv offlineec <người_chơi>"
+    help: "&e/openinv offlineec <người_chơi> - Chỉnh sửa rương ender của người chơi ngoại tuyến."
+  help:
+    help: "&e/openinv help - Hiển thị tin nhắn trợ giúp này."
+  reload:
+    success: "&aĐã tải lại cấu hình thành công, nhưng một số thay đổi cần phải khởi động lại mới có hiệu lực."
+    failed: "&cKhông thể tải lại cấu hình: {error}"
+    help: "&e/openinv reload - Tải lại cấu hình plugin."
+  open:
+    success: "&aĐã mở túi đồ của {player}."
+    self: "&cBạn không thể mở túi đồ của chính mình."
+    offline-check: "&aĐã mở túi đồ ngoại tuyến của {player}. Đóng để lưu."
+    offline-ender-check: "&aĐã mở rương ender ngoại tuyến của {player}. Đóng để lưu."
+  close:
+    success: "&aĐã đóng túi đồ của {player} thành công."
+  save:
+    success: "&aĐã lưu túi đồ thành công."
+    error: "&cKhông thể lưu túi đồ: {error}"
+  restore:
+    success: "&aĐã khôi phục túi đồ thành công."
+    error: "&cKhông thể khôi phục túi đồ: {error}"
+  clear:
+    success: "&aĐã xóa túi đồ thành công."
+    confirm: "&cBạn có chắc muốn xóa túi đồ này không? Nhập /openinv clear confirm"
+
+freeze:
+  frozen: "&cTúi đồ của bạn đã bị đóng băng bởi quản trị viên."
+  unfrozen: "&aTúi đồ của bạn không còn bị đóng băng nữa."
+  warning: "&cTúi đồ của bạn hiện đang bị đóng băng."
+
+shulker:
+  title: "&8Trình xem hộp Shulker"
+  save-back: "&aLưu & Quay lại"
+  save-close: "&cLưu & Đóng"
+  not-a-shulker: "&cĐó không phải là một hộp shulker!"
+  corrupted: "&cDữ liệu hộp shulker bị hỏng."
+  modified-cancelled: "&cHộp shulker đã bị thay đổi/di chuyển bởi chủ nhân. Hủy thao tác sửa."
+  saved: "&aĐã lưu hộp shulker cho {player}."
+  saved-offline: "&aĐã lưu hộp shulker vào dữ liệu ngoại tuyến."
+  saved-preview: "&aĐã lưu hộp shulker (Bản xem trước)."
+  debug-opening: "&aĐang mở trình chỉnh sửa hộp shulker..."
+
+event:
+  inventory-modified: "&aTúi đồ đã được thay đổi và lưu lại."
+  inventory-restored: "&aTúi đồ đã được khôi phục về trạng thái trước đó."
+  inventory-saved: "&aĐã lưu túi đồ thành công."
+  offline-inventory-update: "&eTúi đồ của bạn đã được quản trị viên cập nhật khi bạn ngoại tuyến."
+  offline-enderchest-update: "&eRương ender của bạn đã được quản trị viên cập nhật khi bạn ngoại tuyến."
+
+error:
+  player-only: "&cLệnh này chỉ có thể sử dụng bởi người chơi!"
+  player-not-found: "&cKhông tìm thấy người chơi."
+  generic: "&cĐã xảy ra lỗi: {error}"
+  invalid-player: "&cTên người chơi không hợp lệ."
+  invalid-world: "&cThế giới không hợp lệ."
+  world-not-loaded: "&cThế giới chưa được tải."
+  inventory-in-use: "&cTúi đồ đó hiện đang được xem bởi người chơi khác."
+  save-failed: "&cKhông thể lưu túi đồ: {error}"
+  load-failed: "&cKhông thể tải túi đồ: {error}"
+  database-error: "&cLỗi cơ sở dữ liệu: {error}"
+  offline-online-player: "&cKhông thể sử dụng offlinecheck đối với người chơi trực tuyến."
+  online-warning: "&eCảnh báo: Người chơi đang trực tuyến. Sử dụng /openinv check để chỉnh sửa trực tiếp."
+  no-snapshot: "&cKhông tìm thấy dữ liệu túi đồ được lưu cho {player}"
+  no-snapshot-standard: "&cKhông tìm thấy dữ liệu túi đồ tiêu chuẩn (Chỉ tìm thấy dữ liệu EC)."
+
+player-offline: "&cNgười chơi đó đang ngoại tuyến."
+player-never-played: "&cNgười chơi {player} chưa từng chơi trên máy chủ này."
+inventory-not-found: "&cKhông tìm thấy túi đồ."
+invalid-inventory: "&cLoại túi đồ không hợp lệ."
+
+welcome:
+  welcome: "&eChào mừng, {player}!"
+  commands: "&eDưới đây là các lệnh của bạn:"
+  search:
+    usage: "&cCách dùng: /openinv search <vật_phẩm> <người_chơi>"
+    help: "&e/openinv search <vật_phẩm> <người_chơi> &7- Tìm kiếm vật phẩm trong túi đồ của người chơi"
+    no-items: "&cKhông tìm thấy vật phẩm nào khớp với: {item} trong túi đồ của {player}"
+    found-items: "&aĐã tìm thấy vật phẩm cho {player}: {items}"
+  history:
+    usage: "&cCách dùng: /openinv history <người_chơi>"
+    help: "&e/openinv history <người_chơi> - Xem lịch sử/bản sao lưu túi đồ"
+    header: "&6Lịch sử túi đồ cho {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Không tìm thấy lịch sử."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ BHASHA CONFIGURATION ℹ                                  ║
+# ║                                                                                    ║
+# ║  Plugin messages ki bhasha customize karne ke liye is file ka istemal karein.      ║
+# ║  Aap 'locales' folder mein aur bhi translation files dhund sakte hain.             ║
+# ║                                                                                    ║
+# ║  Nayi bhasha lagane ke liye, 'locales' ki kisi file ko copy/rename karein,         ║
+# ║  messages translate karein, aur messages.yml mein nayi file ka naam likhein.       ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Hindi Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cAapko yeh karne ki anumati nahi hai."
+
+command:
+  check:
+    usage: "&cIstemal: /openinv check <player>"
+    self: "&cAap apni hi inventory nahi dekh sakte!"
+    help: "&e/openinv check <player> &7- Kisi player ki inventory dekhein"
+  freeze:
+    usage: "&cIstemal: /openinv freeze <player>"
+    self: "&cAap apni hi inventory freeze nahi kar sakte!"
+    exempt: "&cIs player ko freeze nahi kiya ja sakta!"
+    success: "&aAapne {player} ki inventory freeze kar di hai."
+    help: "&e/openinv freeze <player> &7- Kisi player ki inventory freeze karein"
+  unfreeze:
+    usage: "&cIstemal: /openinv unfreeze <player>"
+    not-frozen: "&cIs player ki inventory freeze nahi hai!"
+    success: "&aAapne {player} ki inventory unfreeze kar di hai."
+    help: "&e/openinv unfreeze <player> &7- Kisi player ko unfreeze karein"
+  echeck:
+    usage: "&cIstemal: /openinv echeck <player>"
+    self: "&cAap apna ender chest check nahi kar sakte!"
+    exempt: "&cAap is player ka ender chest check nahi kar sakte!"
+    help: "&e/openinv echeck <player> &7- Kisi player ka ender chest dekhein"
+  offlinecheck:
+    usage: "&cIstemal: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Kisi offline player ki inventory edit karein."
+  offlineecheck:
+    usage: "&cIstemal: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Kisi offline player ka ender chest edit karein."
+  help:
+    help: "&e/openinv help - Yeh help message dekhein."
+  reload:
+    success: "&aConfiguration safaltapurvak reload ho gaya, lekin kuch parivartano ko prabhavi hone ke liye restart ki avashyakta hai."
+    failed: "&cConfiguration reload karne mein error: {error}"
+    help: "&e/openinv reload - Plugin configuration ko reload karein."
+  open:
+    success: "&a{player} ki inventory khol di gayi hai."
+    self: "&cAap apni inventory nahi khol sakte."
+    offline-check: "&a{player} ki offline inventory khol di gayi. Save karne ke liye band karein."
+    offline-ender-check: "&a{player} ka offline ender chest khol diya gaya. Save karne ke liye band karein."
+  close:
+    success: "&a{player} ki inventory safaltapurvak band kar di gayi."
+  save:
+    success: "&aInventory safaltapurvak save ho gayi."
+    error: "&cInventory save karne mein error: {error}"
+  restore:
+    success: "&aInventory safaltapurvak restore ho gayi."
+    error: "&cInventory restore karne mein error: {error}"
+  clear:
+    success: "&aInventory safaltapurvak clear kar di gayi."
+    confirm: "&cKya aap waqai is inventory ko clear karna chahte hain? Type karein /openinv clear confirm"
+
+freeze:
+  frozen: "&cAapki inventory ko kisi admin ne freeze kar diya hai."
+  unfrozen: "&cAapki inventory unfreeze kar di gayi hai."
+  warning: "&cAapki inventory vartaman mein freeze hai."
+
+shulker:
+  title: "&8Shulker Viewer"
+  save-back: "&aSave aur Back"
+  save-close: "&cSave aur Close"
+  not-a-shulker: "&cYeh ek shulker box nahi hai!"
+  corrupted: "&cKharab shulker box data."
+  modified-cancelled: "&cOwner ne shulker box modify/move kar diya. Editing cancel ho gayi."
+  saved: "&aShulker box {player} par save ho gaya."
+  saved-offline: "&aShulker box offline data mein save ho gaya."
+  saved-preview: "&aShulker box save ho gaya (Preview)."
+  debug-opening: "&aShulker box editor khul raha hai..."
+
+event:
+  inventory-modified: "&aInventory modify aur save ho gayi."
+  inventory-restored: "&aInventory pichli sthiti mein restore ho gayi."
+  inventory-saved: "&aInventory safaltapurvak save ho gayi."
+  offline-inventory-update: "&eJab aap offline the, tab ek admin ne aapki inventory update ki thi."
+  offline-enderchest-update: "&eJab aap offline the, tab ek admin ne aapka ender chest update kiya tha."
+
+error:
+  player-only: "&cYeh command sirf players istemal kar sakte hain!"
+  player-not-found: "&cPlayer nahi mila."
+  generic: "&cEk error aayi: {error}"
+  invalid-player: "&cAmaanya player naam."
+  invalid-world: "&cAmaanya world."
+  world-not-loaded: "&cWorld load nahi hua hai."
+  inventory-in-use: "&cUs inventory ko vartaman mein dusre player dwara dekha ja raha hai."
+  save-failed: "&cInventory save karne mein viphal: {error}"
+  load-failed: "&cInventory load karne mein viphal: {error}"
+  database-error: "&cDatabase error: {error}"
+  offline-online-player: "&cOnline player par offlinecheck ka upyog nahi kiya ja sakta."
+  online-warning: "&eWarning: Player online hai. Live editing ke liye /openinv check ka upyog karein."
+  no-snapshot: "&c{player} ke liye koi save kiya gaya inventory data nahi mila."
+  no-snapshot-standard: "&cKoi save kiya gaya standard inventory data nahi mila (Keval EC data mila)."
+
+player-offline: "&cWoh player offline hai."
+player-never-played: "&cPlayer {player} ne is server par kabhi nahi khela hai."
+inventory-not-found: "&cInventory nahi mili."
+invalid-inventory: "&cAmaanya inventory type."
+
+
+welcome:
+  welcome: "&eSwagat hai, {player}!"
+  commands: "&eYeh rahi aapki commands:"
+  search:
+    usage: "&cIstemal: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Kisi player ki inventory mein items dhundhein"
+    no-items: "&c{player} ki inventory mein: {item} match karne wala koi item nahi mila."
+    found-items: "&a{player} ke liye item mile: {items}"
+  history:
+    usage: "&cIstemal: /openinv history <player>"
+    help: "&e/openinv history <player> - Inventory history/backups dekhein"
+    header: "&6{player} ki inventory history:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Koi history nahi mili."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

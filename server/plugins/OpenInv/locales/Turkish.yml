@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             ℹ DİL YAPILANDIRMASI ℹ                                 ║
+# ║                                                                                    ║
+# ║  Eklenti mesajları için istediğiniz dili özelleştirmek üzere bu dosyayı kullanın.  ║
+# ║  Diğer çeviri dosyalarını 'locales' klasörü içinde bulabilirsiniz.                 ║
+# ║                                                                                    ║
+# ║  Özel bir dil kullanmak için, 'locales' içindeki mevcut bir dosyayı kopyalayın,    ║
+# ║  adını değiştirin, mesajları çevirin ve messages.yml ayarını yeni dosyanızın       ║
+# ║  adı olarak ayarlayın.                                                             ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Turkish Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cBunu yapmak için izniniz yok."
+
+command:
+  check:
+    usage: "&cKullanım: /openinv check <oyuncu>"
+    self: "&cKendi envanterinizi kontrol edemezsiniz!"
+    help: "&e/openinv check <oyuncu> &7- Bir oyuncunun envanterini görüntüle"
+  freeze:
+    usage: "&cKullanım: /openinv freeze <oyuncu>"
+    self: "&cKendi envanterinizi donduramazsınız!"
+    exempt: "&cBu oyuncu dondurulamaz!"
+    success: "&a{player} adlı oyuncunun envanterini dondurdunuz."
+    help: "&e/openinv freeze <oyuncu> &7- Bir oyuncunun envanterini dondur"
+  unfreeze:
+    usage: "&cKullanım: /openinv unfreeze <oyuncu>"
+    not-frozen: "&cBu oyuncunun envanteri dondurulmamış!"
+    success: "&a{player} adlı oyuncunun envanterinin dondurulmasını kaldırdınız."
+    help: "&e/openinv unfreeze <oyuncu> &7- Bir oyuncunun envanterini çöz"
+  echeck:
+    usage: "&cKullanım: /openinv echeck <oyuncu>"
+    self: "&cKendi ender sandığınızı kontrol edemezsiniz!"
+    exempt: "&cBu oyuncunun ender sandığını kontrol edemezsiniz!"
+    help: "&e/openinv echeck <oyuncu> &7- Bir oyuncunun ender sandığını görüntüle"
+  offlinecheck:
+    usage: "&cKullanım: /openinv offlineinv <oyuncu>"
+    help: "&e/openinv offlineinv <oyuncu> - Çevrimdışı oyuncunun envanterini düzenle."
+  offlineecheck:
+    usage: "&cKullanım: /openinv offlineec <oyuncu>"
+    help: "&e/openinv offlineec <oyuncu> - Çevrimdışı oyuncunun ender sandığını düzenle."
+  help:
+    help: "&e/openinv help - Bu yardım mesajını göster."
+  reload:
+    success: "&aYapılandırma başarıyla yeniden yüklendi, ancak bazı değişikliklerin etkili olması için yeniden başlatma gerekiyor."
+    failed: "&cYapılandırma yeniden yüklenemedi: {error}"
+    help: "&e/openinv reload - Eklenti yapılandırmasını yeniden yükler."
+  open:
+    success: "&a{player} adlı oyuncunun envanteri açıldı."
+    self: "&cKendi envanterinizi açamazsınız."
+    offline-check: "&a{player} adlı oyuncunun çevrimdışı envanteri açıldı. Kaydetmek için kapatın."
+    offline-ender-check: "&a{player} adlı oyuncunun çevrimdışı ender sandığı açıldı. Kaydetmek için kapatın."
+  close:
+    success: "&a{player} adlı oyuncunun envanteri başarıyla kapatıldı."
+  save:
+    success: "&aEnvanter başarıyla kaydedildi."
+    error: "&cEnvanter kaydedilemedi: {error}"
+  restore:
+    success: "&aEnvanter başarıyla geri yüklendi."
+    error: "&cEnvanter geri yüklenemedi: {error}"
+  clear:
+    success: "&aEnvanter başarıyla temizlendi."
+    confirm: "&cBu envanteri temizlemek istediğinize emin misiniz? /openinv clear confirm yazın"
+
+freeze:
+  frozen: "&cEnvanteriniz bir yetkili tarafından donduruldu."
+  unfrozen: "&aEnvanterinizin dondurulması kaldırıldı."
+  warning: "&cEnvanteriniz şu anda dondurulmuş durumda."
+
+shulker:
+  title: "&8Shulker Görüntüleyici"
+  save-back: "&aKaydet ve Geri Dön"
+  save-close: "&cKaydet ve Kapat"
+  not-a-shulker: "&cBu bir shulker kutusu değil!"
+  corrupted: "&cBozuk shulker kutusu verisi."
+  modified-cancelled: "&cShulker kutusu sahibi tarafından değiştirildi veya taşındı. Düzenleme iptal edildi."
+  saved: "&aShulker kutusu {player} adlı oyuncuya kaydedildi."
+  saved-offline: "&aShulker kutusu çevrimdışı veriye kaydedildi."
+  saved-preview: "&aShulker kutusu kaydedildi (Önizleme)."
+  debug-opening: "&aShulker kutusu düzenleyicisi açılıyor..."
+
+event:
+  inventory-modified: "&aEnvanter değiştirildi ve kaydedildi."
+  inventory-restored: "&aEnvanter önceki durumuna geri yüklendi."
+  inventory-saved: "&aEnvanter başarıyla kaydedildi."
+  offline-inventory-update: "&eSiz çevrimdışıyken envanteriniz bir yetkili tarafından güncellendi."
+  offline-enderchest-update: "&eSiz çevrimdışıyken ender sandığınız bir yetkili tarafından güncellendi."
+
+error:
+  player-only: "&cBu komut sadece oyuncular tarafından kullanılabilir!"
+  player-not-found: "&cOyuncu bulunamadı."
+  generic: "&cBir hata oluştu: {error}"
+  invalid-player: "&cGeçersiz oyuncu adı."
+  invalid-world: "&cGeçersiz dünya."
+  world-not-loaded: "&cDünya yüklenmemiş."
+  inventory-in-use: "&cBu envanter şu anda başka bir oyuncu tarafından görüntüleniyor."
+  save-failed: "&cEnvanter kaydedilemedi: {error}"
+  load-failed: "&cEnvanter yüklenemedi: {error}"
+  database-error: "&cVeritabanı hatası: {error}"
+  offline-online-player: "&cÇevrimiçi bir oyuncuda offlinecheck kullanılamaz."
+  online-warning: "&eUyarı: Oyuncu çevrimiçi. Canlı düzenleme için /openinv check komutunu kullanın."
+  no-snapshot: "&c{player} için kaydedilmiş envanter verisi bulunamadı"
+  no-snapshot-standard: "&cStandart envanter verisi bulunamadı (Sadece EC verisi bulundu)."
+
+player-offline: "&cBu oyuncu çevrimdışı."
+player-never-played: "&c{player} bu sunucuda daha önce hiç oynamadı."
+inventory-not-found: "&cEnvanter bulunamadı."
+invalid-inventory: "&cGeçersiz envanter türü."
+
+welcome:
+  welcome: "&eHoş geldin, {player}!"
+  commands: "&eİşte komutlarınız:"
+  search:
+    usage: "&cKullanım: /openinv search <eşya> <oyuncu>"
+    help: "&e/openinv search <eşya> <oyuncu> &7- Oyuncunun envanterinde eşya ara"
+    no-items: "&c{player} envanterinde {item} ile eşleşen eşya bulunamadı"
+    found-items: "&a{player} için eşyalar bulundu: {items}"
+  history:
+    usage: "&cKullanım: /openinv history <oyuncu>"
+    help: "&e/openinv history <oyuncu> - Envanter geçmişini/yedeklerini görüntüle"
+    header: "&6{player} için envanter geçmişi:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Geçmiş bulunamadı."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

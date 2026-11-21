@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ LANGUAGE CONFIGURATION ℹ                                ║
+# ║                                                                                    ║
+# ║  Use this file to customize your desired language for the plugin messages.         ║
+# ║  You can find the actual translation files inside the 'locales' folder.            ║
+# ║                                                                                    ║
+# ║  To use a custom language, copy an existing file in 'locales', rename it,          ║
+# ║  translate the messages, and change the setting in messages.yml to your new file's name.║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv English Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cYou don't have permission to do that."
+
+command:
+  check:
+    usage: "&cUsage: /openinv check <player>"
+    self: "&cYou cannot check your own inventory!"
+    help: "&e/openinv check <player> &7- View a player's inventory"
+  freeze:
+    usage: "&cUsage: /openinv freeze <player>"
+    self: "&cYou cannot freeze your own inventory!"
+    exempt: "&cThis player cannot be frozen!"
+    success: "&aYou have frozen {player}'s inventory."
+    help: "&e/openinv freeze <player> &7- Freeze a player's inventory"
+  unfreeze:
+    usage: "&cUsage: /openinv unfreeze <player>"
+    not-frozen: "&cThis player's inventory is not frozen!"
+    success: "&aYou have unfrozen {player}'s inventory."
+    help: "&e/openinv unfreeze <player> &7- Unfreeze a player's inventory"
+  echeck:
+    usage: "&cUsage: /openinv echeck <player>"
+    self: "&cYou cannot check your own ender chest!"
+    exempt: "&cYou cannot check this player's ender chest!"
+    help: "&e/openinv echeck <player> &7- View a player's ender chest"
+  offlinecheck:
+    usage: "&cUsage: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Edit an offline player's inventory."
+  offlineecheck:
+    usage: "&cUsage: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Edit an offline player's ender chest."
+  help:
+    help: "&e/openinv help - Show this help message."
+  reload:
+    success: "&aConfiguration reloaded successfully, but some changes need a restart to take effect."
+    failed: "&cError reloading configuration: {error}"
+    help: "&e/openinv reload - Reload the plugin configuration."
+  open:
+    success: "&aOpened {player}'s inventory."
+    self: "&cYou cannot open your own inventory."
+    offline-check: "&aOpened offline inventory for {player}. Close to save."
+    offline-ender-check: "&aOpened offline ender chest for {player}. Close to save."
+  close:
+    success: "&aSuccessfully closed inventory of {player}."
+  save:
+    success: "&aInventory saved successfully."
+    error: "&cError saving inventory: {error}"
+  restore:
+    success: "&aInventory restored successfully."
+    error: "&cError restoring inventory: {error}"
+  clear:
+    success: "&aInventory cleared successfully."
+    confirm: "&cAre you sure you want to clear this inventory? Type /openinv clear confirm"
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."
+
+freeze:
+  frozen: "&cYour inventory has been frozen by an admin."
+  unfrozen: "&aYour inventory has been unfrozen."
+  warning: "&cYour inventory is currently frozen."
+
+shulker:
+  title: "&8Shulker Viewer"
+  save-back: "&aSave & Go Back"
+  save-close: "&cSave & Close"
+  not-a-shulker: "&cThat is not a shulker box!"
+  corrupted: "&cCorrupted shulker box data."
+  modified-cancelled: "&cShulker Box modified/moved by owner. Editing cancelled."
+  saved: "&aShulker box saved to {player}."
+  saved-offline: "&aShulker box saved to offline data."
+  saved-preview: "&aShulker box saved (Preview)."
+  debug-opening: "&aOpening shulker box editor..."
+
+event:
+  inventory-modified: "&aInventory modified and saved."
+  inventory-restored: "&aInventory restored to previous state."
+  inventory-saved: "&aInventory saved successfully."
+  offline-inventory-update: "&eYour inventory was updated by an admin while you were offline."
+  offline-enderchest-update: "&eYour ender chest was updated by an admin while you were offline."
+
+error:
+  player-only: "&cThis command can only be used by players!"
+  player-not-found: "&cPlayer not found."
+  generic: "&cAn error occurred: {error}"
+  invalid-player: "&cInvalid player name."
+  invalid-world: "&cInvalid world."
+  world-not-loaded: "&cWorld is not loaded."
+  inventory-in-use: "&cThat inventory is currently being viewed by another player."
+  save-failed: "&cFailed to save inventory: {error}"
+  load-failed: "&cFailed to load inventory: {error}"
+  database-error: "&cDatabase error: {error}"
+  offline-online-player: "&cCannot use offlinecheck on an online player."
+  online-warning: "&eWarning: Player is online. Use /openinv check for live editing."
+  no-snapshot: "&cNo saved inventory data found for {player}"
+  no-snapshot-standard: "&cNo saved standard inventory data found (only found EC data)."
+
+player-offline: "&cThat player is offline."
+player-never-played: "&cPlayer {player} has never played on this server."
+inventory-not-found: "&cInventory not found."
+invalid-inventory: "&cInvalid inventory type."
+
+
+welcome:
+  welcome: "&eWelcome, {player}!"
+  commands: "&eHere are your commands:"
+  search:
+    usage: "&cUsage: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Search for items in a player's inventory"
+    no-items: "&cNo items found matching: {item} in {player}'s inventory"
+    found-items: "&aFound items for {player}: {items}"
+  history:
+    usage: "&cUsage: /openinv history <player>"
+    help: "&e/openinv history <player> - View inventory history/backups"
+    header: "&6Inventory History for {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7No history found."

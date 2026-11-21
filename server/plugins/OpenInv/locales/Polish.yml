@@ -1,0 +1,133 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             ℹ KONFIGURACJA JĘZYKA ℹ                                ║
+# ║                                                                                    ║
+# ║  Użyj tego pliku do dostosowania własnego języka komunikatów pluginu.              ║
+# ║  Inne pliki tłumaczeń znajdziesz w folderze 'locales'.                             ║
+# ║                                                                                    ║
+# ║  Aby skopiować nowy język, skopiuj istniejący plik z 'locales', zmień jego         ║
+# ║  nazwę, przetłumacz wiadomości i zmień w messages.yml na nową nazwę.               ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Polish Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cNie masz uprawnień, aby to zrobić."
+
+command:
+  check:
+    usage: "&cUżycie: /openinv check <gracz>"
+    self: "&cNie możesz sprawdzić własnego ekwipunku!"
+    help: "&e/openinv check <gracz> &7- Zobacz ekwipunek gracza"
+  freeze:
+    usage: "&cUżycie: /openinv freeze <gracz>"
+    self: "&cNie możesz zamrozić własnego ekwipunku!"
+    exempt: "&cTen gracz nie może zostać zamrożony!"
+    success: "&aZamroziłeś ekwipunek gracza {player}."
+    help: "&e/openinv freeze <gracz> &7- Zamroź ekwipunek gracza"
+  unfreeze:
+    usage: "&cUżycie: /openinv unfreeze <gracz>"
+    not-frozen: "&cEkwipunek tego gracza nie jest zamrożony!"
+    success: "&aOdmroziłeś ekwipunek gracza {player}."
+    help: "&e/openinv unfreeze <gracz> &7- Odmroź ekwipunek gracza"
+  echeck:
+    usage: "&cUżycie: /openinv echeck <gracz>"
+    self: "&cNie możesz sprawdzić własnej skrzyni kresu!"
+    exempt: "&cNie możesz sprawdzić skrzyni kresu tego gracza!"
+    help: "&e/openinv echeck <gracz> &7- Zobacz skrzynię kresu gracza"
+  offlinecheck:
+    usage: "&cUżycie: /openinv offlineinv <gracz>"
+    help: "&e/openinv offlineinv <gracz> - Edytuj ekwipunek gracza offline."
+  offlineecheck:
+    usage: "&cUżycie: /openinv offlineec <gracz>"
+    help: "&e/openinv offlineec <gracz> - Edytuj skrzynię kresu gracza offline."
+  help:
+    help: "&e/openinv help - Pokaż tę wiadomość pomocy."
+  reload:
+    success: "&aKonfiguracja została pomyślnie przeładowana."
+    failed: "&cNie udało się przeładować konfiguracji: {error}"
+    help: "&e/openinv reload - Przeładuj konfigurację pluginu."
+  open:
+    success: "&aOtwarto ekwipunek gracza {player}."
+    self: "&cNie możesz otworzyć własnego ekwipunku."
+    offline-check: "&aOtwarto ekwipunek offline gracza {player}. Zamknij, aby zapisać."
+    offline-ender-check: "&aOtwarto skrzynię kresu offline gracza {player}. Zamknij, aby zapisać."
+  close:
+    success: "&aPomyślnie zamknięto ekwipunek gracza {player}."
+  save:
+    success: "&aEkwipunek został pomyślnie zapisany."
+    error: "&cNie udało się zapisać ekwipunku: {error}"
+  restore:
+    success: "&aEkwipunek został pomyślnie przywrócony."
+    error: "&cNie udało się przywrócić ekwipunku: {error}"
+  clear:
+    success: "&aEkwipunek został pomyślnie wyczyszczony."
+    confirm: "&cCzy na pewno chcesz wyczyścić ten ekwipunek? Wpisz /openinv clear confirm"
+
+freeze:
+  frozen: "&cTwój ekwipunek został zamrożony przez administratora."
+  unfrozen: "&aTwój ekwipunek nie jest już zamrożony."
+  warning: "&cTwój ekwipunek jest obecnie zamrożony."
+
+shulker:
+  title: "&8Podgląd Shulker Box'a"
+  save-back: "&aZapisz i Wróć"
+  save-close: "&cZapisz i Zamknij"
+  not-a-shulker: "&cTo nie jest shulker box!"
+  corrupted: "&cUszkodzone dane shulker box'a."
+  modified-cancelled: "&cShulker box został zmodyfikowany przez właściciela. Edycja anulowana."
+  saved: "&aZapisano shulker box do {player}."
+  saved-offline: "&aZapisano shulker box do danych offline."
+  saved-preview: "&aZapisano shulker box (Podgląd)."
+  debug-opening: "&aOtwieranie edytora shulker box'ów..."
+
+event:
+  inventory-modified: "&aEkwipunek został zmodyfikowany i zapisany."
+  inventory-restored: "&aEkwipunek został przywrócony do poprzedniego stanu."
+  inventory-saved: "&aEkwipunek został pomyślnie zapisany."
+  offline-inventory-update: "&eTwój ekwipunek został zaktualizowany przez admina podczas nieobecności."
+  offline-enderchest-update: "&eTwoja skrzynia kresu została zaktualizowana przez admina podczas nieobecności."
+
+error:
+  player-only: "&cTa komenda może być użyta tylko przez graczy!"
+  player-not-found: "&cNie znaleziono gracza."
+  generic: "&cWystąpił błąd: {error}"
+  invalid-player: "&cNieprawidłowa nazwa gracza."
+  invalid-world: "&cNieprawidłowy świat."
+  world-not-loaded: "&cŚwiat nie jest załadowany."
+  inventory-in-use: "&cTen ekwipunek jest obecnie przeglądany przez innego gracza."
+  save-failed: "&cNie udało się zapisać ekwipunku: {error}"
+  load-failed: "&cNie udało się załadować ekwipunku: {error}"
+  database-error: "&cBłąd bazy danych: {error}"
+  offline-online-player: "&cNie można użyć offlinecheck na graczu online."
+  online-warning: "&eOstrzeżenie: Gracz jest online. Użyj /openinv check do edycji na żywo."
+  no-snapshot: "&cNie znaleziono zapisanych danych ekwipunku dla {player}"
+  no-snapshot-standard: "&cNie znaleziono standardowych danych ekwipunku (tylko skrzynia kresu)."
+
+player-offline: "&cTen gracz jest offline."
+player-never-played: "&cGracz {player} nigdy nie grał na tym serwerze."
+inventory-not-found: "&cNie znaleziono ekwipunku."
+invalid-inventory: "&cNieprawidłowy typ ekwipunku."
+
+welcome:
+  welcome: "&eWitaj, {player}!"
+  commands: "&eTwoje dostępne komendy:"
+  search:
+    usage: "&cUżycie: /openinv search <przedmiot> <gracz>"
+    help: "&e/openinv search <przedmiot> <gracz> &7- Szukaj przedmiotów w ekwipunku gracza"
+    no-items: "&cNie znaleziono przedmiotów pasujących do: {item} w ekwipunku gracza {player}"
+    found-items: "&aZnalezione przedmioty dla gracza {player}: {items}"
+  history:
+    usage: "&cUżycie: /openinv history <gracz>"
+    help: "&e/openinv history <gracz> - Zobacz historię/kopie ekwipunku"
+    header: "&6Historia ekwipunku dla {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Brak historii."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

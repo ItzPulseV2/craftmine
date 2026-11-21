@@ -1,0 +1,23 @@
+[2026/11/20 09:54:29 INFO]:           __             _       
+[2026/11/20 09:54:29 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/20 09:54:29 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/20 09:54:29 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/20 09:54:29 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/20 09:54:29 INFO]:                   |___/            
+[2026/11/20 09:54:29 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/20 09:54:29 INFO]:  
+[2026/11/20 09:54:30 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/20 09:54:30 DEBUG]: Messages were loaded in 395 ms (single file).
+[2026/11/20 09:54:30 DEBUG]: Settings were loaded in 603 ms.
+[2026/11/20 09:54:30 DEBUG]: Loading database...
+[2026/11/20 09:54:31 DEBUG]: Starting logger filter...
+[2026/11/20 09:54:31 INFO]: Loading packetevents-velocity 2.14.0-SNAPSHOT...
+[2026/11/20 09:55:15 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ironmanLJM', `unique_id` = d00c14c99ee33788b053a1de57b43b72,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$qbHtwHpzp74FL3Jjv1KwdQ$COiHK3eEzwa4Xz73YuhdOKYNJAG2QFuPkiTZ3SymimQ', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-09 03:37:34.079, `last_seen` = 2026-11-20 09:55:15.262, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/20 09:55:15 INFO]: The user ironmanLJM has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/20 10:40:43 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItzPulse', `unique_id` = a3ae9cb7fa9f3574b047ddba5fdb56bc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$37PQq9m7hzcL4EWdDK/90g$d1FDPvDbqOAoLEwsHdX2d+eq1E7m6ETGd1c4WUzB4TE', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-18 23:48:08.565, `last_seen` = 2026-11-20 10:40:43.933, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/20 10:40:43 INFO]: The user ItzPulse has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/20 10:41:00 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItzPulse', `unique_id` = a3ae9cb7fa9f3574b047ddba5fdb56bc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$NLruU970Ry0r/N/I5EOfOg$Ae7B1lZEM96Jdoqcukguqtol8kNMFgJ9jUgRW02KHoM', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-18 23:48:08.565, `last_seen` = 2026-11-20 10:40:43.933, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to all columns)
+[2026/11/20 10:41:00 DEBUG]: The ItzPulse player changed its account password ~ 0:0:0:0:0:0:0:1
+[2026/11/20 10:43:35 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItzPulse', `unique_id` = a3ae9cb7fa9f3574b047ddba5fdb56bc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$NLruU970Ry0r/N/I5EOfOg$Ae7B1lZEM96Jdoqcukguqtol8kNMFgJ9jUgRW02KHoM', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-18 23:48:08.565, `last_seen` = 2026-11-20 10:43:35.783, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to [last_seen, settings] columns)
+[2026/11/20 10:46:52 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ironmanLJM', `unique_id` = d00c14c99ee33788b053a1de57b43b72,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$qbHtwHpzp74FL3Jjv1KwdQ$COiHK3eEzwa4Xz73YuhdOKYNJAG2QFuPkiTZ3SymimQ', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-09 03:37:34.079, `last_seen` = 2026-11-20 10:46:52.632, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_seen, settings] columns)
+[2026/11/20 10:47:02 INFO]: Successful plugin core shutdown (took 0.00s)

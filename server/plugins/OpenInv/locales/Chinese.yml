@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ 语言配置 ℹ                                              ║
+# ║                                                                                    ║
+# ║  使用此文件来自定义您所需的插件消息语言。                                          ║
+# ║  您可以在 'locales' 文件夹中找到其他的翻译文件。                                   ║
+# ║                                                                                    ║
+# ║  要使用自定义语言，请复制 'locales' 中现有的文件并重命名，                         ║
+# ║  翻译消息后，将 messages.yml 中的设置更改为您新文件的名称。                        ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Chinese Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&c你没有权限这么做。"
+
+command:
+  check:
+    usage: "&c用法: /openinv check <player>"
+    self: "&c您无法查看自己的物品栏！"
+    help: "&e/openinv check <player> &7- 查看玩家物品栏"
+  freeze:
+    usage: "&c用法: /openinv freeze <player>"
+    self: "&c您无法冻结自己的物品栏！"
+    exempt: "&c该玩家无法被冻结！"
+    success: "&a您已冻结 {player} 的物品栏。"
+    help: "&e/openinv freeze <player> &7- 冻结玩家物品栏"
+  unfreeze:
+    usage: "&c用法: /openinv unfreeze <player>"
+    not-frozen: "&c该玩家的物品栏未被冻结！"
+    success: "&a您已解冻 {player} 的物品栏。"
+    help: "&e/openinv unfreeze <player> &7- 解冻玩家物品栏"
+  echeck:
+    usage: "&c用法: /openinv echeck <player>"
+    self: "&c您无法查看自己的末影箱！"
+    exempt: "&c您无法查看该玩家的末影箱！"
+    help: "&e/openinv echeck <player> &7- 查看玩家末影箱"
+  offlinecheck:
+    usage: "&c用法: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - 编辑离线玩家的物品栏。"
+  offlineecheck:
+    usage: "&c用法: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - 编辑离线玩家的末影箱。"
+  help:
+    help: "&e/openinv help - 显示此帮助信息。"
+  reload:
+    success: "&a配置重载成功，但某些更改需要重启才能生效。"
+    failed: "&c重载配置出错: {error}"
+    help: "&e/openinv reload - 重新加载插件配置。"
+  open:
+    success: "&a已打开 {player} 的物品栏。"
+    self: "&c您无法打开自己的物品栏。"
+    offline-check: "&a已打开 {player} 的离线物品栏。关闭以保存。"
+    offline-ender-check: "&a已打开 {player} 的离线末影箱。关闭以保存。"
+  close:
+    success: "&a成功关闭了 {player} 的物品栏。"
+  save:
+    success: "&a物品栏保存成功。"
+    error: "&c保存物品栏出错: {error}"
+  restore:
+    success: "&a物品栏恢复成功。"
+    error: "&c恢复物品栏出错: {error}"
+  clear:
+    success: "&a物品栏清理成功。"
+    confirm: "&c你确定要清理这个物品栏吗？输入 /openinv clear confirm"
+
+freeze:
+  frozen: "&c你的物品栏已被管理员冻结。"
+  unfrozen: "&a你的物品栏已解冻。"
+  warning: "&c你的物品栏当前处于冻结状态。"
+
+shulker:
+  title: "&8潜影盒查看器"
+  save-back: "&a保存并返回"
+  save-close: "&c保存并关闭"
+  not-a-shulker: "&c那不是一个潜影盒！"
+  corrupted: "&c潜影盒数据损坏。"
+  modified-cancelled: "&c潜影盒被所有者修改/移动。编辑已取消。"
+  saved: "&a潜影盒已保存至 {player}。"
+  saved-offline: "&a潜影盒已保存至离线数据。"
+  saved-preview: "&a潜影盒已保存 (预览)。"
+  debug-opening: "&a正在打开潜影盒编辑器..."
+
+event:
+  inventory-modified: "&a物品栏已修改并保存。"
+  inventory-restored: "&a物品栏已恢复至先前状态。"
+  inventory-saved: "&a物品栏保存成功。"
+  offline-inventory-update: "&e你的物品栏在你离线时被管理员更新了。"
+  offline-enderchest-update: "&e你的末影箱在你离线时被管理员更新了。"
+
+error:
+  player-only: "&c此命令只能由玩家使用！"
+  player-not-found: "&c未找到玩家。"
+  generic: "&c发生了一个错误: {error}"
+  invalid-player: "&c无效的玩家名称。"
+  invalid-world: "&c无效的世界。"
+  world-not-loaded: "&c世界未加载。"
+  inventory-in-use: "&c该物品栏目前正被另一名玩家查看。"
+  save-failed: "&c保存物品栏失败: {error}"
+  load-failed: "&c加载物品栏失败: {error}"
+  database-error: "&c数据库错误: {error}"
+  offline-online-player: "&c无法对在线玩家使用 offlinecheck。"
+  online-warning: "&e警告：玩家在线。请使用 /openinv check 进行实时编辑。"
+  no-snapshot: "&c未找到 {player} 的已保存物品栏数据。"
+  no-snapshot-standard: "&c未找到已保存的标准物品栏数据 (仅找到了末影箱数据)。"
+
+player-offline: "&c该玩家不在线。"
+player-never-played: "&c玩家 {player} 从未在此服务器玩过。"
+inventory-not-found: "&c未找到物品栏。"
+invalid-inventory: "&c无效的物品栏类型。"
+
+
+welcome:
+  welcome: "&e欢迎，{player}！"
+  commands: "&e以下是您的命令："
+  search:
+    usage: "&c用法: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- 在玩家物品栏中搜索物品"
+    no-items: "&c在 {player} 的物品栏中未找到符合 {item} 的物品。"
+    found-items: "&a为 {player} 找到了物品: {items}"
+  history:
+    usage: "&c用法: /openinv history <player>"
+    help: "&e/openinv history <player> - 查看物品栏历史记录/备份"
+    header: "&6{player} 的物品栏历史记录:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7未找到历史记录。"
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

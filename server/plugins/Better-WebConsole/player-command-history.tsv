@@ -3575,3 +3575,1402 @@ leave	1795154667910	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow
 join	1795154717737	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
 command	1795154725269	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
 command	1795154733165	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+join	1795155568730	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+join	1795155583107	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795155601956	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Dill_Pickle_
+command	1795155605382	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+join	1795155693700	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+join	1795155740132	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	
+command	1795155751663	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/rtp
+command	1795155775399	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home
+command	1795155780302	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home chase
+command	1795155784602	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa ironmanLJM
+command	1795155794684	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795155831689	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795155836948	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa Penuin13134
+command	1795155840427	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpaccept
+command	1795155855291	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795155881496	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamemode spectator Dill_Pickle_
+command	1795155883243	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795155894335	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795155913534	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc nuke 1
+command	1795155934310	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc totem-stasis
+command	1795155936103	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc totem-stasis 1
+command	1795155950976	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795155955886	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795155969392	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795155982358	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamemode survival Dill_Pickle_
+command	1795155990906	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamemode spectator Dill_Pickle_
+command	1795156007360	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc stab 1
+command	1795156030708	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc bat-nuke 1
+command	1795156074885	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795156105517	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795156118798	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Dill_Pickle_
+command	1795156129570	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun 1
+command	1795156133865	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795156140252	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamemode survival Dill_Pickle_
+command	1795156141814	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156144009	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795156148793	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795156157445	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795156181793	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795156192898	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795156199556	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156210936	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795156216747	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere 13135_penuin_
+command	1795156218041	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa Penuin13134
+command	1795156220369	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795156230173	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+join	1795156231717	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795156278887	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa Dill_Pickle_
+command	1795156293356	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+leave	1795156295582	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795156306100	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa ironmanLJM
+command	1795156309020	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795156351212	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa 13135_penuin_
+command	1795156355847	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795156370784	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa 13135_penuin_
+command	1795156375232	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+join	1795156440440	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795156444997	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa Dill_Pickle_
+command	1795156448295	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795156453655	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/whisper Dill_Pickle_ bro move the trap its sus
+command	1795156509793	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795156519542	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795156527291	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/gamemode crative
+command	1795156528088	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156530492	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156541552	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156557506	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156564093	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156578342	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home alexsecret
+command	1795156594418	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795156605033	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795156613124	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156615337	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156616302	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156617072	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156621402	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795156645063	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156655005	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Dill_Pickle_
+command	1795156658151	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795156669344	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795156687581	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/spawn
+command	1795156707202	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa Dill_Pickle_
+command	1795156717205	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpacancel
+command	1795156723276	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795156757292	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795156766443	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156768524	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156778933	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795156789508	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+leave	1795156813883	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795156817114	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156823790	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere 13135_penuin_
+command	1795156826925	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795156828650	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795156833360	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795156841709	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156878537	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156888563	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156891201	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156893701	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156895100	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156895900	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156896636	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156921489	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156924156	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156931686	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156934153	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795156940615	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795156948388	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+join	1795156983022	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795157020390	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa Penuin13134
+command	1795157023895	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpaccept
+command	1795157024644	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795157032607	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157035315	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157037095	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157038517	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157039790	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157040885	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157042163	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157043743	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157046835	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157047545	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157048417	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157049113	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157063127	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpaccept
+command	1795157071459	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere 13135_penuin_
+command	1795157071887	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamemode
+command	1795157075870	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+leave	1795157112381	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795157134121	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795157155435	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere 13135_penuin_
+command	1795157157662	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/deop ThisNotAlex
+command	1795157161392	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/spawn
+command	1795157163434	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795157183400	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home 13135_penuin_
+command	1795157189997	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795157192407	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795157202640	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere 13135_penuin_
+command	1795157204691	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795157208141	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795157255793	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/ec
+leave	1795157263232	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	
+leave	1795157315782	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+leave	1795157391680	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+leave	1795157423229	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+leave	1795157432429	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+join	1795157442295	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	
+command	1795157487396	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:base2
+command	1795157492961	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:islan
+command	1795157493878	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:island
+command	1795157496178	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:be
+command	1795157497078	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:bed
+command	1795157502130	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:base2
+join	1795157505146	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795157505229	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:base
+command	1795157508933	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	/home Vyqzren:base2
+leave	1795157540281	f7b02e42-9974-3b87-83a1-7ff87122c29a	Vyqzren	
+join	1795157543776	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+join	1795157588833	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795157603223	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/ec
+command	1795157610353	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/ec
+command	1795157619283	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/ec
+join	1795157689286	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795157696976	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/deop ThisNotAlex
+leave	1795157701132	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795157721814	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795157740085	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop Vyqzren
+command	1795157741549	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795157752853	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157755590	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157757483	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157762662	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157765537	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157792413	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpahere blueberryhill
+command	1795157800850	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795157808690	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157811140	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157870788	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_block_output
+command	1795157873575	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_block_output false
+command	1795157916389	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_block_output true
+command	1795157921113	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795157925739	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157926269	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795157929287	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_block_output false
+command	1795157930687	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157936233	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157942597	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795157947203	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_block_output true
+command	1795157991963	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow here
+command	1795158039115	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795158074915	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795158164543	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/rtp
+command	1795158197094	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795158251107	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795158256903	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpahere I_am_bob_wow
+command	1795158296593	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795158359618	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795158360634	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/rg info
+command	1795158367114	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795158371858	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795158388682	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa I_am_bob_wow
+command	1795158397249	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+join	1795158559741	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	
+join	1795158561115	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795158610763	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795158615012	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795158618525	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795158620018	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+join	1795158682956	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795158722773	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa blueberryhill
+command	1795158730597	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa I_am_bob_wow
+command	1795158733468	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa ironmanLJM
+command	1795158783382	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/rtp
+command	1795158897503	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa Dill_Pickle_
+command	1795158929163	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/spawn
+command	1795158931775	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa d
+command	1795158941710	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa I_am_bob_wow
+command	1795158946330	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa blueberryhill
+leave	1795158952277	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795158953942	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/msg blueberryhill pls tp
+command	1795158954763	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795158958344	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r TYSM
+command	1795158958530	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795158984146	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa blueberryhill
+command	1795159000519	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+join	1795159008063	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+command	1795159016283	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa 13135_penuin_
+command	1795159028362	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/msg Penuin13134 BRO IM EITH STACKED PLAYER
+command	1795159031019	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r kill him
+command	1795159032826	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+command	1795159034679	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r gooo
+command	1795159044764	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r hello?
+command	1795159048775	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpahere Penuin13134
+command	1795159050078	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r why
+command	1795159051925	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795159058812	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r bro
+command	1795159063225	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r NVM DONT KILL
+command	1795159071466	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpaccept
+command	1795159083726	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795159089212	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795159125527	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795159130753	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa b
+command	1795159137955	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795159199312	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/r wth
+command	1795159217732	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa I_am_bob_wow
+command	1795159300964	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa blueberryhill
+command	1795159301340	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/whitelist add Vyqzren
+command	1795159307383	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/lp editor
+command	1795159308644	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795159316853	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpa blueberryhill
+command	1795159321015	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795159323432	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/msg blueberryhill im bored
+command	1795159328932	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa 13135_penuin_
+command	1795159433039	8888eba9-9971-3b7b-808f-0129d6185b8b	13135_penuin_	/tpaccept
+join	1795159581624	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795159581835	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+join	1795159581931	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795159632076	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795159672320	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795159674281	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795159684582	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlexw
+command	1795159688218	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795159729031	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795159732264	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccpet
+command	1795159734508	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795159743954	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795159747245	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795159750103	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795159750184	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM what is it
+join	1795159753077	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+command	1795159771856	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM not yet
+command	1795159784163	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795159815996	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun 1
+command	1795159819947	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159832515	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/whisper blueberryhill shh
+command	1795159838990	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/whisper blueberryhill proximity
+command	1795159849486	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa I_am_bob_wow
+command	1795159862598	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159864685	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpacancel
+command	1795159865068	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159867437	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159868834	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa Thundra1
+command	1795159881188	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159912662	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun 1
+command	1795159920906	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159953754	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795159959447	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795160003284	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+leave	1795160112730	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795160128190	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795160131930	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795160147971	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere I_am_bob_wow
+leave	1795160179527	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795160189711	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect give ironmanLJM minecraft:strength infinite 3
+command	1795160207755	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect give ironmanLJM minecraft:strength infinite 1
+command	1795160216511	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect clear ironmanLJM
+command	1795160218440	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect give ironmanLJM minecraft:strength infinite 1
+command	1795160222460	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect give ironmanLJM minecraft:strength infinite 2
+command	1795160239661	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795160244177	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+leave	1795160247175	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+join	1795160257372	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+command	1795160259209	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+command	1795160266447	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795160303842	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpahere blueberryhill
+command	1795160335829	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/sethome
+join	1795160373809	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795160411590	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795160440164	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/sethome
+command	1795160445284	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/vc
+command	1795160460814	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa Thundra1
+command	1795160530935	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/time set day
+command	1795160735928	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795160786717	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795160836940	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa Thundra1
+join	1795160870500	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795160894957	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant protect 4
+command	1795160904003	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 2
+command	1795160927297	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/sethome
+command	1795160953980	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant mending
+command	1795160957546	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee Thundra1
+command	1795160980414	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795160985943	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant mending
+command	1795160986786	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795160990551	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant protect 4
+command	1795160994166	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 2
+command	1795161013253	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795161019668	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795161020430	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795161061384	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795161076738	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 3
+command	1795161078107	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 3
+command	1795161081668	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Thundra1
+command	1795161096036	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795161142650	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home
+command	1795161151988	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home home
+command	1795161159593	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161163301	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/rtp
+command	1795161163700	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161166849	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161171202	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795161179939	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	/tpa Thundra1
+command	1795161182067	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795161184833	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795161225980	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+leave	1795161233532	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795161238490	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa blueberryhill
+command	1795161248970	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795161253931	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795161255604	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795161293738	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+leave	1795161304327	bc40e407-140e-3b10-a9b0-14ad3d5d5b39	Penuin13134	
+command	1795161321125	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home home
+command	1795161323452	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa blueberryhill
+command	1795161336918	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795161361038	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795161365917	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795161391165	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa ironmanLJM
+command	1795161394845	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa I_am_bob_wow
+command	1795161397600	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795161436180	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795161472910	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect clear ironmanLJM
+command	1795161475060	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795161505645	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161519407	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+leave	1795161533326	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795161572128	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/spawn
+command	1795161600075	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161609687	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161611890	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/hgome
+command	1795161613481	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161634726	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+leave	1795161657923	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+join	1795161718252	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	
+command	1795161776587	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home e
+command	1795161785292	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/home home
+command	1795161786012	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161826920	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795161833601	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795161844875	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161867913	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/rtp
+command	1795161873846	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161902647	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161919198	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161926675	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/sethome igino
+command	1795161932218	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795161932376	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161935990	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161941126	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795161953428	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795161957098	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795161981529	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpa blueberryhill
+command	1795161982062	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795161984396	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795162008585	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+command	1795162076400	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+join	1795162092191	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795162135124	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795162138116	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795162142030	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+leave	1795162189224	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795162282791	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795162285889	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795162335556	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795162338550	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+command	1795162366576	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa I_am_bob_wow
+command	1795162368650	dba1242f-2214-311a-95f1-b5aff9e687d7	I_am_bob_wow	/tpaccept
+join	1795162437666	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795162627138	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795162635484	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set air
+command	1795162761992	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule send_command_feedback
+command	1795162762100	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 62 -848 446 62 -841 minecraft:dirt replace air strict
+command	1795162762106	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 63 -848 446 63 -848 minecraft:dirt replace air strict
+command	1795162762107	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 64 -848 438 65 -848 minecraft:dirt replace air strict
+command	1795162762108	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 66 -848 439 66 -848 minecraft:dirt replace air strict
+command	1795162762112	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 67 -848 446 67 -848 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762113	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 63 -847 439 63 -843 minecraft:dirt replace air strict
+command	1795162762114	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 64 -847 438 64 -844 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762120	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 66 -847 438 66 -843 minecraft:dirt replace air strict
+command	1795162762132	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 67 -847 439 67 -843 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762135	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 438 64 -843 minecraft:dirt strict
+command	1795162762141	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 438 65 -843 minecraft:sticky_piston[extended=false,facing=east] strict
+command	1795162762142	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 63 -842 441 63 -842 minecraft:dirt replace air strict
+command	1795162762142	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 438 64 -842 minecraft:grass_block[snowy=false] strict
+command	1795162762143	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 438 65 -842 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=side] strict
+command	1795162762145	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 66 -842 439 66 -842 minecraft:dirt replace air strict
+command	1795162762146	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 67 -842 446 67 -842 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762204	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 63 -841 446 63 -841 minecraft:dirt replace air strict
+command	1795162762209	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 64 -841 440 64 -841 minecraft:dirt replace air strict
+command	1795162762211	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 65 -841 441 65 -841 minecraft:dirt replace air strict
+command	1795162762214	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 438 66 -841 442 66 -841 minecraft:dirt replace air strict
+command	1795162762215	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 438 67 -841 minecraft:dirt strict
+command	1795162762220	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 439 64 -848 minecraft:grass_block[snowy=false] strict
+command	1795162762220	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 439 64 -842 minecraft:observer[facing=east,powered=false] strict
+command	1795162762229	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 439 67 -841 446 67 -841 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762261	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 440 64 -848 446 64 -848 minecraft:dirt replace air strict
+command	1795162762266	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 440 65 -848 minecraft:furnace[facing=south,lit=false] strict
+command	1795162762270	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 440 63 -847 440 63 -843 minecraft:oak_wall_sign[facing=west,waterlogged=false] replace air strict
+command	1795162762270	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 440 66 -847 440 66 -843 minecraft:slime_block replace air strict
+command	1795162762278	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 440 67 -847 441 67 -843 minecraft:red_wool replace air strict
+command	1795162762279	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 440 64 -843 minecraft:sticky_piston[extended=true,facing=up] strict
+command	1795162762279	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 440 65 -843 minecraft:piston_head[facing=up,short=false,type=sticky] strict
+command	1795162762280	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 440 64 -842 minecraft:redstone_wall_torch[facing=north,lit=true] strict
+command	1795162762291	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 440 65 -842 minecraft:furnace[facing=north,lit=false] strict
+command	1795162762297	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 441 65 -848 446 66 -848 minecraft:dirt replace air strict
+command	1795162762302	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 441 63 -847 446 63 -844 minecraft:dirt replace air strict
+command	1795162762305	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 441 64 -847 minecraft:redstone_wire[east=up,north=none,power=0,south=side,west=none] strict
+command	1795162762305	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 441 65 -847 441 66 -843 minecraft:sticky_piston[extended=false,facing=up] replace air strict
+command	1795162762306	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 441 64 -846 441 64 -844 minecraft:redstone_wire[east=up,north=side,power=0,south=side,west=none] replace air strict
+command	1795162762306	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 441 63 -843 minecraft:dirt strict
+command	1795162762307	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 441 64 -843 minecraft:redstone_wire[east=up,north=side,power=0,south=none,west=none] strict
+command	1795162762362	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 441 66 -842 minecraft:dirt strict
+command	1795162762364	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 441 64 -841 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side] strict
+command	1795162762370	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 442 64 -847 442 64 -843 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762371	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 65 -847 minecraft:redstone_wire[east=none,north=none,power=0,south=side,west=side] strict
+command	1795162762373	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 442 66 -847 442 66 -843 minecraft:observer[facing=down,powered=false] replace air strict
+command	1795162762379	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 442 67 -847 443 67 -843 minecraft:grass_block[snowy=false] replace air strict
+command	1795162762380	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 442 65 -846 442 65 -844 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=side] replace air strict
+command	1795162762382	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 63 -843 minecraft:repeater[delay=4,facing=east,locked=false,powered=false] strict
+command	1795162762415	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 63 -842 minecraft:grass_block[snowy=false] strict
+command	1795162762416	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 64 -842 minecraft:repeater[delay=1,facing=south,locked=false,powered=false] strict
+command	1795162762416	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 64 -841 minecraft:redstone_wire[east=side,north=side,power=0,south=none,west=side] strict
+command	1795162762417	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill 443 64 -847 446 64 -844 minecraft:dirt replace air strict
+command	1795162762417	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock 442 65 -843 minecraft:redstone_wire[east=none,north=side,power=0,south=none,west=side] strict
+join	1795168517602	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795170727159	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant sharpness 5
+command	1795170730889	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant sweepingedge 3
+command	1795170735592	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant looting 3
+command	1795170738772	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant mending
+command	1795170743225	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant knockback 2
+command	1795170940025	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:husk ~ ~ ~
+command	1795171023073	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:diamond_helmet",count:1}}}
+command	1795171036315	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:diamond_helmet",count:1}}}
+command	1795171048880	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:diamond_helmet",count:1}}}
+command	1795171069658	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {attributes:[{id:"minecraft:max_health",base:80d}],Health:80f,equipment:{head:{id:"minecraft:diamond_helmet",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},legs:{id:"minecraft:diamond_leggings",count:1},feet:{id:"
+command	1795171085598	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {Health:80f,attributes:[{id:"minecraft:max_health",base:80d}],equipment:{head:{id:"minecraft:diamond_helmet",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},legs:{id:"minecraft:diamond_leggings",count:1},feet:{id:"
+command	1795171109560	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {Health:80f,attributes:[{id:"minecraft:max_health",base:80d}],equipment:{head:{id:"minecraft:diamond_helmet",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},legs:{id:"minecraft:diamond_leggings",count:1},feet:{id:"
+command	1795171130761	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {Health:80f,attributes:[{id:"minecraft:max_health",base:80d}],equipment:{head:{id:"minecraft:diamond_helmet",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},legs:{id:"minecraft:diamond_leggings",count:1},feet:{id:"
+command	1795171133266	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/summon minecraft:zombie ~ ~ ~ {equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:diamond_helmet",count:1}}}
+join	1795171245192	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	
+command	1795171264573	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/tp ironmanLJM
+command	1795171293262	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/fly
+command	1795171294995	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/fly
+command	1795171315536	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/fly
+command	1795171338547	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/attribute @s minecraft:max_health base set 80
+command	1795171362144	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/give ironmanLJM golden_apple 1
+command	1795171373191	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/give ItzPulse golden_apple 1
+command	1795171384322	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	/fly
+leave	1795171415842	a3ae9cb7-fa9f-3574-b047-ddba5fdb56bc	ItzPulse	
+leave	1795171612658	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795207142356	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795207451549	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+leave	1795207719780	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795207794271	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795207913483	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795207969967	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set air
+command	1795208073781	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule send_command_feedback
+command	1795208073875	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 66 80 -51 66 82 minecraft:dirt replace air strict
+command	1795208073880	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 67 80 -54 67 81 minecraft:dirt replace air strict
+command	1795208073884	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 68 80 -56 68 81 minecraft:dirt replace air strict
+command	1795208073885	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 69 80 -59 70 81 minecraft:dirt replace air strict
+command	1795208073888	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 71 80 -59 71 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208073891	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 67 82 -51 67 82 minecraft:dirt replace air strict
+command	1795208073892	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 68 82 -53 68 82 minecraft:dirt replace air strict
+command	1795208073893	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 69 82 -54 70 82 minecraft:dirt replace air strict
+command	1795208073930	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 71 82 -51 71 82 minecraft:grass_block[snowy=false] replace air strict
+command	1795208073932	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -58 69 80 -57 69 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208073940	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -58 70 80 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=none] strict
+command	1795208073944	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -58 71 80 -57 71 81 minecraft:white_wool replace air strict
+command	1795208073945	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -58 70 81 minecraft:redstone_wire[east=side,north=side,power=0,south=none,west=none] strict
+command	1795208073947	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -57 70 80 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=side] strict
+command	1795208073948	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -57 70 81 minecraft:redstone_wire[east=none,north=side,power=0,south=none,west=side] strict
+command	1795208073949	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -56 69 80 -56 70 81 minecraft:dirt replace air strict
+command	1795208073988	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -56 71 80 -55 71 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208073991	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 68 80 -55 68 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208073996	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 69 80 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=none] strict
+command	1795208074001	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 70 80 -55 70 81 minecraft:observer[facing=down,powered=false] replace air strict
+command	1795208074002	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 69 81 minecraft:redstone_wire[east=side,north=side,power=0,south=none,west=none] strict
+command	1795208074007	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 68 80 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=up] strict
+command	1795208074008	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 69 80 -54 70 81 minecraft:sticky_piston[extended=false,facing=up] replace air strict
+command	1795208074009	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 71 80 -53 71 81 minecraft:red_wool replace air strict
+command	1795208074039	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 68 81 minecraft:redstone_wire[east=none,north=side,power=0,south=none,west=up] strict
+command	1795208074044	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -53 67 80 -53 67 81 minecraft:oak_wall_sign[facing=east,waterlogged=false] replace air strict
+command	1795208074049	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -53 70 80 -53 70 81 minecraft:slime_block replace air strict
+command	1795208074051	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -53 69 82 minecraft:furnace[facing=north,lit=false] strict
+command	1795208074052	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 67 80 -51 67 81 minecraft:dirt replace air strict
+command	1795208074054	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 71 80 -51 71 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074055	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -52 68 82 minecraft:grass_block[snowy=false] strict
+command	1795208074056	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 70 82 -51 70 82 minecraft:dirt replace air strict
+command	1795208074079	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -51 68 80 -51 68 81 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074083	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -51 70 80 -51 70 81 minecraft:dirt replace air strict
+command	1795208074086	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -51 68 82 -51 69 82 minecraft:dirt replace air strict
+command	1795208074090	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 66 75 -51 66 79 minecraft:dirt replace air strict
+command	1795208074094	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 67 75 -51 67 75 minecraft:dirt replace air strict
+command	1795208074095	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 68 75 -58 70 76 minecraft:dirt replace air strict
+command	1795208074098	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 71 75 -52 71 75 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074098	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 67 76 -56 67 77 minecraft:dirt replace air strict
+command	1795208074138	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 71 76 -51 71 76 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074144	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 69 77 -59 70 79 minecraft:dirt replace air strict
+command	1795208074147	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 71 77 -59 71 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074149	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 68 77 -57 68 77 minecraft:dirt replace air strict
+command	1795208074158	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 67 78 -54 67 79 minecraft:dirt replace air strict
+command	1795208074160	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -59 68 78 -56 68 79 minecraft:dirt replace air strict
+command	1795208074164	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -58 69 77 -57 69 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074167	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -58 70 77 minecraft:redstone_wire[east=side,north=none,power=0,south=side,west=none] strict
+command	1795208074175	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -58 71 77 -57 71 79 minecraft:white_wool replace air strict
+command	1795208074190	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -58 70 78 -58 70 79 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=none] replace air strict
+command	1795208074192	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -57 68 75 minecraft:redstone_wire[east=side,north=none,power=0,south=up,west=none] strict
+command	1795208074193	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -57 68 76 minecraft:grass_block[snowy=false] strict
+command	1795208074194	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -57 69 76 minecraft:redstone_wire[east=none,north=side,power=0,south=up,west=none] strict
+command	1795208074195	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -57 70 77 -57 70 79 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=side] replace air strict
+command	1795208074196	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -56 68 75 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side] strict
+command	1795208074197	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -56 68 77 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=side] strict
+command	1795208074237	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -56 69 77 -56 70 79 minecraft:dirt replace air strict
+command	1795208074242	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -56 71 77 -55 71 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074243	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 68 75 minecraft:redstone_wire[east=side,north=none,power=0,south=side,west=side] strict
+command	1795208074247	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 70 75 -51 70 75 minecraft:dirt replace air strict
+command	1795208074249	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 67 76 minecraft:grass_block[snowy=false] strict
+command	1795208074251	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 68 76 minecraft:repeater[delay=1,facing=north,locked=false,powered=false] strict
+command	1795208074254	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 67 77 minecraft:repeater[delay=4,facing=west,locked=false,powered=false] strict
+command	1795208074255	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 68 77 -55 68 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074276	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -55 69 77 minecraft:redstone_wire[east=side,north=none,power=0,south=side,west=none] strict
+command	1795208074277	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 70 77 -55 70 79 minecraft:observer[facing=down,powered=false] replace air strict
+command	1795208074279	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -55 69 78 -55 69 79 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=none] replace air strict
+command	1795208074283	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 68 75 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side] strict
+command	1795208074286	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 69 75 -51 69 75 minecraft:dirt replace air strict
+command	1795208074287	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 67 76 -51 67 76 minecraft:dirt replace air strict
+command	1795208074289	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 70 76 minecraft:dirt strict
+command	1795208074291	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 67 77 minecraft:dirt strict
+command	1795208074335	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 69 77 -54 70 79 minecraft:sticky_piston[extended=false,facing=up] replace air strict
+command	1795208074337	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 71 77 -53 71 79 minecraft:red_wool replace air strict
+command	1795208074337	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -54 68 77 minecraft:redstone_wire[east=none,north=none,power=0,south=side,west=up] strict
+command	1795208074341	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -54 68 78 -54 68 79 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=up] replace air strict
+command	1795208074342	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -53 68 75 -51 68 75 minecraft:dirt replace air strict
+command	1795208074345	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -53 68 76 minecraft:redstone_wall_torch[facing=south,lit=true] strict
+command	1795208074346	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -53 69 76 minecraft:furnace[facing=south,lit=false] strict
+command	1795208074346	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -53 67 77 -53 67 79 minecraft:oak_wall_sign[facing=east,waterlogged=false] replace air strict
+command	1795208074409	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -53 68 77 minecraft:sticky_piston[extended=true,facing=up] strict
+command	1795208074414	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -53 69 77 minecraft:piston_head[facing=up,short=false,type=sticky] strict
+command	1795208074416	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -53 70 77 -53 70 79 minecraft:slime_block replace air strict
+command	1795208074417	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -52 68 76 minecraft:observer[facing=west,powered=false] strict
+command	1795208074419	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 70 76 -51 70 76 minecraft:dirt replace air strict
+command	1795208074419	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 67 77 -51 67 79 minecraft:dirt replace air strict
+command	1795208074421	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -52 71 77 -51 71 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074422	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -51 71 75 minecraft:dirt strict
+command	1795208074449	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -51 68 76 minecraft:grass_block[snowy=false] strict
+command	1795208074453	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -51 69 76 minecraft:redstone_wire[east=side,north=side,power=0,south=side,west=side] strict
+command	1795208074457	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -51 68 77 minecraft:dirt strict
+command	1795208074462	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -51 70 77 -51 70 79 minecraft:dirt replace air strict
+command	1795208074463	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/fill -51 68 78 -51 68 79 minecraft:grass_block[snowy=false] replace air strict
+command	1795208074464	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/setblock -51 69 77 minecraft:sticky_piston[extended=false,facing=west] strict
+leave	1795208112929	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795208131875	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795208159204	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+join	1795208210600	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795208215253	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795208331198	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/delhome home
+command	1795208334504	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/se
+command	1795208343122	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/sethome home..
+command	1795208418304	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795208436483	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795208443831	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795208471619	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795208499439	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795208502630	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home__
+command	1795208588016	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home__
+command	1795208615760	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795208694514	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795208698191	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home__
+command	1795209248969	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home__
+join	1795218704880	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+leave	1795218747738	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795219733190	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795219738344	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795219749077	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795219752022	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795219774822	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa ThisNotAlex
+command	1795219777641	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa ironmanLJM
+command	1795219782354	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795219784382	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/spawn
+command	1795219803214	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795219951449	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795219953623	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/spawn
+leave	1795220040157	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795220063849	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795220127130	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home is
+leave	1795220137776	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795220168735	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795220171905	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere ThisNotAlex
+command	1795220225753	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode cr
+command	1795220228753	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere ThisNotAlex
+leave	1795220237554	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795220285745	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795220405670	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere ThisNotAlex
+join	1795220435382	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795220448921	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/yooo
+command	1795220462528	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa ThisNotAlex
+command	1795220473724	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa Thundra1
+command	1795220477423	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795220484154	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795220490116	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795220781595	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795220894289	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/give ironmanLJM tntminecart 1
+command	1795221052204	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795221066062	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795221085492	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221098390	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/deop ItzPulse
+command	1795221128612	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795221190366	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/xp give ThisNotAlex 60l
+command	1795221211441	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795221283356	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795221297853	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795221320738	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
+command	1795221321802	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM should we prank alex with the spleef trap?
+command	1795221326000	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yes :DDD
+command	1795221354177	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795221415114	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795221419505	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795221422571	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221425270	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795221475120	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
+command	1795221503810	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221504773	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221505118	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221505455	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221505732	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221506427	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795221507484	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795221559997	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795221572148	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795221586122	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 shoud i make it
+command	1795221588996	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r so that
+command	1795221590718	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r he dies?
+command	1795221601272	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM yea but we give back his loot
+command	1795221605478	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r or just scare him
+command	1795221612984	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM fine scar him
+command	1795221616563	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM fine scare him
+command	1795221634551	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
+command	1795221657010	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795221672048	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795221701560	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
+command	1795221705020	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795221724497	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795221738313	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795221811606	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795221824654	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r u do it
+command	1795221830375	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795221849120	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM u do i help u got neth and effency
+command	1795221853706	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ok
+command	1795221869452	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere ThisNotAlex
+command	1795221907218	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+command	1795221949732	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere ThisNotAlex
+command	1795221956555	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+command	1795222020653	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795222023418	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795222027395	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795222079298	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795222082166	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa ThisNotAlex
+command	1795222101276	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+leave	1795222146552	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795222205598	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795222251704	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa ThisNotAlex
+command	1795222254749	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+join	1795222275073	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795222328898	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795222406021	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work false
+command	1795222407916	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795222412101	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795222428299	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee ThisNotAlex
+command	1795222468600	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa ironmanLJM
+command	1795222475617	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795222519348	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/give ironmanLJM arrow 1
+command	1795222532647	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/give ironmanLJM arrow 1
+command	1795222536321	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/give ironmanLJM arrow 1
+command	1795222538154	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/spawn
+command	1795222594279	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Thundra1
+command	1795222598390	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp ThisNotAlex
+command	1795222601673	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/spawn
+command	1795222655658	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795222713430	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795222799377	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795222800900	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc wolf 1
+command	1795222817549	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant mending
+command	1795222828697	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant piercing 4
+command	1795222832600	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 3
+command	1795222841539	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant quickcharge 3
+command	1795222847452	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ThisNotAlex
+command	1795222849662	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant unbreaking 3
+command	1795222852794	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/enchant mending
+command	1795222852966	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795222859797	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+command	1795222882002	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM imm jump him
+command	1795222884963	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r YES
+command	1795222885822	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r YES
+command	1795222886145	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r YES
+command	1795222886422	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r YES
+command	1795222890748	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r dont say its me tho
+command	1795222892427	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r cuz like
+command	1795222896043	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r hes gonna kill me irl
+command	1795222896447	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM ok
+command	1795222947598	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795222991550	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795223045506	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM where is he
+command	1795223048345	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r idk
+command	1795223059276	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r his
+command	1795223060893	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp to him then lemme tp so i can teach him
+command	1795223061038	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r island
+command	1795223065511	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp to him then lemme tp so i can teach him
+command	1795223073522	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r bro ur not thatttttt good to be a teacher T-T but ok
+command	1795223075959	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795223082266	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795223086651	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa ThisNotAlex
+command	1795223096092	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795223098662	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp
+command	1795223099108	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp
+command	1795223099375	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp
+command	1795223099579	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tp
+command	1795223107152	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r cant rn
+command	1795223113357	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM pls
+command	1795223127617	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r cant tp u to my island
+command	1795223139565	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM im not going to save cords
+command	1795223144165	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM mums
+command	1795223238366	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM do / tp thundra thisnot alex
+command	1795223261402	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM do / tp thundra thisnot alex
+command	1795223261672	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM do / tp thundra thisnot alex
+command	1795223262019	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM do / tp thundra thisnot alex
+command	1795223262277	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM do / tp thundra thisnot alex
+leave	1795223294940	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795225428057	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+join	1795225462320	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795225476019	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Dill_Pickle_
+command	1795225541483	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+leave	1795225549588	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795225549938	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp di
+command	1795225553510	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+leave	1795225557284	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795225591877	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+leave	1795225721678	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+join	1795226108493	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795226112915	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795226283244	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/ethome
+command	1795226286528	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+command	1795226302361	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795226320951	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795226333396	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795226337489	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795226340814	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+leave	1795226405227	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795226822539	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795226835888	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795226856318	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamerule command_blocks_work true
+command	1795226861618	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode survival
+command	1795226867265	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/spawn
+command	1795226879248	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode creative
+command	1795226915218	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/give ThisNotAlex command_block
+command	1795227027279	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795227065508	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamerule send_command_feedback false
+command	1795227068049	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamerule send_command_feedback false
+join	1795228260385	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795228271788	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795228279666	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/cbl toggle
+command	1795228292270	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/cbl toggle
+command	1795228295094	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/cbl toggle
+command	1795228366157	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795228383097	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 69 78 133
+join	1795228467198	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+leave	1795228479901	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795228543227	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795228577886	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795228581574	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795228601084	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work false
+command	1795228630034	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work true
+command	1795228632817	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work false
+command	1795228664736	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795228680404	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795228692197	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set stone
+command	1795228699179	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work true
+command	1795228707366	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 69 71 133
+command	1795228721396	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work false
+command	1795228781562	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Thundra1
+command	1795228874573	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work true
+command	1795228876254	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795228884853	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 69 71 133
+command	1795228910168	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work false
+command	1795228919918	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 69 71 133
+command	1795228929964	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule command_blocks_work true
+command	1795228940866	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795228999129	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop thisnotalex
+join	1795229096913	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795229104077	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM tell himm
+command	1795229125920	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex cooked
+command	1795229139611	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r hes fucked
+command	1795229143885	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r voice chat
+command	1795229147613	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM yeah
+command	1795229149535	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r vcvc
+command	1795229164446	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex cooked
+command	1795229193294	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM fah
+command	1795229228132	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM he got a point tho
+command	1795229299123	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex did u make the command block
+command	1795229305770	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r not me
+command	1795229318729	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex actullay?
+command	1795229322267	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r ye
+command	1795229327893	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex o dam
+leave	1795229346203	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795229447327	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795229447573	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795229458471	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+join	1795229473828	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+leave	1795229480550	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795229486640	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/blockhistory diskspace
+join	1795229490528	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795229503358	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/blockhistory history 69 71 133
+command	1795229531764	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795229539178	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795229540316	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795229549630	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg ironmanLJM u just made me op
+command	1795229573300	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM js like ban him for a bit
+leave	1795229583153	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795229590023	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+join	1795229596316	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795229604406	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+leave	1795229605804	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795229677806	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/bwc reload admin
+join	1795229699164	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795229735080	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/gamemode cr
+command	1795229743120	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/blockhistory history 69 71 132
+command	1795229749184	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/blockhistory history 69 71 132
+command	1795229753041	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/blockhistory history 69 70 133
+command	1795229765625	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex wru
+command	1795229777203	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r wa
+command	1795229781936	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex where r u
+command	1795229790562	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r island
+command	1795229795533	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795229799654	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex which one?
+command	1795229810450	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r my other one
+command	1795229816157	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex ok
+command	1795229833936	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/cbl toggle
+command	1795229836710	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795229839188	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795229842704	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795229853363	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795229865333	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/e
+command	1795229866358	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/e
+command	1795229867163	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795229871125	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795229886149	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 157 43 -21
+command	1795229890665	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp 157 43 -21
+command	1795229912855	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795229917500	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795229920480	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM ban him?
+command	1795229974653	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun 1
+command	1795229976736	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc railgun straight 1
+command	1795229977600	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec
+command	1795229988582	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec ThisNotAlex
+command	1795230026510	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795230033275	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ThisNotAlex
+command	1795230036352	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795230081360	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp blueberryhill
+command	1795230161705	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795230167516	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795230168612	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795230203121	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795230204598	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home ThisNotAlex:base2
+command	1795230208106	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ThisNotAlex
+command	1795230218241	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795230279629	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home alexsecret
+command	1795230286607	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home ThisNotAlex:island
+command	1795230318238	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp ThisNotAlex
+command	1795230319007	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795230328170	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp ThisNotAlex
+command	1795230381372	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base2
+command	1795230392459	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795230399765	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+command	1795230440226	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795230469903	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795230484906	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795230497500	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+command	1795230500658	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+join	1795230626750	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795230627051	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795230627192	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795230653561	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795230683225	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethome
+command	1795230706488	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r Thundra1 yo
+command	1795230711765	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home island
+command	1795230714401	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 want duo?
+command	1795230726896	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM the best duo
+command	1795230730035	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795230732482	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795230735297	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r lets start a base
+command	1795230737739	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795230748082	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r hold up
+command	1795230750931	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg ThisNotAlex alex
+command	1795230753897	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r get the
+command	1795230755583	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r trident
+command	1795230761519	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM can i js pls go to ur base
+command	1795230770938	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r hmmm
+command	1795230772062	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM pls
+command	1795230772952	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM pls
+command	1795230773187	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM pls
+command	1795230773432	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM pls
+command	1795230794391	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM why not also msg me
+command	1795230796798	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 build new one
+command	1795230798147	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r sory
+command	1795230800398	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i forgot to msg
+command	1795230808193	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r jk
+command	1795230812423	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r hel na
+command	1795230813762	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r thats just to through him out
+command	1795230822397	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i got u
+command	1795230827017	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg ThisNotAlex alex
+command	1795230830949	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r get the trident
+command	1795230841281	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r and u can have ur
+command	1795230845182	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r thing back
+command	1795230854014	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r wa
+command	1795230865794	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r get the trident
+command	1795230867959	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r from lucas
+command	1795230871336	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r alr
+command	1795230882313	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg Thundra1 yo
+command	1795230887026	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex yo
+command	1795230889834	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r jack want ur triend
+command	1795230896117	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex what
+command	1795230896464	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r triden
+command	1795230900189	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 come thundra
+command	1795230900928	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex oh why
+command	1795230913038	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM where r u
+command	1795230913910	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r cuz he wants to build smth
+command	1795230917524	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere Thundra1
+command	1795230919573	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r tp
+command	1795230921641	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795230929123	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r follow
+command	1795230930432	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex he has a trdinet
+command	1795230938446	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i will get a trident for jack and say i got it from u
+command	1795230949563	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r so don't show ur triendt anymore
+command	1795230953583	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r alr
+command	1795230958573	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex ok
+command	1795230971088	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere Thundra1
+command	1795230976200	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r and if jack sees it just say u got aother 1
+command	1795230981763	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795230982261	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ttptptpptpttptpptt
+command	1795230985297	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795231011769	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r follow this river
+command	1795231053490	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r where is my xppp
+command	1795231055472	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r far out
+command	1795231067641	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex MSG ME
+command	1795231075519	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex MSG ME
+command	1795231076349	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r OPPS
+command	1795231078168	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex MSG ME SAY NO
+command	1795231081553	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r we went the wrong derection
+command	1795231084796	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r no
+command	1795231090078	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r this way
+command	1795231091102	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r wa
+command	1795231126483	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex i use some of them
+command	1795231145263	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r protect me
+command	1795231151042	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg ThisNotAlex alex
+command	1795231154662	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r ye
+command	1795231156291	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r get his trident first
+command	1795231170580	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex i got drained alot while fighting jack
+command	1795231176370	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex i got drained alot while fighting jack can u get them back
+command	1795231177678	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r ironmanLJM i need to enchant
+command	1795231192811	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 u keeep go that way
+command	1795231194500	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r why cant i send to iron
+command	1795231199709	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ima do some command blocks
+command	1795231201194	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spwn
+command	1795231203095	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/spawn
+command	1795231207068	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg ironmanLJM fine
+command	1795231220279	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg Thundra1 yo can i have ur trident
+command	1795231225244	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex why
+command	1795231226697	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r or im cooked
+command	1795231237787	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r cuz jack says he need to kill u
+command	1795231247723	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex is he saying in cv?
+command	1795231249799	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex is he saying in vc?
+command	1795231251702	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r just like get 1
+command	1795231260901	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r from the base
+command	1795231263957	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex is he saying in vc?
+command	1795231268497	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795231270261	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i can't enchant cuz i have no xp
+command	1795231274531	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/home base
+command	1795231279466	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex what do i do
+command	1795231288961	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r give me ur trident
+command	1795231305544	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r u can get one
+command	1795231309607	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ThisNotAlex
+command	1795231310840	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i need the enchantmen
+command	1795231315610	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpaccept
+command	1795231321175	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex i dont got xp
+command	1795231331712	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r u can enchant it
+command	1795231340748	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r just give me ur trident
+command	1795231343339	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex i have 1 xp level
+command	1795231351631	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex ur gonna take it
+command	1795231357282	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg ThisNotAlex DONT tell him its me ok?
+command	1795231360864	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ssay u lost it
+command	1795231363620	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex ur gonna take it
+command	1795231381749	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg ironmanLJM yo
+command	1795231383701	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yo
+command	1795231391561	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i got the trident
+command	1795231403933	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r now make an excuse to like
+command	1795231405247	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r keep it
+command	1795231436783	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/gamerule locator_bar true
+command	1795231455232	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i only got the no enchant one
+command	1795231470984	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r so no riptide
+command	1795231479125	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r wait does thundra
+command	1795231480258	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r on it
+command	1795231480509	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r have
+command	1795231485264	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r 2 tridents?
+command	1795231489611	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee thundra1
+command	1795231493637	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r i think so
+command	1795231501743	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/openinv check Thundra1
+command	1795231504652	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg Thundra1 i told jack u have 2 trident
+command	1795231510394	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/openinv check ThisNotAlex
+command	1795231515600	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r try getting both
+command	1795231520781	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex so i give him the disunchanted one?
+command	1795231521616	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r so i got the no enchant on
+command	1795231539690	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ThisNotAlex trident
+command	1795231549970	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795231550926	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/msg ironmanLJM want the trident now
+command	1795231559741	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r u keep for now
+command	1795231562361	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r or later
+command	1795231586096	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa ironmanLJM
+command	1795231598437	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r try get the other one
+command	1795231599449	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795231599695	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r tptp
+command	1795231602821	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/tpa ironmanLJM
+command	1795231605245	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795231621610	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r thx
+command	1795231622545	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r alr?
+command	1795231625110	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r alr
+command	1795231638895	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r what is this
+leave	1795231639309	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795231643214	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r the dragon egg
+command	1795231644797	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r plugn
+command	1795231649524	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r ok
+command	1795231659594	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r come to my house
+command	1795231659696	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i destroyed the prevoice one for the alex situation
+command	1795231670037	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795231683849	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r come to my house
+command	1795231685522	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r come to my house
+command	1795231686092	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r come to my house
+command	1795231686672	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r come to my house
+command	1795231701271	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ok
+command	1795231704334	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r wait irl?
+command	1795231709466	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r yep
+join	1795231710044	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+leave	1795231716011	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795231723394	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r wait why?
+command	1795231727864	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r idk
+command	1795231731944	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r go to kaan
+command	1795231740661	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r us 2?
+command	1795231745043	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r go to kaan
+command	1795231756463	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r u come and go back
+command	1795231765325	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r so i come to your house
+command	1795231772653	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r u need to do exsersise
+command	1795231773098	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r and then u go to kaans and i go back
+join	1795231776985	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795231779322	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r yep
+command	1795231782201	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r u need to do exsersise
+command	1795231786536	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795231790025	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ah hell na >:)
+command	1795231796594	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 thundra
+command	1795231796784	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r yes bro
+command	1795231798841	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r keep going
+command	1795231809041	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i accendly went home
+command	1795231810482	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+command	1795231816041	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Thundra1 WHYYYYYYY
+command	1795231819572	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r U DUMB
+command	1795231822622	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r *****************
+command	1795231826875	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM oops
+command	1795231834299	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i give u my trident
+command	1795231835293	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r can u go far out again?
+command	1795231839771	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	/r y u say it to everyone
+command	1795231845518	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r what?
+command	1795231846308	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ok
+command	1795231848038	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r sure
+command	1795231851192	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795231852859	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r tp
+command	1795231856459	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i thought u want it
+command	1795231860378	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795231862761	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yea ig
+command	1795231873423	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yeeee
+command	1795231877485	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i cane hear u btw
+command	1795231883559	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ok
+command	1795231885089	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yeeee
+command	1795231888074	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r can u get another
+command	1795231890402	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r for me
+leave	1795231892311	014e105a-2f7c-315c-9249-d97c288a3fec	ThisNotAlex	
+command	1795231896171	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r PLZ
+command	1795231897734	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM u have 2 now
+command	1795231899170	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r PLZZZZZZZZZZZ
+command	1795231901680	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM u have 2 now
+command	1795231904408	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r PLZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+command	1795231916537	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r PLZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZz
+command	1795231919487	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795231921958	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base
+command	1795231928734	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r then i can have another?
+command	1795231935258	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795231940426	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base
+command	1795231944467	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r can u get one now?
+command	1795231955794	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base
+command	1795231964060	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base then i get u a trident
+command	1795231972673	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base then i get u a trident
+command	1795231973681	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795231975099	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM lemme be allowed to go to ur base then i get u a trident
+command	1795231990249	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r go to my base
+command	1795231994416	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i have nothin
+command	1795231999797	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i want a home
+command	1795232009565	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i was planning on building one
+command	1795232012130	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r and moving my base
+command	1795232012927	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r but
+command	1795232018983	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r u tped home
+command	1795232021585	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r and ...
+command	1795232023222	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM can i go to ur base now to see what u got
+command	1795232023383	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r so
+command	1795232033809	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r sure? but u cant set home
+command	1795232040247	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r and dont take shi
+command	1795232043127	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere Thundra1
+command	1795232047730	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795232074278	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795232081811	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r harry
+command	1795232086124	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM oh
+command	1795232091242	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r fatigue
+command	1795232131123	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r yo?
+command	1795232366614	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+leave	1795232387709	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795232711442	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795232753783	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home endportal
+command	1795232833072	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795232839915	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set air
+command	1795232856665	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795233045377	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795233047773	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Thundra1
+command	1795233052873	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/back
+command	1795233057528	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795233143311	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795233155619	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wad
+command	1795233157351	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795233162037	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set dirt
+command	1795233200349	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795233203718	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set dirt
+leave	1795233225605	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795233605534	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+leave	1795233679706	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795233693193	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795233774466	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+leave	1795233819109	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+join	1795233825875	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795233877867	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa blueberryhill
+command	1795233889207	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795234119785	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795234137647	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpahere blueberryhill
+command	1795234143399	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Thundra1
+command	1795234145997	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795234235594	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795234238602	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Thundra1
+command	1795234239199	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795234343709	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/sethome BASE
+command	1795234384819	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795234386641	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp Thundra1
+command	1795234391775	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795234394217	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795234417339	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/sethomew
+command	1795234800682	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee check Thundra1
+leave	1795234988210	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795235002724	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+join	1795235097977	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795235144798	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795235213368	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Thundra1
+command	1795235218274	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795235258587	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//wand
+command	1795235274235	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set air
+command	1795235296098	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	//set air
+command	1795235492613	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795235505370	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795235759273	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM harry got a smithing template
+command	1795235766346	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r hmm
+command	1795235772493	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r ok nice
+command	1795235776191	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r dont let any1 kill him
+command	1795235785767	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM ok
+command	1795235800876	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r get me as MUCH gold as posible
+command	1795235804456	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r possible*
+command	1795235807880	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM ok
+command	1795235864026	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Thundra1
+command	1795235864860	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795236625548	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795236632830	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795236635379	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+leave	1795236851906	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795236860363	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+leave	1795236902808	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795236911715	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp blueberryhill
+join	1795236913487	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795236914577	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795236918069	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795236929535	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795236931262	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tp blueberryhill
+command	1795236957727	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795236961135	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/vanish
+command	1795237046670	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg blueberryhill mb
+command	1795237385711	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/
+join	1795237385806	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	
+command	1795237422117	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee check Thundra1
+command	1795237435386	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Dill_Pickle_ yo
+command	1795237441065	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r dill i cant vc
+command	1795237442749	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg ironmanLJM ye
+command	1795237450460	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg ironmanLJM ok
+command	1795237453767	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r bro actually i can but they think i cant LOL
+command	1795237455616	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r dont tell them
+command	1795237462848	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r im listening for fun
+command	1795237463896	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795237471218	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg ironmanLJM ok :D
+command	1795237474530	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r act normal
+command	1795237520701	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa blueberryhill
+command	1795237522294	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r spy on them
+command	1795237525095	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795237552188	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795237559137	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795237575426	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795237582512	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795237601242	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795237605373	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795237608741	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795237627715	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795237646972	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg Dill_Pickle_ dill
+command	1795237651870	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r say something about me
+command	1795237653464	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795237743772	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee check Thundra1
+command	1795237747834	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i got 4
+command	1795237750507	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r say i got 4
+command	1795237778264	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795237781065	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r say if thundra kills you ill kill him
+command	1795237793709	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg ironmanLJM ok
+command	1795237836586	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg blueberryhill bro if thundra kills me he is ooked
+command	1795237877139	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r dill
+command	1795237880711	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r go afk for a sec
+command	1795237883122	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i need a word
+command	1795237898374	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa Thundra1
+command	1795237899131	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r go afk for a sec
+command	1795237900156	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r i need a word
+command	1795237900957	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795237907419	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r with u
+command	1795238183272	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee check Thundra1
+command	1795238219619	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795238239266	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home bsae
+command	1795238242408	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795238521218	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795238525152	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Thundra1
+command	1795238527619	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795238573495	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa Thundra1
+command	1795238574228	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795238707184	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795238717847	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795238888624	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795238940382	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239006053	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239023381	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239025159	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg Dill_Pickle_ fah
+command	1795239124774	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239128529	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239164380	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239194009	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239215037	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239242915	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa Dill_Pickle_
+command	1795239246615	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795239258708	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239279152	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239297315	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239301822	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239303542	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg Dill_Pickle_ cum
+command	1795239304246	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Dill_Pickle_
+command	1795239314403	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795239315526	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239332411	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/msg Thundra1 mendinggggg
+command	1795239376816	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239399344	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239411779	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere Dill_Pickle_
+command	1795239418985	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa ironmanLJM
+command	1795239420993	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc nuke 1
+command	1795239430289	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795239473941	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795239480692	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239480914	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795239492478	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa ironmanLJM
+command	1795239503420	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/back
+command	1795239504928	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home hi
+command	1795239516089	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tphere Dill_Pickle_
+command	1795239610099	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795239613029	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795239616378	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Dill_Pickle_
+command	1795239621599	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795239770985	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795239839970	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/invsee check Thundra1
+command	1795239850459	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/ec Thundra1
+command	1795239867160	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM YAYYA
+command	1795239871019	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r :D
+command	1795239923745	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa ironmanLJM
+command	1795239931076	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795239974723	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795239980910	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i can play abit longer
+command	1795240093322	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Dill_Pickle_
+command	1795240099518	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/orbitalstrikecannonbyhf:giveosc nuke 1
+command	1795240101766	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795240137883	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795240154516	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpa Dill_Pickle_
+command	1795240165864	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795240173397	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795240178231	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795240180183	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795240181414	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795240182326	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795240303209	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795240305205	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795240355857	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM i gtg
+leave	1795240366956	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795240375975	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795240377827	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home melucas
+command	1795240397203	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/spawn
+command	1795240398758	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg ironmanLJM why
+command	1795240425617	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795240430770	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa Dill_Pickle_
+command	1795240441928	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg Dill_Pickle_ tp
+command	1795240442722	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/msg Dill_Pickle_ tp
+command	1795240445900	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795240561061	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795240603702	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Dill_Pickle_
+command	1795240614639	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795240753846	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+leave	1795240755316	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795240793914	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa blueberryhill
+command	1795240806034	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795240813052	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpa Thundra1
+command	1795240857150	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795240861371	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa Dill_Pickle_
+command	1795240863816	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795240867392	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795240874817	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/tpaccept
+command	1795240928417	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241083359	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795241095629	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241127376	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241146249	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/spawn
+command	1795241156526	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241194768	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/spawn
+command	1795241225417	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241257469	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/spawn
+command	1795241359692	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241396182	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795241425896	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241561435	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241581289	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795241677791	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241744896	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241782547	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241799631	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/spawn
+leave	1795241806307	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795241917563	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+join	1795241928975	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795241938027	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795241949570	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/spawn
+command	1795241952546	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/spawn
+command	1795241978810	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
+command	1795242013026	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp

@@ -1,0 +1,134 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ BHASHA KONFIGURESANA ℹ                                  ║
+# ║                                                                                    ║
+# ║  Plugin messages ko bhasha customize garna yo file prayog garnuhos.                ║
+# ║  Tapai 'locales' folder vitra aru translation files pauna saknu huncha.            ║
+# ║                                                                                    ║
+# ║  Naya bhasha ko lagi, 'locales' ko kunai file copy gari rename garnuhos,           ║
+# ║  messages translate garnuhos, ra messages.yml ma pariwartan garnuhos.              ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Nepali Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cTapailai testo garne anumati chaina."
+
+command:
+  check:
+    usage: "&cPrayog: /openinv check <player>"
+    self: "&cTapaile aafnai inventory check garna saknu hunna!"
+    help: "&e/openinv check <player> &7- Khiladiko inventory hernus"
+  freeze:
+    usage: "&cPrayog: /openinv freeze <player>"
+    self: "&cTapaile aafnai inventory freeze garna saknu hunna!"
+    exempt: "&cYo khiladilai freeze garna sakidaina!"
+    success: "&aTapaile {player} ko inventory freeze garnu bhayo."
+    help: "&e/openinv freeze <player> &7- Khiladiko inventory freeze garnus"
+  unfreeze:
+    usage: "&cPrayog: /openinv unfreeze <player>"
+    not-frozen: "&cYo khiladiko inventory freeze chaina!"
+    success: "&aTapaile {player} ko inventory unfreeze garnu bhayo."
+    help: "&e/openinv unfreeze <player> &7- Khiladiko inventory unfreeze garnus"
+  echeck:
+    usage: "&cPrayog: /openinv echeck <player>"
+    self: "&cTapaile aafno ender chest check garna saknu hunna!"
+    exempt: "&cTapaile yo khiladiko ender chest check garna saknu hunna!"
+    help: "&e/openinv echeck <player> &7- Khiladiko ender chest hernus"
+  offlinecheck:
+    usage: "&cPrayog: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Offline khiladiko inventory edit garnus."
+  offlineecheck:
+    usage: "&cPrayog: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Offline khiladiko ender chest edit garnus."
+  help:
+    help: "&e/openinv help - Yo help message hernus."
+  reload:
+    success: "&aConfiguration safaltapurvak reload bhayo, tara kehi pariwartan haru lagu garna restart ko avashyakta huncha."
+    failed: "&cConfiguration reload garna maa error: {error}"
+    help: "&e/openinv reload - Plugin configuration lai reload garnus."
+  open:
+    success: "&a{player} ko inventory kholiyo."
+    self: "&cTapaile aafno inventory kholna saknu hunna."
+    offline-check: "&a{player} ko offline inventory kholiyo. Save garna close garnuhos."
+    offline-ender-check: "&a{player} ko offline ender chest kholiyo. Save garna close garnuhos."
+  close:
+    success: "&a{player} ko inventory safaltapurvak banda gariyo."
+  save:
+    success: "&aInventory safaltapurvak save bhayo."
+    error: "&cInventory save garna error: {error}"
+  restore:
+    success: "&aInventory safaltapurvak purwa awastha maa farkaiyo."
+    error: "&cInventory restore garna error: {error}"
+  clear:
+    success: "&aInventory safaltapurvak clear gariyo."
+    confirm: "&cKe tapai pakka yo inventory clear garna chahanuhuncha? Type garnuhos /openinv clear confirm"
+
+freeze:
+  frozen: "&cTapaiko inventory lai euta admin le freeze gareko cha."
+  unfrozen: "&cTapaiko inventory unfreeze bhariyo."
+  warning: "&cTapaiko inventory ahile freeze cha."
+
+shulker:
+  title: "&8Shulker Viewer"
+  save-back: "&aSave ani Back januhos"
+  save-close: "&cSave ani Close garnuhos"
+  not-a-shulker: "&cTyo shulker box hoina!"
+  corrupted: "&cBigreko shulker box data."
+  modified-cancelled: "&cOwner le shulker box modify/move garyo. Edit cancel gariyo."
+  saved: "&aShulker box {player} maa save bhayo."
+  saved-offline: "&aShulker box offline data maa save bhayo."
+  saved-preview: "&aShulker box save bhayo (Preview)."
+  debug-opening: "&aShulker box editor kholdai cha..."
+
+event:
+  inventory-modified: "&aInventory modify ra save gariyo."
+  inventory-restored: "&aInventory purwa awastha maa farkaiyo."
+  inventory-saved: "&aInventory safaltapurvak save gariyo."
+  offline-inventory-update: "&eTapai offline hunda admin le tapaiko inventory update garnu bhayo."
+  offline-enderchest-update: "&eTapai offline hunda admin le tapaiko ender chest update garnu bhayo."
+
+error:
+  player-only: "&cYo command matra players le prayog garna sakchan!"
+  player-not-found: "&cPlayer bhetiyana."
+  generic: "&cEuta error aayo: {error}"
+  invalid-player: "&cAmaanya player naam."
+  invalid-world: "&cAmaanya world."
+  world-not-loaded: "&cWorld load bhayeko chaina."
+  inventory-in-use: "&cTyo inventory ahile arka player le herdai cha."
+  save-failed: "&cInventory save garna asafal: {error}"
+  load-failed: "&cInventory load garna asafal: {error}"
+  database-error: "&cDatabase error: {error}"
+  offline-online-player: "&cOnline player maa offlinecheck use garna sakidaina."
+  online-warning: "&eWarning: Player online cha. Live edit garna /openinv check use garnuhos."
+  no-snapshot: "&c{player} ko lagi kunai save gareko inventory data bhetiyana."
+  no-snapshot-standard: "&cKunai save gareko standard inventory data bhetiyana (Keval EC data bhetiyo)."
+
+player-offline: "&cTyo player offline cha."
+player-never-played: "&cPlayer {player} le yo server maa kahile kheleko chaina."
+inventory-not-found: "&cInventory bhetiyana."
+invalid-inventory: "&cAmaanya inventory type."
+
+
+welcome:
+  welcome: "&eSwagat cha, {player}!"
+  commands: "&eTapaika commands haru:"
+  search:
+    usage: "&cPrayog: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Khiladiko inventory ma item khojnus"
+    no-items: "&c{player} ko inventory maa {item} sanga mail khane kunai item bhetiyana."
+    found-items: "&a{player} ko lagi item haru bhetiyo: {items}"
+  history:
+    usage: "&cPrayog: /openinv history <player>"
+    help: "&e/openinv history <player> - Inventory history/backups hernus"
+    header: "&6{player} ko inventory history:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Kunai history bhetiyana."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

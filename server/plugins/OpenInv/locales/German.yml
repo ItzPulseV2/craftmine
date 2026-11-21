@@ -1,0 +1,135 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ SPRACHKONFIGURATION ℹ                                   ║
+# ║                                                                                    ║
+# ║  Nutze diese Datei, um die gewünschte Sprache für die Plugin-Nachrichten           ║
+# ║  anzupassen. Andere Übersetzungen findest du im Ordner 'locales'.                  ║
+# ║                                                                                    ║
+# ║  Um eine eigene Sprache zu verwenden, kopiere eine Datei unter 'locales',          ║
+# ║  benenne sie um, übersetze sie und ändere die Einstellung in                       ║
+# ║  messages.yml zum neuen Dateinamen.                                                ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv German Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cDu hast keine Berechtigung dafür."
+
+command:
+  check:
+    usage: "&cVerwendung: /openinv check <player>"
+    self: "&cDu kannst dein eigenes Inventar nicht überprüfen!"
+    help: "&e/openinv check <player> &7- Inventar eines Spielers anzeigen"
+  freeze:
+    usage: "&cVerwendung: /openinv freeze <player>"
+    self: "&cDu kannst dein eigenes Inventar nicht einfrieren!"
+    exempt: "&cDieser Spieler kann nicht eingefroren werden!"
+    success: "&aDu hast das Inventar von {player} eingefroren."
+    help: "&e/openinv freeze <player> &7- Inventar einfrieren"
+  unfreeze:
+    usage: "&cVerwendung: /openinv unfreeze <player>"
+    not-frozen: "&cDieses Inventar ist nicht eingefroren!"
+    success: "&aDu hast das Inventar von {player} freigegeben."
+    help: "&e/openinv unfreeze <player> &7- Inventar freigeben"
+  echeck:
+    usage: "&cVerwendung: /openinv echeck <player>"
+    self: "&cDu kannst deine eigene Endertruhe nicht überprüfen!"
+    exempt: "&cDu kannst diese Endertruhe nicht überprüfen!"
+    help: "&e/openinv echeck <player> &7- Endertruhe anzeigen"
+  offlinecheck:
+    usage: "&cVerwendung: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - Offline-Inventar bearbeiten."
+  offlineecheck:
+    usage: "&cVerwendung: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - Offline-Endertruhe bearbeiten."
+  help:
+    help: "&e/openinv help - Diese Hilfenachricht anzeigen."
+  reload:
+    success: "&aKonfiguration erfolgreich neu geladen, aber einige Änderungen erfordern einen Neustart, um wirksam zu werden."
+    failed: "&cFehler beim Neuladen der Konfiguration: {error}"
+    help: "&e/openinv reload - Plugin-Konfiguration neu laden."
+  open:
+    success: "&aInventar von {player} geöffnet."
+    self: "&cDu kannst dein eigenes Inventar nicht öffnen."
+    offline-check: "&aOffline-Inventar für {player} geöffnet. Schließen zum Speichern."
+    offline-ender-check: "&aOffline-Enderkiste für {player} geöffnet. Schließen zum Speichern."
+  close:
+    success: "&aInventar von {player} erfolgreich geschlossen."
+  save:
+    success: "&aInventar erfolgreich gespeichert."
+    error: "&cFehler beim Speichern des Inventars: {error}"
+  restore:
+    success: "&aInventar erfolgreich wiederhergestellt."
+    error: "&cFehler bei der Wiederherstellung des Inventars: {error}"
+  clear:
+    success: "&aInventar erfolgreich geleert."
+    confirm: "&cBist du sicher, dass du dieses Inventar leeren möchtest? Tippe /openinv clear confirm"
+
+freeze:
+  frozen: "&cDein Inventar wurde von einem Administrator eingefroren."
+  unfrozen: "&aDein Inventar wurde aufgetaut."
+  warning: "&cDein Inventar ist derzeit eingefroren."
+
+shulker:
+  title: "&8Shulker-Betrachter"
+  save-back: "&aSpeichern & Zurück"
+  save-close: "&cSpeichern & Schließen"
+  not-a-shulker: "&cDas ist keine Shulkerkiste!"
+  corrupted: "&cBeschädigte Shulkerkisten-Daten."
+  modified-cancelled: "&cShulkerkiste modifiziert/bewegt vom Besitzer. Bearbeitung abgebrochen."
+  saved: "&aShulkerkiste bei {player} gespeichert."
+  saved-offline: "&aShulkerkiste in Offline-Daten gespeichert."
+  saved-preview: "&aShulkerkiste gespeichert (Vorschau)."
+  debug-opening: "&aÖffne Shulkerkisten-Editor..."
+
+event:
+  inventory-modified: "&aInventar modifiziert und gespeichert."
+  inventory-restored: "&aInventar auf vorherigen Zustand wiederhergestellt."
+  inventory-saved: "&aInventar erfolgreich gespeichert."
+  offline-inventory-update: "&eDein Inventar wurde von einem Admin aktualisiert, während du offline warst."
+  offline-enderchest-update: "&eDeine Enderkiste wurde von einem Admin aktualisiert, während du offline warst."
+
+error:
+  player-only: "&cDieser Befehl kann nur von Spielern ausgeführt werden!"
+  player-not-found: "&cSpieler nicht gefunden."
+  generic: "&cEin Fehler ist aufgetreten: {error}"
+  invalid-player: "&cUngültiger Spielername."
+  invalid-world: "&cUngültige Welt."
+  world-not-loaded: "&cWelt ist nicht geladen."
+  inventory-in-use: "&cDieses Inventar wird derzeit von einem anderen Spieler angesehen."
+  save-failed: "&cFehler beim Speichern des Inventars: {error}"
+  load-failed: "&cFehler beim Laden des Inventars: {error}"
+  database-error: "&cDatenbankfehler: {error}"
+  offline-online-player: "&cOfflinecheck kann nicht bei einem Online-Spieler verwendet werden."
+  online-warning: "&eWarnung: Spieler ist online. Verwende /openinv check für Live-Bearbeitung."
+  no-snapshot: "&cKeine gespeicherten Inventardaten für {player} gefunden"
+  no-snapshot-standard: "&cKeine gespeicherten Standard-Inventardaten gefunden (nur EC-Daten)."
+
+player-offline: "&cDieser Spieler ist offline."
+player-never-played: "&cDer Spieler {player} hat noch nie auf diesem Server gespielt."
+inventory-not-found: "&cInventar nicht gefunden."
+invalid-inventory: "&cUngültiger Inventartyp."
+
+
+welcome:
+  welcome: "&eWillkommen, {player}!"
+  commands: "&eHier sind deine Befehle:"
+  search:
+    usage: "&cVerwendung: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- Gegenstände suchen"
+    no-items: "&cKeine Gegenstände passend zu {item} im Inventar von {player} gefunden."
+    found-items: "&aGegenstände für {player} gefunden: {items}"
+  history:
+    usage: "&cVerwendung: /openinv history <player>"
+    help: "&e/openinv history <player> - Inventar-Historie/Backups anzeigen"
+    header: "&6Inventarverlauf für {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Kein Verlauf gefunden."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

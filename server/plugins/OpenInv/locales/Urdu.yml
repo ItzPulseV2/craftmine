@@ -1,0 +1,133 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ زبان کی کنفیگریشن ℹ                                     ║
+# ║                                                                                    ║
+# ║  پلگ ان کے پیغامات کے لیے اپنی پسندیدہ زبان منتخب کرنے کے لیے یہ فائل استعمال کریں۔║
+# ║  آپ 'locales' فولڈر کے اندر دیگر ترجمہ شدہ فائلیں تلاش کر سکتے ہیں۔                ║
+# ║                                                                                    ║
+# ║  اپنی کسٹم زبان استعمال کرنے کے لیے، 'locales' میں سے کسی موجودہ فائل کو کاپی کر کے║
+# ║  اس کا نام تبدیل کریں، پیغامات کا ترجمہ کریں، اور messages.yml میں اپنی نئی فائل کا نام لکھیں۔║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Urdu Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cآپ کو یہ کرنے کی اجازت نہیں ہے۔"
+
+command:
+  check:
+    usage: "&cاستعمال: /openinv check <player>"
+    self: "&cآپ اپنی انونٹری خود چیک نہیں کر سکتے!"
+    help: "&e/openinv check <player> &7- کسی کھلاڑی کی انونٹری دیکھیں"
+  freeze:
+    usage: "&cاستعمال: /openinv freeze <player>"
+    self: "&cآپ اپنی انونٹری منجمد نہیں کر سکتے!"
+    exempt: "&cاس کھلاڑی کو منجمد نہیں کیا جا سکتا!"
+    success: "&aآپ نے {player} کی انونٹری کو منجمد کر دیا ہے۔"
+    help: "&e/openinv freeze <player> &7- کھلاڑی کی انونٹری کو منجمد کریں"
+  unfreeze:
+    usage: "&cاستعمال: /openinv unfreeze <player>"
+    not-frozen: "&cاس کھلاڑی کی انونٹری منجمد نہیں ہے!"
+    success: "&aآپ نے {player} کی انونٹری کو بحال کر دیا ہے۔"
+    help: "&e/openinv unfreeze <player> &7- کھلاڑی کی انونٹری بحال کریں"
+  echeck:
+    usage: "&cاستعمال: /openinv echeck <player>"
+    self: "&cآپ اپنا اینڈر چیسٹ خود چیک نہیں کر سکتے!"
+    exempt: "&cآپ اس کھلاڑی کا اینڈر چیسٹ چیک نہیں کر سکتے!"
+    help: "&e/openinv echeck <player> &7- کسی کھلاڑی کا اینڈر چیسٹ دیکھیں"
+  offlinecheck:
+    usage: "&cاستعمال: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - آف لائن کھلاڑی کی انونٹری ایڈٹ کریں۔"
+  offlineecheck:
+    usage: "&cاستعمال: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - آف لائن کھلاڑی کا اینڈر چیسٹ ایڈٹ کریں۔"
+  help:
+    help: "&e/openinv help - یہ مدد کا پیغام دکھائیں۔"
+  reload:
+    success: "&aترتیبات کامیابی کے ساتھ دوبارہ لوڈ ہو گئیں، لیکن کچھ تبدیلیوں کے لیے دوبارہ شروع (restart) کرنے کی ضرورت ہے۔"
+    failed: "&cترتیبات لوڈ کرنے میں خامی: {error}"
+    help: "&e/openinv reload - پلگ ان کی ترتیبات دوبارہ لوڈ کریں۔"
+  open:
+    success: "&a{player} کی انونٹری کھل گئی ہے۔"
+    self: "&cآپ اپنی انونٹری نہیں کھول سکتے۔"
+    offline-check: "&a{player} کی آف لائن انونٹری کھل گئی ہے۔ محفوظ کرنے کے لیے بند کریں۔"
+    offline-ender-check: "&a{player} کا آف لائن اینڈر چیسٹ کھل گیا ہے۔ محفوظ کرنے کے لیے بند کریں۔"
+  close:
+    success: "&a{player} کی انونٹری کامیابی سے بند کر دی گئی۔"
+  save:
+    success: "&aانونٹری کامیابی سے محفوظ ہو گئی۔"
+    error: "&cانونٹری محفوظ کرنے میں خامی: {error}"
+  restore:
+    success: "&aانونٹری کامیابی سے بحال ہو گئی۔"
+    error: "&cانونٹری بحال کرنے میں خامی: {error}"
+  clear:
+    success: "&aانونٹری کامیابی سے صاف کر دی گئی۔"
+    confirm: "&cکیا آپ واقعی اس انونٹری کو صاف کرنا چاہتے ہیں؟ لکھیں /openinv clear confirm"
+
+freeze:
+  frozen: "&cآپ کی انونٹری کو ایڈمن نے منجمد کر دیا ہے۔"
+  unfrozen: "&aآپ کی انونٹری اب منجمد نہیں ہے۔"
+  warning: "&cآپ کی انونٹری فی الحال منجمد ہے۔"
+
+shulker:
+  title: "&8شولکر ویور"
+  save-back: "&aمحفوظ کریں اور واپس جائیں"
+  save-close: "&cمحفوظ کریں اور بند کریں"
+  not-a-shulker: "&cیہ شولکر باکس نہیں ہے!"
+  corrupted: "&cشولکر باکس کا ڈیٹا خراب ہے۔"
+  modified-cancelled: "&cمالک نے شولکر باکس میں تبدیلی کی/اسے منتقل کیا۔ ترمیم منسوخ کر دی گئی۔"
+  saved: "&aشولکر باکس {player} میں محفوظ ہو گیا۔"
+  saved-offline: "&aشولکر باکس آف لائن ڈیٹا میں محفوظ ہو گیا۔"
+  saved-preview: "&aشولکر باکس محفوظ کر لیا گیا (پریویو)۔"
+  debug-opening: "&aشولکر باکس ایڈیٹر کھل رہا ہے..."
+
+event:
+  inventory-modified: "&aانونٹری تبدیل کر کے محفوظ کر لی گئی۔"
+  inventory-restored: "&aانونٹری پچھلی حالت میں بحال کر دی گئی۔"
+  inventory-saved: "&aانونٹری کامیابی سے محفوظ ہو گئی۔"
+  offline-inventory-update: "&eجب آپ آف لائن تھے، ایک ایڈمن نے آپ کی انونٹری اپڈیٹ کی تھی۔"
+  offline-enderchest-update: "&eجب آپ آف لائن تھے، ایک ایڈمن نے آپ کا اینڈر چیسٹ اپڈیٹ کیا تھا۔"
+
+error:
+  player-only: "&cیہ کمانڈ صرف کھلاڑی (players) استعمال کر سکتے ہیں!"
+  player-not-found: "&cکھلاڑی نہیں ملا۔"
+  generic: "&cایک خامی پیش آئی: {error}"
+  invalid-player: "&cغلط کھلاڑی کا نام۔"
+  invalid-world: "&cغلط دنیا۔"
+  world-not-loaded: "&cدنیا لوڈ نہیں ہوئی۔"
+  inventory-in-use: "&cیہ انونٹری فی الحال کوئی اور کھلاڑی دیکھ رہا ہے۔"
+  save-failed: "&cانونٹری محفوظ کرنے میں ناکامی: {error}"
+  load-failed: "&cانونٹری لوڈ کرنے میں ناکامی: {error}"
+  database-error: "&cڈیٹا بیس کی خامی: {error}"
+  offline-online-player: "&cآن لائن کھلاڑی پر offlinecheck استعمال نہیں کیا جا سکتا۔"
+  online-warning: "&eانتباہ: کھلاڑی آن لائن ہے۔ لائیو ایڈیٹنگ کے لیے /openinv check استعمال کریں۔"
+  no-snapshot: "&c{player} کا کوئی محفوظ کیا گیا انونٹری ڈیٹا نہیں ملا۔"
+  no-snapshot-standard: "&cکوئی معیاری انونٹری ڈیٹا نہیں ملا (صرف EC ڈیٹا ملا)۔"
+
+player-offline: "&cوہ کھلاڑی آف لائن ہے۔"
+player-never-played: "&cاس کھلاڑی {player} نے اس سرور پر کبھی نہیں کھیلا۔"
+inventory-not-found: "&cانونٹری نہیں ملی۔"
+invalid-inventory: "&cغلط انونٹری کی قسم۔"
+
+welcome:
+  welcome: "&eخوش آمدید، {player}!"
+  commands: "&eیہ ہیں آپ کی کمانڈز:"
+  search:
+    usage: "&cاستعمال: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- کھلاڑی کی انونٹری میں آئٹم تلاش کریں"
+    no-items: "&c{player} کی انونٹری میں {item} جیسی کوئی چیز نہیں ملی۔"
+    found-items: "&a{player} کے لیے یہ چیزیں ملیں: {items}"
+  history:
+    usage: "&cاستعمال: /openinv history <player>"
+    help: "&e/openinv history <player> - انونٹری کی ہسٹری/بیک اپ دیکھیں"
+    header: "&6{player} کی انونٹری ہسٹری:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7کوئی ہسٹری نہیں ملی۔"
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

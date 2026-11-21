@@ -1,0 +1,135 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                          ℹ 言語設定 ℹ                                              ║
+# ║                                                                                    ║
+# ║  このファイルを使用して、プラグインメッセージの言語をカスタマイズします。          ║
+# ║  その他の翻訳ファイルは 'locales' フォルダにあります。                             ║
+# ║                                                                                    ║
+# ║  カスタム言語を使用する場合は、'locales' 内の既存のファイルをコピーして            ║
+# ║  名前を変更し、メッセージを翻訳して、messages.yml の設定を                         ║
+# ║  新しいファイル名に変更してください。                                              ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Japanese Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cその操作を行う権限がありません。"
+
+command:
+  check:
+    usage: "&c使用法: /openinv check <player>"
+    self: "&c自分のインベントリは確認できません！"
+    help: "&e/openinv check <player> &7- プレイヤーのインベントリを表示"
+  freeze:
+    usage: "&c使用法: /openinv freeze <player>"
+    self: "&c自分のインベントリはフリーズできません！"
+    exempt: "&cこのプレイヤーはフリーズできません！"
+    success: "&a{player} のインベントリをフリーズしました。"
+    help: "&e/openinv freeze <player> &7- インベントリをフリーズする"
+  unfreeze:
+    usage: "&c使用法: /openinv unfreeze <player>"
+    not-frozen: "&cこのインベントリはフリーズされていません！"
+    success: "&a{player} のインベントリのフリーズを解除しました。"
+    help: "&e/openinv unfreeze <player> &7- フリーズを解除する"
+  echeck:
+    usage: "&c使用法: /openinv echeck <player>"
+    self: "&c自分のエンダーチェストは確認できません！"
+    exempt: "&cこのエンダーチェストは確認できません！"
+    help: "&e/openinv echeck <player> &7- エンダーチェストを表示"
+  offlinecheck:
+    usage: "&c使用法: /openinv offlineinv <player>"
+    help: "&e/openinv offlineinv <player> - オフラインのインベントリを編集。"
+  offlineecheck:
+    usage: "&c使用法: /openinv offlineec <player>"
+    help: "&e/openinv offlineec <player> - オフラインのエンダーチェストを編集。"
+  help:
+    help: "&e/openinv help - このヘルプメッセージを表示。"
+  reload:
+    success: "&a設定が正常にリロードされましたが、一部の変更を反映するには再起動が必要です。"
+    failed: "&c設定のリロード中にエラーが発生しました: {error}"
+    help: "&e/openinv reload - 設定を再読み込み。"
+  open:
+    success: "&a{player} のインベントリを開きました。"
+    self: "&c自分のインベントリを開くことはできません。"
+    offline-check: "&a{player} のオフラインインベントリを開きました。保存するには閉じてください。"
+    offline-ender-check: "&a{player} のオフラインエンダーチェストを開きました。保存するには閉じてください。"
+  close:
+    success: "&a{player} のインベントリを正常に閉じました。"
+  save:
+    success: "&aインベントリが正常に保存されました。"
+    error: "&cインベントリの保存中にエラーが発生しました: {error}"
+  restore:
+    success: "&aインベントリが正常に復元されました。"
+    error: "&cインベントリの復元中にエラーが発生しました: {error}"
+  clear:
+    success: "&aインベントリが正常にクリアされました。"
+    confirm: "&cこのインベントリをクリアしてもよろしいですか？ /openinv clear confirm と入力してください"
+
+freeze:
+  frozen: "&cあなたのインベントリは管理者に凍結されています。"
+  unfrozen: "&aあなたのインベントリの凍結が解除されました。"
+  warning: "&cあなたのインベントリは現在凍結されています。"
+
+shulker:
+  title: "&8シュルカービューア"
+  save-back: "&a保存して戻る"
+  save-close: "&c保存して閉じる"
+  not-a-shulker: "&cそれはシュルカーボックスではありません！"
+  corrupted: "&c破損したシュルカーボックスのデータ。"
+  modified-cancelled: "&cシュルカーボックスが所有者によって変更/移動されました。編集がキャンセルされました。"
+  saved: "&aシュルカーボックスが {player} に保存されました。"
+  saved-offline: "&aシュルカーボックスがオフラインデータに保存されました。"
+  saved-preview: "&aシュルカーボックスが保存されました (プレビュー) 。"
+  debug-opening: "&aシュルカーボックスエディタを開いています..."
+
+event:
+  inventory-modified: "&aインベントリが変更され、保存されました。"
+  inventory-restored: "&aインベントリが前の状態に復元されました。"
+  inventory-saved: "&aインベントリが正常に保存されました。"
+  offline-inventory-update: "&eあなたがオフラインの間に管理者がインベントリを更新しました。"
+  offline-enderchest-update: "&eあなたがオフラインの間に管理者がエンダーチェストを更新しました。"
+
+error:
+  player-only: "&cこのコマンドはプレイヤーのみが使用できます！"
+  player-not-found: "&cプレイヤーが見つかりません。"
+  generic: "&cエラーが発生しました: {error}"
+  invalid-player: "&c無効なプレイヤー名。"
+  invalid-world: "&c無効なワールド。"
+  world-not-loaded: "&cワールドがロードされていません。"
+  inventory-in-use: "&cそのインベントリは現在別のプレイヤーによって表示されています。"
+  save-failed: "&cインベントリの保存に失敗しました: {error}"
+  load-failed: "&cインベントリのロードに失敗しました: {error}"
+  database-error: "&cデータベースエラー: {error}"
+  offline-online-player: "&cオンラインプレイヤーに offlinecheck を使用することはできません。"
+  online-warning: "&e警告: プレイヤーはオンラインです。 ライブ編集には /openinv check を使用してください。"
+  no-snapshot: "&c{player} の保存されたインベントリデータは見つかりませんでした"
+  no-snapshot-standard: "&c保存された標準インベントリデータは見つかりませんでした (ECデータのみ見つかりました)。"
+
+player-offline: "&cそのプレイヤーはオフラインです。"
+player-never-played: "&cプレイヤー {player} はこのサーバーでプレイしたことがありません。"
+inventory-not-found: "&cインベントリが見つかりません。"
+invalid-inventory: "&c無効なインベントリタイプ。"
+
+
+welcome:
+  welcome: "&eようこそ、{player}さん！"
+  commands: "&e利用可能なコマンド："
+  search:
+    usage: "&c使用法: /openinv search <item> <player>"
+    help: "&e/openinv search <item> <player> &7- インベントリ内のアイテムを検索"
+    no-items: "&c{player} のインベントリには {item} に一致するアイテムが見つかりませんでした"
+    found-items: "&a{player} のアイテムが見つかりました: {items}"
+  history:
+    usage: "&c使用法: /openinv history <player>"
+    help: "&e/openinv history <player> - 履歴/バックアップを表示"
+    header: "&6{player} のインベントリ履歴:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7履歴が見つかりません。"
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

@@ -1,0 +1,252 @@
+# ==========================================================
+#                   OpenInv Configuration                   
+#        Advanced Inventory Management for Minecraft        
+# ==========================================================
+# Welcome to the OpenInv config! 
+# We've designed this file to be as easy to read as possible.
+# Most settings just need to be 'true' (on) or 'false' (off).
+
+# ----------------------------------------------------------
+# General Settings
+# ----------------------------------------------------------
+
+# Should the plugin print detailed information to the console?
+# Tip: Leave this as 'false' unless you are having issues and need to send us a bug report.
+debug: false
+
+# Should the plugin check if a new version is available when your server starts?
+update-checks: true
+
+# How many backups (snapshots) should we save per player?
+# For example, if set to 10, the 11th backup will automatically overwrite the oldest one.
+history-limit: 10
+
+# Should the plugin automatically delete old backups and logs to save space?
+# (This removes backups that exceed the 'history-limit' and logs older than 'max-log-days')
+auto-cleanup: true
+
+# If 'auto-cleanup' is true, how often (in seconds) should we clean up old data?
+# Default: 3600 seconds (1 hour).
+cleanup-interval: 3600
+
+# Should we forcefully save everyone's inventory when the server stops or restarts?
+save-on-quit: true
+
+
+# ----------------------------------------------------------
+# Database & Storage
+# ----------------------------------------------------------
+storage:
+  # Where should we save player data?
+  # - 'sqlite': Saves to a file on your server (Easiest, perfect for single servers)
+  # - 'mysql': Connects to an external database (Best for large networks like BungeeCord)
+  type: "sqlite"
+  
+  # Settings for SQLite (if 'type' is sqlite)
+  sqlite:
+    filename: "database.db"
+  
+  # Settings for MySQL (if 'type' is mysql)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "openinv"
+    username: "root"
+    password: ""
+    table-prefix: "openinv_"
+    use-ssl: false
+
+
+# ----------------------------------------------------------
+# Performance Tuning  
+# ----------------------------------------------------------
+performance:
+  # How long (in seconds) should player data stay in memory after they leave?
+  cache-duration: 300
+  
+  # Should the plugin load data in the background to prevent server lag? (Highly Recommended)
+  async-loading: true
+
+
+# ----------------------------------------------------------
+# Messages & Chat
+# ----------------------------------------------------------
+messages:
+  # Should admins see a quick welcome message with helpful commands when they join?
+  admin_welcome_enabled: true
+
+
+# ----------------------------------------------------------
+# GUI (Menu) Settings
+# Customize how the inventory editor looks in-game!
+# ----------------------------------------------------------
+gui-settings:
+
+  # Seconds to wait on the yellow confirm pane before clear can be confirmed
+  clear-confirmation-seconds: 3
+  
+  # Main Inventory Editor Settings
+  inventory:
+    title: "§eEditing: §b%player%"
+    size: 54
+    # Note: Please don't change 'slots' unless you are experienced with GUI mapping!
+    slots:
+      main: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      armor: [45, 46, 47, 48]
+      filler: [36, 37, 38, 39, 40, 41, 42, 43, 44, 50]
+      offhand: 49
+    buttons:
+      enderchest: 51
+      clear: 52
+      close: 53
+  
+  # Ender Chest Editor Settings
+  enderchest:
+    title: "§5Ender Chest: §b%player%"
+    size: 36
+    slots:
+      main: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      filler: [27, 28, 29, 33, 34, 35]
+    buttons:
+      inventory: 30
+      close: 31
+      clear: 32
+
+
+# ----------------------------------------------------------
+# Action Logging System
+# Track what admins do so you know who changed what!
+# ----------------------------------------------------------
+logging:
+  # Keep track of when admins edit an inventory?
+  enabled: true
+  
+  # How should the log message look?
+  format: "[%time%] %admin% %action% %target%"
+  
+  # Where should we save these logs?
+  # - 'console': Prints to the server console.
+  # - 'file': Saves to a text file in the OpenInv folder.
+  destinations: [console, file]
+    
+  # Should we also log every time someone types an /openinv command?
+  command-logs-enabled: true
+
+
+  # Automatically delete log files after this many days. (Set to -1 to keep them forever)
+  max-log-days: 30
+
+
+# ----------------------------------------------------------
+# Inventory Auto-Saves
+# Automatically back up player inventories so you can restore them later.
+# ----------------------------------------------------------
+auto-save-inventory:
+  enabled: true
+  
+  # How often (in minutes) should we back up everyone's inventory?
+  interval-minutes: 10
+  
+  # How many backups should we keep per player?
+  max-snapshots: 3
+  
+  # Should we send a message to the player when their inventory is backed up?
+  notify-on-save: false
+  
+  # Should we print a message to the console every time an auto-save happens?
+  log-to-console: false
+  
+  # Back up a player's inventory as soon as they join?
+  save-on-join: true
+  
+  # How many join backups should we keep per player?
+  join-max-snapshots: 5
+  
+  # Back up a player's inventory right when they quit?
+  save-on-quit: true
+  
+  # How many quit backups should we keep per player?
+  quit-max-snapshots: 5
+
+
+# ----------------------------------------------------------
+# Ender Chest Auto-Saves
+# Automatically back up player ender chests.
+# ----------------------------------------------------------
+auto-save-enderchest:
+  enabled: true
+  
+  # How many ender chest backups should we keep per player?
+  max-snapshots: 3
+  
+  # Back up a player's ender chest as soon as they join?
+  save-on-join: true
+  
+  # How many join ender chest backups should we keep per player?
+  join-max-snapshots: 5
+  
+  # Back up a player's ender chest right when they quit?
+  save-on-quit: true
+
+  # How many quit ender chest backups should we keep per player?
+  quit-max-snapshots: 5
+
+
+# ----------------------------------------------------------
+# Death Snapshots
+# Automatically back up a player's inventory the moment they die.
+# ----------------------------------------------------------
+death-snapshots:
+  enabled: true
+  
+  # How many death backups should we keep per player?
+  max-snapshots: 5
+  
+  # Log death backups to the console?
+  log-to-console: false
+
+
+# ----------------------------------------------------------
+# Notifications
+# ----------------------------------------------------------
+notify:
+   offline-update:
+      # If an admin edits a player's inventory while they are offline,
+      # should we tell the player when they log back in?
+      inventory: false
+      
+      # If an admin edits a player's ender chest while they are offline,
+      # should we tell the player when they log back in?
+      enderchest: false
+
+
+# ----------------------------------------------------------
+# Shulker Box Preview
+# Allow admins to peek inside Shulker Boxes without placing them!
+# ----------------------------------------------------------
+shulker-preview:
+  enabled: true
+  # Note: Options for this feature can be 'GUI' (open a virtual inventory) or 'LORE' (show contents in tooltip).
+
+
+# ----------------------------------------------------------
+# Private Vaults Integration
+# ----------------------------------------------------------
+vaults:
+  # Enable compatibility with Private Vault plugins (like PriVault)?
+  enabled: true
+  
+  # Which plugin should OpenInv use for vaults?
+  # Available options: auto, SmartBackpackX, PriVault
+  # 'auto' will automatically pick the first available plugin.
+  plugin: "SmartBackpackX"
+  
+  # Should we also back up and create snapshots for Vaults?
+  snapshots: true
+  
+  # How many vault backups should we keep per player?
+  max-snapshots: 25
+  
+  # Log vault changes to the console and log files?
+  logging: true
+

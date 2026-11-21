@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1795154993656
+  lastteleport: 1795240753846
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1795153693617
-  login: 1795154717739
+  logout: 1795240755320
+  login: 1795230626794
 money: '0'
 last-account-name: ironmanLJM
 logoutlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: -9769.940677876755
-  y: -50.0
-  z: -594.7571944453691
-  yaw: -135.656494140625
-  pitch: -5.32809591293335
+  x: -9830.5
+  y: 48.0
+  z: 177.5
+  yaw: -178.7254638671875
+  pitch: 20.21520233154297
 lastlocation:
   world: 6bd83792-5943-464f-87e1-34772dbd6341
   world-name: world
-  x: 372.2148138536885
-  y: 65.0
-  z: -803.5404225139797
-  yaw: -169.72705078125
-  pitch: -31.985095977783203
+  x: 123.69999998807907
+  y: -25.0
+  z: -231.30000001192093
+  yaw: 109.57275390625
+  pitch: 50.45631408691406
 homes:
   hi:
     world: 6bd83792-5943-464f-87e1-34772dbd6341
@@ -70,6 +70,14 @@ homes:
     z: 636.403345013956
     yaw: 132.483154296875
     pitch: 15.144716262817383
+  base:
+    world: 6bd83792-5943-464f-87e1-34772dbd6341
+    world-name: world
+    x: -9830.51696623554
+    y: 48.0
+    z: 177.8628046399785
+    yaw: -178.7254638671875
+    pitch: 20.21520233154297
 mail:
 - legacy: false
   read: true

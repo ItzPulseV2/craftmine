@@ -1,0 +1,133 @@
+
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             ℹ KONFIGURASI BAHASA ℹ                                 ║
+# ║                                                                                    ║
+# ║  Gunakan file ini untuk menyesuaikan bahasa yang Anda inginkan untuk pesan plugin. ║
+# ║  Anda dapat menemukan file terjemahan lainnya di dalam folder 'locales'.           ║
+# ║                                                                                    ║
+# ║  Untuk menggunakan bahasa kustom, salin file yang ada di 'locales', ganti namanya, ║
+# ║  terjemahkan pesannya, dan ubah pengaturan di messages.yml ke nama file baru Anda. ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Indonesian Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+general:
+  no-permission: "&cAnda tidak memiliki izin untuk melakukan itu."
+
+command:
+  check:
+    usage: "&cPemakaian: /openinv check <pemain>"
+    self: "&cAnda tidak bisa memeriksa inventaris Anda sendiri!"
+    help: "&e/openinv check <pemain> &7- Lihat inventaris pemain"
+  freeze:
+    usage: "&cPemakaian: /openinv freeze <pemain>"
+    self: "&cAnda tidak bisa membekukan inventaris Anda sendiri!"
+    exempt: "&cPemain ini tidak bisa dibekukan!"
+    success: "&aAnda telah membekukan inventaris {player}."
+    help: "&e/openinv freeze <pemain> &7- Bekukan inventaris pemain"
+  unfreeze:
+    usage: "&cPemakaian: /openinv unfreeze <pemain>"
+    not-frozen: "&cInventaris pemain ini tidak dibekukan!"
+    success: "&aAnda telah mencairkan inventaris {player}."
+    help: "&e/openinv unfreeze <pemain> &7- Cairkan inventaris pemain"
+  echeck:
+    usage: "&cPemakaian: /openinv echeck <pemain>"
+    self: "&cAnda tidak bisa memeriksa peti ender Anda sendiri!"
+    exempt: "&cAnda tidak bisa memeriksa peti ender pemain ini!"
+    help: "&e/openinv echeck <pemain> &7- Lihat peti ender pemain"
+  offlinecheck:
+    usage: "&cPemakaian: /openinv offlineinv <pemain>"
+    help: "&e/openinv offlineinv <pemain> - Edit inventaris pemain offline."
+  offlineecheck:
+    usage: "&cPemakaian: /openinv offlineec <pemain>"
+    help: "&e/openinv offlineec <pemain> - Edit peti ender pemain offline."
+  help:
+    help: "&e/openinv help - Tampilkan pesan bantuan ini."
+  reload:
+    success: "&aKonfigurasi berhasil dimuat ulang, tetapi beberapa perubahan memerlukan restart untuk diterapkan."
+    failed: "&cGagal memuat ulang konfigurasi: {error}"
+    help: "&e/openinv reload - Memuat ulang konfigurasi plugin."
+  open:
+    success: "&aMembuka inventaris {player}."
+    self: "&cAnda tidak bisa membuka inventaris Anda sendiri."
+    offline-check: "&aMembuka inventaris offline {player}. Tutup untuk menyimpan."
+    offline-ender-check: "&aMembuka peti ender offline {player}. Tutup untuk menyimpan."
+  close:
+    success: "&aBerhasil menutup inventaris {player}."
+  save:
+    success: "&aInventaris berhasil disimpan."
+    error: "&cGagal menyimpan inventaris: {error}"
+  restore:
+    success: "&aInventaris berhasil di pulihkan."
+    error: "&cGagal me-restore inventaris: {error}"
+  clear:
+    success: "&aInventaris berhasil dibersihkan."
+    confirm: "&cApakah Anda yakin ingin membersihkan inventaris ini? Ketik /openinv clear confirm"
+
+freeze:
+  frozen: "&cInventaris Anda telah dibekukan oleh admin."
+  unfrozen: "&aInventaris Anda tidak lagi dibekukan."
+  warning: "&cInventaris Anda saat ini sedang dibekukan."
+
+shulker:
+  title: "&8Penampil Shulker"
+  save-back: "&aSimpan & Kembali"
+  save-close: "&cSimpan & Tutup"
+  not-a-shulker: "&cItu bukan kotak shulker!"
+  corrupted: "&cData kotak shulker rusak."
+  modified-cancelled: "&cKotak shulker dimodifikasi/dipindahkan oleh pemilik. Pengeditan dibatalkan."
+  saved: "&aMenyimpan kotak shulker ke {player}."
+  saved-offline: "&aMenyimpan kotak shulker ke data offline."
+  saved-preview: "&aMenyimpan kotak shulker (Pratinjau)."
+  debug-opening: "&aMembuka editor kotak shulker..."
+
+event:
+  inventory-modified: "&aInventaris dimodifikasi dan disimpan."
+  inventory-restored: "&aInventaris dipulihkan ke keadaan sebelumnya."
+  inventory-saved: "&aInventaris berhasil disimpan."
+  offline-inventory-update: "&eInventaris Anda diperbarui oleh admin saat Anda sedang offline."
+  offline-enderchest-update: "&ePeti ender Anda diperbarui oleh admin saat Anda sedang offline."
+
+error:
+  player-only: "&cPerintah ini hanya dapat digunakan oleh pemain!"
+  player-not-found: "&cPemain tidak ditemukan."
+  generic: "&cTerjadi kesalahan: {error}"
+  invalid-player: "&cNama pemain tidak valid."
+  invalid-world: "&cDunia tidak valid."
+  world-not-loaded: "&cDunia tidak dimuat."
+  inventory-in-use: "&cInventaris tersebut saat ini sedang dilihat oleh pemain lain."
+  save-failed: "&cGagal menyimpan inventaris: {error}"
+  load-failed: "&cGagal memuat inventaris: {error}"
+  database-error: "&cKesalahan database: {error}"
+  offline-online-player: "&cTidak dapat menggunakan offlinecheck pada pemain online."
+  online-warning: "&ePeringatan: Pemain sedang online. Gunakan /openinv check untuk pengeditan langsung."
+  no-snapshot: "&cTidak ada data inventaris yang disimpan ditemukan untuk {player}"
+  no-snapshot-standard: "&cTidak ada data inventaris standar ditemukan (Hanya data EC)."
+
+player-offline: "&cPemain tersebut sedang offline."
+player-never-played: "&cPemain {player} belum pernah bermain di server ini."
+inventory-not-found: "&cInventaris tidak ditemukan."
+invalid-inventory: "&cJenis inventaris tidak valid."
+
+welcome:
+  welcome: "&eSelamat datang, {player}!"
+  commands: "&eBerikut adalah perintah Anda:"
+  search:
+    usage: "&cPemakaian: /openinv search <item> <pemain>"
+    help: "&e/openinv search <item> <pemain> &7- Cari item di inventaris pemain"
+    no-items: "&cTidak ada item yang cocok dengan: {item} di inventaris {player}"
+    found-items: "&aMenemukan item untuk {player}: {items}"
+  history:
+    usage: "&cPemakaian: /openinv history <pemain>"
+    help: "&e/openinv history <pemain> - Lihat riwayat/cadangan inventaris"
+    header: "&6Riwayat inventaris untuk {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7Tidak ada riwayat yang ditemukan."
+
+gui:
+  clear:
+    armed: "&eClick again in &c{seconds}s &eto clear all items."
+    wait: "&cWait &e{seconds}s &cmore, then click again to clear."
+    ender-success: "&aEnder chest cleared successfully."

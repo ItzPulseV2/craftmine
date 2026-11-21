@@ -1,14 +1,14 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 3476,
-      "minecraft:total_world_time": 4428,
-      "minecraft:leave_game": 16,
-      "minecraft:damage_taken": 2120,
-      "minecraft:sneak_time": 19,
-      "minecraft:play_time": 4428,
-      "minecraft:deaths": 6,
-      "minecraft:time_since_death": 3456
+      "minecraft:time_since_rest": 4,
+      "minecraft:total_world_time": 4751,
+      "minecraft:leave_game": 18,
+      "minecraft:damage_taken": 2640,
+      "minecraft:sneak_time": 25,
+      "minecraft:play_time": 4751,
+      "minecraft:deaths": 8,
+      "minecraft:time_since_death": 0
     }
   },
   "DataVersion": 4903

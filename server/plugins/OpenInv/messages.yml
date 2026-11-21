@@ -1,0 +1,15 @@
+# ╔════════════════════════════════════════════════════════════════════════════════════╗
+# ║                             LANGUAGE CONFIGURATION                                 ║
+# ║                                                                                    ║
+# ║  Use this file to select your desired language for the plugin messages.            ║
+# ║  You can find the actual translation files inside the 'locales' folder.            ║
+# ║                                                                                    ║
+# ║  To use a custom language, copy an existing file in 'locales', rename it,          ║
+# ║  translate the messages, and change the setting below to your new file's name.     ║
+# ╚════════════════════════════════════════════════════════════════════════════════════╝
+
+# OpenInv Language Selector Configuration
+
+# The language file to use from the locales folder.
+# Available by default: English, Spanish, Hindi, Japanese, Nepali, Urdu, French, German, Russian, Chinese, Portuguese, Italian, Korean, Arabic, Turkish, Polish, Dutch, Vietnamese, Indonesian, Thai
+language: "English"
