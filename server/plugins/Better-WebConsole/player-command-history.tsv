@@ -4974,3 +4974,63 @@ command	1795241949570	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/spawn
 command	1795241952546	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/spawn
 command	1795241978810	0e2c972c-f39c-37b3-b41e-956f9e53ef4e	Dill_Pickle_	/home home
 command	1795242013026	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+join	1795245202632	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795245712827	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795246097235	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/lp editor
+command	1795246138366	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+leave	1795246143746	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795247506023	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795247526120	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/deop ironmanLJM
+join	1795247567211	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+command	1795247619706	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpahere blueberryhill
+command	1795247625435	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+join	1795247747814	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+command	1795247755668	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/msg blueberryhill LEAVE
+command	1795247757527	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r DONT SPEAK
+command	1795247760564	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r LEAVE
+command	1795247766052	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/r NO JUST /home
+command	1795247771336	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/home
+command	1795247810660	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+command	1795247843301	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa bl
+command	1795247846731	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/tpaccept
+command	1795247913957	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795247936982	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	/rtp
+leave	1795248012598	c7354076-f910-3f83-8e34-cbe09ec4023d	blueberryhill	
+leave	1795248044948	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795248215474	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+leave	1795248319096	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+join	1795248449220	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795248452007	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/
+command	1795248457054	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpahere ironmanLJM
+leave	1795248493298	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795248881538	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+join	1795255048903	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	
+join	1795255049558	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	
+command	1795255056111	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpa ironmanLJM
+command	1795255063946	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpaccept
+command	1795255081960	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795255099478	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795255107315	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255129907	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/sethome Lucas
+command	1795255142681	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home bas
+command	1795255143488	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795255144115	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/home home
+command	1795255168077	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home home
+command	1795255317965	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/effect clear Thundra1
+command	1795255647882	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795255690760	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/tpa Thundra1
+command	1795255692928	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255717458	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home bsae
+command	1795255719412	d00c14c9-9ee3-3788-b053-a1de57b43b72	ironmanLJM	/home base
+command	1795255721394	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255721956	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255722234	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255722488	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255722764	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255723114	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255723308	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255723671	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255723927	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255724243	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255724543	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
+command	1795255724827	00f7e65d-7a92-322d-95f2-acffa5f6f407	Thundra1	/tpaccept
